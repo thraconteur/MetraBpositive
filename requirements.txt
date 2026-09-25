@@ -1,0 +1,49 @@
+# --- core (required) -------------------------------------------------
+numpy>=1.26
+opencv-contrib-python>=4.9      # contrib: cv2.aruco lives here
+Pillow>=10.0
+PyYAML>=6.0
+
+# --- API layer -------------------------------------------------------
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9         # file uploads
+pydantic>=2.6
+
+# --- reporting -------------------------------------------------------
+jinja2>=3.1
+reportlab>=4.0                  # PDF export
+python-docx>=1.1                # editable (.docx) export - PS requires an editable format
+
+# --- OCR: PaddleOCR is the ONLY engine ------------------------------
+# Needed for every real photo. The test suite does not need it (it uses
+# SyntheticOCR, see tests/conftest.py). First run downloads the PP-OCR
+# models (~200 MB) into ~/.paddlex. GPU: install the paddlepaddle-gpu
+# build that matches your CUDA instead of paddlepaddle.
+paddlepaddle>=3.0
+paddleocr>=3.0
+
+# --- extraction ------------------------------------------------------
+rapidfuzz>=3.0                  # fuzzy label matching (rules/lexicon.yaml); falls
+                                # back to difflib if missing, just slower
+
+# --- optional: Gemini as a second reader (needs internet + GEMINI_API_KEY)
+# google-genai>=1.0             # or the older google-generativeai; either works
+
+# --- barcodes (optional) --------------------------------------------
+pyzbar>=0.1.9                   # GTIN read for Rule 18(2A); needs the zbar
+                                # system library (apt install libzbar0 /
+                                # brew install zbar; bundled on Windows)
+python-barcode>=0.15            # synthetic label renderer only
+
+# --- dev -------------------------------------------------------------
+pytest>=8.0
+
+# --- optional: super-resolution for small print ----------------------
+# Off by default. Needed only if you enable PipelineConfig(superres=True,
+# sr_adapter=ESRGANAdapter()). Without these the adapter degrades to
+# Lanczos upscaling, which needs nothing. Also requires the weights file
+# weights/RealESRGAN_x4plus.pth (~64MB, NOT committed - see .gitignore).
+# torch
+# basicsr
+# realesrgan
