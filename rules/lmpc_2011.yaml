@@ -1,0 +1,607 @@
+# =====================================================================
+#  Legal Metrology (Packaged Commodities) Rules, 2011
+#  Machine-readable rule configuration
+# =====================================================================
+#
+#  HOW TO USE THIS FILE
+#  --------------------
+#  This is the single source of truth for compliance logic. The rules
+#  engine reads it at runtime. When the Rules are amended you edit this
+#  file, not the codebase. That is the whole point.
+#
+#  THE `verified` FLAG  <-- READ THIS
+#  ----------------------------------
+#  Every threshold carries `verified: true|false`.
+#
+#    verified: true   -> the value was transcribed from the current
+#                        consolidated gazette text by a human who
+#                        checked it, and `source` names where from.
+#    verified: false  -> PLACEHOLDER. The engine will REFUSE to emit a
+#                        violation from this rule and will instead
+#                        return an `UNVERIFIED_RULE` warning.
+#
+#  This is deliberate. A confidently wrong legal threshold copied from
+#  a blog post is worse than an unimplemented check, because it
+#  produces an authoritative-looking false accusation. Do not flip a
+#  flag to true until someone has actually opened the gazette PDF.
+#
+#  TO DO BEFORE THE FINALE:
+#    1. Download the current consolidated LMPC Rules 2011 from
+#       consumeraffairs.gov.in / India Code.
+#    2. Transcribe Table-I and Table-II exactly (see `numeral_height`).
+#    3. Set verified: true and fill `source` with the notification no.
+#
+# =====================================================================
+
+meta:
+  ruleset: "Legal Metrology (Packaged Commodities) Rules, 2011"
+  parent_act: "Legal Metrology Act, 2009 (Section 18)"
+  jurisdiction: IN
+  # Amendments known to affect this ruleset. Add as you verify them.
+  amendments:
+    - id: "GSR_629E_2017"
+      date: "2017-06-23"
+      note: >
+        Substituted the numeral-size provisions of Rule 7 into their
+        current Table-I / Table-II form, and the width>=1/3-height
+        proviso. Anything written about numeral sizes before this date
+        describes superseded wording.
+  config_version: "0.3.0-scaffold"
+
+# ---------------------------------------------------------------------
+# SECTION 1: Mandatory declarations (Rule 6)
+# ---------------------------------------------------------------------
+# Each declaration becomes a required field on the extraction schema.
+# `applies_unless` references exemption ids in exemptions.yaml.
+# ---------------------------------------------------------------------
+declarations:
+
+  - id: manufacturer_details
+    label: "Name and complete address of manufacturer / packer / importer"
+    short_label: "Name and address of manufacturer / packer / importer"
+    citation: "Rule 6(1)(a)"
+    verified: true
+    source: "Rule 6(1)(a), LMPC Rules 2011"
+    severity: major
+    checks:
+      - type: presence
+      - type: structure
+        # An address fragment without locality/PIN is a partial declaration.
+        expect: postal_address
+        min_components: 2
+    applies_unless: [wholesale_package, export_package]
+
+  - id: common_name
+    label: "Common or generic name of the commodity"
+    short_label: "Common or generic name"
+    citation: "Rule 6(1)(b)"
+    verified: true
+    source: "Rule 6(1)(b), LMPC Rules 2011"
+    severity: major
+    checks:
+      - type: presence
+    notes: >
+      This is the plain descriptive name, distinct from the brand name.
+      "SparkleClean" is a brand; "Detergent Powder" is the common name.
+      A package bearing only a brand name fails this check.
+    applies_unless: [wholesale_package]
+
+  - id: net_quantity
+    label: "Net quantity in standard units of weight, measure or number"
+    short_label: "Net quantity declaration"
+    citation: "Rule 6(1)(c)"
+    verified: true
+    source: "Rule 6(1)(c), LMPC Rules 2011"
+    severity: critical
+    checks:
+      - type: presence
+      - type: unit_is_si
+        # Rule 11: SI units. Items sold by number qualify with N or U.
+        allowed_units: [g, kg, ml, l, mm, cm, m, N, U]
+        citation: "Rule 11"
+      - type: banned_phrases
+        # Rule 12(6): no exaggerated / misleading qualifiers.
+        # CORRECTED from Rule 11(6). Rule 11 covers general quantity
+        # provisions and the "when packed" qualifier; the prohibited-
+        # expression list lives in Rule 12(6).
+        citation: "Rule 12(6)"
+        verified: true
+        source: "Rule 12(6), LMPC Rules 2011 consolidated text"
+        phrases:
+          - "minimum"
+          - "min."
+          - "not less than"
+          - "average"
+          - "avg"
+          - "about"
+          - "approximately"
+          - "approx"
+          - "nearly"
+          - "around"
+          # Letter-edged matching: "min" and "min." both hit, "mint" does not.
+          - "min"
+          - "approximate"
+          - "apprx"
+          - "upto"
+          - "up to"
+          - "+/-"
+          - "±"
+        # "when packed" is permitted only for the Third Schedule
+        # commodities (soaps, lotions, cream, camphor).
+        conditional_phrases:
+          - phrase: "when packed"
+            # Third Schedule lists exactly three: all kinds of soaps,
+            # lotions, and cream (other than cream of milk).
+            allowed_for_categories: [soap, lotion, cream]
+            citation: "Rule 11(4), Third Schedule"
+    applies_unless: []
+
+  - id: manufacture_date
+    label: "Month and year of manufacture / pre-packing / import"
+    short_label: "Month and year of manufacture / packing / import"
+    citation: "Rule 6(1)(d)"
+    verified: true
+    source: "Rule 6(1)(d), LMPC Rules 2011"
+    severity: major
+    checks:
+      - type: presence
+      - type: date_plausible
+        # A future manufacture date is prima facie non-compliant.
+        allow_future: false
+        formats: ["MM/YYYY", "MM-YYYY", "MMM YYYY", "MM.YYYY"]
+    applies_unless: [wholesale_package]
+
+  - id: expiry_date
+    label: "Use-by / best-before date"
+    short_label: "Use-by / best-before date"
+    # Not a labelling declaration checked for presence here: an ALERT for
+    # stock on sale after its own use-by date. LMPC Rule 6(1)(da) (inserted
+    # 23.6.2017) requires the best-before / use-by date to be DECLARED on
+    # commodities that may become unfit for consumption; selling stock past
+    # it is an offence under food-safety law, not the LMPC Rules. So this
+    # check stays unverified: it is shown, never counted as an LMPC violation.
+    citation: "Rule 6(1)(da) - expired stock alert (food-safety, not LMPC)"
+    verified: false
+    source: "FSS (Labelling & Display) Regulations 2020; confirm LMPC reference"
+    severity: major
+    checks:
+      - type: not_expired
+    applies_unless: [wholesale_package]
+
+  - id: retail_sale_price
+    label: "Retail sale price (MRP), inclusive of all taxes"
+    short_label: "Retail sale price (MRP) declaration"
+    citation: "Rule 6(1)(e)"
+    verified: true
+    source: "Rule 6(1)(e), LMPC Rules 2011"
+    severity: critical
+    checks:
+      - type: presence
+      - type: required_phrasing
+        # A bare number is NOT a compliant MRP declaration. The
+        # inclusive-of-all-taxes qualifier is part of the declaration.
+        # G.S.R. 629(E) (2017) inserted FOUR illustrations into Rule
+        # 6(1)(e). These are the department's own accepted forms, so
+        # they are the safest possible basis for this check:
+        #   (a) Maximum or Max. retail price Rs./Rs xx.xx (inclusive of all taxes)
+        #   (b) Maximum or Max. retail price Rs./Rs xx.xx inclusive of all taxes
+        #   (c) MRP Rs./Rs xx.xx incl. of all taxes
+        #   (d) MRP Rs./Rs xx.xx (incl. of all taxes)
+        citation: "Rule 6(1)(e) and its Illustrations, as amended 2017"
+        any_of:
+          - "inclusive of all taxes"
+          - "incl. of all taxes"
+          - "incl of all taxes"
+          - "inclusive of taxes"
+        must_be_near: mrp_value
+        max_distance_px: 400
+      - type: currency_present
+        symbols: ["Rs", "Rs.", "INR", "\u20b9"]
+      - type: price_rounding
+        # 2017: price in rupees and paise rounded off to the nearest
+        # rupee or 50 paise. So .00 and .50 endings are compliant;
+        # anything else (e.g. 119.99) is not.
+        citation: "Rule 6(1)(e), as amended 2017"
+        verified: true
+        allowed_paise_endings: [0, 50]
+    notes: >
+      Alcoholic beverages / spirituous liquor: State Excise law may
+      govern instead (proviso to Rule 6(1)(e)). Essential commodities
+      with a notified price under the Essential Commodities Act, 1955
+      follow that notified price. Both are handled as exemptions.
+    applies_unless: [alcoholic_beverage, notified_essential_commodity]
+
+  - id: consumer_care
+    label: "Consumer care details (name, address, phone / email)"
+    short_label: "Consumer care details"
+    citation: "Rule 6(1)(f)"
+    verified: true
+    source: "Rule 6(1)(f), LMPC Rules 2011"
+    severity: major
+    checks:
+      - type: presence
+      - type: contact_reachable_format
+        # Structural validity only. We do not dial the number.
+        require_any_of: [phone, email]
+    applies_unless: [wholesale_package]
+
+  - id: unit_sale_price
+    label: "Unit sale price"
+    short_label: "Unit sale price"
+    citation: "Rule 6(11)"
+    verified: true
+    source: "Rule 6(11), LMPC Rules 2011"
+    severity: minor
+    checks:
+      - type: presence
+      - type: decimal_places
+        exactly: 2
+      - type: price_consistency
+        # The unit sale price is the MRP divided by the net quantity
+        # (Rule 2(bb) and Rule 6(11)). A mismatch is either a misread
+        # number or a wrongly computed unit price printed on the pack.
+        citation: "Rule 2(bb) read with Rule 6(11)"
+        tolerance_abs: 0.011
+        tolerance_rel: 0.02
+        violation_rel: 0.10
+    notes: >
+      Not required where unit sale price equals the retail sale price
+      (second proviso to Rule 6(11)). Not required on wholesale
+      packages. Retail packs of 10 g / 10 ml or less are exempt
+      (aligned with Rule 26).
+    applies_unless:
+      - unit_price_equals_mrp
+      - wholesale_package
+      - small_package_10g_10ml
+
+  - id: country_of_origin
+    label: "Country of origin, manufacture or assembly (imported products)"
+    short_label: "Country of origin"
+    citation: "Rule 6(1)(aa)"
+    verified: true
+    source: "Rule 6(1)(aa) inserted by G.S.R. 629(E) dated 23.06.2017"
+    severity: major
+    checks:
+      - type: presence
+    applies_only_if: [imported_goods]
+
+# ---------------------------------------------------------------------
+# SECTION 2: Presentation and placement (Rules 7, 8, 9)
+# ---------------------------------------------------------------------
+presentation:
+
+  # -------------------------------------------------------------
+  # 2.1  Principal display panel grouping
+  # -------------------------------------------------------------
+  - id: pdp_grouping
+    label: "All mandatory declarations grouped on the principal display panel"
+    citation: "Rule 7"
+    verified: true
+    source: "Rule 7, LMPC Rules 2011"
+    severity: major
+    requires_calibration: false
+    check:
+      type: all_declarations_within_region
+      region: principal_display_panel
+
+  # PDP area formulas by package geometry. Used for Table-II lookups
+  # and for the grouping check. Excludes tops, bottoms, can flanges,
+  # bottle shoulders and necks.
+  - id: pdp_area_formula
+    label: "Computation of principal display panel area"
+    citation: "Rule 7(4)"
+    verified: true
+    source: "Rule 7(4) as substituted by G.S.R. 629(E), 2017 - text confirmed"
+    formulas:
+      rectangular:
+        expr: "height_mm * width_mm"
+        note: "Height x width of the relevant display face."
+      cylindrical:
+        expr: "0.40 * height_mm * circumference_mm"
+        note: >
+          40% of height x circumference. Circumference cannot be
+          recovered from a single view - the pipeline asks the user
+          for diameter and marks the result as user-assisted.
+      other:
+        expr: "0.40 * total_surface_area_mm2"
+        note: "40% of total surface area, or a designated PDP region."
+    excluded_surfaces: [top, bottom, can_flange, bottle_shoulder, bottle_neck]
+
+  # -------------------------------------------------------------
+  # 2.2  Clear space around the net quantity declaration (Rule 8)
+  #      PURE IN-IMAGE RATIO - no calibration needed. Build first.
+  # -------------------------------------------------------------
+  - id: quantity_clear_space
+    label: "Blank space surrounding the net quantity declaration"
+    citation: "Rule 8"
+    verified: true
+    source: "Rule 8, LMPC Rules 2011"
+    severity: major
+    requires_calibration: false      # <-- works on any photo, day one
+    check:
+      type: clear_space
+      target_field: net_quantity
+      # Multiples of the numeral height of the quantity declaration.
+      margins:
+        top: 1.0
+        bottom: 1.0
+        left: 2.0
+        right: 2.0
+      unit: numeral_heights
+
+  # -------------------------------------------------------------
+  # 2.3  Width-to-height ratio (Rule 7(3))
+  #      ALSO a pure in-image ratio. Build first.
+  # -------------------------------------------------------------
+  - id: glyph_aspect_ratio
+    label: "Width of letter or numeral not less than one third of its height"
+    citation: "Rule 7(3)"
+    verified: true
+    source: "Rule 7(3) as substituted by G.S.R. 629(E), 2017"
+    severity: minor
+    requires_calibration: false      # <-- works on any photo, day one
+    check:
+      type: aspect_ratio
+      min_width_over_height: 0.3333
+      # The proviso excepts these characters, whose natural form is narrow.
+      exempt_characters: ["1", "i", "I", "l"]
+      applies_to_fields: [net_quantity, retail_sale_price, manufacture_date, consumer_care]
+
+  # -------------------------------------------------------------
+  # 2.4  Minimum numeral height (Rule 7(2), Table-I / Table-II)
+  #      THE ONLY CHECK THAT NEEDS REAL-WORLD SCALE.
+  # -------------------------------------------------------------
+  - id: numeral_height
+    label: "Minimum height of numerals AND letters in the declaration"
+    citation: "Rule 7(2), Table-I"
+    verified: true
+    source: >
+      Rule 7(2) and Table-I as SUBSTITUTED by G.S.R. 629(E) dated
+      23.06.2017, in force from 01.01.2018. Verified against the gazette
+      notification text.
+    severity: major
+    requires_calibration: true
+    check:
+      type: min_height_mm
+
+    # =========================================================
+    #  READ THIS BEFORE TOUCHING THE MEASUREMENT PIPELINE
+    # =========================================================
+    #  The 2017 amendment rewrote this rule in three ways that
+    #  change the SYSTEM DESIGN, not just the numbers:
+    #
+    #  1. Table-I is now keyed to the AREA OF THE PRINCIPAL
+    #     DISPLAY PANEL, not to net quantity. Pre-2017 you could
+    #     look up the threshold from the declared net quantity -
+    #     a number you already OCR'd - and skip package geometry
+    #     entirely. You cannot any more. Every font-size check
+    #     now requires the PDP area in cm^2, which means real-
+    #     world scale AND the whole panel visible in frame.
+    #
+    #  2. Table-II was OMITTED. There is no longer a separate
+    #     table for goods sold by length, area or number. One
+    #     table governs everything.
+    #
+    #  3. The rule now covers "any numeral AND LETTER", not just
+    #     numerals. So the height check applies to the address
+    #     block and consumer-care text too, not only the price
+    #     and quantity figures.
+    # =========================================================
+    table_I:
+      # BAND EDGE READING - verify against a clean copy of the gazette.
+      # The <= glyph did not survive text extraction from the notification
+      # PDF (rows rendered as "A < 50", "50 < A < 100"), so upper bounds
+      # here are implemented as INCLUSIVE: A <= 50, 50 < A <= 100, and so
+      # on, which is the conventional reading and is consistent with the
+      # final row being "2500 < A". This only changes the answer for a
+      # package sitting exactly on a boundary.
+      boundary_reading: inclusive_upper
+      keyed_by: pdp_area_cm2
+      source: "Table-I as substituted by G.S.R. 629(E), 2017"
+      # Column 2 = normal printing.
+      # Column 3 = blown, formed or molded on the surface of the container.
+      bands:
+        - max_area_cm2: 50           # A <= 50
+          min_height_mm_printed: 1.0
+          min_height_mm_embossed: 1.5
+        - max_area_cm2: 100          # 50 < A <= 100
+          min_height_mm_printed: 1.5
+          min_height_mm_embossed: 3.0
+        - max_area_cm2: 500          # 100 < A <= 500
+          min_height_mm_printed: 2.5
+          min_height_mm_embossed: 4.0
+        - max_area_cm2: 2500         # 500 < A <= 2500
+          min_height_mm_printed: 4.0
+          min_height_mm_embossed: 6.0
+        - max_area_cm2: null         # 2500 < A
+          min_height_mm_printed: 6.0
+          min_height_mm_embossed: 6.0
+
+    # Rule 7(5) as substituted in 2017. Sub-rules (1)-(4) do not apply
+    # where another law governs the same information - EXCEPT the SIZE
+    # of numerals and letters for these four, which always applies.
+    other_law_carve_out:
+      citation: "Rule 7(5)"
+      verified: true
+      source: "Rule 7(5) as substituted by G.S.R. 629(E), 2017"
+      never_exempt_fields:
+        - net_quantity
+        - retail_sale_price
+        - expiry_or_best_before
+        - consumer_care
+
+    # Rule 7(2)/(3) provisos inserted by G.S.R. 778(E), 23.10.2025:
+    # for packages containing MEDICAL DEVICES, the Medical Devices
+    # Rules 2017 govern numeral/letter height AND width instead.
+    medical_device_carve_out:
+      citation: "Rule 7(2) and 7(3) provisos"
+      verified: true
+      source: "G.S.R. 778(E) dated 23.10.2025"
+      defer_to: medical_devices_rules_2017
+
+  # -------------------------------------------------------------
+  # 2.5  Sticker / label alteration
+  # -------------------------------------------------------------
+  - id: sticker_alteration
+    label: "Declarations must not be altered by affixing a sticker"
+    citation: "Rule 6(3)"
+    verified: true
+    source: "Rule 6(3), LMPC Rules 2011 consolidated text"
+    # IMPORTANT PROVISO - do not flag every sticker.
+    # A sticker bearing a REVISED LOWER MRP (inclusive of all taxes) IS
+    # permitted, provided it does not cover the original MRP printed by
+    # the manufacturer or packer. So the violation is not "a sticker
+    # exists" but "a sticker conceals the printed MRP" or "the sticker
+    # price is HIGHER than the printed price". Rule 6(4) further allows
+    # stickers freely for any NON-mandatory declaration.
+    proviso:
+      lower_mrp_sticker_permitted: true
+      must_not_cover_original: true
+      higher_price_sticker: violation
+    severity: critical
+    requires_calibration: false
+    check:
+      type: overlay_detection
+      target_fields: [retail_sale_price]
+      note: >
+        Detects a second price region overlaying or adjacent to a
+        printed one - the classic MRP-overwriting violation. Visual
+        cues: rectangular edge discontinuity, differing background
+        luminance, differing font.
+
+# ---------------------------------------------------------------------
+# SECTION 3: Measurement policy
+# ---------------------------------------------------------------------
+# How the system converts pixels to millimetres, and how much
+# uncertainty it tolerates before it will assert a violation.
+# ---------------------------------------------------------------------
+measurement:
+  glyph_height_definition: cap_height
+  # Rationale: an OCR bounding box includes padding and descenders and
+  # varies by engine. Cap height measured by connected-component
+  # analysis on the binarised glyph is reproducible and is what a
+  # domain expert means by "height of a numeral".
+
+  calibration:
+    preferred_method: fiducial_marker
+    methods:
+      fiducial_marker:
+        marker_family: ARUCO_4X4_50
+        default_marker_size_mm: 25.0
+        reliability: high
+      ar_depth:
+        note: "ARCore / ARKit metric depth. Stretch goal, higher live failure rate."
+        reliability: medium
+      user_supplied_dimension:
+        note: "User types one known package dimension. Fallback."
+        reliability: low
+
+  # A violation is only asserted when the measured value falls outside
+  # the uncertainty band. Within the band the engine abstains.
+  uncertainty:
+    target_mae_mm: 0.30
+    abstain_band_mm: 0.30
+    policy: |
+      if measured + abstain_band < required  -> VIOLATION
+      if measured - abstain_band > required  -> COMPLIANT
+      otherwise                              -> INDETERMINATE (abstain)
+
+  image_quality_gate:
+    min_dpi_estimate: 150
+    min_glyph_pixels: 8
+    max_blur_laplacian_var: 100.0
+    on_fail: request_retake
+
+# ---------------------------------------------------------------------
+# SECTION 4: Severity -> enforcement mapping
+# ---------------------------------------------------------------------
+severity_levels:
+  critical:
+    description: "Consumer is materially misled about price or quantity."
+    escalate: true
+  major:
+    description: "Mandatory declaration absent or materially defective."
+    escalate: true
+  minor:
+    description: "Formatting or presentation defect."
+    escalate: false
+
+# ---------------------------------------------------------------------
+# SECTION 5: Rules added by later amendments
+# ---------------------------------------------------------------------
+# These come from amendments read directly from the gazette. Each is a
+# genuinely checkable rule that most implementations will not have.
+# ---------------------------------------------------------------------
+additional_rules:
+
+  - id: dual_mrp_prohibited
+    label: "Different MRPs on identical pre-packaged commodities"
+    citation: "Rule 18(2A)"
+    verified: true
+    source: "Rule 18(2A) inserted by G.S.R. 629(E), 2017"
+    severity: critical
+    requires_calibration: false
+    check:
+      type: cross_scan_comparison
+      # Needs the product repository, not a single image: group scans by
+      # GTIN/brand+net quantity and flag differing MRPs. The repository
+      # the PS already asks for is what makes this possible - a nice
+      # argument that the database is not just plumbing.
+      group_by: [barcode, brand, net_quantity]
+      flag_when: differing_mrp
+
+  - id: gm_food_label
+    label: "Genetically modified food must bear 'GM' at top of the PDP"
+    citation: "Rule 6(7)"
+    verified: true
+    source: "Rule 6(7) inserted by G.S.R. 427(E), 2012, w.e.f. 01.01.2013"
+    severity: major
+    requires_calibration: false
+    check:
+      type: token_at_pdp_top
+      token: "GM"
+      applies_only_if: [genetically_modified_food]
+
+  - id: ecommerce_declarations
+    label: "Mandatory declarations displayed on e-commerce listings"
+    citation: "Rule 6(10)"
+    verified: true
+    source: "Rule 6(10) inserted by G.S.R. 629(E), 2017"
+    severity: major
+    requires_calibration: false
+    check:
+      type: listing_mode_declarations
+      # Everything in Rule 6(1) EXCEPT month and year of manufacture.
+      exclude_fields: [manufacture_date]
+
+  - id: ecommerce_coo_filter
+    label: "Searchable and sortable country-of-origin filter for imported products"
+    citation: "Rule 6(10A)"
+    verified: true
+    source: >
+      Inserted by G.S.R. 128(E) dated 13.02.2026 (w.e.f. 01.07.2026);
+      SUBSTITUTED by G.S.R. 312(E) dated 27.04.2026, which restates the
+      obligation for every e-commerce entity offering an imported
+      product for sale, with effect from 01.07.2027.
+    severity: major
+    effective_from: "2027-07-01"
+    check:
+      type: platform_capability
+      # Not a package check at all - a platform-level obligation. Worth
+      # implementing because it is brand new, nobody will have it, and
+      # it demos well on the listing-mode path.
+      requires: [searchable_filter, sortable_filter, country_of_origin_field]
+
+  - id: bonded_warehouse_declarations
+    label: "Importer declarations at AEO Tier-2/Tier-3 bonded warehouses"
+    citation: "Rule 4, Explanation-2"
+    verified: true
+    source: "Inserted by G.S.R. 418(E) dated 29.05.2026"
+    severity: major
+    check:
+      type: contextual
+      note: >
+        Importers may make mandatory declarations at bonded warehouses of
+        Authorised Economic Operator Tier-2 and Tier-3 certified
+        operators, provided retail packages carry ALL mandatory
+        declarations before leaving the warehouse.

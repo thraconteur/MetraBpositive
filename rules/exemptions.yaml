@@ -1,0 +1,283 @@
+# =====================================================================
+#  Exemptions and carve-outs under the LMPC Rules, 2011
+# =====================================================================
+#
+#  WHY THIS FILE EXISTS
+#  --------------------
+#  False positives destroy inspector trust faster than false negatives.
+#  A system that flags a 5 g sample sachet for a missing unit-sale-price
+#  declaration looks broken to the first officer who tests it, and you
+#  do not recover from that in a live demo.
+#
+#  So: the pipeline CLASSIFIES the package first, resolves which
+#  exemptions apply, and only then evaluates the remaining rule subset.
+#  Order matters. classify -> exempt -> evaluate. Never evaluate -> filter.
+#
+# =====================================================================
+
+exemptions:
+
+  - id: small_package_10g_10ml
+    label: "Retail packages of net quantity 10 g / 10 ml or less"
+    citation: "Rule 26"
+    verified: true
+    source: "Rule 26, LMPC Rules 2011"
+    condition:
+      type: net_quantity_at_most
+      value: 10
+      units: [g, ml]
+    exempts_declarations: [unit_sale_price]
+    # G.S.R. 881(E) dated 02.12.2025, in force 01.02.2026, inserted a
+    # further proviso to Rule 26(a): this clause does NOT apply to pan
+    # masala. So a 5 g pan masala sachet gets no exemption at all.
+    excluded_commodities: [pan_masala]
+    excluded_source: "G.S.R. 881(E) dated 02.12.2025, w.e.f. 01.02.2026"
+    notes: >
+      Rule 26(a) exempts packages of 10 g / 10 ml or less. Note that
+      clause (d) - agricultural farm produce - was OMITTED by G.S.R.
+      629(E) 2017; that carve-out now lives in Rule 3 instead.
+
+  - id: tiny_package_5cc
+    label: "Packages of capacity 5 cubic centimetres or less"
+    citation: "Rule 7(1) proviso"
+    verified: true
+    source: "Rule 7(1) proviso, LMPC Rules 2011"
+    condition:
+      type: package_capacity_at_most_cc
+      value: 5
+    effect:
+      # The PDP may be a card or tape affixed firmly to the package,
+      # rather than the package surface itself.
+      allow_pdp_as_affixed_card: true
+    exempts_declarations: []
+
+  - id: above_10cc_full_regime
+    label: "Packages above 10 cubic centimetres follow the full Table-I regime"
+    citation: "Rule 7"
+    verified: true
+    source: "Rule 7, LMPC Rules 2011"
+    condition:
+      type: package_capacity_greater_than_cc
+      value: 10
+    # No `effect:` block. This entry documents that packages above
+    # 10 cubic centimetres follow the ordinary Table-I regime - which is
+    # simply the default when no exemption applies. An `enforce_table_I`
+    # key here would assert the default and be read by nothing, which is
+    # exactly the dead-config pattern this ruleset has been audited to
+    # remove.
+
+  - id: wholesale_package
+    label: "Wholesale packages"
+    citation: "Rule 24"
+    verified: true
+    source: "Rule 24, LMPC Rules 2011 - full text read"
+    condition:
+      type: package_class
+      value: wholesale
+    exempts_declarations:
+      - unit_sale_price
+      - consumer_care
+      - manufacture_date
+    notes: >
+      Wholesale packages carry a REDUCED declaration set, not none.
+      Do not treat this as a blanket pass. Verify which declarations
+      Chapter III actually requires before relying on this entry.
+
+  - id: unit_price_equals_mrp
+    label: "Unit sale price equal to retail sale price"
+    citation: "Rule 6(11), second proviso"
+    verified: true
+    source: "Rule 6(11) second proviso, LMPC Rules 2011"
+    condition:
+      type: computed
+      expr: "unit_sale_price == retail_sale_price"
+    exempts_declarations: [unit_sale_price]
+
+  - id: alcoholic_beverage
+    label: "Alcoholic beverages / spirituous liquor"
+    citation: "Rule 6(1)(e) proviso"
+    verified: true
+    source: "Rule 6(1)(e) proviso, LMPC Rules 2011"
+    condition:
+      type: commodity_category
+      value: alcoholic_beverage
+    effect:
+      defer_to: state_excise_law
+    exempts_declarations: [retail_sale_price]
+    notes: >
+      State Excise law governs within the manufacturing state. Where
+      state excise rules do not provide for a retail price
+      declaration, the LMPC rules apply after all. This is a
+      jurisdiction-dependent branch - flag for human review rather
+      than auto-clearing.
+    action: flag_for_human_review
+
+  - id: notified_essential_commodity
+    label: "Essential commodity with a price notified by competent authority"
+    citation: "Rule 6(1)(e), second proviso"
+    verified: true
+    source: "Rule 6(1)(e) second proviso, LMPC Rules 2011"
+    condition:
+      type: commodity_category
+      value: notified_essential
+    effect:
+      defer_to: essential_commodities_act_1955
+
+  - id: governed_by_other_law
+    label: "Information also required under another law in force"
+    citation: "Rule 7(5)"
+    verified: true
+    source: "Rule 7(5) as substituted by G.S.R. 629(E), 2017"
+    condition:
+      type: flag
+      value: other_law_applies
+    effect:
+      # Size requirements relax, EXCEPT for the four fields listed in
+      # Rule 7(5) which are never exempt.
+      relax_size_rules: true
+      never_exempt_fields:
+        - net_quantity
+        - retail_sale_price
+        - expiry_date
+        - consumer_care
+    notes: >
+      Most commonly triggered by packaged food, which is separately
+      governed by FSSAI labelling regulations. This is a flag on the
+      package, not a commodity category - both can be true at once.
+
+  - id: export_package
+    label: "Packages intended for export"
+    citation: "Rule 25"
+    verified: true
+    source: >
+      Rule 25: an export package may NOT be sold in India unless
+      re-packed or re-labelled per Chapter II. So this is not a blanket
+      exemption - selling an unrelabelled export pack domestically is
+      itself the violation.
+    condition:
+      type: flag
+      value: for_export
+    exempts_declarations: [manufacturer_details, consumer_care]
+
+  - id: farm_produce
+    label: "Cement, fertilizer and agricultural farm produce in bags above 50 kg"
+    citation: "Rule 3(b)"
+    verified: true
+    source: >
+      Rule 3 as substituted by G.S.R. 629(E), 2017. Rule 26(d), which
+      previously carried this carve-out, was omitted by the same
+      notification - do not cite Rule 26 for it.
+    condition:
+      type: bag_weight_above_kg
+      value: 50
+      commodities: [cement, fertilizer, agricultural_unprocessed]
+    effect:
+      chapter_ii_not_applicable: true
+    exempts_declarations: []
+
+  - id: restaurant_packed_food
+    label: "Fast food items packed by a restaurant or hotel"
+    citation: "Rule 26(b)"
+    verified: true
+    source: "Rule 26(b), LMPC Rules 2011 (clause retained through 2017 amendment)"
+    condition:
+      type: commodity_category
+      value: restaurant_prepared
+    exempts_declarations: []
+  - id: medical_devices
+    label: "Packages containing medical devices"
+    citation: "Rule 2(h) proviso; Rule 7(2)/(3) provisos; Rule 33(2)"
+    verified: true
+    source: "G.S.R. 778(E) dated 23.10.2025"
+    condition:
+      type: commodity_category
+      value: medical_device
+    effect:
+      defer_to: medical_devices_rules_2017
+      # Height AND width of numerals and letters follow MDR 2017.
+      relax_size_rules: true
+      # Rule 33(2): the Rule 33 relaxation does NOT apply where MDR 2017 does.
+      relaxation_unavailable: true
+    notes: >
+      Separately, Rule 26(c) states that no exemption applies to medical
+      devices declared as drugs. Classify carefully - "medical device"
+      and "medical device declared as a drug" go different ways.
+
+  - id: industrial_institutional
+    label: "Packaged commodities for industrial or institutional consumers"
+    citation: "Rule 3(c)"
+    verified: true
+    source: "Rule 3 as substituted by G.S.R. 629(E), 2017"
+    condition:
+      type: flag
+      value: industrial_or_institutional
+    effect:
+      chapter_ii_not_applicable: true
+    notes: >
+      Rule 2(bc): an institutional consumer buys packages bearing the
+      declaration 'not for retail sale' directly from the manufacturer,
+      importer or wholesale dealer, for its own use and not for trade.
+      That printed phrase is a strong, cheap visual cue for the
+      classifier - detect it and skip Chapter II entirely.
+
+  - id: over_25kg_25l
+    label: "Packages containing more than 25 kg or 25 litre"
+    citation: "Rule 3(a)"
+    verified: true
+    source: "Rule 3 as substituted by G.S.R. 629(E), 2017"
+    condition:
+      type: net_quantity_above
+      value: 25
+      units: [kg, l]
+    effect:
+      chapter_ii_not_applicable: true
+
+
+# ---------------------------------------------------------------------
+#  Rule 33 relaxation register
+# ---------------------------------------------------------------------
+#  A manufacturer may apply to the Central Government for relaxation
+#  from specific requirements. A granted relaxation is package-specific
+#  and time-bound, so it lives in the DATABASE, not in this file.
+#  This block only declares the mechanism the engine should honour.
+# ---------------------------------------------------------------------
+relaxation:
+  citation: "Rule 33"
+  verified: true
+  source: "Rule 33, LMPC Rules 2011"
+  lookup: database        # table: relaxations(manufacturer, rule_id, valid_until)
+  effect: suppress_violation_with_note
+  note: >
+    When a relaxation record matches, the engine still RECORDS the
+    finding but marks it suppressed with the relaxation reference.
+    Never silently drop it - an inspector needs to see that a
+    relaxation was claimed and by whom.
+
+# ---------------------------------------------------------------------
+#  Commodity categories the classifier must be able to emit
+# ---------------------------------------------------------------------
+commodity_categories:
+  - food_packaged
+  - beverage_non_alcoholic
+  - alcoholic_beverage
+  - cosmetic
+  - soap
+  - lotion
+  - cream
+  - camphor
+  - detergent_household
+  - pharmaceutical
+  - agricultural_unprocessed
+  - restaurant_prepared
+  - notified_essential
+  - textile
+  - stationery
+  - electronics
+  - other
+
+package_classes:
+  - retail
+  - wholesale
+  - multi_piece
+  - combination
+

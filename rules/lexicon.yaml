@@ -1,0 +1,107 @@
+# OCR extraction vocabulary for declaration anchors and context filters.
+# Keep this separate from lmpc_2011.yaml: it describes recognition, not law.
+#
+# Used by src/extraction/fuzzy.py. The exact regexes in
+# src/extraction/fields.py run first; these anchors are the fallback for
+# labels OCR has damaged ("TINET QUNIIITY:", "Tol Free"), matched with a
+# similarity score. Every fuzzy match is noted on the report.
+#
+# Original anchors, months, thresholds, negative_context and
+# common_name_nouns by the team; consumer_care / manufacturer /
+# tax_qualifier groups added from real Paddle misreads.
+
+anchors:
+  mrp:
+    - MRP
+    - maximum retail price
+    - max retail price
+    - max. retail price
+  net_qty:
+    - net qty
+    - net quantity
+    - net wt
+    - net weight
+    - net content
+    - net volume
+  mfg_date:
+    - manufactured
+    - manufactured date
+    - manufacture date
+    - mfg
+    - mfd
+    - packed on
+    - date of manufacture
+    - date of packing
+  unit_price:
+    - unit sale price
+    - unit price
+    - sale price per
+  consumer_care:
+    - consumer care
+    - customer care
+    - consumer cell
+    - consumer services
+    - customer service
+    - toll free
+    - helpline
+    - for feedback
+    - for complaints
+  manufacturer:
+    - manufactured by
+    - marketed by
+    - packed by
+    - imported by
+    - name and address of mfg unit
+  tax_qualifier:
+    - inclusive of all taxes
+    - incl. of all taxes
+
+months:
+  1: [january, jan]
+  2: [february, feb]
+  3: [march, mar]
+  4: [april, apr]
+  5: [may]
+  6: [june, jun]
+  7: [july, jul]
+  8: [august, aug]
+  9: [september, sep, sept]
+  10: [october, oct]
+  11: [november, nov]
+  12: [december, dec]
+
+thresholds:
+  short_anchor_len: 4     # anchors this short are never matched fuzzily
+  mid_anchor_len: 8
+  mid_score: 85           # 0-100 similarity needed for anchors of 5-8 chars
+  long_score: 78          # ... and for longer anchors
+  qualifier_resemblance: 70          # any line vs "(incl. of all taxes)"
+  qualifier_resemblance_mrp_line: 60 # a line that also names the MRP ("For MRP Rs. (nd of al aes)")
+  window_chars: 180
+
+negative_context:
+  promo: [save, offer, discount, special price]
+  nutrition: [protein, carbohydrate, carbs, fat, energy, calories, kcal]
+
+common_name_nouns:
+  - biscuit
+  - biscuits
+  - cereal
+  - detergent
+  - flour
+  - milk
+  - rice
+  - soap
+  - shampoo
+  - tea
+  - wheat
+  - hair oil
+  - hair serum
+  - noodles
+  - namkeen
+  - bhujia
+  - salt
+  - sugar
+  - drinking water
+
+hindi_review_status: unverified
