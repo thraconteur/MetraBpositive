@@ -1,0 +1,165 @@
+# Findings that depend on today's date (expiry) are scored as of this day.
+as_of: 2026-09-29
+
+# SET 3 - 13 photos sent 29 Sept 2026, never seen by the engine before.
+# This answer key was written by eye BEFORE the first run (same conventions
+# as tests/fixtures/real/ground_truth.yaml). photo39-43 are product-page
+# images (studio shots, 1100 px and a 500 px PNG); photo44 is a phone
+# photo; photo45-51 are full-resolution phone photos (2304x4096).
+# photo39, 40 and 42 have the batch / date / MRP values blanked out on the
+# image itself (a grey box on photo39): the labels are printed, the values
+# are not visible. Whether that is "not declared" is a judgement call.
+
+photo39:
+  product: "Tansukh herbal tablets jar (white cap), label side - values blanked"
+  fields:
+    net_quantity: not_legible            # "Net Contents :" value blanked
+    retail_sale_price: not_legible       # "MRP Rs.: (Incl. of all taxes)" value blanked
+    manufacture_date: not_legible
+    manufacturer_details: present        # Tansukh Herbals (P) Ltd., J-7, Agro Park-II, UPSIDC Industrial Area, Kursi Road, Barabanki-225302
+    consumer_care: present               # Customer Care Tel: +91-522-4068374, info@tansukhherbals.in
+  expected_violations: []
+  possible_violations:
+    - net_quantity.presence
+    - retail_sale_price.presence
+    - manufacture_date.presence
+    - sticker_alteration                 # grey box over the value column
+
+photo40:
+  product: "Tansukh herbal tablets 15 g (red cap), label side - values blank"
+  fields:
+    net_quantity: "15 g"                 # "Net Content: 15 g (Approx. 40 tablets)"
+    retail_sale_price: not_legible       # label printed, value blank
+    manufacture_date: not_legible
+    manufacturer_details: present        # Tansukh Herbals (P) Ltd., ... Barabanki-225302
+    consumer_care: present               # +91-522-4068374, info@tansukhherbals.in
+  expected_violations: []
+  possible_violations:
+    - retail_sale_price.presence
+    - manufacture_date.presence
+
+photo41:
+  product: "Amla capsules jar, composition side (Hindi + English, 500 px)"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: []
+
+photo42:
+  product: "Tansukh syrup 200 ml, label side - values blanked"
+  fields:
+    net_quantity: "200 ml"               # "Net Contents : 200 ml"
+    retail_sale_price: not_legible       # value blurred out
+    manufacture_date: not_legible
+    manufacturer_details: present        # Tansukh Herbals (P) Ltd., J-7, Agro Park-II ... Barabanki-225302
+    consumer_care: present               # +91-522-4068374, info@tansukhherbals.in
+  expected_violations: []
+  possible_violations:
+    - retail_sale_price.presence
+    - manufacture_date.presence
+
+photo43:
+  product: "Tansukh syrup, composition side (Hindi + English)"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: []
+
+photo44:
+  product: "Ayurvedic asthma churna pouch 20 g (mostly Hindi / Marathi)"
+  fields:
+    net_quantity: "20 g"                 # "NET WEIGHT : 20gm"
+    retail_sale_price: 200               # "M.R.P. Rs. : 200/-" - no "incl. of all taxes"
+    manufacture_date: "10/2024"          # "PKD : Oct.2024"; best before 3 years from mfg
+    manufacturer_details: not_on_panel   # no name or address on this face
+    consumer_care: not_on_panel
+  expected_violations:
+    - retail_sale_price.required_phrasing
+  possible_violations:
+    - net_quantity.unit_is_si            # "gm"
+
+photo45:
+  product: "Britannia Little Hearts 70 g + 9 g, back (foil, glare)"
+  fields:
+    net_quantity: "79 g"                 # "BISCUITS NET WEIGHT 70 g + 9 g EXTRA = 79 g"
+    manufacture_date: "08/2026"          # PKD 20/08/26, USE BY 19/02/27
+    manufacturer_details: present        # Marketed By: Britannia Industries Ltd., 5/1 A Hungerford Street, Kolkata-700017, West Bengal
+    consumer_care: present               # Consumer Care Cell 1-800-4254449 ... feedback@britindia.com (edge cut)
+    retail_sale_price: not_on_panel
+  expected_violations: []
+
+photo46:
+  product: "Chips can 70 g, base (dot-matrix inkjet)"
+  fields:
+    net_quantity: "70 g"                 # "NET WT: 70 g"
+    retail_sale_price: 75.00             # "MRP:Rs.75.00(Incl.of all taxes)"
+    unit_sale_price: 1.07                # "USP:Rs.1.07/g"
+    manufacture_date: "03/2026"          # "MFD:07-03-26/USE BY:06-03-27"
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: []
+
+photo47:
+  product: "Paper Boat Swing mango 140 ml pouch, back"
+  fields:
+    retail_sale_price: 10                # inkjet "06/09/26,Rs.10; USP Rs.0.071/ml"
+    unit_sale_price: 0.071
+    manufacture_date: "09/2026"          # 06/09/26, USE BY 05/03/27
+    manufacturer_details: present        # Marketed by Hector Beverages Pvt. Ltd., Plot No. 132, Sector-3, IMT Manesar, Gurugram-122050, Haryana
+    consumer_care: present               # paperboat@hectorbeverages.com (the phone number is partly covered)
+    net_quantity: not_legible            # "NET QUANTITY:" - value under the thumb
+  expected_violations: []
+  possible_violations:
+    - unit_sale_price.decimal_places     # three decimals printed
+
+photo48:
+  product: "Mayora Malkist cream & herb 75 g, back"
+  fields:
+    net_quantity: "75 g"
+    retail_sale_price: 30.00             # "MRP Rs (incl. of all taxes)" | "Rs 30.00"
+    unit_sale_price: 0.40                # "Rs 0.40 per g"
+    manufacture_date: "06/2026"          # MFD 08 JUN 2026, USE BY 07 JUN 2027
+    manufacturer_details: present        # Manufactured by PT Mayora Indah Tbk; Imported & Marketed by Mayora India Pvt Ltd, Gundlapochampally Village, Medchal ... (small, blurred at the fold)
+    consumer_care: not_legible           # e-mail only, blurred
+    country_of_origin: not_legible       # "COUNTRY OF ..." cut at the fold
+  expected_violations: []
+
+photo49:
+  product: "Mayora Malkist cappuccino 144 g, back"
+  fields:
+    net_quantity: "144 g"
+    retail_sale_price: 53.00             # "*Rs 53.00 ( Rs 0.37 per g )"
+    unit_sale_price: 0.37
+    manufacture_date: "02/2026"          # MFD 16 FEB 2026, USE BY 15 FEB 2027
+    manufacturer_details: present        # Imported & Marketed by Mayora India Pvt Ltd, Survey No. 58, Gundlapochampally Village, Medchal ... Telangana-500014
+    consumer_care: present               # Phone 18002585758, consumer@mayoraindia.com
+    country_of_origin: not_on_panel      # imported; not on this face
+  expected_violations: []
+
+photo50:
+  product: "Bingo Tedhe Medhe masala tadka, back"
+  fields:
+    retail_sale_price: 20.00             # "MRP Rs.20.00 incl. of all taxes"
+    consumer_care: present               # ITC Limited, ITC Green Center, No.18, Banaswadi Main Road, Bengaluru-560005, itccares@itc.in, 1800 425 444 444
+    common_name: present                 # "PROPRIETARY FOOD - NAMKEEN (15.1)"
+    net_quantity: not_legible            # faint coding window
+    unit_sale_price: not_legible         # faint "3.7..."
+    manufacture_date: not_legible        # faint "29JUL26/25NOV26"
+  expected_violations: []
+  possible_violations:
+    - manufacturer_details.presence      # manufacturer only via QR code; brand owner address in the care box
+    - manufacturer_details.structure
+
+photo51:
+  product: "Yu Foodlabs noodle bowl, side"
+  fields:
+    manufacturer_details: present        # Manufactured, Packed & Marketed by Ikayu Foodlabs Pvt Ltd, 36, Electronic City, Udyog Vihar, Phase IV, Sector 18, Gurugram 122015
+    consumer_care: present               # hello@yufoodlabs.com, +91 991 4 22522
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel           # "See bottom of pack for Mfg. Date, Exp. Date, Net Wt. & Batch No." (sideways)
+    manufacture_date: not_on_panel
+  expected_violations: []

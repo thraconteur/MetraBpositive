@@ -1,0 +1,364 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/set3/photo39.jpg",
+ "ocr_input_shape": [
+  1312,
+  1312,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 12.5
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 4.82,
+  "zoom_added": 3,
+  "zoom_s": 3.06,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 1.29,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.94,
+  "secondary_replaced": 0,
+  "secondary_s": 0.51,
+  "regions": 12,
+  "total_s": 10.64
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Net Contents",
+   "score": 0.9993899464607239,
+   "poly": [
+    [
+     426.0,
+     721.0
+    ],
+    [
+     518.0,
+     721.0
+    ],
+    [
+     518.0,
+     742.0
+    ],
+    [
+     426.0,
+     742.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Lic. No.. A-2591/96",
+   "score": 0.940639317035675,
+   "poly": [
+    [
+     428.0,
+     741.0
+    ],
+    [
+     575.0,
+     736.0
+    ],
+    [
+     576.0,
+     761.0
+    ],
+    [
+     429.0,
+     766.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Dl",
+   "score": 0.8318844437599182,
+   "poly": [
+    [
+     439.0,
+     791.0
+    ],
+    [
+     491.0,
+     791.0
+    ],
+    [
+     491.0,
+     817.0
+    ],
+    [
+     439.0,
+     817.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRPR",
+   "score": 0.8754395246505737,
+   "poly": [
+    [
+     451.0,
+     841.0
+    ],
+    [
+     499.0,
+     841.0
+    ],
+    [
+     499.0,
+     863.0
+    ],
+    [
+     451.0,
+     863.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(ind of al taxes)",
+   "score": 0.9127236008644104,
+   "poly": [
+    [
+     454.0,
+     859.0
+    ],
+    [
+     552.0,
+     861.0
+    ],
+    [
+     552.0,
+     883.0
+    ],
+    [
+     454.0,
+     881.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tansukh",
+   "score": 0.9999575614929199,
+   "poly": [
+    [
+     465.0,
+     900.0
+    ],
+    [
+     544.0,
+     902.0
+    ],
+    [
+     543.0,
+     927.0
+    ],
+    [
+     464.0,
+     925.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Menudactures by",
+   "score": 0.8232458233833313,
+   "poly": [
+    [
+     471.0,
+     931.0
+    ],
+    [
+     543.0,
+     933.0
+    ],
+    [
+     543.0,
+     951.0
+    ],
+    [
+     471.0,
+     949.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tansukh Herbais (P) Ltd.",
+   "score": 0.9900732040405273,
+   "poly": [
+    [
+     473.0,
+     948.0
+    ],
+    [
+     658.0,
+     942.0
+    ],
+    [
+     659.0,
+     967.0
+    ],
+    [
+     474.0,
+     973.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ga wwsn",
+   "score": 0.4678209125995636,
+   "poly": [
+    [
+     487.0,
+     1013.0
+    ],
+    [
+     718.0,
+     1004.0
+    ],
+    [
+     719.0,
+     1031.0
+    ],
+    [
+     488.0,
+     1040.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No.:",
+   "score": 0.9638732671737671,
+   "poly": [
+    [
+     436.0,
+     768.0
+    ],
+    [
+     496.0,
+     768.0
+    ],
+    [
+     496.0,
+     789.0
+    ],
+    [
+     436.0,
+     789.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Exp. Dt",
+   "score": 0.9631009101867676,
+   "poly": [
+    [
+     446.0,
+     818.0
+    ],
+    [
+     492.0,
+     818.0
+    ],
+    [
+     492.0,
+     840.0
+    ],
+    [
+     446.0,
+     840.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Custimar Care Tel +91-522-4068374",
+   "score": 0.795775830745697,
+   "poly": [
+    [
+     486.0,
+     1000.0
+    ],
+    [
+     662.0,
+     996.0
+    ],
+    [
+     662.0,
+     1015.0
+    ],
+    [
+     487.0,
+     1019.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

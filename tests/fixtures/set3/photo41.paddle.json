@@ -1,0 +1,530 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/set3/photo41.jpg",
+ "ocr_input_shape": [
+  500,
+  500,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 4.92,
+  "contrast_added": 4,
+  "contrast_s": 9.76,
+  "zoom_added": 5,
+  "zoom_s": 3.67,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 1.87,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 1,
+  "curved_s": 2.67,
+  "secondary_replaced": 6,
+  "secondary_s": 0.42,
+  "regions": 18,
+  "total_s": 23.32
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "आयुर्दिक औपधि आाव प्रकाश",
+   "score": 0.7939607501029968,
+   "poly": [
+    [
+     173.5,
+     206.0
+    ],
+    [
+     292.5,
+     203.0
+    ],
+    [
+     293.0,
+     217.5
+    ],
+    [
+     173.5,
+     220.5
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "angáfas arfa - ana sae",
+   "alt_score": 0.6037161350250244
+  },
+  {
+   "tl_angle": 0,
+   "text": "AYURVEDIC MEDICINE-Bhav Prakash",
+   "score": 0.9619274735450745,
+   "poly": [
+    [
+     173.5,
+     218.5
+    ],
+    [
+     299.0,
+     215.5
+    ],
+    [
+     299.5,
+     227.5
+    ],
+    [
+     173.5,
+     230.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "COMPOSITION: Each 500 mg capsules cortans",
+   "score": 0.972006618976593,
+   "poly": [
+    [
+     174.0,
+     230.0
+    ],
+    [
+     324.5,
+     226.5
+    ],
+    [
+     324.5,
+     238.5
+    ],
+    [
+     174.5,
+     242.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "विमिन- स क कीकु",
+   "score": 0.4916118383407593,
+   "poly": [
+    [
+     175.0,
+     261.5
+    ],
+    [
+     329.5,
+     256.0
+    ],
+    [
+     330.0,
+     270.5
+    ],
+    [
+     175.5,
+     276.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "अथया विकिसक के परमशवुसार",
+   "score": 0.7246026396751404,
+   "poly": [
+    [
+     176.5,
+     336.5
+    ],
+    [
+     299.0,
+     334.0
+    ],
+    [
+     299.5,
+     348.5
+    ],
+    [
+     177.0,
+     351.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "cren faaę  zeęn",
+   "alt_score": 0.349738746881485
+  },
+  {
+   "tl_angle": 0,
+   "text": "DOSAGE : 1-2 capsule twice daly",
+   "score": 0.9703325033187866,
+   "poly": [
+    [
+     176.5,
+     347.0
+    ],
+    [
+     295.5,
+     345.0
+    ],
+    [
+     296.0,
+     359.5
+    ],
+    [
+     176.5,
+     362.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "or as directed by the Physician",
+   "score": 0.9623650312423706,
+   "poly": [
+    [
+     176.5,
+     358.0
+    ],
+    [
+     285.0,
+     356.0
+    ],
+    [
+     285.0,
+     370.0
+    ],
+    [
+     177.0,
+     372.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ése d gos z u a d",
+   "score": 0.515782356262207,
+   "poly": [
+    [
+     177.0,
+     368.5
+    ],
+    [
+     301.0,
+     364.5
+    ],
+    [
+     301.5,
+     382.0
+    ],
+    [
+     177.5,
+     386.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool, dry",
+   "score": 0.9991192817687988,
+   "poly": [
+    [
+     179.71728515625,
+     389.4876708984375
+    ],
+    [
+     246.80081176757812,
+     393.63714599609375
+    ],
+    [
+     246.17221069335938,
+     403.79931640625
+    ],
+    [
+     179.08868408203125,
+     399.64984130859375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Store in a co dry placea",
+   "alt_score": 0.6904430389404297
+  },
+  {
+   "tl_angle": 0,
+   "text": "   à  ",
+   "score": 0.6287955641746521,
+   "poly": [
+    [
+     175.0,
+     284.0
+    ],
+    [
+     309.0,
+     278.0
+    ],
+    [
+     310.0,
+     292.0
+    ],
+    [
+     176.0,
+     299.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "मावा: १-२ कप्सुल दिन में २ आर",
+   "score": 0.6056710481643677,
+   "poly": [
+    [
+     176.0,
+     326.0
+    ],
+    [
+     298.0,
+     322.0
+    ],
+    [
+     299.0,
+     337.0
+    ],
+    [
+     176.0,
+     341.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "an: 9-2 üet ftr a 2 ",
+   "alt_score": 0.7004150152206421
+  },
+  {
+   "tl_angle": 180,
+   "text": "पर",
+   "score": 0.5193982720375061,
+   "poly": [
+    [
+     176.0,
+     378.0
+    ],
+    [
+     297.0,
+     374.0
+    ],
+    [
+     297.0,
+     392.0
+    ],
+    [
+     177.0,
+     395.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": " pz g m pù n",
+   "alt_score": 0.5216052532196045
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amia (Emblica officinalis) (P. Ext.) 500 mg",
+   "score": 0.9290016293525696,
+   "poly": [
+    [
+     174.0,
+     240.0
+    ],
+    [
+     309.0,
+     237.0
+    ],
+    [
+     309.0,
+     250.0
+    ],
+    [
+     174.0,
+     253.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "-Each 10 g o Amia contains 60 - 90 ngo-C",
+   "score": 0.7620946764945984,
+   "poly": [
+    [
+     175.0,
+     250.5
+    ],
+    [
+     325.5,
+     246.0
+    ],
+    [
+     326.0,
+     259.0
+    ],
+    [
+     175.0,
+     264.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "परिक",
+   "score": 0.5319284796714783,
+   "poly": [
+    [
+     175.5,
+     273.5
+    ],
+    [
+     334.5,
+     265.5
+    ],
+    [
+     335.0,
+     281.0
+    ],
+    [
+     176.5,
+     289.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "as a eud, ,   ",
+   "alt_score": 0.5186795592308044
+  },
+  {
+   "tl_angle": 0,
+   "text": "aturreue",
+   "score": 0.549127459526062,
+   "poly": [
+    [
+     175.0,
+     293.0
+    ],
+    [
+     328.0,
+     284.5
+    ],
+    [
+     329.0,
+     302.5
+    ],
+    [
+     176.0,
+     311.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Eeme",
+   "score": 0.5192652344703674,
+   "poly": [
+    [
+     174.5,
+     302.5
+    ],
+    [
+     330.5,
+     294.5
+    ],
+    [
+     331.5,
+     313.0
+    ],
+    [
+     175.5,
+     321.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "harfal and untimely graying of hai",
+   "score": 0.8635143637657166,
+   "poly": [
+    [
+     176.5,
+     313.0
+    ],
+    [
+     290.0,
+     312.0
+    ],
+    [
+     290.0,
+     327.0
+    ],
+    [
+     176.5,
+     328.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

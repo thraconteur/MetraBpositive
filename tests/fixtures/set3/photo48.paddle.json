@@ -1,0 +1,1299 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/set3/photo48.jpg",
+ "ocr_input_shape": [
+  2304,
+  4096,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 17.4,
+  "zoom_added": 0,
+  "zoom_s": 0.02,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 2,
+  "refine_s": 2.34,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 3,
+  "curved_s": 1.98,
+  "secondary_replaced": 0,
+  "secondary_s": 0.89,
+  "regions": 49,
+  "total_s": 22.66
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Trademao.cRP",
+   "score": 0.7378371357917786,
+   "poly": [
+    [
+     2590.0,
+     521.0
+    ],
+    [
+     2816.0,
+     574.0
+    ],
+    [
+     2801.0,
+     635.0
+    ],
+    [
+     2575.0,
+     582.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Wheat Fiour, Edible Vegetable Oll (Paim)-contains Antioxidant",
+   "score": 0.9720607399940491,
+   "poly": [
+    [
+     1512.0,
+     534.0
+    ],
+    [
+     2261.0,
+     542.0
+    ],
+    [
+     2261.0,
+     572.0
+    ],
+    [
+     1512.0,
+     563.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "y. Tapioca Starch, Glucose Syrup, Cream and Herb Flavour Seasoning 4.86%",
+   "score": 0.9670903086662292,
+   "poly": [
+    [
+     1259.0,
+     548.0
+    ],
+    [
+     2266.0,
+     561.0
+    ],
+    [
+     2265.0,
+     607.0
+    ],
+    [
+     1258.0,
+     594.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Rufined",
+   "score": 0.894363284111023,
+   "poly": [
+    [
+     1424.0,
+     544.0
+    ],
+    [
+     1509.0,
+     544.0
+    ],
+    [
+     1509.0,
+     558.0
+    ],
+    [
+     1424.0,
+     558.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Reined",
+   "alt_score": 0.7639756798744202
+  },
+  {
+   "tl_angle": 0,
+   "text": "MAYORA",
+   "score": 0.9999879002571106,
+   "poly": [
+    [
+     2396.0,
+     569.0
+    ],
+    [
+     2559.0,
+     572.0
+    ],
+    [
+     2558.0,
+     607.0
+    ],
+    [
+     2395.0,
+     604.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Used Unde",
+   "score": 0.9726794362068176,
+   "poly": [
+    [
+     2592.0,
+     564.0
+    ],
+    [
+     2725.0,
+     581.0
+    ],
+    [
+     2719.0,
+     633.0
+    ],
+    [
+     2585.0,
+     617.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Flavor Enbancers (INS 627, INS 631), Cream Powder (5%), Parsley (1%), Mik Powder",
+   "score": 0.954104483127594,
+   "poly": [
+    [
+     1258.0,
+     579.0
+    ],
+    [
+     2264.0,
+     595.0
+    ],
+    [
+     2264.0,
+     641.0
+    ],
+    [
+     1257.0,
+     625.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(2i3gprYeasi, Butter, Mal Extract, lodized Salt, Sugar, Raising Agents (INS 500(m), INS",
+   "score": 0.9213455319404602,
+   "poly": [
+    [
+     1261.476318359375,
+     620.5772705078125
+    ],
+    [
+     2259.557373046875,
+     637.9085693359375
+    ],
+    [
+     2258.8759765625,
+     677.1541748046875
+    ],
+    [
+     1260.794921875,
+     659.8228759765625
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "2 east, Bute, alt Etract,lodized Salt, Sgar, Raising Agent (INS 50m, INS",
+   "alt_score": 0.7033556699752808
+  },
+  {
+   "tl_angle": 0,
+   "text": "y.PT MAYORA INDAHTPOB",
+   "score": 0.8576174974441528,
+   "poly": [
+    [
+     2322.62060546875,
+     612.6376953125
+    ],
+    [
+     2695.048828125,
+     628.7369384765625
+    ],
+    [
+     2693.4560546875,
+     665.5816650390625
+    ],
+    [
+     2321.02783203125,
+     649.482421875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "y PT MAYORA INDAHTOB",
+   "alt_score": 0.7507897615432739
+  },
+  {
+   "tl_angle": 0,
+   "text": "503), Vitamin Premix (Thiamine Mononitrate, Ribolavin, Pyrodoxine Hydrochloride,",
+   "score": 0.8777807354927063,
+   "poly": [
+    [
+     1252.0,
+     649.0
+    ],
+    [
+     2263.0,
+     668.0
+    ],
+    [
+     2262.0,
+     720.0
+    ],
+    [
+     1251.0,
+     701.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "E-mail cosumermayora.co.id COUNTRYF",
+   "score": 0.890892744064331,
+   "poly": [
+    [
+     2320.0,
+     642.0
+    ],
+    [
+     2731.0,
+     660.0
+    ],
+    [
+     2729.0,
+     704.0
+    ],
+    [
+     2318.0,
+     686.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MAYORA INDIA PRIYATEL",
+   "score": 0.9311168193817139,
+   "poly": [
+    [
+     2503.204833984375,
+     684.8430786132812
+    ],
+    [
+     2699.748291015625,
+     697.2042846679688
+    ],
+    [
+     2697.298583984375,
+     736.1508178710938
+    ],
+    [
+     2500.755126953125,
+     723.7896118164062
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "MAYORADIAPE",
+   "alt_score": 0.7527859210968018
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cyanocobalamin). Allergen information: Contains Wheat, Milk.",
+   "score": 0.996564507484436,
+   "poly": [
+    [
+     1252.0,
+     689.0
+    ],
+    [
+     1996.0,
+     700.0
+    ],
+    [
+     1995.0,
+     748.0
+    ],
+    [
+     1251.0,
+     737.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " e  ",
+   "score": 0.5897798538208008,
+   "poly": [
+    [
+     2316.0,
+     705.0
+    ],
+    [
+     2746.0,
+     731.0
+    ],
+    [
+     2743.0,
+     785.0
+    ],
+    [
+     2313.0,
+     759.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NUTRITION",
+   "score": 0.9994776248931885,
+   "poly": [
+    [
+     1257.0,
+     741.0
+    ],
+    [
+     1459.0,
+     741.0
+    ],
+    [
+     1459.0,
+     812.0
+    ],
+    [
+     1257.0,
+     812.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Average Values Par 100g Por Sening 725g %RDA Average Vakues Pr 100g Pr Sening 225g %RDA",
+   "score": 0.896702229976654,
+   "poly": [
+    [
+     1492.0,
+     741.0
+    ],
+    [
+     2253.0,
+     757.0
+    ],
+    [
+     2252.0,
+     796.0
+    ],
+    [
+     1492.0,
+     780.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.8917215466499329,
+   "poly": [
+    [
+     2328.0,
+     752.0
+    ],
+    [
+     2478.0,
+     762.0
+    ],
+    [
+     2472.0,
+     850.0
+    ],
+    [
+     2322.0,
+     840.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "License No.1001404700153",
+   "score": 0.8989211916923523,
+   "poly": [
+    [
+     2489.0,
+     770.0
+    ],
+    [
+     2753.0,
+     790.0
+    ],
+    [
+     2749.0,
+     846.0
+    ],
+    [
+     2484.0,
+     825.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Energy",
+   "score": 0.998605489730835,
+   "poly": [
+    [
+     1494.0,
+     781.0
+    ],
+    [
+     1553.0,
+     787.0
+    ],
+    [
+     1549.0,
+     821.0
+    ],
+    [
+     1491.0,
+     815.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "489 kcal 110 kcal 6% Total Fat",
+   "score": 0.9105634093284607,
+   "poly": [
+    [
+     1606.0,
+     780.0
+    ],
+    [
+     1959.0,
+     791.0
+    ],
+    [
+     1958.0,
+     826.0
+    ],
+    [
+     1605.0,
+     816.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "7%",
+   "score": 0.6997230052947998,
+   "poly": [
+    [
+     2208.0,
+     797.0
+    ],
+    [
+     2247.0,
+     801.0
+    ],
+    [
+     2243.0,
+     831.0
+    ],
+    [
+     2205.0,
+     827.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "890",
+   "score": 0.8444070219993591,
+   "poly": [
+    [
+     1621.0,
+     816.0
+    ],
+    [
+     1675.0,
+     816.0
+    ],
+    [
+     1675.0,
+     843.0
+    ],
+    [
+     1621.0,
+     843.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "890",
+   "alt_score": 0.7106756567955017
+  },
+  {
+   "tl_angle": 0,
+   "text": "200",
+   "score": 0.8595835566520691,
+   "poly": [
+    [
+     1727.0,
+     820.0
+    ],
+    [
+     1781.0,
+     820.0
+    ],
+    [
+     1781.0,
+     846.0
+    ],
+    [
+     1727.0,
+     846.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "121",
+   "score": 0.9152601361274719,
+   "poly": [
+    [
+     1898.0,
+     820.0
+    ],
+    [
+     2107.0,
+     828.0
+    ],
+    [
+     2106.0,
+     856.0
+    ],
+    [
+     1897.0,
+     848.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "12%",
+   "score": 0.9776695370674133,
+   "poly": [
+    [
+     2203.0,
+     829.0
+    ],
+    [
+     2241.0,
+     829.0
+    ],
+    [
+     2241.0,
+     857.0
+    ],
+    [
+     2203.0,
+     857.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORAGE CONDITIONS:",
+   "score": 0.9974005818367004,
+   "poly": [
+    [
+     1715.0,
+     1138.0
+    ],
+    [
+     1937.0,
+     1144.0
+    ],
+    [
+     1936.0,
+     1183.0
+    ],
+    [
+     1713.0,
+     1177.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do not accept if the pack is tampered with.",
+   "score": 0.9324499368667603,
+   "poly": [
+    [
+     1955.0,
+     1143.0
+    ],
+    [
+     2354.0,
+     1152.0
+    ],
+    [
+     2353.0,
+     1195.0
+    ],
+    [
+     1954.0,
+     1186.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORE IN ACOOL",
+   "score": 0.9343828558921814,
+   "poly": [
+    [
+     1737.0,
+     1176.0
+    ],
+    [
+     1906.0,
+     1181.0
+    ],
+    [
+     1905.0,
+     1226.0
+    ],
+    [
+     1736.0,
+     1221.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LOTNO.",
+   "score": 0.9999553561210632,
+   "poly": [
+    [
+     1950.0,
+     1187.0
+    ],
+    [
+     2069.0,
+     1187.0
+    ],
+    [
+     2069.0,
+     1259.0
+    ],
+    [
+     1950.0,
+     1259.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TGR208062026",
+   "score": 0.9999897480010986,
+   "poly": [
+    [
+     2164.0,
+     1197.0
+    ],
+    [
+     2667.0,
+     1206.0
+    ],
+    [
+     2666.0,
+     1278.0
+    ],
+    [
+     2163.0,
+     1269.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PLEASE DO NOT KEEP",
+   "score": 0.8753312230110168,
+   "poly": [
+    [
+     1342.0,
+     1210.0
+    ],
+    [
+     1482.0,
+     1213.0
+    ],
+    [
+     1482.0,
+     1241.0
+    ],
+    [
+     1341.0,
+     1238.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "KEEP YOUR",
+   "score": 0.9454310536384583,
+   "poly": [
+    [
+     1487.0,
+     1215.0
+    ],
+    [
+     1593.0,
+     1219.0
+    ],
+    [
+     1592.0,
+     1244.0
+    ],
+    [
+     1486.0,
+     1241.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PP",
+   "score": 0.9992330074310303,
+   "poly": [
+    [
+     1631.0,
+     1225.0
+    ],
+    [
+     1685.0,
+     1225.0
+    ],
+    [
+     1685.0,
+     1259.0
+    ],
+    [
+     1631.0,
+     1259.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HYGIENIC AND DRY PLACE",
+   "score": 0.9899623394012451,
+   "poly": [
+    [
+     1704.0,
+     1217.0
+    ],
+    [
+     1946.0,
+     1221.0
+    ],
+    [
+     1945.0,
+     1265.0
+    ],
+    [
+     1704.0,
+     1260.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNDER DIRECT BUNLIGHT CITY CLEAN",
+   "score": 0.9233490824699402,
+   "poly": [
+    [
+     1332.0,
+     1234.0
+    ],
+    [
+     1597.0,
+     1238.0
+    ],
+    [
+     1597.0,
+     1268.0
+    ],
+    [
+     1331.0,
+     1263.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFD",
+   "score": 0.9999681115150452,
+   "poly": [
+    [
+     1950.0,
+     1249.0
+    ],
+    [
+     2024.0,
+     1249.0
+    ],
+    [
+     2024.0,
+     1320.0
+    ],
+    [
+     1950.0,
+     1320.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "08 JUN 2026",
+   "score": 0.9936495423316956,
+   "poly": [
+    [
+     2166.0,
+     1273.0
+    ],
+    [
+     2587.0,
+     1281.0
+    ],
+    [
+     2586.0,
+     1353.0
+    ],
+    [
+     2164.0,
+     1345.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Quantity:",
+   "score": 0.9998941421508789,
+   "poly": [
+    [
+     1432.0,
+     1297.0
+    ],
+    [
+     1678.0,
+     1307.0
+    ],
+    [
+     1675.0,
+     1389.0
+    ],
+    [
+     1428.0,
+     1379.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "75g",
+   "score": 0.9999867081642151,
+   "poly": [
+    [
+     1754.0,
+     1300.0
+    ],
+    [
+     1857.0,
+     1307.0
+    ],
+    [
+     1850.0,
+     1401.0
+    ],
+    [
+     1748.0,
+     1393.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USEBY",
+   "score": 0.9998089671134949,
+   "poly": [
+    [
+     1950.0,
+     1310.0
+    ],
+    [
+     2061.0,
+     1310.0
+    ],
+    [
+     2061.0,
+     1384.0
+    ],
+    [
+     1950.0,
+     1384.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "07 JUN 2027",
+   "score": 0.9881900548934937,
+   "poly": [
+    [
+     2163.0,
+     1344.0
+    ],
+    [
+     2582.0,
+     1350.0
+    ],
+    [
+     2581.0,
+     1422.0
+    ],
+    [
+     2161.0,
+     1416.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRPž",
+   "score": 0.8217952251434326,
+   "poly": [
+    [
+     1948.0,
+     1374.0
+    ],
+    [
+     2044.0,
+     1374.0
+    ],
+    [
+     2044.0,
+     1444.0
+    ],
+    [
+     1948.0,
+     1444.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Rs 30.00",
+   "score": 0.9976850748062134,
+   "poly": [
+    [
+     2163.0,
+     1416.0
+    ],
+    [
+     2457.0,
+     1421.0
+    ],
+    [
+     2455.0,
+     1494.0
+    ],
+    [
+     2161.0,
+     1489.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(incl. ofall taxes)",
+   "score": 0.8980565071105957,
+   "poly": [
+    [
+     1949.0,
+     1432.0
+    ],
+    [
+     2131.0,
+     1438.0
+    ],
+    [
+     2129.0,
+     1510.0
+    ],
+    [
+     1946.0,
+     1504.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Rs 0.40 per g",
+   "score": 0.9991298317909241,
+   "poly": [
+    [
+     2158.0,
+     1476.0
+    ],
+    [
+     2595.0,
+     1493.0
+    ],
+    [
+     2592.0,
+     1575.0
+    ],
+    [
+     2155.0,
+     1558.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNIT SALE PRICE",
+   "score": 0.9459956884384155,
+   "poly": [
+    [
+     1945.0,
+     1502.0
+    ],
+    [
+     2144.0,
+     1505.0
+    ],
+    [
+     2142.0,
+     1577.0
+    ],
+    [
+     1944.0,
+     1574.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2113TGR208060217",
+   "score": 0.9993814826011658,
+   "poly": [
+    [
+     2163.0,
+     1558.0
+    ],
+    [
+     2623.0,
+     1570.0
+    ],
+    [
+     2622.0,
+     1623.0
+    ],
+    [
+     2161.0,
+     1610.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8996001311585",
+   "score": 0.9999465346336365,
+   "poly": [
+    [
+     1360.0,
+     1616.0
+    ],
+    [
+     1903.0,
+     1625.0
+    ],
+    [
+     1902.0,
+     1679.0
+    ],
+    [
+     1359.0,
+     1670.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "4口",
+   "score": 0.45482581853866577,
+   "poly": [
+    [
+     2688.0,
+     1835.0
+    ],
+    [
+     2770.0,
+     1835.0
+    ],
+    [
+     2770.0,
+     1872.0
+    ],
+    [
+     2688.0,
+     1872.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}
