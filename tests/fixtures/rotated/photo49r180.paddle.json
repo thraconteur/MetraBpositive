@@ -1,0 +1,1574 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/rotated/photo49r180.jpg",
+ "ocr_input_shape": [
+  2304,
+  4096,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 180,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 17.72,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 4,
+  "refine_s": 1.11,
+  "block_lines": 0,
+  "block_s": 2.02,
+  "curved": 1,
+  "curved_s": 1.47,
+  "secondary_replaced": 0,
+  "secondary_s": 0.46,
+  "regions": 60,
+  "total_s": 22.81
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Malkist",
+   "score": 0.9995519518852234,
+   "poly": [
+    [
+     1199.0,
+     432.0
+    ],
+    [
+     1510.0,
+     420.0
+    ],
+    [
+     1516.0,
+     574.0
+    ],
+    [
+     1205.0,
+     586.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cappuccino",
+   "score": 0.9888843297958374,
+   "poly": [
+    [
+     1535.0,
+     431.0
+    ],
+    [
+     1913.0,
+     431.0
+    ],
+    [
+     1913.0,
+     552.0
+    ],
+    [
+     1535.0,
+     552.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ingredients: Refined Wheat Flour, Edible Vegetable Oil (Palmolein Oil)- contains Antioxidant (BHA), Sugar (11.6%",
+   "score": 0.992684543132782,
+   "poly": [
+    [
+     1971.0,
+     475.0
+    ],
+    [
+     3515.0,
+     519.0
+    ],
+    [
+     3513.0,
+     569.0
+    ],
+    [
+     1969.0,
+     526.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MAYORA",
+   "score": 0.9999831318855286,
+   "poly": [
+    [
+     948.0,
+     485.0
+    ],
+    [
+     1138.0,
+     490.0
+    ],
+    [
+     1137.0,
+     534.0
+    ],
+    [
+     947.0,
+     529.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Flavoured",
+   "score": 0.9980707168579102,
+   "poly": [
+    [
+     1686.0,
+     504.0
+    ],
+    [
+     1866.0,
+     499.0
+    ],
+    [
+     1868.0,
+     556.0
+    ],
+    [
+     1688.0,
+     561.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Maltodextrin, Glucose Syrup, Lactose, Non- Dairy Creamer (Glucose, Hydrogenated Vegetable Fat (Coconut, Pain",
+   "score": 0.9877301454544067,
+   "poly": [
+    [
+     1972.0,
+     516.0
+    ],
+    [
+     3515.0,
+     562.0
+    ],
+    [
+     3513.0,
+     610.0
+    ],
+    [
+     1971.0,
+     564.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CrunchyLayered",
+   "score": 0.9999880194664001,
+   "poly": [
+    [
+     1665.0,
+     555.0
+    ],
+    [
+     1895.0,
+     546.0
+    ],
+    [
+     1896.0,
+     585.0
+    ],
+    [
+     1667.0,
+     595.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Kemel), Edible Sodium Caseinate, Stabilizer (INS 340(ii), Stabilizer (INS 452(i)), Emulsifier (INS 481), Tapio",
+   "score": 0.9703661799430847,
+   "poly": [
+    [
+     1971.0,
+     553.0
+    ],
+    [
+     3519.0,
+     599.0
+    ],
+    [
+     3517.0,
+     651.0
+    ],
+    [
+     1969.0,
+     605.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CrackerBiscuits",
+   "score": 0.9999086260795593,
+   "poly": [
+    [
+     1669.0,
+     585.0
+    ],
+    [
+     1895.0,
+     577.0
+    ],
+    [
+     1896.0,
+     615.0
+    ],
+    [
+     1671.0,
+     623.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Starch, Raising Agents (INS 503(ii), INS 500(ii)), Cocoa Powder (1.16%), lodized salt, Baker's Yeast, Milk Solids",
+   "score": 0.9706151485443115,
+   "poly": [
+    [
+     1969.0,
+     597.0
+    ],
+    [
+     3516.0,
+     641.0
+    ],
+    [
+     3515.0,
+     688.0
+    ],
+    [
+     1968.0,
+     643.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NUTRITION",
+   "score": 0.999959409236908,
+   "poly": [
+    [
+     872.0,
+     615.0
+    ],
+    [
+     1093.0,
+     622.0
+    ],
+    [
+     1090.0,
+     704.0
+    ],
+    [
+     870.0,
+     697.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Per 100 g %RDA/Serving",
+   "score": 0.9664307236671448,
+   "poly": [
+    [
+     1319.0,
+     619.0
+    ],
+    [
+     1544.0,
+     630.0
+    ],
+    [
+     1541.0,
+     678.0
+    ],
+    [
+     1316.0,
+     667.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Per 100 g %RDA/Serving",
+   "score": 0.9586241245269775,
+   "poly": [
+    [
+     1718.0,
+     635.0
+    ],
+    [
+     1932.0,
+     644.0
+    ],
+    [
+     1930.0,
+     692.0
+    ],
+    [
+     1716.0,
+     683.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(0.53%)(SMP), Malt Extract (0.45%), Butter, Emulsifier (INS 322(i)), Artificial flavouring substance (Coffee), Instant",
+   "score": 0.9787969589233398,
+   "poly": [
+    [
+     1971.0,
+     635.0
+    ],
+    [
+     3516.0,
+     684.0
+    ],
+    [
+     3515.0,
+     732.0
+    ],
+    [
+     1969.0,
+     683.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Energy",
+   "score": 0.9999628067016602,
+   "poly": [
+    [
+     1121.0,
+     662.0
+    ],
+    [
+     1201.0,
+     672.0
+    ],
+    [
+     1194.0,
+     723.0
+    ],
+    [
+     1115.0,
+     713.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "484 kcal",
+   "score": 0.9996519088745117,
+   "poly": [
+    [
+     1301.0,
+     666.0
+    ],
+    [
+     1431.0,
+     671.0
+    ],
+    [
+     1429.0,
+     722.0
+    ],
+    [
+     1299.0,
+     717.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "4%",
+   "score": 0.9999861121177673,
+   "poly": [
+    [
+     1451.0,
+     676.0
+    ],
+    [
+     1513.0,
+     676.0
+    ],
+    [
+     1513.0,
+     721.0
+    ],
+    [
+     1451.0,
+     721.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Total Fat",
+   "score": 0.9984850287437439,
+   "poly": [
+    [
+     1539.0,
+     676.0
+    ],
+    [
+     1635.0,
+     680.0
+    ],
+    [
+     1633.0,
+     728.0
+    ],
+    [
+     1537.0,
+     724.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "20.7",
+   "score": 0.9999931454658508,
+   "poly": [
+    [
+     1714.0,
+     682.0
+    ],
+    [
+     1772.0,
+     687.0
+    ],
+    [
+     1768.0,
+     735.0
+    ],
+    [
+     1710.0,
+     730.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Coffee (0.054%), Vitamin Premix (Thiamine Mononitrate, Riboflavin, Pyridoxine Hydrochloride, Cyanocobalamin).",
+   "score": 0.9859192967414856,
+   "poly": [
+    [
+     1969.0,
+     676.0
+    ],
+    [
+     3461.0,
+     723.0
+    ],
+    [
+     3459.0,
+     770.0
+    ],
+    [
+     1968.0,
+     722.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6%",
+   "score": 0.9999889135360718,
+   "poly": [
+    [
+     1852.0,
+     690.0
+    ],
+    [
+     1902.0,
+     690.0
+    ],
+    [
+     1902.0,
+     737.0
+    ],
+    [
+     1852.0,
+     737.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CACTS*",
+   "score": 0.967410147190094,
+   "poly": [
+    [
+     874.0,
+     700.0
+    ],
+    [
+     1027.0,
+     703.0
+    ],
+    [
+     1026.0,
+     758.0
+    ],
+    [
+     873.0,
+     755.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Protein",
+   "score": 0.9999504685401917,
+   "poly": [
+    [
+     1123.0,
+     704.0
+    ],
+    [
+     1198.0,
+     708.0
+    ],
+    [
+     1196.0,
+     753.0
+    ],
+    [
+     1120.0,
+     749.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6.2 g",
+   "score": 0.9293950796127319,
+   "poly": [
+    [
+     1325.0,
+     704.0
+    ],
+    [
+     1403.0,
+     716.0
+    ],
+    [
+     1394.0,
+     769.0
+    ],
+    [
+     1316.0,
+     756.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Saturated Fat",
+   "score": 0.9651134014129639,
+   "poly": [
+    [
+     1560.0,
+     718.0
+    ],
+    [
+     1693.0,
+     723.0
+    ],
+    [
+     1691.0,
+     770.0
+    ],
+    [
+     1558.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "13.2 g",
+   "score": 0.9863151907920837,
+   "poly": [
+    [
+     1712.0,
+     720.0
+    ],
+    [
+     1799.0,
+     730.0
+    ],
+    [
+     1793.0,
+     779.0
+    ],
+    [
+     1707.0,
+     769.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "11%",
+   "score": 0.9999880790710449,
+   "poly": [
+    [
+     1840.0,
+     726.0
+    ],
+    [
+     1901.0,
+     731.0
+    ],
+    [
+     1898.0,
+     777.0
+    ],
+    [
+     1836.0,
+     773.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Allergen information: Contains Wheat, Milk, Soy.",
+   "score": 0.9995203018188477,
+   "poly": [
+    [
+     1967.0,
+     717.0
+    ],
+    [
+     2647.0,
+     739.0
+    ],
+    [
+     2646.0,
+     787.0
+    ],
+    [
+     1965.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "C0",
+   "score": 0.6881116628646851,
+   "poly": [
+    [
+     1321.0,
+     752.0
+    ],
+    [
+     1357.0,
+     752.0
+    ],
+    [
+     1357.0,
+     768.0
+    ],
+    [
+     1321.0,
+     768.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "C0",
+   "alt_score": 0.5890782475471497
+  },
+  {
+   "tl_angle": 0,
+   "text": "00",
+   "score": 0.9101060032844543,
+   "poly": [
+    [
+     1725.0,
+     767.0
+    ],
+    [
+     1762.0,
+     767.0
+    ],
+    [
+     1762.0,
+     788.0
+    ],
+    [
+     1725.0,
+     788.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "00",
+   "alt_score": 0.7897249460220337
+  },
+  {
+   "tl_angle": 0,
+   "text": "00V",
+   "score": 0.6258001923561096,
+   "poly": [
+    [
+     1856.0,
+     772.0
+    ],
+    [
+     1893.0,
+     772.0
+    ],
+    [
+     1893.0,
+     789.0
+    ],
+    [
+     1856.0,
+     789.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Imported & Marketed by: MAYORA INDIA PRIVATE LIMITED, Survey No.58,",
+   "score": 0.9551311135292053,
+   "poly": [
+    [
+     848.0,
+     993.0
+    ],
+    [
+     1572.0,
+     1024.0
+    ],
+    [
+     1570.0,
+     1068.0
+    ],
+    [
+     846.0,
+     1037.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GundlapochampallyVillage,Medchal,MedchalMalkajgini,Telangana-500014,India",
+   "score": 0.9243245720863342,
+   "poly": [
+    [
+     851.6201171875,
+     1037.9154052734375
+    ],
+    [
+     1641.1767578125,
+     1070.3773193359375
+    ],
+    [
+     1639.530029296875,
+     1110.4329833984375
+    ],
+    [
+     849.973388671875,
+     1077.9710693359375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "GamVdMdaMaeaaa-,a.",
+   "alt_score": 0.612718939781189
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issai",
+   "score": 0.9462053179740906,
+   "poly": [
+    [
+     1692.0,
+     1041.0
+    ],
+    [
+     1831.0,
+     1046.0
+    ],
+    [
+     1828.0,
+     1124.0
+    ],
+    [
+     1689.0,
+     1119.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Foedlasota",
+   "score": 0.6394978761672974,
+   "poly": [
+    [
+     844.0,
+     1086.0
+    ],
+    [
+     1484.0,
+     1113.0
+    ],
+    [
+     1482.0,
+     1171.0
+    ],
+    [
+     841.0,
+     1144.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "m",
+   "alt_score": 0.489387571811676
+  },
+  {
+   "tl_angle": 0,
+   "text": "License No.10014047000153",
+   "score": 0.9651393294334412,
+   "poly": [
+    [
+     1645.0,
+     1122.0
+    ],
+    [
+     1886.0,
+     1130.0
+    ],
+    [
+     1885.0,
+     1169.0
+    ],
+    [
+     1644.0,
+     1162.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PLEASE DO NOT KEEP",
+   "score": 0.9872550964355469,
+   "poly": [
+    [
+     1899.0,
+     1125.0
+    ],
+    [
+     2071.0,
+     1130.0
+    ],
+    [
+     2070.0,
+     1154.0
+    ],
+    [
+     1898.0,
+     1149.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "KEEP YOUR",
+   "score": 0.951355516910553,
+   "poly": [
+    [
+     2090.0,
+     1132.0
+    ],
+    [
+     2179.0,
+     1135.0
+    ],
+    [
+     2178.0,
+     1161.0
+    ],
+    [
+     2089.0,
+     1157.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MAYORA INDIA PRIVATE LIMITED",
+   "score": 0.9994264245033264,
+   "poly": [
+    [
+     841.0,
+     1146.0
+    ],
+    [
+     1275.0,
+     1163.0
+    ],
+    [
+     1273.0,
+     1220.0
+    ],
+    [
+     838.0,
+     1204.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNDER DIRECT SUNLIGHT CITY CLEAN",
+   "score": 0.9874283075332642,
+   "poly": [
+    [
+     1886.0,
+     1145.0
+    ],
+    [
+     2182.0,
+     1155.0
+    ],
+    [
+     2181.0,
+     1181.0
+    ],
+    [
+     1886.0,
+     1170.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PP",
+   "score": 0.998534083366394,
+   "poly": [
+    [
+     2236.0,
+     1145.0
+    ],
+    [
+     2283.0,
+     1145.0
+    ],
+    [
+     2283.0,
+     1176.0
+    ],
+    [
+     2236.0,
+     1176.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORAGE CONDITIONS: STORE IN A COOL, HYGIENIC AND DRY PLACE",
+   "score": 0.9793807864189148,
+   "poly": [
+    [
+     1659.0,
+     1163.0
+    ],
+    [
+     2286.0,
+     1184.0
+    ],
+    [
+     2284.0,
+     1230.0
+    ],
+    [
+     1658.0,
+     1209.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LOT NO.",
+   "score": 0.9663704037666321,
+   "poly": [
+    [
+     2308.0,
+     1177.0
+    ],
+    [
+     2450.0,
+     1181.0
+    ],
+    [
+     2448.0,
+     1243.0
+    ],
+    [
+     2306.0,
+     1239.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GST 2.0 Pack",
+   "score": 0.9982502460479736,
+   "poly": [
+    [
+     2753.0,
+     1184.0
+    ],
+    [
+     2930.0,
+     1191.0
+    ],
+    [
+     2929.0,
+     1230.0
+    ],
+    [
+     2752.0,
+     1224.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For addresr reted byaend ave",
+   "score": 0.6429725289344788,
+   "poly": [
+    [
+     840.0,
+     1203.0
+    ],
+    [
+     1479.0,
+     1230.0
+    ],
+    [
+     1476.0,
+     1293.0
+    ],
+    [
+     837.0,
+     1266.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "de",
+   "alt_score": 0.442945659160614
+  },
+  {
+   "tl_angle": 0,
+   "text": "CKR16022026",
+   "score": 0.9999886155128479,
+   "poly": [
+    [
+     2752.0,
+     1222.0
+    ],
+    [
+     3085.0,
+     1233.0
+    ],
+    [
+     3083.0,
+     1292.0
+    ],
+    [
+     2750.0,
+     1281.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFD",
+   "score": 0.9999931454658508,
+   "poly": [
+    [
+     2305.0,
+     1234.0
+    ],
+    [
+     2392.0,
+     1234.0
+    ],
+    [
+     2392.0,
+     1297.0
+    ],
+    [
+     2305.0,
+     1297.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Phone No.: 18002585758 E-mail: consumer@mayoraindia.com",
+   "score": 0.9888626337051392,
+   "poly": [
+    [
+     838.0,
+     1263.0
+    ],
+    [
+     1588.0,
+     1297.0
+    ],
+    [
+     1585.0,
+     1359.0
+    ],
+    [
+     835.0,
+     1325.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USE BY",
+   "score": 0.97908616065979,
+   "poly": [
+    [
+     2306.0,
+     1287.0
+    ],
+    [
+     2440.0,
+     1292.0
+    ],
+    [
+     2437.0,
+     1357.0
+    ],
+    [
+     2303.0,
+     1352.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "16 FEB 2026",
+   "score": 0.9856396317481995,
+   "poly": [
+    [
+     2752.0,
+     1280.0
+    ],
+    [
+     3047.0,
+     1290.0
+    ],
+    [
+     3045.0,
+     1349.0
+    ],
+    [
+     2750.0,
+     1339.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP (incl. of all taxes)",
+   "score": 0.9660190939903259,
+   "poly": [
+    [
+     2304.0,
+     1345.0
+    ],
+    [
+     2670.0,
+     1360.0
+    ],
+    [
+     2668.0,
+     1422.0
+    ],
+    [
+     2302.0,
+     1407.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "15 FEB 2027",
+   "score": 0.9992061853408813,
+   "poly": [
+    [
+     2751.0,
+     1336.0
+    ],
+    [
+     3044.0,
+     1346.0
+    ],
+    [
+     3042.0,
+     1405.0
+    ],
+    [
+     2749.0,
+     1396.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Quantity:",
+   "score": 0.9999423623085022,
+   "poly": [
+    [
+     907.0,
+     1371.0
+    ],
+    [
+     1149.0,
+     1383.0
+    ],
+    [
+     1145.0,
+     1458.0
+    ],
+    [
+     903.0,
+     1446.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "144g",
+   "score": 0.9999901056289673,
+   "poly": [
+    [
+     1211.0,
+     1383.0
+    ],
+    [
+     1325.0,
+     1387.0
+    ],
+    [
+     1322.0,
+     1468.0
+    ],
+    [
+     1208.0,
+     1463.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "*Rs 53.00(Rs 0.37 per g).",
+   "score": 0.975717306137085,
+   "poly": [
+    [
+     2743.0,
+     1382.0
+    ],
+    [
+     3281.0,
+     1409.0
+    ],
+    [
+     3277.0,
+     1486.0
+    ],
+    [
+     2739.0,
+     1460.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNIT SALE PRICE ",
+   "score": 0.9784684181213379,
+   "poly": [
+    [
+     2306.0,
+     1400.0
+    ],
+    [
+     2625.0,
+     1412.0
+    ],
+    [
+     2622.0,
+     1476.0
+    ],
+    [
+     2303.0,
+     1463.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8996001312667\"",
+   "score": 0.9721487760543823,
+   "poly": [
+    [
+     1707.0,
+     1413.0
+    ],
+    [
+     2196.0,
+     1431.0
+    ],
+    [
+     2195.0,
+     1480.0
+    ],
+    [
+     1705.0,
+     1462.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PWMREGNO:",
+   "score": 0.9996854066848755,
+   "poly": [
+    [
+     2749.0,
+     1452.0
+    ],
+    [
+     3012.0,
+     1463.0
+    ],
+    [
+     3009.0,
+     1517.0
+    ],
+    [
+     2747.0,
+     1506.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "IM-31-TEL-03-AABCI8732P-23",
+   "score": 0.9969737529754639,
+   "poly": [
+    [
+     2748.0,
+     1499.0
+    ],
+    [
+     3193.0,
+     1514.0
+    ],
+    [
+     3192.0,
+     1566.0
+    ],
+    [
+     2746.0,
+     1551.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1723CKR130205C3",
+   "score": 0.9998554587364197,
+   "poly": [
+    [
+     2749.0,
+     1551.0
+    ],
+    [
+     3061.0,
+     1562.0
+    ],
+    [
+     3059.0,
+     1610.0
+    ],
+    [
+     2747.0,
+     1599.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

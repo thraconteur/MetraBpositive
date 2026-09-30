@@ -1,0 +1,919 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/rotated/photo44r15.jpg",
+ "ocr_input_shape": [
+  1734,
+  1566,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 13.2
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 9.02,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 1,
+  "refine_s": 3.23,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 1,
+  "curved_s": 1.9,
+  "secondary_replaced": 15,
+  "secondary_s": 0.86,
+  "regions": 33,
+  "total_s": 15.39
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "आयुबेदिक",
+   "score": 0.9244696497917175,
+   "poly": [
+    [
+     451.0,
+     497.0
+    ],
+    [
+     620.0,
+     497.0
+    ],
+    [
+     620.0,
+     555.0
+    ],
+    [
+     451.0,
+     555.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "gaf",
+   "alt_score": 0.6187682747840881
+  },
+  {
+   "tl_angle": 0,
+   "text": "3技f",
+   "score": 0.6136279106140137,
+   "poly": [
+    [
+     621.0,
+     493.0
+    ],
+    [
+     1113.0,
+     506.0
+    ],
+    [
+     1108.0,
+     682.0
+    ],
+    [
+     617.0,
+     669.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "कन.१९९१",
+   "score": 0.623336911201477,
+   "poly": [
+    [
+     509.0,
+     660.0
+    ],
+    [
+     548.0,
+     660.0
+    ],
+    [
+     548.0,
+     674.0
+    ],
+    [
+     509.0,
+     674.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "FT.9993",
+   "alt_score": 0.6632317900657654
+  },
+  {
+   "tl_angle": 0,
+   "text": "ISO",
+   "score": 0.9998851418495178,
+   "poly": [
+    [
+     753.0,
+     692.0
+    ],
+    [
+     801.0,
+     692.0
+    ],
+    [
+     801.0,
+     715.0
+    ],
+    [
+     753.0,
+     715.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "दवाई लेने के बाद ३ दिन",
+   "score": 0.9947195649147034,
+   "poly": [
+    [
+     467.0,
+     720.0
+    ],
+    [
+     724.0,
+     723.0
+    ],
+    [
+     724.0,
+     761.0
+    ],
+    [
+     466.0,
+     759.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "市",
+   "alt_score": 0.8995586037635803
+  },
+  {
+   "tl_angle": 0,
+   "text": "9001:2015",
+   "score": 0.9986110329627991,
+   "poly": [
+    [
+     749.0,
+     713.0
+    ],
+    [
+     806.0,
+     716.0
+    ],
+    [
+     806.0,
+     730.0
+    ],
+    [
+     749.0,
+     727.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "सिफ ३ दिन में",
+   "score": 0.9343984127044678,
+   "poly": [
+    [
+     990.0,
+     716.0
+    ],
+    [
+     1103.0,
+     740.0
+    ],
+    [
+     1096.0,
+     773.0
+    ],
+    [
+     984.0,
+     748.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "市3",
+   "alt_score": 0.4619109034538269
+  },
+  {
+   "tl_angle": 0,
+   "text": "COMPANY",
+   "score": 0.999958336353302,
+   "poly": [
+    [
+     739.0,
+     727.0
+    ],
+    [
+     814.0,
+     730.0
+    ],
+    [
+     813.0,
+     760.0
+    ],
+    [
+     738.0,
+     757.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "९००% गसरटेड",
+   "score": 0.7616313695907593,
+   "poly": [
+    [
+     992.0,
+     743.0
+    ],
+    [
+     1093.0,
+     763.0
+    ],
+    [
+     1088.0,
+     791.0
+    ],
+    [
+     987.0,
+     771.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "900% ℃s",
+   "alt_score": 0.7847076654434204
+  },
+  {
+   "tl_angle": 0,
+   "text": "के अंदर आप दोडने लगोंगे .!",
+   "score": 0.9136974811553955,
+   "poly": [
+    [
+     445.0,
+     761.0
+    ],
+    [
+     750.0,
+     763.0
+    ],
+    [
+     750.0,
+     801.0
+    ],
+    [
+     444.0,
+     799.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "GMP",
+   "score": 0.9999911785125732,
+   "poly": [
+    [
+     834.0,
+     755.0
+    ],
+    [
+     892.0,
+     755.0
+    ],
+    [
+     892.0,
+     785.0
+    ],
+    [
+     834.0,
+     785.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "इलाज..!",
+   "score": 0.9042801856994629,
+   "poly": [
+    [
+     1005.3461303710938,
+     772.269287109375
+    ],
+    [
+     1073.038330078125,
+     785.8077392578125
+    ],
+    [
+     1069.038330078125,
+     805.8077392578125
+    ],
+    [
+     1001.3461303710938,
+     792.269287109375
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "SMIU..!",
+   "alt_score": 0.7556185126304626
+  },
+  {
+   "tl_angle": 0,
+   "text": "CERTIFIED",
+   "score": 0.9984422326087952,
+   "poly": [
+    [
+     840.0,
+     785.0
+    ],
+    [
+     886.0,
+     785.0
+    ],
+    [
+     886.0,
+     800.0
+    ],
+    [
+     840.0,
+     800.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "एकबार इस्तेमाल करके किर भरोसा करे!",
+   "score": 0.96793532371521,
+   "poly": [
+    [
+     460.0,
+     826.0
+    ],
+    [
+     1105.0,
+     832.0
+    ],
+    [
+     1104.0,
+     897.0
+    ],
+    [
+     459.0,
+     891.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "！",
+   "alt_score": 0.8443716764450073
+  },
+  {
+   "tl_angle": 0,
+   "text": "दमा, अस्था, खासी, सदी, सास फुलना, छाती मे कफ, एलजी अस्थमा",
+   "score": 0.9000751972198486,
+   "poly": [
+    [
+     483.0,
+     893.0
+    ],
+    [
+     1066.0,
+     895.0
+    ],
+    [
+     1066.0,
+     926.0
+    ],
+    [
+     483.0,
+     924.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": ",,, ,  ,  ,  ",
+   "alt_score": 0.6125229597091675
+  },
+  {
+   "tl_angle": 0,
+   "text": "छाती मे जकडन, थकावट, चलते वक्त साँस फुलना, बेचैनी मे लाभ दायक",
+   "score": 0.8788897395133972,
+   "poly": [
+    [
+     468.0,
+     922.0
+    ],
+    [
+     1079.0,
+     927.0
+    ],
+    [
+     1078.0,
+     961.0
+    ],
+    [
+     467.0,
+     956.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": ",,",
+   "alt_score": 0.5290424823760986
+  },
+  {
+   "tl_angle": 0,
+   "text": "दिवाई लेने का तरिका",
+   "score": 0.9212566018104553,
+   "poly": [
+    [
+     415.0,
+     986.0
+    ],
+    [
+     590.0,
+     990.0
+    ],
+    [
+     590.0,
+     1018.0
+    ],
+    [
+     414.0,
+     1014.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "R",
+   "alt_score": 0.4765050411224365
+  },
+  {
+   "tl_angle": 0,
+   "text": "१४ पुडी बनाके रोज सुबाह-शाम खाना",
+   "score": 0.8813472986221313,
+   "poly": [
+    [
+     641.0,
+     977.0
+    ],
+    [
+     934.0,
+     980.0
+    ],
+    [
+     934.0,
+     1011.0
+    ],
+    [
+     641.0,
+     1007.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "8",
+   "alt_score": 0.6052065491676331
+  },
+  {
+   "tl_angle": 0,
+   "text": "खानेके बाद कपभर पाणी में लेना.",
+   "score": 0.8704047799110413,
+   "poly": [
+    [
+     656.0,
+     1006.0
+    ],
+    [
+     917.0,
+     1006.0
+    ],
+    [
+     917.0,
+     1034.0
+    ],
+    [
+     656.0,
+     1034.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ingredients",
+   "score": 0.9998925924301147,
+   "poly": [
+    [
+     794.0,
+     1059.0
+    ],
+    [
+     890.0,
+     1059.0
+    ],
+    [
+     890.0,
+     1077.0
+    ],
+    [
+     794.0,
+     1077.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ख्ा, तेहए पदर्थ, केला, दही, निु",
+   "score": 0.7515214681625366,
+   "poly": [
+    [
+     411.0,
+     1098.0
+    ],
+    [
+     671.0,
+     1101.0
+    ],
+    [
+     671.0,
+     1132.0
+    ],
+    [
+     410.0,
+     1129.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": ", ,, ",
+   "alt_score": 0.5190041661262512
+  },
+  {
+   "tl_angle": 0,
+   "text": "Abhrak Bhasma,",
+   "score": 0.9959173798561096,
+   "poly": [
+    [
+     718.0,
+     1099.0
+    ],
+    [
+     852.0,
+     1101.0
+    ],
+    [
+     852.0,
+     1125.0
+    ],
+    [
+     718.0,
+     1123.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Giloy, Arjun Chaal,",
+   "score": 0.9983626008033752,
+   "poly": [
+    [
+     718.0,
+     1129.0
+    ],
+    [
+     865.0,
+     1129.0
+    ],
+    [
+     865.0,
+     1156.0
+    ],
+    [
+     718.0,
+     1156.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Dalchini, Sariba,",
+   "score": 0.9993976354598999,
+   "poly": [
+    [
+     717.0,
+     1157.0
+    ],
+    [
+     848.0,
+     1159.0
+    ],
+    [
+     848.0,
+     1184.0
+    ],
+    [
+     717.0,
+     1182.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NETWEIGHT:20gm",
+   "score": 0.999618411064148,
+   "poly": [
+    [
+     407.0,
+     1177.0
+    ],
+    [
+     610.0,
+     1182.0
+    ],
+    [
+     610.0,
+     1213.0
+    ],
+    [
+     406.0,
+     1208.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amlaki, Mulethi,",
+   "score": 0.9959454536437988,
+   "poly": [
+    [
+     718.0,
+     1188.0
+    ],
+    [
+     847.0,
+     1188.0
+    ],
+    [
+     847.0,
+     1212.0
+    ],
+    [
+     718.0,
+     1212.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PKD",
+   "score": 0.9999635815620422,
+   "poly": [
+    [
+     403.0,
+     1213.0
+    ],
+    [
+     457.0,
+     1213.0
+    ],
+    [
+     457.0,
+     1245.0
+    ],
+    [
+     403.0,
+     1245.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": ":Oct.2024",
+   "score": 0.9992638826370239,
+   "poly": [
+    [
+     540.0,
+     1219.0
+    ],
+    [
+     661.0,
+     1219.0
+    ],
+    [
+     661.0,
+     1244.0
+    ],
+    [
+     540.0,
+     1244.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Nagkeshar, Haritaki,",
+   "score": 0.9782827496528625,
+   "poly": [
+    [
+     716.0,
+     1217.0
+    ],
+    [
+     880.0,
+     1215.0
+    ],
+    [
+     880.0,
+     1239.0
+    ],
+    [
+     716.0,
+     1241.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.R.P.Rs. :200/-",
+   "score": 0.9828225374221802,
+   "poly": [
+    [
+     401.0,
+     1252.0
+    ],
+    [
+     627.0,
+     1250.0
+    ],
+    [
+     627.0,
+     1278.0
+    ],
+    [
+     402.0,
+     1281.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lauh Bhasma",
+   "score": 0.9958369731903076,
+   "poly": [
+    [
+     716.0,
+     1243.0
+    ],
+    [
+     828.0,
+     1243.0
+    ],
+    [
+     828.0,
+     1263.0
+    ],
+    [
+     716.0,
+     1263.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "टिप: कुरीअर पोर्ट द्रे औषधी घरपोच मिळतील.",
+   "score": 0.9229959845542908,
+   "poly": [
+    [
+     741.0,
+     1277.0
+    ],
+    [
+     1085.0,
+     1273.0
+    ],
+    [
+     1086.0,
+     1304.0
+    ],
+    [
+     741.0,
+     1308.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "Pe:",
+   "alt_score": 0.5503109097480774
+  },
+  {
+   "tl_angle": 0,
+   "text": "Best Before 3 Years From Mfg.Date",
+   "score": 0.9999491572380066,
+   "poly": [
+    [
+     398.0,
+     1288.0
+    ],
+    [
+     658.0,
+     1284.0
+    ],
+    [
+     658.0,
+     1307.0
+    ],
+    [
+     399.0,
+     1311.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+# Set 3 photos turned 90/180/270 and 15 degrees (clockwise). Same answer key.
+as_of: 2026-09-29
+photo44r90:
+  product: Ayurvedic asthma churna pouch 20 g (mostly Hindi / Marathi) - turned 90
+    deg
+  fields: &id001
+    net_quantity: 20 g
+    retail_sale_price: 200
+    manufacture_date: 10/2024
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: &id002
+  - retail_sale_price.required_phrasing
+  possible_violations: &id003
+  - net_quantity.unit_is_si
+photo44r180:
+  product: Ayurvedic asthma churna pouch 20 g (mostly Hindi / Marathi) - turned 180
+    deg
+  fields: *id001
+  expected_violations: *id002
+  possible_violations: *id003
+photo44r270:
+  product: Ayurvedic asthma churna pouch 20 g (mostly Hindi / Marathi) - turned 270
+    deg
+  fields: *id001
+  expected_violations: *id002
+  possible_violations: *id003
+photo44r15:
+  product: Ayurvedic asthma churna pouch 20 g (mostly Hindi / Marathi) - turned 15
+    deg
+  fields: *id001
+  expected_violations: *id002
+  possible_violations: *id003
+photo46r90:
+  product: Chips can 70 g, base (dot-matrix inkjet) - turned 90 deg
+  fields: &id004
+    net_quantity: 70 g
+    retail_sale_price: 75.0
+    unit_sale_price: 1.07
+    manufacture_date: 03/2026
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: &id005 []
+photo46r180:
+  product: Chips can 70 g, base (dot-matrix inkjet) - turned 180 deg
+  fields: *id004
+  expected_violations: *id005
+photo46r270:
+  product: Chips can 70 g, base (dot-matrix inkjet) - turned 270 deg
+  fields: *id004
+  expected_violations: *id005
+photo46r15:
+  product: Chips can 70 g, base (dot-matrix inkjet) - turned 15 deg
+  fields: *id004
+  expected_violations: *id005
+photo49r90:
+  product: Mayora Malkist cappuccino 144 g, back - turned 90 deg
+  fields: &id006
+    net_quantity: 144 g
+    retail_sale_price: 53.0
+    unit_sale_price: 0.37
+    manufacture_date: 02/2026
+    manufacturer_details: present
+    consumer_care: present
+    country_of_origin: not_on_panel
+  expected_violations: &id007 []
+photo49r180:
+  product: Mayora Malkist cappuccino 144 g, back - turned 180 deg
+  fields: *id006
+  expected_violations: *id007
+photo49r270:
+  product: Mayora Malkist cappuccino 144 g, back - turned 270 deg
+  fields: *id006
+  expected_violations: *id007
+photo49r15:
+  product: Mayora Malkist cappuccino 144 g, back - turned 15 deg
+  fields: *id006
+  expected_violations: *id007

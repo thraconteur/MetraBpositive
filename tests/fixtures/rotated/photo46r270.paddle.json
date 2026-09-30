@@ -1,0 +1,191 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/rotated/photo46r270.jpg",
+ "ocr_input_shape": [
+  2304,
+  4096,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 90,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 11.28,
+  "contrast_added": 5,
+  "contrast_s": 28.18,
+  "zoom_added": 0,
+  "zoom_s": 7.76,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.17,
+  "regions": 5,
+  "total_s": 47.42
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "USP:F1.07/9",
+   "score": 0.9427766799926758,
+   "poly": [
+    [
+     1563.0,
+     1201.0
+    ],
+    [
+     2194.0,
+     1201.0
+    ],
+    [
+     2194.0,
+     1288.0
+    ],
+    [
+     1563.0,
+     1288.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET WT:70 9",
+   "score": 0.9339573383331299,
+   "poly": [
+    [
+     1802.880126953125,
+     840.9600219726562
+    ],
+    [
+     2499.840087890625,
+     848.6400146484375
+    ],
+    [
+     2499.840087890625,
+     946.56005859375
+    ],
+    [
+     1802.880126953125,
+     938.8800659179688
+    ]
+   ],
+   "engine": "paddleocr(softened)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP:T75.00CInc1.of al1 taxes)",
+   "score": 0.9278745055198669,
+   "poly": [
+    [
+     1555.2000732421875,
+     1109.760009765625
+    ],
+    [
+     3120.0,
+     1132.800048828125
+    ],
+    [
+     3120.0,
+     1242.239990234375
+    ],
+    [
+     1553.280029296875,
+     1219.2000732421875
+    ]
+   ],
+   "engine": "paddleocr(softened)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFD:07-03-26/USE_BY:06-03-27",
+   "score": 0.9715278744697571,
+   "poly": [
+    [
+     1547.52001953125,
+     1257.60009765625
+    ],
+    [
+     3064.320068359375,
+     1278.7200927734375
+    ],
+    [
+     3062.400146484375,
+     1380.4801025390625
+    ],
+    [
+     1545.60009765625,
+     1361.280029296875
+    ]
+   ],
+   "engine": "paddleocr(softened)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "B.NO:BCN594251215",
+   "score": 0.977789580821991,
+   "poly": [
+    [
+     1553.280029296875,
+     1342.080078125
+    ],
+    [
+     2482.56005859375,
+     1345.9200439453125
+    ],
+    [
+     2482.56005859375,
+     1420.800048828125
+    ],
+    [
+     1553.280029296875,
+     1416.9600830078125
+    ]
+   ],
+   "engine": "paddleocr(softened)",
+   "language": "en"
+  }
+ ]
+}
