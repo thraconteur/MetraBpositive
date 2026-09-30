@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "SUPV-201",
+    "name": "Rajesh Sharma",
+    "email": "rajesh.sharma@metra.gov.in",
+    "status": "active"
+  },
+  {
+    "uid": "SUPV-202",
+    "name": "Sankalp Dige",
+    "email": "sankalp.dige@metra.gov.in",
+    "status": "active"
+  },
+  {
+    "uid": "SUPV-203",
+    "name": "System Administrator",
+    "email": "admin@metra.gov.in",
+    "status": "active"
+  }
+]

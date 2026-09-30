@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "INSP-101",
+    "name": "Sankalp Dige",
+    "email": "sankalp@gov.in",
+    "status": "active"
+  },
+  {
+    "uid": "INSP-102",
+    "name": "Ananya Roy",
+    "email": "ananya.roy@gov.in",
+    "status": "active"
+  },
+  {
+    "uid": "INSP-103",
+    "name": "Vikram Rathore",
+    "email": "vikram.r@gov.in",
+    "status": "inactive"
+  }
+]
