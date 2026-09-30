@@ -1,0 +1,914 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo35.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 12.25,
+  "zoom_added": 10,
+  "zoom_s": 10.45,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.84,
+  "block_lines": 0,
+  "block_s": 1.05,
+  "curved": 0,
+  "curved_s": 1.38,
+  "secondary_replaced": 0,
+  "secondary_s": 0.4,
+  "regions": 34,
+  "total_s": 26.43
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "XERODEL CREAM is a formulation for Acanthosls",
+   "score": 0.9781275391578674,
+   "poly": [
+    [
+     160.0,
+     497.0
+    ],
+    [
+     381.0,
+     482.5
+    ],
+    [
+     382.0,
+     498.0
+    ],
+    [
+     161.0,
+     512.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Nigricans leading to patches of dark, thick and",
+   "score": 0.9900186657905579,
+   "poly": [
+    [
+     160.5,
+     510.5
+    ],
+    [
+     382.5,
+     494.5
+    ],
+    [
+     383.5,
+     510.0
+    ],
+    [
+     161.5,
+     526.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "velvety skin. It may appear on the neck, underarms,",
+   "score": 0.9799453020095825,
+   "poly": [
+    [
+     162.0,
+     522.0
+    ],
+    [
+     383.5,
+     507.0
+    ],
+    [
+     384.5,
+     522.0
+    ],
+    [
+     163.0,
+     537.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "skin folds, groins, knees, knuckles or elbows.",
+   "score": 0.9837635159492493,
+   "poly": [
+    [
+     163.0,
+     534.5
+    ],
+    [
+     358.5,
+     520.5
+    ],
+    [
+     359.5,
+     535.5
+    ],
+    [
+     164.0,
+     549.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DIRECTION FOR USE Cleanse the affected area",
+   "score": 0.988523006439209,
+   "poly": [
+    [
+     164.5,
+     551.5
+    ],
+    [
+     385.5,
+     536.5
+    ],
+    [
+     386.5,
+     552.0
+    ],
+    [
+     165.5,
+     567.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "and pat dry. Apply the required amount of the cream",
+   "score": 0.9954962134361267,
+   "poly": [
+    [
+     165.0,
+     565.5
+    ],
+    [
+     386.5,
+     548.5
+    ],
+    [
+     388.0,
+     564.0
+    ],
+    [
+     166.0,
+     580.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "on the area and massage gently using fingertips.",
+   "score": 0.9805487990379333,
+   "poly": [
+    [
+     166.5,
+     576.5
+    ],
+    [
+     386.5,
+     561.5
+    ],
+    [
+     387.5,
+     576.5
+    ],
+    [
+     167.5,
+     591.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Use it regularly twice a day for best results.",
+   "score": 0.9865862727165222,
+   "poly": [
+    [
+     168.0,
+     589.5
+    ],
+    [
+     351.0,
+     575.5
+    ],
+    [
+     352.0,
+     589.5
+    ],
+    [
+     169.0,
+     603.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INGREDIENTS: Water (Aqua), Lactic acid, Urea,",
+   "score": 0.9846577048301697,
+   "poly": [
+    [
+     169.0,
+     607.0
+    ],
+    [
+     391.0,
+     592.0
+    ],
+    [
+     392.0,
+     607.5
+    ],
+    [
+     170.0,
+     622.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Prunus Amygdalus Dulcis, Retistar, Glycerin,",
+   "score": 0.9971106052398682,
+   "poly": [
+    [
+     170.5,
+     621.0
+    ],
+    [
+     392.0,
+     605.0
+    ],
+    [
+     393.0,
+     620.0
+    ],
+    [
+     171.5,
+     636.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cetearyl Alcohol, Ceteareth-20, Jojoba Oil.",
+   "score": 0.980398952960968,
+   "poly": [
+    [
+     172.0,
+     633.5
+    ],
+    [
+     393.5,
+     617.5
+    ],
+    [
+     394.5,
+     633.0
+    ],
+    [
+     173.5,
+     649.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tetrahydrocurcumin, Zinc Oxide, Camphor,",
+   "score": 0.9827698469161987,
+   "poly": [
+    [
+     172.5,
+     646.0
+    ],
+    [
+     394.5,
+     631.0
+    ],
+    [
+     395.5,
+     646.5
+    ],
+    [
+     174.0,
+     661.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fragrance.",
+   "score": 0.9999088048934937,
+   "poly": [
+    [
+     174.0,
+     659.5
+    ],
+    [
+     225.5,
+     655.5
+    ],
+    [
+     226.5,
+     671.5
+    ],
+    [
+     175.0,
+     675.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR EXTERNAL USE ONLY",
+   "score": 0.9958332777023315,
+   "poly": [
+    [
+     175.5,
+     677.5
+    ],
+    [
+     296.0,
+     669.0
+    ],
+    [
+     297.0,
+     684.5
+    ],
+    [
+     176.5,
+     693.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool and dry place below 30°C.",
+   "score": 0.9773561358451843,
+   "poly": [
+    [
+     177.0,
+     695.0
+    ],
+    [
+     358.5,
+     682.5
+    ],
+    [
+     359.5,
+     699.0
+    ],
+    [
+     178.0,
+     711.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do no freeze.",
+   "score": 0.9964284300804138,
+   "poly": [
+    [
+     179.0,
+     709.5
+    ],
+    [
+     237.0,
+     707.0
+    ],
+    [
+     237.5,
+     721.0
+    ],
+    [
+     180.0,
+     724.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. LIc. No.: W(0089)/13/CM",
+   "score": 0.9612215161323547,
+   "poly": [
+    [
+     180.5,
+     725.5
+    ],
+    [
+     312.0,
+     718.0
+    ],
+    [
+     313.0,
+     734.5
+    ],
+    [
+     181.5,
+     742.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No.",
+   "score": 0.9995597004890442,
+   "poly": [
+    [
+     182.5,
+     741.5
+    ],
+    [
+     220.5,
+     740.5
+    ],
+    [
+     221.0,
+     753.5
+    ],
+    [
+     183.0,
+     754.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "See on Crimp",
+   "score": 0.999176561832428,
+   "poly": [
+    [
+     253.0,
+     757.0
+    ],
+    [
+     318.0,
+     753.0
+    ],
+    [
+     319.5,
+     770.0
+    ],
+    [
+     254.0,
+     774.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.RRR",
+   "score": 0.7129918336868286,
+   "poly": [
+    [
+     187.0,
+     780.5
+    ],
+    [
+     220.0,
+     780.5
+    ],
+    [
+     220.0,
+     793.5
+    ],
+    [
+     187.0,
+     793.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. by.",
+   "score": 0.9415864944458008,
+   "poly": [
+    [
+     191.0,
+     808.5
+    ],
+    [
+     220.0,
+     808.5
+    ],
+    [
+     220.0,
+     823.5
+    ],
+    [
+     191.0,
+     823.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Atns Cosmaties Products Pvt Ltd",
+   "score": 0.8917377591133118,
+   "poly": [
+    [
+     192.0,
+     821.0
+    ],
+    [
+     310.5,
+     816.5
+    ],
+    [
+     311.0,
+     829.5
+    ],
+    [
+     192.5,
+     834.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Watess by:",
+   "score": 0.7630041837692261,
+   "poly": [
+    [
+     198.0,
+     867.5
+    ],
+    [
+     235.5,
+     870.0
+    ],
+    [
+     234.5,
+     885.0
+    ],
+    [
+     197.0,
+     882.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "s : 011-40307601",
+   "score": 0.8972333073616028,
+   "poly": [
+    [
+     227.5,
+     960.0
+    ],
+    [
+     320.0,
+     958.5
+    ],
+    [
+     320.5,
+     971.5
+    ],
+    [
+     227.5,
+     973.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Date",
+   "score": 0.9588865637779236,
+   "poly": [
+    [
+     184.5,
+     754.0
+    ],
+    [
+     222.5,
+     752.5
+    ],
+    [
+     223.0,
+     766.5
+    ],
+    [
+     185.0,
+     768.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Exp. Date",
+   "score": 0.9616370797157288,
+   "poly": [
+    [
+     186.0,
+     767.5
+    ],
+    [
+     222.5,
+     766.0
+    ],
+    [
+     223.0,
+     780.5
+    ],
+    [
+     186.5,
+     781.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(nct. of All Taxes)",
+   "score": 0.875328540802002,
+   "poly": [
+    [
+     189.5,
+     793.5
+    ],
+    [
+     245.5,
+     792.0
+    ],
+    [
+     245.5,
+     804.0
+    ],
+    [
+     190.0,
+     805.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(SMP & ISO 14001:2015 Certified Company)",
+   "score": 0.9637778997421265,
+   "poly": [
+    [
+     193.5,
+     832.5
+    ],
+    [
+     351.0,
+     825.5
+    ],
+    [
+     351.5,
+     839.5
+    ],
+    [
+     194.0,
+     846.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Pot No. 54, D-1, Rama Road Industrial Area.",
+   "score": 0.9550310969352722,
+   "poly": [
+    [
+     194.5,
+     843.5
+    ],
+    [
+     351.5,
+     837.5
+    ],
+    [
+     352.5,
+     852.0
+    ],
+    [
+     195.0,
+     858.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Duhi-110015",
+   "score": 0.8816576600074768,
+   "poly": [
+    [
+     197.0,
+     854.0
+    ],
+    [
+     240.0,
+     855.5
+    ],
+    [
+     239.5,
+     867.0
+    ],
+    [
+     196.5,
+     866.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mia Litusciunca Pvt. Ltd.",
+   "score": 0.7979503870010376,
+   "poly": [
+    [
+     208.5,
+     916.5
+    ],
+    [
+     305.0,
+     917.5
+    ],
+    [
+     305.0,
+     930.5
+    ],
+    [
+     208.5,
+     929.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Pa Fos, CSC-2, Secter-11,",
+   "score": 0.7870335578918457,
+   "poly": [
+    [
+     212.5,
+     929.0
+    ],
+    [
+     299.5,
+     930.5
+    ],
+    [
+     299.0,
+     943.0
+    ],
+    [
+     212.5,
+     941.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Yaw Duin-110005",
+   "score": 0.7863872647285461,
+   "poly": [
+    [
+     221.0,
+     941.5
+    ],
+    [
+     276.5,
+     942.5
+    ],
+    [
+     276.0,
+     952.0
+    ],
+    [
+     221.0,
+     951.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "rlesctence.com",
+   "score": 0.690836489200592,
+   "poly": [
+    [
+     229.5,
+     952.0
+    ],
+    [
+     286.0,
+     953.0
+    ],
+    [
+     286.0,
+     961.0
+    ],
+    [
+     229.5,
+     960.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

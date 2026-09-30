@@ -1,0 +1,364 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo14.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 7.1,
+  "zoom_added": 0,
+  "zoom_s": 5.53,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.92,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.24,
+  "regions": 10,
+  "total_s": 13.83
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "乐",
+   "score": 0.9162481427192688,
+   "poly": [
+    [
+     574.5,
+     612.0
+    ],
+    [
+     639.75,
+     612.0
+    ],
+    [
+     639.75,
+     677.25
+    ],
+    [
+     574.5,
+     677.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "乐",
+   "score": 0.9666997790336609,
+   "poly": [
+    [
+     166.5,
+     627.0
+    ],
+    [
+     225.0,
+     627.0
+    ],
+    [
+     225.0,
+     681.75
+    ],
+    [
+     166.5,
+     681.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "R",
+   "score": 0.9978971481323242,
+   "poly": [
+    [
+     209.25,
+     672.0
+    ],
+    [
+     277.5,
+     672.0
+    ],
+    [
+     277.5,
+     726.0
+    ],
+    [
+     209.25,
+     726.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "B ts",
+   "score": 0.8764870166778564,
+   "poly": [
+    [
+     267.75,
+     668.25
+    ],
+    [
+     594.0,
+     663.75
+    ],
+    [
+     594.75,
+     717.0
+    ],
+    [
+     268.5,
+     722.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "etht",
+   "score": 0.8179991841316223,
+   "poly": [
+    [
+     173.25,
+     762.0
+    ],
+    [
+     312.75,
+     762.0
+    ],
+    [
+     312.75,
+     790.5
+    ],
+    [
+     173.25,
+     790.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "0 rams",
+   "score": 0.9306492209434509,
+   "poly": [
+    [
+     367.5,
+     759.0
+    ],
+    [
+     461.25,
+     760.5
+    ],
+    [
+     461.25,
+     789.0
+    ],
+    [
+     366.75,
+     786.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(when packed)",
+   "score": 0.9860468506813049,
+   "poly": [
+    [
+     479.25,
+     756.0
+    ],
+    [
+     624.75,
+     756.0
+    ],
+    [
+     624.75,
+     788.25
+    ],
+    [
+     479.25,
+     788.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Date of Packing",
+   "score": 0.9974092841148376,
+   "poly": [
+    [
+     174.0,
+     802.5
+    ],
+    [
+     330.75,
+     802.5
+    ],
+    [
+     330.75,
+     831.75
+    ],
+    [
+     174.0,
+     831.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.R.P.60.00 (Incl GST)",
+   "score": 0.9830596446990967,
+   "poly": [
+    [
+     175.5,
+     845.25
+    ],
+    [
+     409.5,
+     843.0
+    ],
+    [
+     410.25,
+     871.5
+    ],
+    [
+     176.25,
+     873.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lot No.:FE22",
+   "score": 0.9773851037025452,
+   "poly": [
+    [
+     495.0,
+     840.75
+    ],
+    [
+     628.5,
+     838.5
+    ],
+    [
+     628.5,
+     864.75
+    ],
+    [
+     495.0,
+     867.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Packed by: R. B. Products. Guwahati",
+   "score": 0.965275228023529,
+   "poly": [
+    [
+     186.0,
+     882.0
+    ],
+    [
+     629.25,
+     874.5
+    ],
+    [
+     629.25,
+     901.5
+    ],
+    [
+     186.75,
+     909.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Best before 90 days from packing late",
+   "score": 0.9873342514038086,
+   "poly": [
+    [
+     164.25,
+     913.5
+    ],
+    [
+     636.0,
+     905.25
+    ],
+    [
+     636.75,
+     936.0
+    ],
+    [
+     165.0,
+     944.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

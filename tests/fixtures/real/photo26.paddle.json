@@ -1,0 +1,1701 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo26.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 12.98,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "sideways_triggered": true,
+  "sideways_added": 5,
+  "sideways_s": 26.26,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 1,
+  "refine_s": 0.94,
+  "block_lines": 0,
+  "block_s": 3.01,
+  "curved": 1,
+  "curved_s": 1.59,
+  "secondary_replaced": 0,
+  "secondary_s": 0.88,
+  "regions": 65,
+  "total_s": 45.7
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "100+",
+   "score": 0.9996041059494019,
+   "poly": [
+    [
+     347.0,
+     193.5
+    ],
+    [
+     406.5,
+     179.0
+    ],
+    [
+     414.5,
+     211.5
+    ],
+    [
+     355.0,
+     226.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ODOURS & GREASE",
+   "score": 0.9950177073478699,
+   "poly": [
+    [
+     332.0,
+     226.5
+    ],
+    [
+     437.5,
+     205.0
+    ],
+    [
+     441.5,
+     226.0
+    ],
+    [
+     336.0,
+     247.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GONE IN 1 WASH",
+   "score": 0.9992653727531433,
+   "poly": [
+    [
+     340.0,
+     248.5
+    ],
+    [
+     439.0,
+     231.5
+    ],
+    [
+     442.5,
+     251.0
+    ],
+    [
+     343.5,
+     268.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1 TEASPOON CLEANS A SINK FULL",
+   "score": 0.9976317882537842,
+   "poly": [
+    [
+     116.5,
+     312.0
+    ],
+    [
+     359.0,
+     276.5
+    ],
+    [
+     362.0,
+     296.5
+    ],
+    [
+     119.5,
+     332.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USE AS SHOWN BELOW",
+   "score": 0.984971284866333,
+   "poly": [
+    [
+     175.0,
+     321.0
+    ],
+    [
+     307.0,
+     301.0
+    ],
+    [
+     309.5,
+     316.5
+    ],
+    [
+     177.5,
+     336.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "3",
+   "score": 0.9940097332000732,
+   "poly": [
+    [
+     293.5,
+     406.5
+    ],
+    [
+     308.5,
+     406.5
+    ],
+    [
+     308.5,
+     421.0
+    ],
+    [
+     293.5,
+     421.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2",
+   "score": 0.9913825392723083,
+   "poly": [
+    [
+     206.0,
+     417.5
+    ],
+    [
+     223.0,
+     417.5
+    ],
+    [
+     223.0,
+     434.0
+    ],
+    [
+     206.0,
+     434.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Clean to get a",
+   "score": 0.9958283305168152,
+   "poly": [
+    [
+     357.0,
+     414.5
+    ],
+    [
+     424.0,
+     404.5
+    ],
+    [
+     426.0,
+     420.5
+    ],
+    [
+     359.0,
+     430.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Dip the scrubber",
+   "score": 0.9993468523025513,
+   "poly": [
+    [
+     268.5,
+     427.5
+    ],
+    [
+     338.5,
+     418.0
+    ],
+    [
+     340.5,
+     433.5
+    ],
+    [
+     270.5,
+     443.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "sink ful- af",
+   "score": 0.8678509593009949,
+   "poly": [
+    [
+     368.5,
+     427.0
+    ],
+    [
+     425.0,
+     417.5
+    ],
+    [
+     427.5,
+     433.0
+    ],
+    [
+     371.0,
+     442.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mix it in one",
+   "score": 0.9981629848480225,
+   "poly": [
+    [
+     187.0,
+     438.5
+    ],
+    [
+     250.0,
+     431.0
+    ],
+    [
+     252.0,
+     446.5
+    ],
+    [
+     189.0,
+     454.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "squeeze to get",
+   "score": 0.9881070852279663,
+   "poly": [
+    [
+     275.5,
+     441.5
+    ],
+    [
+     338.5,
+     432.5
+    ],
+    [
+     340.5,
+     448.5
+    ],
+    [
+     277.5,
+     457.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "sparkling",
+   "score": 0.9964954853057861,
+   "poly": [
+    [
+     371.5,
+     440.5
+    ],
+    [
+     416.0,
+     433.5
+    ],
+    [
+     418.5,
+     448.5
+    ],
+    [
+     374.0,
+     455.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Take 1 tsp",
+   "score": 0.9616824984550476,
+   "poly": [
+    [
+     111.5,
+     450.0
+    ],
+    [
+     163.0,
+     442.5
+    ],
+    [
+     165.5,
+     460.0
+    ],
+    [
+     114.0,
+     468.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "bowl of water",
+   "score": 0.9566380381584167,
+   "poly": [
+    [
+     183.5,
+     455.0
+    ],
+    [
+     258.5,
+     445.5
+    ],
+    [
+     261.0,
+     462.5
+    ],
+    [
+     186.0,
+     472.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "powerfui lather",
+   "score": 0.9686939716339111,
+   "poly": [
+    [
+     275.5,
+     455.0
+    ],
+    [
+     338.0,
+     445.5
+    ],
+    [
+     340.5,
+     461.5
+    ],
+    [
+     278.0,
+     470.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "vessels",
+   "score": 0.9479284882545471,
+   "poly": [
+    [
+     377.5,
+     453.5
+    ],
+    [
+     416.0,
+     446.5
+    ],
+    [
+     418.0,
+     459.5
+    ],
+    [
+     379.5,
+     466.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(3.75 ml) of",
+   "score": 0.9965053200721741,
+   "poly": [
+    [
+     113.5,
+     466.5
+    ],
+    [
+     170.0,
+     458.5
+    ],
+    [
+     172.5,
+     476.0
+    ],
+    [
+     116.0,
+     484.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(40 mi)",
+   "score": 0.9204766154289246,
+   "poly": [
+    [
+     203.0,
+     467.0
+    ],
+    [
+     242.0,
+     462.0
+    ],
+    [
+     244.0,
+     479.0
+    ],
+    [
+     205.0,
+     483.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Vim gel",
+   "score": 0.9985359907150269,
+   "poly": [
+    [
+     121.0,
+     481.5
+    ],
+    [
+     160.5,
+     476.5
+    ],
+    [
+     163.0,
+     495.5
+    ],
+    [
+     123.0,
+     500.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VIM DISHWASH LIQUID. MADE IN INDIA",
+   "score": 0.9693940281867981,
+   "poly": [
+    [
+     234.0,
+     494.5
+    ],
+    [
+     470.5,
+     458.5
+    ],
+    [
+     473.5,
+     480.5
+    ],
+    [
+     237.5,
+     516.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VIM CONCENTRATED GEL",
+   "score": 0.9995943903923035,
+   "poly": [
+    [
+     86.0,
+     514.0
+    ],
+    [
+     207.0,
+     503.0
+    ],
+    [
+     208.5,
+     517.0
+    ],
+    [
+     87.5,
+     528.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MKTD. BY: HINDUSTAN UNILEVER LTD H",
+   "score": 0.9389819502830505,
+   "poly": [
+    [
+     236.0,
+     511.0
+    ],
+    [
+     468.0,
+     475.0
+    ],
+    [
+     471.5,
+     496.5
+    ],
+    [
+     239.5,
+     533.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNILEVER HOUSE, B. D. SAWANT MARG",
+   "score": 0.9735802412033081,
+   "poly": [
+    [
+     238.0,
+     526.5
+    ],
+    [
+     467.0,
+     491.5
+    ],
+    [
+     470.5,
+     512.5
+    ],
+    [
+     241.0,
+     548.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CHAKALA, ANDHERI (E), MUMBAI 400 099",
+   "score": 0.9619579315185547,
+   "poly": [
+    [
+     239.5,
+     542.0
+    ],
+    [
+     466.0,
+     508.0
+    ],
+    [
+     469.0,
+     527.5
+    ],
+    [
+     242.5,
+     562.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MAHARASHTRA. CONTAINS ISOTHIAZOLINONES",
+   "score": 0.9890111684799194,
+   "poly": [
+    [
+     241.5,
+     558.5
+    ],
+    [
+     458.0,
+     526.0
+    ],
+    [
+     460.5,
+     543.5
+    ],
+    [
+     244.0,
+     576.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VIM IS A REGISTERED TRADEMARK  HIL ZA4",
+   "score": 0.8489594459533691,
+   "poly": [
+    [
+     243.0,
+     572.0
+    ],
+    [
+     411.0,
+     549.0
+    ],
+    [
+     412.5,
+     563.0
+    ],
+    [
+     245.0,
+     586.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR MFG. UNIT ADDRESS. READ THE",
+   "score": 0.9930282235145569,
+   "poly": [
+    [
+     243.0,
+     586.0
+    ],
+    [
+     464.5,
+     553.5
+    ],
+    [
+     467.5,
+     573.0
+    ],
+    [
+     246.0,
+     606.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8901030538421>",
+   "score": 0.9978733062744141,
+   "poly": [
+    [
+     76.5,
+     599.5
+    ],
+    [
+     231.5,
+     580.0
+    ],
+    [
+     233.5,
+     598.5
+    ],
+    [
+     78.5,
+     618.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "64858978",
+   "score": 0.8856874704360962,
+   "poly": [
+    [
+     198.5,
+     604.5
+    ],
+    [
+     241.5,
+     599.0
+    ],
+    [
+     243.0,
+     612.0
+    ],
+    [
+     200.0,
+     617.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CHARACTER(S) AFTER CODE  IN CODING AREA",
+   "score": 0.9927785992622375,
+   "poly": [
+    [
+     244.5,
+     603.0
+    ],
+    [
+     463.5,
+     570.0
+    ],
+    [
+     466.5,
+     590.0
+    ],
+    [
+     247.5,
+     623.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AND REFER HERE : AE) HINDUSTAN FOODS LTD.",
+   "score": 0.9738205671310425,
+   "poly": [
+    [
+     247.0,
+     621.5
+    ],
+    [
+     462.5,
+     587.5
+    ],
+    [
+     465.5,
+     606.0
+    ],
+    [
+     249.5,
+     640.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HLREN No: 80-11-00-0-AAACH1004N-24",
+   "score": 0.8266851305961609,
+   "poly": [
+    [
+     75.0,
+     632.5
+    ],
+    [
+     208.0,
+     615.5
+    ],
+    [
+     209.5,
+     628.0
+    ],
+    [
+     77.0,
+     644.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MINIM THOANESS OF THE FACKA2NG 1S 130 MICRON",
+   "score": 0.7717676162719727,
+   "poly": [
+    [
+     78.47708129882812,
+     643.8493041992188
+    ],
+    [
+     243.44143676757812,
+     623.0663452148438
+    ],
+    [
+     244.60250854492188,
+     632.2822875976562
+    ],
+    [
+     79.63815307617188,
+     653.0652465820312
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "MINA THDKESS oF THE FACKAGING 1s 130 MICHON",
+   "alt_score": 0.6956193447113037
+  },
+  {
+   "tl_angle": 0,
+   "text": "SY NO. 44 & 49. PEDDAIPALLY VILLAGE BALA",
+   "score": 0.9933463931083679,
+   "poly": [
+    [
+     248.0,
+     639.0
+    ],
+    [
+     462.5,
+     602.5
+    ],
+    [
+     466.0,
+     621.5
+    ],
+    [
+     251.0,
+     657.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "WAPNINE YEP HIRE FROM CHILOREN",
+   "score": 0.8687158226966858,
+   "poly": [
+    [
+     82.0,
+     653.5
+    ],
+    [
+     189.0,
+     641.0
+    ],
+    [
+     190.5,
+     652.0
+    ],
+    [
+     83.5,
+     664.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NAGAR, MANDAL. MAHABUB NAGAR (DIST)",
+   "score": 0.9805275201797485,
+   "poly": [
+    [
+     250.0,
+     656.5
+    ],
+    [
+     458.5,
+     617.5
+    ],
+    [
+     462.5,
+     637.5
+    ],
+    [
+     253.5,
+     676.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT INGERI F PROUCT GONS INTO EYES, RINGE",
+   "score": 0.7844501733779907,
+   "poly": [
+    [
+     82.5,
+     662.0
+    ],
+    [
+     231.5,
+     645.5
+    ],
+    [
+     233.0,
+     658.0
+    ],
+    [
+     84.0,
+     675.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "THREUDILY WITh WIHE",
+   "score": 0.7243542671203613,
+   "poly": [
+    [
+     83.5,
+     672.0
+    ],
+    [
+     158.5,
+     664.5
+    ],
+    [
+     159.5,
+     675.0
+    ],
+    [
+     84.5,
+     682.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "THeRCUgLy With Watek",
+   "alt_score": 0.6689468622207642
+  },
+  {
+   "tl_angle": 0,
+   "text": "TELANGANA. PINCODE - 509 202 HB) HERBAL",
+   "score": 0.9453011751174927,
+   "poly": [
+    [
+     252.0,
+     674.5
+    ],
+    [
+     460.5,
+     632.5
+    ],
+    [
+     464.5,
+     653.0
+    ],
+    [
+     256.0,
+     695.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BASED ON LAB TEST",
+   "score": 0.9698647856712341,
+   "poly": [
+    [
+     85.0,
+     681.0
+    ],
+    [
+     144.5,
+     675.5
+    ],
+    [
+     145.5,
+     686.5
+    ],
+    [
+     86.0,
+     692.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AS PR INDEPENENT LAB STUDY",
+   "score": 0.8670266270637512,
+   "poly": [
+    [
+     85.5,
+     691.5
+    ],
+    [
+     181.0,
+     682.0
+    ],
+    [
+     182.0,
+     693.0
+    ],
+    [
+     87.0,
+     702.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONCEPTS HEALTH CARE (P) LTD. PLOT NO.2",
+   "score": 0.9525477886199951,
+   "poly": [
+    [
+     253.0,
+     692.5
+    ],
+    [
+     460.5,
+     647.5
+    ],
+    [
+     465.0,
+     669.5
+    ],
+    [
+     258.0,
+     714.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PER CONSUMER PAAEL STUDY UNDER LAS CONDITIONS",
+   "score": 0.9122457504272461,
+   "poly": [
+    [
+     88.0,
+     701.0
+    ],
+    [
+     253.0,
+     684.0
+    ],
+    [
+     254.0,
+     695.0
+    ],
+    [
+     89.0,
+     712.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TRIED ON AVERATE MINTHLY CONSUMPTION OF VIAA",
+   "score": 0.8865185379981995,
+   "poly": [
+    [
+     90.5,
+     709.5
+    ],
+    [
+     241.0,
+     695.5
+    ],
+    [
+     242.5,
+     707.0
+    ],
+    [
+     92.0,
+     721.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SEC. 1 A.IE (SIDCUL). RANIPUR HARIDWAR",
+   "score": 0.9178958535194397,
+   "poly": [
+    [
+     255.5,
+     710.0
+    ],
+    [
+     462.0,
+     663.5
+    ],
+    [
+     467.0,
+     685.5
+    ],
+    [
+     260.5,
+     732.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RBMAgH GEL AS PER ALL NDIA HOUSEHOLD PANEL",
+   "score": 0.8516663908958435,
+   "poly": [
+    [
+     91.0,
+     720.0
+    ],
+    [
+     239.5,
+     706.5
+    ],
+    [
+     240.5,
+     718.0
+    ],
+    [
+     92.0,
+     731.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " UAA 2024",
+   "score": 0.6291115283966064,
+   "poly": [
+    [
+     92.5,
+     729.5
+    ],
+    [
+     150.5,
+     724.5
+    ],
+    [
+     151.5,
+     735.5
+    ],
+    [
+     93.5,
+     740.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "249 403. UTTARAKHAND C) HINDUSTAN",
+   "score": 0.9919774532318115,
+   "poly": [
+    [
+     256.5,
+     728.5
+    ],
+    [
+     463.5,
+     679.5
+    ],
+    [
+     468.5,
+     701.0
+    ],
+    [
+     262.0,
+     750.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "QHB*25)",
+   "score": 0.7808640599250793,
+   "poly": [
+    [
+     83.5,
+     747.0
+    ],
+    [
+     115.0,
+     843.5
+    ],
+    [
+     90.0,
+     852.0
+    ],
+    [
+     58.5,
+     755.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR MRP(INCL OF ALL TAXES)",
+   "score": 0.9287296533584595,
+   "poly": [
+    [
+     93.0,
+     743.5
+    ],
+    [
+     257.5,
+     728.5
+    ],
+    [
+     259.5,
+     750.5
+    ],
+    [
+     95.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UNILEVER LTD., UNIT - 1. I. IND. ESTA",
+   "score": 0.9131331443786621,
+   "poly": [
+    [
+     260.0,
+     745.5
+    ],
+    [
+     461.0,
+     696.5
+    ],
+    [
+     466.5,
+     719.5
+    ],
+    [
+     265.5,
+     768.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SP. NET VOL, #MFD., & BATCH NO.",
+   "score": 0.890813410282135,
+   "poly": [
+    [
+     97.5,
+     763.5
+    ],
+    [
+     260.5,
+     750.0
+    ],
+    [
+     262.5,
+     771.5
+    ],
+    [
+     99.0,
+     785.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HARIDWAR 249 403. UTTARAKHAND",
+   "score": 0.9927870631217957,
+   "poly": [
+    [
+     262.5,
+     763.0
+    ],
+    [
+     425.0,
+     724.5
+    ],
+    [
+     430.0,
+     746.0
+    ],
+    [
+     268.0,
+     784.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ODING AREA",
+   "score": 0.9663836359977722,
+   "poly": [
+    [
+     101.0,
+     782.0
+    ],
+    [
+     180.0,
+     779.0
+    ],
+    [
+     181.0,
+     801.0
+    ],
+    [
+     101.5,
+     804.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LEVERCARE-QUERY/FEEDBACK",
+   "score": 0.9994334578514099,
+   "poly": [
+    [
+     263.5,
+     779.5
+    ],
+    [
+     445.0,
+     734.5
+    ],
+    [
+     451.5,
+     759.0
+    ],
+    [
+     270.0,
+     804.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TOLL FREE: 1800-10-22-221",
+   "score": 0.9820600748062134,
+   "poly": [
+    [
+     266.0,
+     797.0
+    ],
+    [
+     421.5,
+     757.5
+    ],
+    [
+     427.5,
+     781.0
+    ],
+    [
+     272.0,
+     821.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PO BOX 14760, MUMBAI 400",
+   "score": 0.9425086975097656,
+   "poly": [
+    [
+     267.5,
+     814.0
+    ],
+    [
+     439.0,
+     766.0
+    ],
+    [
+     446.5,
+     793.0
+    ],
+    [
+     275.0,
+     841.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LEVER.CARE@UNILEVER.COM",
+   "score": 0.9778474569320679,
+   "poly": [
+    [
+     269.0,
+     831.0
+    ],
+    [
+     428.0,
+     784.5
+    ],
+    [
+     436.0,
+     811.5
+    ],
+    [
+     277.0,
+     858.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "OTHER",
+   "score": 0.9554556012153625,
+   "poly": [
+    [
+     286.0,
+     881.0
+    ],
+    [
+     313.0,
+     879.0
+    ],
+    [
+     314.0,
+     888.5
+    ],
+    [
+     287.0,
+     890.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.13/ml",
+   "score": 0.9994509816169739,
+   "poly": [
+    [
+     54.0,
+     718.5
+    ],
+    [
+     42.5,
+     662.0
+    ],
+    [
+     67.5,
+     657.0
+    ],
+    [
+     79.0,
+     713.5
+    ]
+   ],
+   "engine": "paddleocr(sideways)",
+   "language": "en",
+   "vertical": true
+  },
+  {
+   "tl_angle": 180,
+   "text": "Vim",
+   "score": 0.911797046661377,
+   "poly": [
+    [
+     117.0,
+     193.5
+    ],
+    [
+     139.0,
+     241.5
+    ],
+    [
+     46.5,
+     284.0
+    ],
+    [
+     24.5,
+     236.0
+    ]
+   ],
+   "engine": "paddleocr(sideways)",
+   "language": "en",
+   "vertical": true
+  },
+  {
+   "tl_angle": 180,
+   "text": "#19/12/24",
+   "score": 0.999633252620697,
+   "poly": [
+    [
+     49.5,
+     561.0
+    ],
+    [
+     68.0,
+     653.5
+    ],
+    [
+     42.0,
+     659.0
+    ],
+    [
+     23.5,
+     566.0
+    ]
+   ],
+   "engine": "paddleocr(sideways)",
+   "language": "en",
+   "vertical": true
+  },
+  {
+   "tl_angle": 180,
+   "text": "200ml",
+   "score": 0.9996088147163391,
+   "poly": [
+    [
+     38.5,
+     457.0
+    ],
+    [
+     41.5,
+     503.0
+    ],
+    [
+     15.0,
+     505.0
+    ],
+    [
+     11.5,
+     459.0
+    ]
+   ],
+   "engine": "paddleocr(sideways)",
+   "language": "en",
+   "vertical": true
+  },
+  {
+   "tl_angle": 180,
+   "text": "8591",
+   "score": 0.9936809539794922,
+   "poly": [
+    [
+     42.5,
+     521.5
+    ],
+    [
+     49.0,
+     563.0
+    ],
+    [
+     24.0,
+     567.0
+    ],
+    [
+     17.5,
+     525.5
+    ]
+   ],
+   "engine": "paddleocr(sideways)",
+   "language": "en",
+   "vertical": true
+  }
+ ]
+}

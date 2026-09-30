@@ -1,0 +1,1386 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo23.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 10.92,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.66,
+  "block_lines": 3,
+  "block_s": 5.86,
+  "curved": 0,
+  "curved_s": 0.34,
+  "secondary_replaced": 0,
+  "secondary_s": 0.78,
+  "regions": 53,
+  "total_s": 18.6
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Amul",
+   "score": 0.9922149181365967,
+   "poly": [
+    [
+     156.0,
+     189.5
+    ],
+    [
+     183.0,
+     181.5
+    ],
+    [
+     202.5,
+     248.5
+    ],
+    [
+     175.5,
+     256.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "\"CONTAINS CAFFEINE",
+   "score": 0.9214255213737488,
+   "poly": [
+    [
+     290.0,
+     396.0
+    ],
+    [
+     386.5,
+     415.5
+    ],
+    [
+     382.0,
+     439.0
+    ],
+    [
+     285.0,
+     419.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INE (105 mg/350",
+   "score": 0.9468148350715637,
+   "poly": [
+    [
+     210.0,
+     403.5
+    ],
+    [
+     270.0,
+     397.0
+    ],
+    [
+     271.5,
+     413.0
+    ],
+    [
+     211.5,
+     419.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NDED FOR CHILDRE",
+   "score": 0.8822650909423828,
+   "poly": [
+    [
+     214.5,
+     416.5
+    ],
+    [
+     275.0,
+     408.5
+    ],
+    [
+     277.0,
+     423.0
+    ],
+    [
+     216.5,
+     431.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AND PERSONS",
+   "score": 0.9527115225791931,
+   "poly": [
+    [
+     283.0,
+     419.5
+    ],
+    [
+     335.0,
+     424.0
+    ],
+    [
+     333.5,
+     442.0
+    ],
+    [
+     281.5,
+     437.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "500",
+   "score": 0.9997866749763489,
+   "poly": [
+    [
+     259.0,
+     437.5
+    ],
+    [
+     277.0,
+     435.5
+    ],
+    [
+     278.5,
+     448.5
+    ],
+    [
+     260.5,
+     451.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GLUCOSE,",
+   "score": 0.9949969053268433,
+   "poly": [
+    [
+     229.5,
+     451.5
+    ],
+    [
+     265.0,
+     448.5
+    ],
+    [
+     266.5,
+     463.5
+    ],
+    [
+     231.0,
+     466.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NAER, SICROSE,",
+   "score": 0.8221216201782227,
+   "poly": [
+    [
+     180.5,
+     462.5
+    ],
+    [
+     229.5,
+     452.0
+    ],
+    [
+     232.5,
+     466.5
+    ],
+    [
+     183.5,
+     477.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "COTRATE, FLAVORS",
+   "score": 0.8762757778167725,
+   "poly": [
+    [
+     178.5,
+     474.5
+    ],
+    [
+     232.0,
+     463.0
+    ],
+    [
+     235.5,
+     479.0
+    ],
+    [
+     182.0,
+     490.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "COLOIRS",
+   "score": 0.870663046836853,
+   "poly": [
+    [
+     338.5,
+     491.5
+    ],
+    [
+     367.0,
+     496.5
+    ],
+    [
+     365.0,
+     508.5
+    ],
+    [
+     336.5,
+     503.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADID ENZCIC ACIO)",
+   "score": 0.7561644315719604,
+   "poly": [
+    [
+     180.5,
+     499.5
+    ],
+    [
+     235.5,
+     488.5
+    ],
+    [
+     238.5,
+     504.0
+    ],
+    [
+     183.5,
+     514.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NEETENER (SUCRALOGE",
+   "score": 0.8810200095176697,
+   "poly": [
+    [
+     290.5,
+     497.5
+    ],
+    [
+     364.5,
+     503.5
+    ],
+    [
+     363.0,
+     521.0
+    ],
+    [
+     289.0,
+     514.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PERISERVING IN",
+   "score": 0.7855944037437439,
+   "poly": [
+    [
+     181.0,
+     536.0
+    ],
+    [
+     234.5,
+     528.0
+    ],
+    [
+     237.0,
+     544.0
+    ],
+    [
+     183.5,
+     552.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADED SEARS",
+   "score": 0.6771858930587769,
+   "poly": [
+    [
+     345.5,
+     542.0
+    ],
+    [
+     386.5,
+     549.0
+    ],
+    [
+     384.5,
+     562.0
+    ],
+    [
+     343.5,
+     555.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "B120.52μg",
+   "score": 0.9376670122146606,
+   "poly": [
+    [
+     234.5,
+     579.0
+    ],
+    [
+     279.0,
+     577.0
+    ],
+    [
+     280.0,
+     594.0
+    ],
+    [
+     235.0,
+     595.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "12m",
+   "score": 0.7923970818519592,
+   "poly": [
+    [
+     181.5,
+     588.5
+    ],
+    [
+     210.0,
+     585.0
+    ],
+    [
+     211.5,
+     598.5
+    ],
+    [
+     183.5,
+     602.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VITAI",
+   "score": 0.9246944189071655,
+   "poly": [
+    [
+     210.0,
+     585.5
+    ],
+    [
+     227.0,
+     585.5
+    ],
+    [
+     227.0,
+     596.5
+    ],
+    [
+     210.0,
+     596.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "THIS CONTAINS SUCRALOSE",
+   "score": 0.9782455563545227,
+   "poly": [
+    [
+     221.5,
+     594.0
+    ],
+    [
+     367.5,
+     594.0
+    ],
+    [
+     367.5,
+     619.0
+    ],
+    [
+     221.5,
+     619.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LETTER BEFORE EXPIRY DATE ON THE BASE OFA",
+   "score": 0.9012670516967773,
+   "poly": [
+    [
+     180.5,
+     629.0
+    ],
+    [
+     386.5,
+     626.0
+    ],
+    [
+     387.0,
+     651.0
+    ],
+    [
+     181.0,
+     654.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9075771570205688,
+   "poly": [
+    [
+     211.0,
+     646.0
+    ],
+    [
+     291.5,
+     642.5
+    ],
+    [
+     293.0,
+     670.5
+    ],
+    [
+     212.0,
+     674.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INDO EUROPEAN",
+   "score": 0.9819908142089844,
+   "poly": [
+    [
+     330.0,
+     659.5
+    ],
+    [
+     385.5,
+     663.0
+    ],
+    [
+     384.5,
+     679.0
+    ],
+    [
+     329.0,
+     675.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1) Lic No :1152399000437",
+   "score": 0.9141542315483093,
+   "poly": [
+    [
+     192.0,
+     673.5
+    ],
+    [
+     298.5,
+     667.5
+    ],
+    [
+     299.5,
+     688.0
+    ],
+    [
+     193.5,
+     694.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BREWERIES LIMNTED",
+   "score": 0.8870291709899902,
+   "poly": [
+    [
+     324.0,
+     672.0
+    ],
+    [
+     389.5,
+     675.5
+    ],
+    [
+     388.5,
+     691.0
+    ],
+    [
+     323.5,
+     687.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.977493941783905,
+   "poly": [
+    [
+     210.5,
+     689.5
+    ],
+    [
+     293.5,
+     685.5
+    ],
+    [
+     295.0,
+     715.0
+    ],
+    [
+     212.0,
+     719.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INDUSTAN COCA-COLL",
+   "score": 0.9202750325202942,
+   "poly": [
+    [
+     323.5,
+     703.5
+    ],
+    [
+     392.0,
+     706.5
+    ],
+    [
+     391.5,
+     722.5
+    ],
+    [
+     323.0,
+     719.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "H) Lit No:10012022000287",
+   "score": 0.9649850726127625,
+   "poly": [
+    [
+     190.0,
+     718.0
+    ],
+    [
+     298.5,
+     712.5
+    ],
+    [
+     299.5,
+     733.0
+    ],
+    [
+     191.0,
+     738.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BEVERAGES PVT.LITO",
+   "score": 0.8328542113304138,
+   "poly": [
+    [
+     324.5,
+     716.5
+    ],
+    [
+     392.0,
+     719.0
+    ],
+    [
+     391.5,
+     734.5
+    ],
+    [
+     324.0,
+     732.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9256928563117981,
+   "poly": [
+    [
+     211.0,
+     733.5
+    ],
+    [
+     294.0,
+     730.0
+    ],
+    [
+     295.5,
+     761.5
+    ],
+    [
+     212.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "\"Dolby",
+   "score": 0.8590548634529114,
+   "poly": [
+    [
+     489.5,
+     737.5
+    ],
+    [
+     537.0,
+     779.5
+    ],
+    [
+     524.5,
+     794.0
+    ],
+    [
+     476.5,
+     751.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DEL MONTE FOCOS",
+   "score": 0.9689968824386597,
+   "poly": [
+    [
+     329.5,
+     748.5
+    ],
+    [
+     391.5,
+     750.0
+    ],
+    [
+     391.0,
+     766.5
+    ],
+    [
+     329.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "D) Lic No:10012042000203",
+   "score": 0.9496924877166748,
+   "poly": [
+    [
+     189.0,
+     763.5
+    ],
+    [
+     301.5,
+     758.5
+    ],
+    [
+     302.5,
+     779.0
+    ],
+    [
+     190.0,
+     784.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRIVATE LINITED",
+   "score": 0.9714651107788086,
+   "poly": [
+    [
+     332.5,
+     763.0
+    ],
+    [
+     389.5,
+     763.0
+    ],
+    [
+     389.5,
+     777.5
+    ],
+    [
+     332.5,
+     777.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "intel",
+   "score": 0.9998081922531128,
+   "poly": [
+    [
+     468.0,
+     767.0
+    ],
+    [
+     510.0,
+     798.0
+    ],
+    [
+     494.0,
+     819.5
+    ],
+    [
+     452.0,
+     789.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BRAND OWED AND MKT BY MONSTER ENERGY IN",
+   "score": 0.9233985543251038,
+   "poly": [
+    [
+     182.0,
+     783.0
+    ],
+    [
+     401.0,
+     777.0
+    ],
+    [
+     401.5,
+     794.0
+    ],
+    [
+     182.5,
+     799.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "evo",
+   "score": 0.999110996723175,
+   "poly": [
+    [
+     458.5,
+     779.5
+    ],
+    [
+     496.5,
+     814.5
+    ],
+    [
+     480.0,
+     833.0
+    ],
+    [
+     442.0,
+     797.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "UMITED, OFFICE NO 17&18, 3RD FLOOR, VASWAN N",
+   "score": 0.9427173137664795,
+   "poly": [
+    [
+     183.0,
+     797.0
+    ],
+    [
+     400.5,
+     791.5
+    ],
+    [
+     400.5,
+     807.0
+    ],
+    [
+     183.5,
+     812.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "120 DINSHAW VACHHA ROAD CHURCHGATE, MUMBAI ",
+   "score": 0.9562689065933228,
+   "poly": [
+    [
+     183.0,
+     810.0
+    ],
+    [
+     401.5,
+     805.5
+    ],
+    [
+     402.0,
+     821.0
+    ],
+    [
+     183.5,
+     825.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONTACT CONSUMER RELATIONS REPRESE",
+   "score": 0.9968538880348206,
+   "poly": [
+    [
+     179.5,
+     826.0
+    ],
+    [
+     372.5,
+     821.0
+    ],
+    [
+     373.0,
+     840.0
+    ],
+    [
+     180.0,
+     844.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "000-800-040-1274",
+   "score": 0.9983769059181213,
+   "poly": [
+    [
+     199.5,
+     843.5
+    ],
+    [
+     305.0,
+     841.0
+    ],
+    [
+     305.5,
+     861.5
+    ],
+    [
+     200.0,
+     864.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INFO@MONSTERENERGY.COM",
+   "score": 0.9996731281280518,
+   "poly": [
+    [
+     184.5,
+     860.5
+    ],
+    [
+     361.5,
+     856.0
+    ],
+    [
+     362.0,
+     878.0
+    ],
+    [
+     185.5,
+     882.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADDRESS: SAME AS BRAND OWNED",
+   "score": 0.9941297173500061,
+   "poly": [
+    [
+     182.5,
+     879.0
+    ],
+    [
+     335.0,
+     877.5
+    ],
+    [
+     335.5,
+     898.0
+    ],
+    [
+     182.5,
+     899.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9841750860214233,
+   "poly": [
+    [
+     340.0,
+     878.0
+    ],
+    [
+     406.0,
+     876.0
+    ],
+    [
+     407.0,
+     909.0
+    ],
+    [
+     341.0,
+     910.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AND MARKETED BY ADDRESS",
+   "score": 0.9899429082870483,
+   "poly": [
+    [
+     182.5,
+     896.0
+    ],
+    [
+     309.0,
+     896.0
+    ],
+    [
+     309.0,
+     916.0
+    ],
+    [
+     182.5,
+     916.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "©2012 MONSTER ENERGY COMPANY",
+   "score": 0.9866610765457153,
+   "poly": [
+    [
+     183.5,
+     914.0
+    ],
+    [
+     321.5,
+     914.0
+    ],
+    [
+     321.5,
+     931.0
+    ],
+    [
+     183.5,
+     931.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRICE, DATE OF MANUFACTURE, EPIRY/USEBDK",
+   "score": 0.8978137969970703,
+   "poly": [
+    [
+     179.5,
+     944.0
+    ],
+    [
+     411.0,
+     935.5
+    ],
+    [
+     412.0,
+     966.5
+    ],
+    [
+     180.5,
+     975.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BATCH NO., - SEE BASE OF CAN",
+   "score": 0.9692948460578918,
+   "poly": [
+    [
+     200.0,
+     964.5
+    ],
+    [
+     389.5,
+     959.0
+    ],
+    [
+     390.5,
+     987.0
+    ],
+    [
+     201.0,
+     993.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORE IN A COOL DRY PLACE,",
+   "score": 0.9701519012451172,
+   "poly": [
+    [
+     183.5,
+     984.0
+    ],
+    [
+     296.5,
+     988.5
+    ],
+    [
+     296.0,
+     1007.5
+    ],
+    [
+     183.0,
+     1003.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AWAY FROM DIRECT SUNLIGHT",
+   "score": 0.9985738396644592,
+   "poly": [
+    [
+     184.0,
+     999.0
+    ],
+    [
+     302.0,
+     1004.5
+    ],
+    [
+     301.0,
+     1023.5
+    ],
+    [
+     183.5,
+     1018.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "350ml",
+   "score": 0.9990066289901733,
+   "poly": [
+    [
+     325.5,
+     1013.5
+    ],
+    [
+     382.0,
+     1010.0
+    ],
+    [
+     384.0,
+     1046.5
+    ],
+    [
+     328.0,
+     1049.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NETQUANTITY",
+   "score": 0.991952657699585,
+   "poly": [
+    [
+     181.5,
+     1019.0
+    ],
+    [
+     277.0,
+     1024.5
+    ],
+    [
+     275.5,
+     1053.5
+    ],
+    [
+     180.0,
+     1048.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "FOR MRP (INCL",
+   "score": 0.9314029216766357,
+   "poly": [
+    [
+     185.57833862304688,
+     930.7699584960938
+    ],
+    [
+     265.6064758300781,
+     932.2520141601562
+    ],
+    [
+     265.3812561035156,
+     944.4144897460938
+    ],
+    [
+     185.35311889648438,
+     942.9324340820312
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  },
+  {
+   "text": "TAXES). UNIT SALE",
+   "score": 0.9594467282295227,
+   "poly": [
+    [
+     317.4742431640625,
+     930.338134765625
+    ],
+    [
+     406.80755615234375,
+     922.0428466796875
+    ],
+    [
+     408.4561767578125,
+     939.796875
+    ],
+    [
+     319.12286376953125,
+     948.0921630859375
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  },
+  {
+   "text": "Lic No:10016022055",
+   "score": 0.9058561325073242,
+   "poly": [
+    [
+     331.0513916015625,
+     911.08740234375
+    ],
+    [
+     406.15679931640625,
+     905.966552734375
+    ],
+    [
+     407.47174072265625,
+     925.251953125
+    ],
+    [
+     332.3663330078125,
+     930.372802734375
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  }
+ ]
+}

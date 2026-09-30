@@ -1,0 +1,1052 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo28.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 10.31,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 1,
+  "vertical_s": 1.13,
+  "refined": 7,
+  "refine_s": 2.7,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 1,
+  "curved_s": 1.88,
+  "secondary_replaced": 1,
+  "secondary_s": 0.76,
+  "regions": 37,
+  "total_s": 16.81
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "Sucralosescay",
+   "score": 0.8610842227935791,
+   "poly": [
+    [
+     155.0,
+     295.0
+    ],
+    [
+     295.5,
+     287.0
+    ],
+    [
+     296.5,
+     307.5
+    ],
+    [
+     156.0,
+     315.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "sc",
+   "alt_score": 0.31031617522239685
+  },
+  {
+   "tl_angle": 180,
+   "text": "100%",
+   "score": 0.9997923374176025,
+   "poly": [
+    [
+     116.5,
+     304.5
+    ],
+    [
+     152.0,
+     299.5
+    ],
+    [
+     154.5,
+     318.0
+    ],
+    [
+     119.0,
+     323.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "1001",
+   "alt_score": 0.7962887287139893
+  },
+  {
+   "tl_angle": 180,
+   "text": "based on published rau",
+   "score": 0.8057780861854553,
+   "poly": [
+    [
+     151.5,
+     313.0
+    ],
+    [
+     280.5,
+     303.5
+    ],
+    [
+     282.0,
+     323.0
+    ],
+    [
+     153.0,
+     332.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "basd on d n eatur",
+   "alt_score": 0.5488176941871643
+  },
+  {
+   "tl_angle": 180,
+   "text": "AF",
+   "score": 0.8971656560897827,
+   "poly": [
+    [
+     117.5,
+     319.5
+    ],
+    [
+     153.5,
+     315.5
+    ],
+    [
+     155.5,
+     332.5
+    ],
+    [
+     119.0,
+     337.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "n",
+   "score": 0.6201305389404297,
+   "poly": [
+    [
+     98.5,
+     341.5
+    ],
+    [
+     273.0,
+     326.0
+    ],
+    [
+     275.0,
+     347.0
+    ],
+    [
+     100.5,
+     363.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "hnde wgar in the diet",
+   "score": 0.8636329174041748,
+   "poly": [
+    [
+     106.5,
+     359.5
+    ],
+    [
+     201.0,
+     348.0
+    ],
+    [
+     203.0,
+     365.5
+    ],
+    [
+     108.5,
+     377.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Brand Owner:",
+   "score": 0.9654269218444824,
+   "poly": [
+    [
+     111.5,
+     382.0
+    ],
+    [
+     168.5,
+     375.0
+    ],
+    [
+     171.0,
+     396.5
+    ],
+    [
+     114.0,
+     403.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ZYOUS WELLNESS LIMITED",
+   "score": 0.9631165862083435,
+   "poly": [
+    [
+     117.5,
+     398.0
+    ],
+    [
+     242.0,
+     387.0
+    ],
+    [
+     244.0,
+     409.5
+    ],
+    [
+     119.5,
+     420.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Address: Refer Marketed",
+   "score": 0.9346694350242615,
+   "poly": [
+    [
+     124.5,
+     416.5
+    ],
+    [
+     227.5,
+     409.0
+    ],
+    [
+     229.0,
+     429.5
+    ],
+    [
+     126.0,
+     437.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issa",
+   "score": 0.9587767720222473,
+   "poly": [
+    [
+     232.5,
+     427.5
+    ],
+    [
+     264.5,
+     424.0
+    ],
+    [
+     266.0,
+     441.5
+    ],
+    [
+     234.0,
+     444.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "byaddress.",
+   "score": 0.94989013671875,
+   "poly": [
+    [
+     128.0,
+     436.0
+    ],
+    [
+     170.5,
+     431.5
+    ],
+    [
+     172.5,
+     452.5
+    ],
+    [
+     130.0,
+     457.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.10013021000591",
+   "score": 0.9679012298583984,
+   "poly": [
+    [
+     197.0,
+     446.5
+    ],
+    [
+     306.0,
+     438.5
+    ],
+    [
+     307.5,
+     460.5
+    ],
+    [
+     198.5,
+     468.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "YDUSWELLNESSPRODUCTS",
+   "score": 0.8878496289253235,
+   "poly": [
+    [
+     141.0,
+     473.0
+    ],
+    [
+     308.5,
+     462.5
+    ],
+    [
+     310.0,
+     484.5
+    ],
+    [
+     142.0,
+     495.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Zydus Corporate Park, Scheme No",
+   "score": 0.9079933762550354,
+   "poly": [
+    [
+     145.5,
+     494.0
+    ],
+    [
+     303.5,
+     485.0
+    ],
+    [
+     305.0,
+     505.5
+    ],
+    [
+     146.5,
+     514.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "No.536,Khora(Gandhinagar)",
+   "score": 0.7930618524551392,
+   "poly": [
+    [
+     148.0,
+     511.5
+    ],
+    [
+     296.0,
+     505.5
+    ],
+    [
+     297.0,
+     527.0
+    ],
+    [
+     149.0,
+     533.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ore,Ahmedabad-38248",
+   "score": 0.8243395090103149,
+   "poly": [
+    [
+     153.09771728515625,
+     531.6664428710938
+    ],
+    [
+     301.5742492675781,
+     525.5924682617188
+    ],
+    [
+     302.3763122558594,
+     545.1983032226562
+    ],
+    [
+     153.8997802734375,
+     551.2722778320312
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "sode Orcle,Ahmedabad-38248",
+   "alt_score": 0.6983484625816345
+  },
+  {
+   "tl_angle": 0,
+   "text": "Guarat,lda",
+   "score": 0.6925946474075317,
+   "poly": [
+    [
+     155.0,
+     548.0
+    ],
+    [
+     199.0,
+     548.0
+    ],
+    [
+     199.0,
+     570.0
+    ],
+    [
+     155.0,
+     570.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issa",
+   "score": 0.9678306579589844,
+   "poly": [
+    [
+     249.5,
+     558.5
+    ],
+    [
+     275.5,
+     557.0
+    ],
+    [
+     276.0,
+     573.0
+    ],
+    [
+     250.5,
+     574.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.10020021005270",
+   "score": 0.8819524645805359,
+   "poly": [
+    [
+     215.0,
+     574.5
+    ],
+    [
+     312.5,
+     569.5
+    ],
+    [
+     313.5,
+     592.0
+    ],
+    [
+     216.0,
+     596.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Zds Weess Pd",
+   "score": 0.5888479351997375,
+   "poly": [
+    [
+     161.5,
+     597.0
+    ],
+    [
+     292.5,
+     597.0
+    ],
+    [
+     292.5,
+     615.5
+    ],
+    [
+     161.5,
+     615.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "262728,30.36&37Near",
+   "score": 0.8576434254646301,
+   "poly": [
+    [
+     161.5,
+     611.5
+    ],
+    [
+     299.0,
+     612.5
+    ],
+    [
+     299.0,
+     631.0
+    ],
+    [
+     161.5,
+     630.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " ",
+   "score": 0.4366469383239746,
+   "poly": [
+    [
+     161.5,
+     625.0
+    ],
+    [
+     317.5,
+     626.5
+    ],
+    [
+     317.5,
+     648.0
+    ],
+    [
+     161.0,
+     647.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Balta Mamng-737132",
+   "score": 0.8708979487419128,
+   "poly": [
+    [
+     163.0,
+     639.0
+    ],
+    [
+     240.5,
+     644.5
+    ],
+    [
+     239.0,
+     665.0
+    ],
+    [
+     162.0,
+     659.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sath Skkm indie",
+   "score": 0.8187198638916016,
+   "poly": [
+    [
+     164.0,
+     654.5
+    ],
+    [
+     221.5,
+     661.0
+    ],
+    [
+     219.5,
+     678.5
+    ],
+    [
+     162.0,
+     672.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "South Skom indiea",
+   "alt_score": 0.7549395561218262
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issa",
+   "score": 0.9767234325408936,
+   "poly": [
+    [
+     256.5,
+     657.5
+    ],
+    [
+     280.5,
+     656.0
+    ],
+    [
+     281.0,
+     670.5
+    ],
+    [
+     257.5,
+     672.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No. 10012035000021",
+   "score": 0.9391350150108337,
+   "poly": [
+    [
+     222.5,
+     672.0
+    ],
+    [
+     318.0,
+     668.5
+    ],
+    [
+     319.0,
+     689.0
+    ],
+    [
+     223.5,
+     692.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ForConsume Cmplant/Query!",
+   "score": 0.8583458065986633,
+   "poly": [
+    [
+     164.5,
+     692.0
+    ],
+    [
+     295.5,
+     701.0
+    ],
+    [
+     294.0,
+     726.0
+    ],
+    [
+     163.0,
+     717.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "ForCosumer Complaint/Query",
+   "alt_score": 0.7850894331932068
+  },
+  {
+   "tl_angle": 0,
+   "text": "ta",
+   "score": 0.42768949270248413,
+   "poly": [
+    [
+     161.5,
+     710.0
+    ],
+    [
+     316.5,
+     718.0
+    ],
+    [
+     315.0,
+     744.5
+    ],
+    [
+     160.0,
+     736.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "",
+   "score": 0.0,
+   "poly": [
+    [
+     159.0,
+     725.5
+    ],
+    [
+     326.0,
+     733.0
+    ],
+    [
+     324.5,
+     762.5
+    ],
+    [
+     157.5,
+     755.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "o",
+   "score": 0.7409082651138306,
+   "poly": [
+    [
+     156.5,
+     741.0
+    ],
+    [
+     329.5,
+     753.0
+    ],
+    [
+     327.5,
+     784.5
+    ],
+    [
+     154.5,
+     772.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "s",
+   "alt_score": 0.4713771939277649
+  },
+  {
+   "tl_angle": 0,
+   "text": "M-Trademark under",
+   "score": 0.9626834988594055,
+   "poly": [
+    [
+     159.5,
+     765.5
+    ],
+    [
+     252.5,
+     783.0
+    ],
+    [
+     248.5,
+     805.0
+    ],
+    [
+     155.5,
+     787.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Icaese from Zydus",
+   "score": 0.7651485204696655,
+   "poly": [
+    [
+     158.0,
+     782.0
+    ],
+    [
+     236.0,
+     798.0
+    ],
+    [
+     233.0,
+     815.0
+    ],
+    [
+     155.0,
+     799.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Weliness Limited.",
+   "score": 0.8960700035095215,
+   "poly": [
+    [
+     157.0,
+     795.0
+    ],
+    [
+     228.0,
+     811.5
+    ],
+    [
+     224.5,
+     828.0
+    ],
+    [
+     153.5,
+     811.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Seving Suggestion only",
+   "score": 0.9407212734222412,
+   "poly": [
+    [
+     149.5,
+     829.5
+    ],
+    [
+     242.0,
+     852.5
+    ],
+    [
+     236.0,
+     876.0
+    ],
+    [
+     144.0,
+     853.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "1 4 : 08",
+   "score": 0.888900637626648,
+   "poly": [
+    [
+     379.5,
+     291.5
+    ],
+    [
+     374.5,
+     378.0
+    ],
+    [
+     351.0,
+     377.0
+    ],
+    [
+     356.5,
+     290.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "01706",
+   "score": 0.703323483467102,
+   "poly": [
+    [
+     374.0,
+     593.0
+    ],
+    [
+     384.5,
+     693.5
+    ],
+    [
+     367.5,
+     695.0
+    ],
+    [
+     356.5,
+     594.5
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "Per 9)",
+   "score": 0.9634416699409485,
+   "poly": [
+    [
+     366.0,
+     405.0
+    ],
+    [
+     360.5,
+     515.0
+    ],
+    [
+     343.5,
+     514.5
+    ],
+    [
+     349.0,
+     404.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "अ  ज",
+   "score": 0.33708736300468445,
+   "poly": [
+    [
+     363.5,
+     610.0
+    ],
+    [
+     367.5,
+     670.5
+    ],
+    [
+     350.0,
+     671.5
+    ],
+    [
+     346.5,
+     611.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "<R",
+   "alt_score": 0.42641499638557434
+  },
+  {
+   "text": "1º08",
+   "score": 0.7571049928665161,
+   "poly": [
+    [
+     368.0,
+     665.5
+    ],
+    [
+     375.5,
+     733.5
+    ],
+    [
+     356.0,
+     735.0
+    ],
+    [
+     349.0,
+     667.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "00",
+   "alt_score": 0.6385660767555237
+  }
+ ]
+}

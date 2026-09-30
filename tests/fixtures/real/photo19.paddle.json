@@ -1,0 +1,166 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo19.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 7.58,
+  "contrast_added": 1,
+  "contrast_s": 13.81,
+  "zoom_added": 0,
+  "zoom_s": 3.26,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.11,
+  "regions": 4,
+  "total_s": 24.79
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Pkd:22/AUG/26 Exp:18/FEB/27",
+   "score": 0.999457836151123,
+   "poly": [
+    [
+     87.5,
+     319.5
+    ],
+    [
+     376.5,
+     312.5
+    ],
+    [
+     377.0,
+     345.0
+    ],
+    [
+     88.5,
+     352.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "17:03:41",
+   "score": 0.9967337846755981,
+   "poly": [
+    [
+     130.5,
+     407.0
+    ],
+    [
+     219.0,
+     405.0
+    ],
+    [
+     220.0,
+     445.5
+    ],
+    [
+     131.0,
+     447.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BN:GAF2341",
+   "score": 0.9888848066329956,
+   "poly": [
+    [
+     266.5,
+     405.0
+    ],
+    [
+     371.5,
+     403.5
+    ],
+    [
+     372.0,
+     441.0
+    ],
+    [
+     267.0,
+     443.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "L9 MRP  26: USP  0.10/mL",
+   "score": 0.9469184875488281,
+   "poly": [
+    [
+     91.0,
+     343.0
+    ],
+    [
+     390.0,
+     336.0
+    ],
+    [
+     391.0,
+     372.0
+    ],
+    [
+     92.0,
+     379.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  }
+ ]
+}

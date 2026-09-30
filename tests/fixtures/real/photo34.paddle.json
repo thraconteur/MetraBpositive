@@ -1,0 +1,645 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo34.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 10.0,
+  "zoom_added": 0,
+  "zoom_s": 7.22,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.9,
+  "block_lines": 0,
+  "block_s": 4.43,
+  "curved": 3,
+  "curved_s": 1.67,
+  "secondary_replaced": 0,
+  "secondary_s": 0.37,
+  "regions": 23,
+  "total_s": 24.62
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Disodium EDTA, Imidazolidinyl Urea,",
+   "score": 0.9660164573613335,
+   "poly": [
+    [
+     229.09915161132812,
+     510.27935791015625
+    ],
+    [
+     418.6416931152344,
+     505.44683837890625
+    ],
+    [
+     419.1368713378906,
+     524.8690795898438
+    ],
+    [
+     229.59432983398438,
+     529.7015991210938
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "DEDTAImaUa",
+   "alt_score": 0.6659708023071289
+  },
+  {
+   "tl_angle": 0,
+   "text": "Poyacye-13andPlysobue",
+   "score": 0.682592511177063,
+   "poly": [
+    [
+     223.5,
+     522.5
+    ],
+    [
+     438.0,
+     519.5
+    ],
+    [
+     438.5,
+     547.5
+    ],
+    [
+     224.0,
+     550.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Polysorbate-20,Ceramide NP(and)",
+   "score": 0.8882402777671814,
+   "poly": [
+    [
+     224.0,
+     539.5
+    ],
+    [
+     430.0,
+     535.5
+    ],
+    [
+     430.5,
+     561.5
+    ],
+    [
+     224.5,
+     566.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Camide AP (and) Ceramide EOP(",
+   "score": 0.7227206230163574,
+   "poly": [
+    [
+     224.0,
+     553.5
+    ],
+    [
+     443.0,
+     551.5
+    ],
+    [
+     443.0,
+     579.5
+    ],
+    [
+     224.0,
+     581.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Phytosphingosine (and) Cholesterol (and",
+   "score": 0.959722101688385,
+   "poly": [
+    [
+     228.8601837158203,
+     574.8826293945312
+    ],
+    [
+     443.8787536621094,
+     572.7537231445312
+    ],
+    [
+     444.07867431640625,
+     592.9447631835938
+    ],
+    [
+     229.06008911132812,
+     595.0736694335938
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "ose(ad)",
+   "alt_score": 0.6197396516799927
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sodium Lauroyl Lactylate (and) Carme",
+   "score": 0.8630170822143555,
+   "poly": [
+    [
+     224.5,
+     587.5
+    ],
+    [
+     448.5,
+     586.0
+    ],
+    [
+     448.5,
+     610.5
+    ],
+    [
+     225.0,
+     612.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(and) Xanthan Gum (Ceramide Comple",
+   "score": 0.946643590927124,
+   "poly": [
+    [
+     225.5,
+     604.0
+    ],
+    [
+     445.5,
+     602.0
+    ],
+    [
+     445.5,
+     625.5
+    ],
+    [
+     226.0,
+     627.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manufactured by: Bili Life Science LPP.",
+   "score": 0.9731602072715759,
+   "poly": [
+    [
+     225.5,
+     633.5
+    ],
+    [
+     441.5,
+     630.5
+    ],
+    [
+     442.0,
+     650.5
+    ],
+    [
+     226.0,
+     653.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "36.37 Tulsi Industrial Estate, B/f",
+   "score": 0.9972282648086548,
+   "poly": [
+    [
+     227.0,
+     649.5
+    ],
+    [
+     415.5,
+     646.5
+    ],
+    [
+     415.5,
+     664.0
+    ],
+    [
+     227.0,
+     667.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Changodar Bridge, Changodar, Ahmed-",
+   "score": 0.965212345123291,
+   "poly": [
+    [
+     226.5,
+     664.5
+    ],
+    [
+     441.5,
+     661.5
+    ],
+    [
+     442.0,
+     680.5
+    ],
+    [
+     226.5,
+     683.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "abad-382213, Gujrat.",
+   "score": 0.9805102348327637,
+   "poly": [
+    [
+     227.0,
+     680.0
+    ],
+    [
+     352.0,
+     677.5
+    ],
+    [
+     352.0,
+     695.0
+    ],
+    [
+     227.5,
+     697.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg.Lic.No.-GC/1679",
+   "score": 0.9999088644981384,
+   "poly": [
+    [
+     227.0,
+     695.5
+    ],
+    [
+     355.0,
+     692.5
+    ],
+    [
+     355.5,
+     711.0
+    ],
+    [
+     227.5,
+     714.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed by: Mosaic Wellness Pvt. Ld",
+   "score": 0.9441622495651245,
+   "poly": [
+    [
+     226.0,
+     730.5
+    ],
+    [
+     442.0,
+     727.0
+    ],
+    [
+     442.5,
+     747.0
+    ],
+    [
+     226.5,
+     750.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6th Floor, ThaneOne, DIL Complex,",
+   "score": 0.9690939784049988,
+   "poly": [
+    [
+     227.5,
+     748.0
+    ],
+    [
+     429.5,
+     745.5
+    ],
+    [
+     429.5,
+     764.0
+    ],
+    [
+     227.5,
+     766.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Majiwada, Thane West - 400610",
+   "score": 0.9949068427085876,
+   "poly": [
+    [
+     226.0,
+     764.0
+    ],
+    [
+     416.0,
+     761.5
+    ],
+    [
+     416.5,
+     781.5
+    ],
+    [
+     226.5,
+     784.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For queries, Contact Customer Care",
+   "score": 0.9890037775039673,
+   "poly": [
+    [
+     226.5,
+     796.5
+    ],
+    [
+     450.5,
+     791.5
+    ],
+    [
+     451.0,
+     816.0
+    ],
+    [
+     227.0,
+     821.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manager at Marketer's Address or",
+   "score": 0.9921602010726929,
+   "poly": [
+    [
+     227.0,
+     814.0
+    ],
+    [
+     441.0,
+     811.0
+    ],
+    [
+     441.5,
+     834.0
+    ],
+    [
+     227.5,
+     837.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Esupport@bebodywise.com",
+   "score": 0.9976562857627869,
+   "poly": [
+    [
+     229.0,
+     832.0
+    ],
+    [
+     401.0,
+     833.0
+    ],
+    [
+     401.0,
+     853.0
+    ],
+    [
+     229.0,
+     852.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8128688128",
+   "score": 0.9998825788497925,
+   "poly": [
+    [
+     239.0,
+     848.5
+    ],
+    [
+     318.5,
+     852.0
+    ],
+    [
+     317.5,
+     869.5
+    ],
+    [
+     238.0,
+     865.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "W:www.bebodywise.com",
+   "score": 0.9973543286323547,
+   "poly": [
+    [
+     228.0,
+     864.5
+    ],
+    [
+     396.5,
+     867.5
+    ],
+    [
+     396.0,
+     889.0
+    ],
+    [
+     228.0,
+     886.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "@be.bodywise",
+   "score": 0.9992401599884033,
+   "poly": [
+    [
+     251.5,
+     884.5
+    ],
+    [
+     340.5,
+     888.5
+    ],
+    [
+     339.5,
+     905.5
+    ],
+    [
+     251.0,
+     901.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MTrademark under registration",
+   "score": 0.9603171944618225,
+   "poly": [
+    [
+     229.59628295898438,
+     917.3837890625
+    ],
+    [
+     425.6499938964844,
+     919.5743408203125
+    ],
+    [
+     425.3834533691406,
+     943.431640625
+    ],
+    [
+     229.32974243164062,
+     941.2410888671875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Trademark underregstran",
+   "alt_score": 0.7985104322433472
+  },
+  {
+   "tl_angle": 0,
+   "text": "MADE IN INDIA",
+   "score": 0.9837003350257874,
+   "poly": [
+    [
+     228.5,
+     953.0
+    ],
+    [
+     316.0,
+     963.0
+    ],
+    [
+     313.0,
+     985.0
+    ],
+    [
+     226.0,
+     974.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

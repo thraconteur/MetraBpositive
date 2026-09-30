@@ -1,0 +1,1632 @@
+{
+ "source": "photo5.jpg",
+ "ocr_input_shape": [
+  954,
+  1600,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "secondary_lang": null,
+  "enable_mkldnn": false,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": true,
+  "regions": 66,
+  "total_s": 0.01
+ },
+ "regions": [
+  {
+   "text": "NESTLÉ INDIA LIMITED BO-13-000-07-AAACN0757G-22",
+   "score": 0.9913175702095032,
+   "poly": [
+    [
+     924.0,
+     152.5
+    ],
+    [
+     1249.0,
+     149.0
+    ],
+    [
+     1249.0,
+     170.5
+    ],
+    [
+     924.0,
+     174.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "NGREDENTS: Mixedspices(35.6%)(Roastedspce Mkb: NeséIndaLd,100/101,",
+   "score": 0.738663911819458,
+   "poly": [
+    [
+     500.0,
+     179.5
+    ],
+    [
+     959.0,
+     175.0
+    ],
+    [
+     959.0,
+     199.5
+    ],
+    [
+     500.0,
+     204.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "LET'S TACK",
+   "score": 0.9512640237808228,
+   "poly": [
+    [
+     970.0,
+     178.0
+    ],
+    [
+     1060.0,
+     178.0
+    ],
+    [
+     1060.0,
+     200.5
+    ],
+    [
+     970.0,
+     200.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Jder",
+   "score": 0.7879365682601929,
+   "poly": [
+    [
+     430.0,
+     202.5
+    ],
+    [
+     467.0,
+     202.5
+    ],
+    [
+     467.0,
+     231.5
+    ],
+    [
+     430.0,
+     231.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "powder (17.8%) (Cumin, Coriander, Turmeric,",
+   "score": 0.9555424451828003,
+   "poly": [
+    [
+     499.5,
+     201.5
+    ],
+    [
+     771.0,
+     197.5
+    ],
+    [
+     771.0,
+     222.5
+    ],
+    [
+     499.5,
+     226.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "World Trade Centre, Barakhamba",
+   "score": 0.9950302839279175,
+   "poly": [
+    [
+     769.5,
+     199.0
+    ],
+    [
+     957.0,
+     195.5
+    ],
+    [
+     957.0,
+     215.5
+    ],
+    [
+     769.5,
+     218.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "NESTLÉ CONSUMER CARE",
+   "score": 0.9770030975341797,
+   "poly": [
+    [
+     980.0,
+     205.5
+    ],
+    [
+     1145.0,
+     204.0
+    ],
+    [
+     1145.0,
+     240.5
+    ],
+    [
+     980.0,
+     241.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lane, New Delhi -110 001.",
+   "score": 0.9840494394302368,
+   "poly": [
+    [
+     770.0,
+     217.0
+    ],
+    [
+     923.5,
+     214.5
+    ],
+    [
+     923.5,
+     234.5
+    ],
+    [
+     770.0,
+     237.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "A",
+   "score": 0.9477614164352417,
+   "poly": [
+    [
+     500.0,
+     222.5
+    ],
+    [
+     768.5,
+     220.0
+    ],
+    [
+     768.5,
+     244.0
+    ],
+    [
+     500.0,
+     246.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Aniseed, Black pepper, Fenugreek, Ginger, Clove,",
+   "alt_score": 0.752264678478241
+  },
+  {
+   "text": "Mfg. by: Nestlé India Ltd.,",
+   "score": 0.9841475486755371,
+   "poly": [
+    [
+     771.0,
+     235.5
+    ],
+    [
+     923.0,
+     233.0
+    ],
+    [
+     923.5,
+     255.0
+    ],
+    [
+     771.5,
+     257.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Green cardamom powder, Nutmeg), Red chill",
+   "score": 0.9679443836212158,
+   "poly": [
+    [
+     500.0,
+     243.0
+    ],
+    [
+     769.5,
+     241.5
+    ],
+    [
+     769.5,
+     265.5
+    ],
+    [
+     500.0,
+     267.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "P.O.BAG2, NEWDELHI-110001",
+   "score": 0.9781237840652466,
+   "poly": [
+    [
+     958.0,
+     239.0
+    ],
+    [
+     1141.5,
+     239.0
+    ],
+    [
+     1141.5,
+     272.0
+    ],
+    [
+     958.0,
+     272.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "For Manufacturer Address scan",
+   "score": 0.9984815716743469,
+   "poly": [
+    [
+     772.0,
+     255.0
+    ],
+    [
+     960.0,
+     252.0
+    ],
+    [
+     960.0,
+     271.5
+    ],
+    [
+     772.0,
+     275.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "52",
+   "score": 0.8413208723068237,
+   "poly": [
+    [
+     1152.0,
+     250.5
+    ],
+    [
+     1197.5,
+     250.5
+    ],
+    [
+     1197.5,
+     303.5
+    ],
+    [
+     1152.0,
+     303.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "52",
+   "alt_score": 0.6711857318878174
+  },
+  {
+   "text": "powder, Dehydrated nion,Dried gac, Capscum",
+   "score": 0.8340715765953064,
+   "poly": [
+    [
+     499.5,
+     264.0
+    ],
+    [
+     769.5,
+     264.0
+    ],
+    [
+     769.5,
+     287.5
+    ],
+    [
+     499.5,
+     287.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "the barcode and refer letter",
+   "score": 0.9867738485336304,
+   "poly": [
+    [
+     772.5,
+     274.0
+    ],
+    [
+     937.0,
+     272.0
+    ],
+    [
+     937.0,
+     291.0
+    ],
+    [
+     772.5,
+     292.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "WECARE@IN.NESTLE.COM",
+   "score": 0.997852623462677,
+   "poly": [
+    [
+     960.5,
+     269.5
+    ],
+    [
+     1142.5,
+     268.0
+    ],
+    [
+     1142.5,
+     302.5
+    ],
+    [
+     960.5,
+     303.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "extrac, Criande exa, Cumin exracde",
+   "score": 0.673183798789978,
+   "poly": [
+    [
+     499.5,
+     285.0
+    ],
+    [
+     770.5,
+     285.0
+    ],
+    [
+     770.5,
+     308.5
+    ],
+    [
+     499.5,
+     308.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "after USE BY and see below",
+   "score": 0.9637250900268555,
+   "poly": [
+    [
+     772.0,
+     292.5
+    ],
+    [
+     936.5,
+     291.0
+    ],
+    [
+     936.5,
+     309.5
+    ],
+    [
+     772.0,
+     311.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "18001031947",
+   "score": 0.999955415725708,
+   "poly": [
+    [
+     963.5,
+     301.0
+    ],
+    [
+     1087.0,
+     301.0
+    ],
+    [
+     1087.0,
+     336.0
+    ],
+    [
+     963.5,
+     336.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "salt, Sugar, Starch, Flavour enhancer (635),",
+   "score": 0.9484232068061829,
+   "poly": [
+    [
+     499.5,
+     306.5
+    ],
+    [
+     770.5,
+     306.5
+    ],
+    [
+     770.5,
+     330.5
+    ],
+    [
+     499.5,
+     330.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "B) Lic. No. 10012025000032",
+   "score": 0.9835184812545776,
+   "poly": [
+    [
+     770.5,
+     310.0
+    ],
+    [
+     962.0,
+     308.0
+    ],
+    [
+     962.0,
+     328.5
+    ],
+    [
+     770.5,
+     330.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Thickener (508), Acidity regulator (330), Palmo,",
+   "score": 0.8475781083106995,
+   "poly": [
+    [
+     500.0,
+     329.0
+    ],
+    [
+     770.5,
+     329.0
+    ],
+    [
+     770.5,
+     352.5
+    ],
+    [
+     500.0,
+     352.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "G) Lic. No. 10012043000066",
+   "score": 0.9702569246292114,
+   "poly": [
+    [
+     768.0,
+     327.5
+    ],
+    [
+     963.5,
+     325.5
+    ],
+    [
+     963.5,
+     350.5
+    ],
+    [
+     768.0,
+     353.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "KNOW YOUR PORTION",
+   "score": 0.9751187562942505,
+   "poly": [
+    [
+     973.0,
+     335.0
+    ],
+    [
+     1142.5,
+     332.5
+    ],
+    [
+     1143.0,
+     356.0
+    ],
+    [
+     973.5,
+     359.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Natural flavouring subslance, Mineraland Vitamin.",
+   "score": 0.7779472470283508,
+   "poly": [
+    [
+     500.0,
+     350.5
+    ],
+    [
+     766.5,
+     350.5
+    ],
+    [
+     766.5,
+     373.5
+    ],
+    [
+     500.0,
+     373.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lic. No.10012012000182",
+   "score": 0.9786370992660522,
+   "poly": [
+    [
+     789.5,
+     348.0
+    ],
+    [
+     960.5,
+     345.5
+    ],
+    [
+     960.5,
+     365.5
+    ],
+    [
+     789.5,
+     368.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "H) Lic. No. 100120620000211 serve=2g.Packcontains3serves.",
+   "score": 0.9727880358695984,
+   "poly": [
+    [
+     770.0,
+     365.5
+    ],
+    [
+     1149.0,
+     360.0
+    ],
+    [
+     1149.0,
+     383.5
+    ],
+    [
+     770.0,
+     388.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "May Contain Wheat, Mik, Mustard and Soy",
+   "score": 0.9181309342384338,
+   "poly": [
+    [
+     499.0,
+     372.5
+    ],
+    [
+     728.0,
+     371.5
+    ],
+    [
+     728.0,
+     397.0
+    ],
+    [
+     499.0,
+     398.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "CLic. No. 10021021000783 Per serve contribution to RDA-",
+   "score": 0.9794763326644897,
+   "poly": [
+    [
+     771.0,
+     384.5
+    ],
+    [
+     1146.0,
+     381.0
+    ],
+    [
+     1146.0,
+     403.0
+    ],
+    [
+     771.0,
+     406.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "I",
+   "score": 0.3800457715988159,
+   "poly": [
+    [
+     1154.5,
+     387.5
+    ],
+    [
+     1204.5,
+     387.5
+    ],
+    [
+     1204.5,
+     444.5
+    ],
+    [
+     1154.5,
+     444.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Spice content above 25%; Salt content above 5%.",
+   "score": 0.9342106580734253,
+   "poly": [
+    [
+     500.0,
+     396.0
+    ],
+    [
+     760.0,
+     394.0
+    ],
+    [
+     760.0,
+     417.5
+    ],
+    [
+     500.0,
+     419.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "心",
+   "score": 0.7334595918655396,
+   "poly": [
+    [
+     1193.5,
+     393.0
+    ],
+    [
+     1228.0,
+     389.0
+    ],
+    [
+     1231.5,
+     417.0
+    ],
+    [
+     1197.0,
+     421.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "3.",
+   "alt_score": 0.379722535610199
+  },
+  {
+   "text": "MRP5 (incl. of alll taxes)",
+   "score": 0.9058704972267151,
+   "poly": [
+    [
+     772.0,
+     403.5
+    ],
+    [
+     931.5,
+     403.5
+    ],
+    [
+     931.5,
+     439.5
+    ],
+    [
+     772.0,
+     439.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.2% energy, 0.5% added sugar,",
+   "score": 0.9784563183784485,
+   "poly": [
+    [
+     965.0,
+     404.5
+    ],
+    [
+     1146.5,
+     402.0
+    ],
+    [
+     1146.5,
+     423.5
+    ],
+    [
+     965.0,
+     426.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Nutrition Information (Approx. Values)",
+   "score": 0.9998544454574585,
+   "poly": [
+    [
+     503.5,
+     420.5
+    ],
+    [
+     762.5,
+     419.5
+    ],
+    [
+     762.5,
+     441.0
+    ],
+    [
+     503.5,
+     442.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.1% total fat, 0.5% saturated fat,",
+   "score": 0.9433622360229492,
+   "poly": [
+    [
+     965.0,
+     424.5
+    ],
+    [
+     1147.0,
+     421.5
+    ],
+    [
+     1147.0,
+     444.0
+    ],
+    [
+     965.0,
+     447.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "(0.83 perg eeoingareafor",
+   "score": 0.7950618863105774,
+   "poly": [
+    [
+     775.0,
+     437.5
+    ],
+    [
+     965.0,
+     435.5
+    ],
+    [
+     965.0,
+     472.5
+    ],
+    [
+     775.0,
+     474.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "(0.83 per g) e ceding ea",
+   "alt_score": 0.6898545622825623
+  },
+  {
+   "text": "Every 100g of Masala-ae-Magic contains 166 kcal of",
+   "score": 0.9701430797576904,
+   "poly": [
+    [
+     505.5,
+     445.0
+    ],
+    [
+     768.0,
+     442.0
+    ],
+    [
+     768.0,
+     464.0
+    ],
+    [
+     505.5,
+     466.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.5% trans fat and 11% sodium.",
+   "score": 0.990894079208374,
+   "poly": [
+    [
+     964.5,
+     444.5
+    ],
+    [
+     1147.0,
+     442.0
+    ],
+    [
+     1147.0,
+     464.0
+    ],
+    [
+     964.5,
+     466.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Energy, 4.2g of Protein, 30.7g of Carbohydrate, 13.5g",
+   "score": 0.9573639631271362,
+   "poly": [
+    [
+     505.5,
+     465.5
+    ],
+    [
+     768.0,
+     463.0
+    ],
+    [
+     768.0,
+     485.5
+    ],
+    [
+     505.5,
+     488.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Each serve provides 16% Iron&",
+   "score": 0.9652819037437439,
+   "poly": [
+    [
+     965.0,
+     464.0
+    ],
+    [
+     1147.5,
+     462.5
+    ],
+    [
+     1147.5,
+     484.5
+    ],
+    [
+     965.0,
+     486.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lot No.-MFD.-USEBY-MFG.BY",
+   "score": 0.9654179215431213,
+   "poly": [
+    [
+     774.5,
+     471.5
+    ],
+    [
+     964.0,
+     468.5
+    ],
+    [
+     964.5,
+     506.5
+    ],
+    [
+     775.0,
+     510.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "of Total Sugars (of which 12.6g is Added Sugars), 9.1g",
+   "score": 0.9384625554084778,
+   "poly": [
+    [
+     504.5,
+     486.0
+    ],
+    [
+     768.5,
+     484.0
+    ],
+    [
+     768.5,
+     506.0
+    ],
+    [
+     504.5,
+     508.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "17% Vitamin B9 of the RDA for",
+   "score": 0.9962649941444397,
+   "poly": [
+    [
+     967.5,
+     485.0
+    ],
+    [
+     1115.0,
+     485.0
+    ],
+    [
+     1115.0,
+     505.5
+    ],
+    [
+     967.5,
+     505.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "of Fiber, 2.9g of Total Fat (of which 1.4g is Saturated",
+   "score": 0.9766219258308411,
+   "poly": [
+    [
+     503.5,
+     507.0
+    ],
+    [
+     768.5,
+     505.0
+    ],
+    [
+     768.5,
+     526.0
+    ],
+    [
+     503.5,
+     528.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "fssai",
+   "score": 0.8887948989868164,
+   "poly": [
+    [
+     842.5,
+     504.5
+    ],
+    [
+     929.0,
+     502.0
+    ],
+    [
+     930.5,
+     549.0
+    ],
+    [
+     844.0,
+     552.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "sedentary aduts (ICMR,2020).",
+   "score": 0.9006242752075195,
+   "poly": [
+    [
+     967.5,
+     505.5
+    ],
+    [
+     1119.0,
+     505.5
+    ],
+    [
+     1119.0,
+     527.5
+    ],
+    [
+     967.5,
+     527.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "onot more than",
+   "score": 0.9827337861061096,
+   "poly": [
+    [
+     773.5,
+     512.0
+    ],
+    [
+     793.0,
+     511.5
+    ],
+    [
+     794.5,
+     593.0
+    ],
+    [
+     775.0,
+     593.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "J",
+   "score": 0.18712356686592102,
+   "poly": [
+    [
+     1164.5,
+     514.0
+    ],
+    [
+     1206.0,
+     515.5
+    ],
+    [
+     1205.5,
+     541.0
+    ],
+    [
+     1164.0,
+     539.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Di",
+   "score": 0.49137893319129944,
+   "poly": [
+    [
+     1203.0,
+     516.5
+    ],
+    [
+     1237.5,
+     516.5
+    ],
+    [
+     1237.5,
+     540.0
+    ],
+    [
+     1203.0,
+     540.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "FaandTransFa",
+   "score": 0.6515856385231018,
+   "poly": [
+    [
+     505.5,
+     527.0
+    ],
+    [
+     767.5,
+     525.0
+    ],
+    [
+     767.5,
+     547.0
+    ],
+    [
+     505.5,
+     549.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "a   o u",
+   "alt_score": 0.46540331840515137
+  },
+  {
+   "text": "ow t    y",
+   "score": 0.6884247660636902,
+   "poly": [
+    [
+     966.5,
+     526.5
+    ],
+    [
+     1154.0,
+     526.5
+    ],
+    [
+     1154.0,
+     550.0
+    ],
+    [
+     966.5,
+     550.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "240.00mg.00",
+   "score": 0.6644777655601501,
+   "poly": [
+    [
+     504.5,
+     549.0
+    ],
+    [
+     749.0,
+     545.5
+    ],
+    [
+     749.0,
+     567.5
+    ],
+    [
+     504.5,
+     571.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "o    n",
+   "alt_score": 0.5808346271514893
+  },
+  {
+   "text": "Lic.No.10012011000168",
+   "score": 0.9681509733200073,
+   "poly": [
+    [
+     812.5,
+     545.0
+    ],
+    [
+     961.5,
+     543.5
+    ],
+    [
+     961.5,
+     573.0
+    ],
+    [
+     812.5,
+     574.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "normally do. Addasachet and stir",
+   "score": 0.9353652000427246,
+   "poly": [
+    [
+     966.5,
+     549.0
+    ],
+    [
+     1155.0,
+     547.0
+    ],
+    [
+     1155.0,
+     570.5
+    ],
+    [
+     966.5,
+     572.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "on low flame for 2-3 minutes",
+   "score": 0.9939966201782227,
+   "poly": [
+    [
+     968.5,
+     571.5
+    ],
+    [
+     1130.5,
+     569.0
+    ],
+    [
+     1131.0,
+     591.0
+    ],
+    [
+     969.0,
+     594.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Brand Owner:®Reg. Trademark of Société Des Produits",
+   "score": 0.9838265776634216,
+   "poly": [
+    [
+     500.5,
+     579.5
+    ],
+    [
+     775.0,
+     575.5
+    ],
+    [
+     775.0,
+     597.0
+    ],
+    [
+     500.5,
+     601.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Scan for Recipes",
+   "score": 0.9947860836982727,
+   "poly": [
+    [
+     851.5,
+     577.5
+    ],
+    [
+     964.5,
+     577.5
+    ],
+    [
+     964.5,
+     601.0
+    ],
+    [
+     851.5,
+     601.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "印",
+   "score": 0.6158966422080994,
+   "poly": [
+    [
+     1163.5,
+     585.0
+    ],
+    [
+     1249.5,
+     585.0
+    ],
+    [
+     1249.5,
+     643.5
+    ],
+    [
+     1163.5,
+     643.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Neslé S.A., Avenue Nesté 55,1800 Vevey, Switzerland",
+   "score": 0.7913192510604858,
+   "poly": [
+    [
+     500.0,
+     600.5
+    ],
+    [
+     771.5,
+     596.5
+    ],
+    [
+     771.5,
+     618.5
+    ],
+    [
+     500.0,
+     622.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "STORE IN A COOL, DRYAND HYGIENIC PLACE",
+   "score": 0.8910528421401978,
+   "poly": [
+    [
+     500.0,
+     620.0
+    ],
+    [
+     744.5,
+     616.5
+    ],
+    [
+     745.0,
+     643.5
+    ],
+    [
+     500.5,
+     647.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "OTHER",
+   "score": 0.9999869465827942,
+   "poly": [
+    [
+     786.0,
+     638.0
+    ],
+    [
+     848.5,
+     638.0
+    ],
+    [
+     848.5,
+     658.0
+    ],
+    [
+     786.0,
+     658.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "NET QUANTITY:",
+   "score": 0.960159957408905,
+   "poly": [
+    [
+     535.0,
+     673.5
+    ],
+    [
+     630.0,
+     672.0
+    ],
+    [
+     630.5,
+     712.5
+    ],
+    [
+     535.5,
+     713.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "89080795",
+   "score": 0.9998924732208252,
+   "poly": [
+    [
+     1017.5,
+     695.5
+    ],
+    [
+     1145.0,
+     694.0
+    ],
+    [
+     1145.0,
+     716.5
+    ],
+    [
+     1017.5,
+     718.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "10057",
+   "score": 0.9990094304084778,
+   "poly": [
+    [
+     819.5,
+     720.0
+    ],
+    [
+     873.5,
+     719.0
+    ],
+    [
+     873.5,
+     731.0
+    ],
+    [
+     819.5,
+     732.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ],
+ "provenance": "Real PaddleOCR 3.7 output from a teammate's machine (replayed from his OCR cache)."
+}

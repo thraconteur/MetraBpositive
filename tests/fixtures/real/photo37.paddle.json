@@ -1,0 +1,1393 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo37.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 12.53,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.77,
+  "block_lines": 0,
+  "block_s": 2.62,
+  "curved": 2,
+  "curved_s": 1.85,
+  "secondary_replaced": 0,
+  "secondary_s": 0.79,
+  "regions": 53,
+  "total_s": 18.6
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Nat Habit products are",
+   "score": 0.9867138266563416,
+   "poly": [
+    [
+     262.0,
+     295.5
+    ],
+    [
+     384.5,
+     297.5
+    ],
+    [
+     384.0,
+     319.0
+    ],
+    [
+     262.0,
+     317.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "inspired by Indian natural",
+   "score": 0.9732668399810791,
+   "poly": [
+    [
+     260.0,
+     310.5
+    ],
+    [
+     391.5,
+     311.5
+    ],
+    [
+     391.5,
+     333.5
+    ],
+    [
+     259.5,
+     332.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "recipes &-are freshly",
+   "score": 0.9535207152366638,
+   "poly": [
+    [
+     270.5,
+     326.0
+    ],
+    [
+     378.5,
+     327.5
+    ],
+    [
+     378.0,
+     346.5
+    ],
+    [
+     270.5,
+     345.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "prepared daily in",
+   "score": 0.9989157319068909,
+   "poly": [
+    [
+     278.0,
+     342.5
+    ],
+    [
+     370.5,
+     342.5
+    ],
+    [
+     370.5,
+     358.0
+    ],
+    [
+     278.0,
+     358.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "dyurvedic kitchens.:",
+   "score": 0.9407489895820618,
+   "poly": [
+    [
+     273.5,
+     355.0
+    ],
+    [
+     380.0,
+     356.5
+    ],
+    [
+     380.0,
+     373.5
+    ],
+    [
+     273.0,
+     372.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NGREDIENTbe,",
+   "score": 0.7343790531158447,
+   "poly": [
+    [
+     219.5,
+     390.5
+    ],
+    [
+     423.0,
+     389.0
+    ],
+    [
+     423.5,
+     412.0
+    ],
+    [
+     220.0,
+     413.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "shikakai, swee fenugreek, black sesame",
+   "score": 0.9947853217253814,
+   "poly": [
+    [
+     229.1011962890625,
+     405.670654296875
+    ],
+    [
+     416.613037109375,
+     407.3448486328125
+    ],
+    [
+     416.44976806640625,
+     425.62908935546875
+    ],
+    [
+     228.93792724609375,
+     423.95489501953125
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "skaka, sweeee, egreek,blak sese",
+   "alt_score": 0.6215745806694031
+  },
+  {
+   "tl_angle": 0,
+   "text": ", cocomol, mustard ol, rosemary ,s",
+   "score": 0.6888304948806763,
+   "poly": [
+    [
+     220.0,
+     421.0
+    ],
+    [
+     421.5,
+     420.0
+    ],
+    [
+     421.5,
+     438.5
+    ],
+    [
+     220.5,
+     439.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "butter, rosemary, orange, beeswax & vinegar",
+   "score": 0.9994083046913147,
+   "poly": [
+    [
+     223.0,
+     436.5
+    ],
+    [
+     417.5,
+     436.5
+    ],
+    [
+     417.5,
+     453.0
+    ],
+    [
+     223.0,
+     453.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Neem, Tulsi: improve blood circulation reducing",
+   "score": 0.9787934422492981,
+   "poly": [
+    [
+     228.5,
+     460.5
+    ],
+    [
+     424.0,
+     462.0
+    ],
+    [
+     424.0,
+     479.0
+    ],
+    [
+     228.5,
+     477.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "itchiness and dandruff",
+   "score": 0.9891321659088135,
+   "poly": [
+    [
+     285.5,
+     474.0
+    ],
+    [
+     380.0,
+     475.0
+    ],
+    [
+     380.0,
+     489.0
+    ],
+    [
+     285.5,
+     488.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhringraj: anti-bacterial & anti-microbial action",
+   "score": 0.9728156328201294,
+   "poly": [
+    [
+     237.0,
+     487.0
+    ],
+    [
+     434.0,
+     485.0
+    ],
+    [
+     434.0,
+     502.0
+    ],
+    [
+     237.0,
+     503.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "leaving scalp dandruff free",
+   "score": 0.9728366732597351,
+   "poly": [
+    [
+     285.5,
+     498.0
+    ],
+    [
+     392.0,
+     499.0
+    ],
+    [
+     392.0,
+     513.0
+    ],
+    [
+     285.5,
+     512.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amla, Shikakai: nourish follicles with a collagen boost",
+   "score": 0.9034937620162964,
+   "poly": [
+    [
+     213.5,
+     512.5
+    ],
+    [
+     433.0,
+     512.0
+    ],
+    [
+     433.0,
+     526.0
+    ],
+    [
+     213.5,
+     527.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sweetneem; cleans scalp pores, stimulates hair growth",
+   "score": 0.9927559494972229,
+   "poly": [
+    [
+     230.5,
+     527.5
+    ],
+    [
+     450.0,
+     526.0
+    ],
+    [
+     450.0,
+     539.5
+    ],
+    [
+     230.5,
+     541.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mustard, Black Sesamé: rich in Omega-3 fatty acids, help with",
+   "score": 0.9779344201087952,
+   "poly": [
+    [
+     182.5,
+     543.0
+    ],
+    [
+     435.5,
+     540.5
+    ],
+    [
+     435.5,
+     554.5
+    ],
+    [
+     182.5,
+     557.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "strong, lustrous dark hair",
+   "score": 0.9736665487289429,
+   "poly": [
+    [
+     284.5,
+     554.5
+    ],
+    [
+     388.5,
+     552.5
+    ],
+    [
+     389.0,
+     565.0
+    ],
+    [
+     284.5,
+     567.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Coconut, Shea Butter: deep conditioning & prevent hair breakage",
+   "score": 0.9922297596931458,
+   "poly": [
+    [
+     190.5,
+     567.0
+    ],
+    [
+     454.5,
+     565.0
+    ],
+    [
+     454.5,
+     579.0
+    ],
+    [
+     190.5,
+     581.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fenugreek: natural conditioner & hair booster",
+   "score": 0.9900364279747009,
+   "poly": [
+    [
+     234.5,
+     581.0
+    ],
+    [
+     423.0,
+     577.5
+    ],
+    [
+     423.5,
+     591.5
+    ],
+    [
+     235.0,
+     595.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Apply1/4-1/3 pack nourishing nurimask on hair & massage on scalp well Keep",
+   "score": 0.8930723071098328,
+   "poly": [
+    [
+     150.0,
+     603.5
+    ],
+    [
+     509.0,
+     598.5
+    ],
+    [
+     509.5,
+     618.5
+    ],
+    [
+     150.0,
+     623.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "for min - I hr for nutrients to be absorbed. Shampoo hair twice. No conditoner",
+   "score": 0.8898591995239258,
+   "poly": [
+    [
+     150.83631896972656,
+     617.5611572265625
+    ],
+    [
+     506.9065246582031,
+     612.46630859375
+    ],
+    [
+     507.141845703125,
+     628.912109375
+    ],
+    [
+     151.07162475585938,
+     634.0069580078125
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "fo min-I  fo nuren to be asoed Shampo hai e No ode",
+   "alt_score": 0.5918700695037842
+  },
+  {
+   "tl_angle": 0,
+   "text": "every hair wash can speeden results",
+   "score": 0.9998480677604675,
+   "poly": [
+    [
+     244.5,
+     648.0
+    ],
+    [
+     409.0,
+     644.0
+    ],
+    [
+     409.5,
+     659.5
+    ],
+    [
+     245.0,
+     663.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "30.min X Thrice weekly",
+   "score": 0.9940473437309265,
+   "poly": [
+    [
+     259.0,
+     675.0
+    ],
+    [
+     386.5,
+     672.5
+    ],
+    [
+     386.5,
+     687.0
+    ],
+    [
+     259.5,
+     689.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Use within 3 months of Mfd",
+   "score": 0.9740620255470276,
+   "poly": [
+    [
+     244.0,
+     690.0
+    ],
+    [
+     401.0,
+     686.5
+    ],
+    [
+     401.0,
+     701.0
+    ],
+    [
+     244.5,
+     704.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SCAN to",
+   "score": 0.9283156394958496,
+   "poly": [
+    [
+     174.5,
+     698.0
+    ],
+    [
+     212.5,
+     700.0
+    ],
+    [
+     212.0,
+     713.0
+    ],
+    [
+     174.0,
+     710.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AYURVEDIC PROPRIETARY MEDICINE",
+   "score": 0.9992514848709106,
+   "poly": [
+    [
+     320.0,
+     701.5
+    ],
+    [
+     501.5,
+     692.0
+    ],
+    [
+     502.5,
+     709.0
+    ],
+    [
+     321.0,
+     718.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "reorder.",
+   "score": 0.9231693744659424,
+   "poly": [
+    [
+     174.5,
+     708.5
+    ],
+    [
+     208.5,
+     710.5
+    ],
+    [
+     208.0,
+     722.0
+    ],
+    [
+     174.0,
+     720.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "learn how to use",
+   "score": 0.9979487657546997,
+   "poly": [
+    [
+     174.0,
+     717.5
+    ],
+    [
+     242.5,
+     720.5
+    ],
+    [
+     242.0,
+     732.0
+    ],
+    [
+     173.5,
+     729.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "&know more",
+   "score": 0.9507376551628113,
+   "poly": [
+    [
+     175.0,
+     727.5
+    ],
+    [
+     231.5,
+     730.0
+    ],
+    [
+     231.0,
+     741.0
+    ],
+    [
+     174.5,
+     738.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP.RS:130.00名",
+   "score": 0.9563404321670532,
+   "poly": [
+    [
+     329.5,
+     737.0
+    ],
+    [
+     490.0,
+     733.0
+    ],
+    [
+     490.5,
+     750.5
+    ],
+    [
+     329.5,
+     754.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cruelty",
+   "score": 0.9951794743537903,
+   "poly": [
+    [
+     152.5,
+     749.5
+    ],
+    [
+     184.5,
+     751.5
+    ],
+    [
+     183.5,
+     765.0
+    ],
+    [
+     151.5,
+     762.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Chemical",
+   "score": 0.9997906684875488,
+   "poly": [
+    [
+     218.5,
+     755.5
+    ],
+    [
+     264.5,
+     755.5
+    ],
+    [
+     264.5,
+     768.5
+    ],
+    [
+     218.5,
+     768.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RS: 3.25/G",
+   "score": 0.9511216878890991,
+   "poly": [
+    [
+     329.5,
+     753.5
+    ],
+    [
+     429.5,
+     750.0
+    ],
+    [
+     430.0,
+     764.0
+    ],
+    [
+     330.0,
+     767.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "free",
+   "score": 0.9999076724052429,
+   "poly": [
+    [
+     152.0,
+     760.0
+    ],
+    [
+     173.5,
+     760.0
+    ],
+    [
+     173.5,
+     772.5
+    ],
+    [
+     152.0,
+     772.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "free",
+   "score": 0.9997881054878235,
+   "poly": [
+    [
+     218.0,
+     764.5
+    ],
+    [
+     241.5,
+     765.5
+    ],
+    [
+     241.0,
+     777.5
+    ],
+    [
+     217.5,
+     776.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mf9:10MAY26",
+   "score": 0.9338770508766174,
+   "poly": [
+    [
+     329.0,
+     766.0
+    ],
+    [
+     442.5,
+     761.5
+    ],
+    [
+     443.0,
+     775.5
+    ],
+    [
+     329.5,
+     780.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store airtight in cool dry place.",
+   "score": 0.9986656904220581,
+   "poly": [
+    [
+     126.5,
+     776.0
+    ],
+    [
+     268.0,
+     784.5
+    ],
+    [
+     267.0,
+     800.0
+    ],
+    [
+     125.5,
+     791.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "EXP:07AUG26",
+   "score": 0.9936805963516235,
+   "poly": [
+    [
+     328.0,
+     779.0
+    ],
+    [
+     437.5,
+     775.0
+    ],
+    [
+     438.5,
+     790.5
+    ],
+    [
+     328.5,
+     794.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Refrigerate if possible.",
+   "score": 0.983890950679779,
+   "poly": [
+    [
+     126.5,
+     788.0
+    ],
+    [
+     231.0,
+     795.0
+    ],
+    [
+     230.0,
+     809.0
+    ],
+    [
+     125.5,
+     802.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "If refrigeroted, keep outside",
+   "score": 0.8197566270828247,
+   "poly": [
+    [
+     124.5,
+     800.0
+    ],
+    [
+     240.0,
+     805.5
+    ],
+    [
+     239.0,
+     819.5
+    ],
+    [
+     124.0,
+     813.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "for 10 mins before using.",
+   "score": 0.9633069634437561,
+   "poly": [
+    [
+     125.5,
+     810.0
+    ],
+    [
+     224.5,
+     816.5
+    ],
+    [
+     223.5,
+     830.5
+    ],
+    [
+     125.0,
+     824.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ayush LIC No. 1010–ISM(HR)",
+   "score": 0.959038496017456,
+   "poly": [
+    [
+     321.0,
+     810.0
+    ],
+    [
+     450.5,
+     804.0
+    ],
+    [
+     451.0,
+     819.5
+    ],
+    [
+     321.5,
+     825.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfd & Mktd by. NaturoHabit Pvt. Ltd",
+   "score": 0.9143295288085938,
+   "poly": [
+    [
+     126.0,
+     820.5
+    ],
+    [
+     279.0,
+     828.0
+    ],
+    [
+     278.0,
+     841.5
+    ],
+    [
+     125.5,
+     834.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GR-26, Sector 18, Udyog Vihar.",
+   "score": 0.9450935125350952,
+   "poly": [
+    [
+     127.0,
+     830.5
+    ],
+    [
+     251.5,
+     837.5
+    ],
+    [
+     250.5,
+     851.0
+    ],
+    [
+     126.0,
+     844.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Patch test on back",
+   "score": 0.9757980704307556,
+   "poly": [
+    [
+     444.5,
+     834.5
+    ],
+    [
+     519.0,
+     830.0
+    ],
+    [
+     519.5,
+     840.5
+    ],
+    [
+     445.0,
+     845.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Gurugram 122015, India.",
+   "score": 0.9852557182312012,
+   "poly": [
+    [
+     126.5,
+     841.5
+    ],
+    [
+     224.0,
+     844.5
+    ],
+    [
+     223.5,
+     859.0
+    ],
+    [
+     126.5,
+     856.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "of scolp for 10 min is",
+   "score": 0.9786827564239502,
+   "poly": [
+    [
+     444.5,
+     844.0
+    ],
+    [
+     524.5,
+     840.0
+    ],
+    [
+     525.0,
+     850.5
+    ],
+    [
+     445.0,
+     854.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Shop online on www.nathabit.an",
+   "score": 0.9403097629547119,
+   "poly": [
+    [
+     131.5,
+     858.0
+    ],
+    [
+     264.0,
+     863.0
+    ],
+    [
+     263.5,
+     876.5
+    ],
+    [
+     131.0,
+     871.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "recommended prior",
+   "score": 0.929442286491394,
+   "poly": [
+    [
+     443.5,
+     853.5
+    ],
+    [
+     521.0,
+     850.0
+    ],
+    [
+     521.5,
+     861.0
+    ],
+    [
+     444.0,
+     864.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fast use",
+   "score": 0.8370643854141235,
+   "poly": [
+    [
+     445.0,
+     862.5
+    ],
+    [
+     479.0,
+     862.5
+    ],
+    [
+     479.0,
+     872.5
+    ],
+    [
+     445.0,
+     872.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Customer Care WhalsApp 8527 000 777",
+   "score": 0.9517438411712646,
+   "poly": [
+    [
+     130.5,
+     868.0
+    ],
+    [
+     305.5,
+     872.0
+    ],
+    [
+     305.0,
+     887.0
+    ],
+    [
+     130.5,
+     883.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8908018195263",
+   "score": 0.9996324777603149,
+   "poly": [
+    [
+     322.5,
+     870.5
+    ],
+    [
+     431.5,
+     867.5
+    ],
+    [
+     432.0,
+     881.0
+    ],
+    [
+     323.0,
+     884.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Wt: 40 gm",
+   "score": 0.963107705116272,
+   "poly": [
+    [
+     443.0,
+     873.5
+    ],
+    [
+     507.5,
+     872.0
+    ],
+    [
+     507.5,
+     885.5
+    ],
+    [
+     443.5,
+     887.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

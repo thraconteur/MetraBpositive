@@ -1,0 +1,1301 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo36.jpg",
+ "ocr_input_shape": [
+  580,
+  1280,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 14.7,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 2,
+  "refine_s": 3.34,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 4,
+  "curved_s": 4.58,
+  "secondary_replaced": 0,
+  "secondary_s": 1.17,
+  "regions": 49,
+  "total_s": 23.82
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "2M",
+   "score": 0.5941232442855835,
+   "poly": [
+    [
+     518.5,
+     184.0
+    ],
+    [
+     533.0,
+     184.0
+    ],
+    [
+     533.0,
+     193.0
+    ],
+    [
+     518.5,
+     193.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Promoted by",
+   "score": 0.9525354504585266,
+   "poly": [
+    [
+     592.0,
+     182.5
+    ],
+    [
+     644.5,
+     184.0
+    ],
+    [
+     644.0,
+     200.0
+    ],
+    [
+     591.5,
+     198.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFG.LIC.NO.:MH/106112A",
+   "score": 0.9819288849830627,
+   "poly": [
+    [
+     697.5,
+     188.5
+    ],
+    [
+     847.5,
+     187.5
+    ],
+    [
+     848.0,
+     200.5
+    ],
+    [
+     698.0,
+     201.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET WT. 125 g",
+   "score": 0.9714250564575195,
+   "poly": [
+    [
+     885.5,
+     184.5
+    ],
+    [
+     963.5,
+     185.5
+    ],
+    [
+     963.5,
+     201.0
+    ],
+    [
+     885.5,
+     200.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CEEEEREEE",
+   "score": 0.6956479549407959,
+   "poly": [
+    [
+     364.0,
+     192.0
+    ],
+    [
+     518.0,
+     187.0
+    ],
+    [
+     519.0,
+     206.0
+    ],
+    [
+     364.5,
+     211.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "COOCENE主R",
+   "alt_score": 0.6217598915100098
+  },
+  {
+   "tl_angle": 0,
+   "text": "lindoco",
+   "score": 0.8062242865562439,
+   "poly": [
+    [
+     579.5,
+     195.5
+    ],
+    [
+     640.0,
+     198.0
+    ],
+    [
+     639.0,
+     221.0
+    ],
+    [
+     579.0,
+     218.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Feaming Fluoridated Toothpaste",
+   "score": 0.991743803024292,
+   "poly": [
+    [
+     361.0,
+     206.0
+    ],
+    [
+     518.5,
+     207.0
+    ],
+    [
+     518.5,
+     221.0
+    ],
+    [
+     361.0,
+     220.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "warren",
+   "score": 0.9282234311103821,
+   "poly": [
+    [
+     649.0,
+     202.0
+    ],
+    [
+     680.0,
+     202.0
+    ],
+    [
+     680.0,
+     213.5
+    ],
+    [
+     649.0,
+     213.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MANUFACTURED IN INDIA BY:",
+   "score": 0.9866983890533447,
+   "poly": [
+    [
+     698.0,
+     202.0
+    ],
+    [
+     818.0,
+     202.0
+    ],
+    [
+     818.0,
+     213.0
+    ],
+    [
+     698.0,
+     213.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "mpte Ague, Jostool Hydroteel Salion, Xytal,",
+   "score": 0.5341277718544006,
+   "poly": [
+    [
+     355.5,
+     217.5
+    ],
+    [
+     515.0,
+     220.5
+    ],
+    [
+     515.0,
+     233.0
+    ],
+    [
+     355.5,
+     230.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ACE",
+   "score": 0.9824252128601074,
+   "poly": [
+    [
+     658.0,
+     213.0
+    ],
+    [
+     669.5,
+     213.0
+    ],
+    [
+     669.5,
+     220.5
+    ],
+    [
+     658.0,
+     220.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Indoco Remedies Ltd.",
+   "score": 0.9983654022216797,
+   "poly": [
+    [
+     698.0,
+     214.0
+    ],
+    [
+     806.0,
+     214.0
+    ],
+    [
+     806.0,
+     226.0
+    ],
+    [
+     698.0,
+     226.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cn Compl Ree, Sodium Mal",
+   "score": 0.6127727627754211,
+   "poly": [
+    [
+     353.0,
+     227.5
+    ],
+    [
+     511.5,
+     231.5
+    ],
+    [
+     511.0,
+     244.0
+    ],
+    [
+     352.5,
+     239.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "REPLACE CAP TIGHTLY",
+   "score": 0.9979777336120605,
+   "poly": [
+    [
+     573.5,
+     229.5
+    ],
+    [
+     662.5,
+     232.0
+    ],
+    [
+     662.0,
+     243.0
+    ],
+    [
+     573.0,
+     240.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "At:AURIC City, Shendra, Sector 13, Plot No. 17,",
+   "score": 0.9769385457038879,
+   "poly": [
+    [
+     696.5,
+     228.0
+    ],
+    [
+     905.0,
+     230.0
+    ],
+    [
+     905.0,
+     243.5
+    ],
+    [
+     696.5,
+     241.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Crenyl Tarane, Colcun Swrme Phophte,",
+   "score": 0.6290972232818604,
+   "poly": [
+    [
+     352.0,
+     238.0
+    ],
+    [
+     489.0,
+     243.0
+    ],
+    [
+     489.0,
+     254.0
+    ],
+    [
+     351.5,
+     249.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AFTER EVERY USE",
+   "score": 0.9989382028579712,
+   "poly": [
+    [
+     582.0,
+     242.0
+    ],
+    [
+     654.0,
+     243.5
+    ],
+    [
+     654.0,
+     254.5
+    ],
+    [
+     581.5,
+     253.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Aurangabod) Chhatrapati Sombhojinogar - 431154,",
+   "score": 0.9308483600616455,
+   "poly": [
+    [
+     696.5,
+     242.5
+    ],
+    [
+     935.0,
+     245.5
+    ],
+    [
+     935.0,
+     258.5
+    ],
+    [
+     696.5,
+     255.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sonton Com, Sodiom Moofioorophorphote,",
+   "score": 0.662543773651123,
+   "poly": [
+    [
+     350.6070556640625,
+     250.41368103027344
+    ],
+    [
+     491.67535400390625,
+     254.62469482421875
+    ],
+    [
+     491.3878173828125,
+     264.25787353515625
+    ],
+    [
+     350.31951904296875,
+     260.046875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Somhon Com, Sodium Maroraphophote,",
+   "alt_score": 0.6117691993713379
+  },
+  {
+   "tl_angle": 0,
+   "text": "Flomme Mine, Movour -ih Pepprermie Cll, Clove",
+   "score": 0.6900805830955505,
+   "poly": [
+    [
+     350.1377868652344,
+     260.0821838378906
+    ],
+    [
+     502.2332458496094,
+     266.2150573730469
+    ],
+    [
+     501.8603820800781,
+     275.4621276855469
+    ],
+    [
+     349.7649230957031,
+     269.3292541503906
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Fome Mi, Ho  Paee O Clove",
+   "alt_score": 0.6077157258987427
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR SUGGESTION & FEEDBACE",
+   "score": 0.9315506219863892,
+   "poly": [
+    [
+     566.5,
+     253.0
+    ],
+    [
+     669.0,
+     255.5
+    ],
+    [
+     669.0,
+     266.0
+    ],
+    [
+     566.5,
+     263.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mahorashtra",
+   "score": 0.9115321636199951,
+   "poly": [
+    [
+     696.5,
+     256.0
+    ],
+    [
+     752.0,
+     258.0
+    ],
+    [
+     751.5,
+     269.5
+    ],
+    [
+     696.0,
+     267.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CALL: +91 22 62871000",
+   "score": 0.9162483215332031,
+   "poly": [
+    [
+     577.5,
+     262.5
+    ],
+    [
+     658.5,
+     265.0
+    ],
+    [
+     658.0,
+     274.5
+    ],
+    [
+     577.0,
+     272.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " ctn",
+   "score": 0.6485384702682495,
+   "poly": [
+    [
+     931.5,
+     259.0
+    ],
+    [
+     947.5,
+     259.5
+    ],
+    [
+     946.5,
+     339.5
+    ],
+    [
+     930.5,
+     339.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tosesce, Sectum Socctearin, Titonlom Diaside,",
+   "score": 0.6756973266601562,
+   "poly": [
+    [
+     348.0,
+     270.5
+    ],
+    [
+     491.0,
+     275.0
+    ],
+    [
+     490.5,
+     286.0
+    ],
+    [
+     347.5,
+     281.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M",
+   "score": 0.618507444858551,
+   "poly": [
+    [
+     578.5,
+     271.0
+    ],
+    [
+     657.0,
+     273.5
+    ],
+    [
+     656.5,
+     284.0
+    ],
+    [
+     578.0,
+     281.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "EMpujdom",
+   "alt_score": 0.39524805545806885
+  },
+  {
+   "tl_angle": 0,
+   "text": "Consult your dental professional",
+   "score": 0.9962611794471741,
+   "poly": [
+    [
+     695.5,
+     269.5
+    ],
+    [
+     841.0,
+     273.5
+    ],
+    [
+     840.5,
+     285.5
+    ],
+    [
+     695.5,
+     281.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Suslum Hydrmside, Remrpl Akcohol",
+   "score": 0.6037619113922119,
+   "poly": [
+    [
+     347.5,
+     281.0
+    ],
+    [
+     459.5,
+     285.0
+    ],
+    [
+     459.5,
+     296.0
+    ],
+    [
+     347.0,
+     291.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "for mors information",
+   "score": 0.9597761034965515,
+   "poly": [
+    [
+     695.5,
+     282.5
+    ],
+    [
+     789.0,
+     285.5
+    ],
+    [
+     788.5,
+     298.0
+    ],
+    [
+     695.0,
+     295.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2013657",
+   "score": 0.8431157469749451,
+   "poly": [
+    [
+     919.0,
+     279.0
+    ],
+    [
+     932.0,
+     279.5
+    ],
+    [
+     930.5,
+     317.0
+    ],
+    [
+     917.0,
+     316.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Se Crnmg",
+   "score": 0.6175158023834229,
+   "poly": [
+    [
+     956.0,
+     281.0
+    ],
+    [
+     969.5,
+     282.0
+    ],
+    [
+     967.0,
+     320.5
+    ],
+    [
+     954.0,
+     320.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Contains eppres. 1000 ppm available fluoride when packed",
+   "score": 0.8815041780471802,
+   "poly": [
+    [
+     347.0,
+     292.5
+    ],
+    [
+     549.5,
+     298.5
+    ],
+    [
+     549.5,
+     311.5
+    ],
+    [
+     346.5,
+     305.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT SWALLOW",
+   "score": 0.9963529706001282,
+   "poly": [
+    [
+     584.0,
+     289.5
+    ],
+    [
+     649.5,
+     292.5
+    ],
+    [
+     648.5,
+     303.5
+    ],
+    [
+     583.5,
+     300.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR DENTAL USE ONLY",
+   "score": 0.9538951516151428,
+   "poly": [
+    [
+     576.5,
+     298.0
+    ],
+    [
+     655.5,
+     301.5
+    ],
+    [
+     655.0,
+     312.5
+    ],
+    [
+     576.0,
+     309.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Keep in a cool & dry place away from",
+   "score": 0.9992167949676514,
+   "poly": [
+    [
+     695.0,
+     296.0
+    ],
+    [
+     851.0,
+     302.5
+    ],
+    [
+     850.5,
+     314.5
+    ],
+    [
+     694.5,
+     308.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "What ere White Spol Lasions?",
+   "score": 0.8191412091255188,
+   "poly": [
+    [
+     349.5,
+     304.0
+    ],
+    [
+     444.0,
+     307.5
+    ],
+    [
+     443.5,
+     318.0
+    ],
+    [
+     349.0,
+     315.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "direct sunlight. Do not refrigerate.",
+   "score": 0.98799067735672,
+   "poly": [
+    [
+     695.0,
+     307.5
+    ],
+    [
+     839.0,
+     314.0
+    ],
+    [
+     838.5,
+     325.0
+    ],
+    [
+     694.5,
+     318.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "we Spen les are the eorliest sigme af wosened enamal vlsitle",
+   "score": 0.5735377073287964,
+   "poly": [
+    [
+     350.11175537109375,
+     315.0870056152344
+    ],
+    [
+     560.762451171875,
+     321.9833068847656
+    ],
+    [
+     560.4487915039062,
+     331.5638122558594
+    ],
+    [
+     349.798095703125,
+     324.6675109863281
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "woe Spe lesem ore the easliest sigme af wrokened enamal vlile",
+   "alt_score": 0.5175200700759888
+  },
+  {
+   "tl_angle": 0,
+   "text": " When used as dirested",
+   "score": 0.923724889755249,
+   "poly": [
+    [
+     695.0,
+     319.5
+    ],
+    [
+     785.0,
+     325.0
+    ],
+    [
+     784.5,
+     337.5
+    ],
+    [
+     694.5,
+     332.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bused on ingredients remineralising action",
+   "score": 0.9471570253372192,
+   "poly": [
+    [
+     695.0,
+     330.0
+    ],
+    [
+     861.0,
+     339.0
+    ],
+    [
+     860.5,
+     351.5
+    ],
+    [
+     694.5,
+     342.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "leger al hocterie that bulds up on teeth mnd gute lne",
+   "score": 0.7715908288955688,
+   "poly": [
+    [
+     423.1258850097656,
+     346.05987548828125
+    ],
+    [
+     585.7132568359375,
+     353.01885986328125
+    ],
+    [
+     585.411865234375,
+     360.0604248046875
+    ],
+    [
+     422.8244934082031,
+     353.1014404296875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "eme à e my leper al hocterio rhot bulds up on teeth ond pum lne.",
+   "alt_score": 0.6614596247673035
+  },
+  {
+   "tl_angle": 0,
+   "text": "Directions: Brush twice daily or as recommended by dentist.",
+   "score": 0.974547266960144,
+   "poly": [
+    [
+     694.5,
+     343.5
+    ],
+    [
+     903.5,
+     357.5
+    ],
+    [
+     902.5,
+     368.0
+    ],
+    [
+     694.0,
+     354.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "oe pm diee, had breat Haas,  ae ore problem.",
+   "score": 0.521479606628418,
+   "poly": [
+    [
+     398.5,
+     350.5
+    ],
+    [
+     614.5,
+     361.0
+    ],
+    [
+     613.5,
+     371.5
+    ],
+    [
+     398.0,
+     361.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fr ond waile Spet Lesians deveiap?",
+   "score": 0.6768134832382202,
+   "poly": [
+    [
+     402.5,
+     357.0
+    ],
+    [
+     525.5,
+     367.0
+    ],
+    [
+     524.5,
+     377.5
+    ],
+    [
+     401.5,
+     367.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Produst may give slight warm feeling an initiat usagd.",
+   "score": 0.8436904549598694,
+   "poly": [
+    [
+     694.5,
+     353.5
+    ],
+    [
+     877.0,
+     365.5
+    ],
+    [
+     876.5,
+     376.0
+    ],
+    [
+     694.0,
+     364.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do not use if you are allergic to any of the ingredients.",
+   "score": 0.9094018340110779,
+   "poly": [
+    [
+     694.0,
+     362.5
+    ],
+    [
+     880.0,
+     375.0
+    ],
+    [
+     879.5,
+     386.0
+    ],
+    [
+     693.5,
+     373.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Caution: For children under 12 years,",
+   "score": 0.9773542881011963,
+   "poly": [
+    [
+     696.5,
+     377.5
+    ],
+    [
+     828.5,
+     388.0
+    ],
+    [
+     827.5,
+     400.5
+    ],
+    [
+     695.5,
+     390.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "consult a dentist or physician.",
+   "score": 0.9196841716766357,
+   "poly": [
+    [
+     696.5,
+     387.0
+    ],
+    [
+     803.0,
+     395.5
+    ],
+    [
+     802.0,
+     406.5
+    ],
+    [
+     695.5,
+     398.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VEGAN",
+   "score": 0.994817852973938,
+   "poly": [
+    [
+     909.0,
+     383.5
+    ],
+    [
+     945.0,
+     386.0
+    ],
+    [
+     944.0,
+     399.0
+    ],
+    [
+     908.0,
+     396.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

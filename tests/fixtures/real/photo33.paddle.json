@@ -1,0 +1,689 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo33.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 9.61,
+  "zoom_added": 5,
+  "zoom_s": 6.37,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 4.6,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.38,
+  "regions": 25,
+  "total_s": 20.99
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Manufactured On",
+   "score": 0.9965007305145264,
+   "poly": [
+    [
+     281.5,
+     714.5
+    ],
+    [
+     354.5,
+     711.5
+    ],
+    [
+     355.0,
+     725.0
+    ],
+    [
+     282.0,
+     728.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Imported and Marketed by : Zebronics India Pvt. Lid",
+   "score": 0.9735210537910461,
+   "poly": [
+    [
+     68.5,
+     722.5
+    ],
+    [
+     275.0,
+     713.0
+    ],
+    [
+     275.5,
+     726.0
+    ],
+    [
+     69.5,
+     735.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "05/2026",
+   "score": 0.9998493790626526,
+   "poly": [
+    [
+     358.5,
+     728.0
+    ],
+    [
+     393.5,
+     725.5
+    ],
+    [
+     394.5,
+     739.0
+    ],
+    [
+     359.5,
+     741.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "No. 13/7,Smith Road, Royapettah, Chennai",
+   "score": 0.9689167141914368,
+   "poly": [
+    [
+     68.5,
+     732.5
+    ],
+    [
+     242.5,
+     725.0
+    ],
+    [
+     243.0,
+     738.5
+    ],
+    [
+     69.5,
+     746.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "04/2026",
+   "score": 0.9999609589576721,
+   "poly": [
+    [
+     282.0,
+     730.0
+    ],
+    [
+     319.0,
+     729.0
+    ],
+    [
+     319.5,
+     743.5
+    ],
+    [
+     282.5,
+     744.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Country Of Origin",
+   "score": 0.9998142123222351,
+   "poly": [
+    [
+     283.0,
+     746.0
+    ],
+    [
+     355.0,
+     742.5
+    ],
+    [
+     356.0,
+     756.5
+    ],
+    [
+     283.5,
+     760.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "People's Republic of China",
+   "score": 0.9984980821609497,
+   "poly": [
+    [
+     358.5,
+     742.5
+    ],
+    [
+     464.5,
+     737.5
+    ],
+    [
+     465.0,
+     751.0
+    ],
+    [
+     359.5,
+     756.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Generic Name",
+   "score": 0.9998517036437988,
+   "poly": [
+    [
+     69.0,
+     756.0
+    ],
+    [
+     135.0,
+     754.0
+    ],
+    [
+     135.5,
+     768.0
+    ],
+    [
+     69.5,
+     770.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Zebronics Ethernet Converter",
+   "score": 0.9808588027954102,
+   "poly": [
+    [
+     140.0,
+     754.0
+    ],
+    [
+     266.0,
+     748.0
+    ],
+    [
+     266.5,
+     760.5
+    ],
+    [
+     140.5,
+     766.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP",
+   "score": 0.9999123215675354,
+   "poly": [
+    [
+     282.5,
+     760.5
+    ],
+    [
+     307.0,
+     759.0
+    ],
+    [
+     308.0,
+     773.5
+    ],
+    [
+     283.5,
+     775.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(1,699.00 (ind of all taxes) per Number",
+   "score": 0.9510077238082886,
+   "poly": [
+    [
+     360.5,
+     758.0
+    ],
+    [
+     512.5,
+     751.0
+    ],
+    [
+     513.0,
+     763.5
+    ],
+    [
+     361.0,
+     770.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Model Name",
+   "score": 0.9992533922195435,
+   "poly": [
+    [
+     68.5,
+     771.0
+    ],
+    [
+     128.0,
+     769.0
+    ],
+    [
+     128.5,
+     783.5
+    ],
+    [
+     69.0,
+     785.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ZEB-CTE100",
+   "score": 0.9998953938484192,
+   "poly": [
+    [
+     140.5,
+     769.0
+    ],
+    [
+     200.5,
+     765.5
+    ],
+    [
+     201.0,
+     778.5
+    ],
+    [
+     141.5,
+     781.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Dimension",
+   "score": 0.9989243149757385,
+   "poly": [
+    [
+     69.5,
+     786.5
+    ],
+    [
+     137.5,
+     784.0
+    ],
+    [
+     138.0,
+     798.0
+    ],
+    [
+     70.0,
+     800.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "5.9×2.4×1.7cm(W×DxH)",
+   "score": 0.9640792012214661,
+   "poly": [
+    [
+     140.5,
+     783.5
+    ],
+    [
+     266.5,
+     777.5
+    ],
+    [
+     267.0,
+     791.0
+    ],
+    [
+     141.0,
+     797.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Complaint / Feedback Contact Consumer Care Executive al above",
+   "score": 0.9500827789306641,
+   "poly": [
+    [
+     285.5,
+     782.0
+    ],
+    [
+     527.5,
+     769.5
+    ],
+    [
+     528.0,
+     783.0
+    ],
+    [
+     286.5,
+     795.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "zebronics.com/pages/warranty-policy",
+   "score": 0.9783644676208496,
+   "poly": [
+    [
+     140.5,
+     798.5
+    ],
+    [
+     278.0,
+     792.5
+    ],
+    [
+     278.5,
+     806.0
+    ],
+    [
+     141.5,
+     812.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Address or Tel No. 044-4000 0004 or E-Mail: enquiry@zebronics.com",
+   "score": 0.9443054795265198,
+   "poly": [
+    [
+     286.0,
+     796.5
+    ],
+    [
+     525.0,
+     784.5
+    ],
+    [
+     526.0,
+     796.5
+    ],
+    [
+     287.0,
+     809.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Warranty",
+   "score": 0.9994428157806396,
+   "poly": [
+    [
+     69.5,
+     801.5
+    ],
+    [
+     129.5,
+     799.0
+    ],
+    [
+     130.0,
+     813.5
+    ],
+    [
+     70.0,
+     816.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Package Contents : USB LAN - 1U",
+   "score": 0.9818647503852844,
+   "poly": [
+    [
+     69.0,
+     816.0
+    ],
+    [
+     221.0,
+     808.0
+    ],
+    [
+     222.0,
+     823.0
+    ],
+    [
+     70.0,
+     831.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Imported On",
+   "score": 0.9634838104248047,
+   "poly": [
+    [
+     358.5,
+     712.0
+    ],
+    [
+     409.0,
+     709.5
+    ],
+    [
+     409.5,
+     722.5
+    ],
+    [
+     359.0,
+     725.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net",
+   "score": 0.9967413544654846,
+   "poly": [
+    [
+     431.0,
+     711.5
+    ],
+    [
+     449.5,
+     711.0
+    ],
+    [
+     450.0,
+     724.0
+    ],
+    [
+     431.5,
+     725.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1 U",
+   "score": 0.8454113602638245,
+   "poly": [
+    [
+     484.0,
+     713.0
+    ],
+    [
+     513.5,
+     711.0
+    ],
+    [
+     515.0,
+     728.0
+    ],
+    [
+     485.0,
+     730.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Quantity",
+   "score": 0.9978595972061157,
+   "poly": [
+    [
+     432.0,
+     722.5
+    ],
+    [
+     467.0,
+     722.5
+    ],
+    [
+     467.0,
+     736.0
+    ],
+    [
+     432.0,
+     736.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tamil Nadu-600 002",
+   "score": 0.9863170981407166,
+   "poly": [
+    [
+     70.0,
+     745.0
+    ],
+    [
+     158.0,
+     740.5
+    ],
+    [
+     158.5,
+     751.0
+    ],
+    [
+     71.0,
+     755.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

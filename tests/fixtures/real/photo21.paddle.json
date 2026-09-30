@@ -1,0 +1,3453 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo21.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 19.66,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 2.25,
+  "refined": 4,
+  "refine_s": 1.37,
+  "block_lines": 0,
+  "block_s": 4.58,
+  "curved": 3,
+  "curved_s": 1.29,
+  "secondary_replaced": 0,
+  "secondary_s": 1.32,
+  "regions": 134,
+  "total_s": 30.51
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "These chips have no chemical",
+   "score": 0.9923796653747559,
+   "poly": [
+    [
+     305.5,
+     60.0
+    ],
+    [
+     463.5,
+     50.0
+    ],
+    [
+     464.5,
+     64.5
+    ],
+    [
+     306.5,
+     74.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool and dark",
+   "score": 0.9667062759399414,
+   "poly": [
+    [
+     342.0,
+     70.0
+    ],
+    [
+     473.5,
+     63.5
+    ],
+    [
+     474.0,
+     79.0
+    ],
+    [
+     342.5,
+     85.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "THE HEALTHY SNACKS FAMILIES LOVE",
+   "score": 0.9801124334335327,
+   "poly": [
+    [
+     11.5,
+     76.0
+    ],
+    [
+     225.0,
+     66.0
+    ],
+    [
+     226.5,
+     92.5
+    ],
+    [
+     12.5,
+     102.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "It began when 4-year-old Vihaan aske",
+   "score": 0.9385820031166077,
+   "poly": [
+    [
+     9.0,
+     103.0
+    ],
+    [
+     231.5,
+     88.0
+    ],
+    [
+     233.5,
+     112.5
+    ],
+    [
+     10.5,
+     127.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "\"Why can't snacks be healthy?\"",
+   "score": 0.9983465075492859,
+   "poly": [
+    [
+     33.0,
+     116.5
+    ],
+    [
+     211.0,
+     105.5
+    ],
+    [
+     212.5,
+     125.0
+    ],
+    [
+     34.5,
+     136.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NO FLAVL",
+   "score": 0.8894081115722656,
+   "poly": [
+    [
+     441.5,
+     113.5
+    ],
+    [
+     537.5,
+     127.5
+    ],
+    [
+     533.5,
+     154.5
+    ],
+    [
+     437.5,
+     140.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "parents, Mansi & Aditya,",
+   "score": 0.9451257586479187,
+   "poly": [
+    [
+     30.599422454833984,
+     132.7229766845703
+    ],
+    [
+     217.48562622070312,
+     117.79802703857422
+    ],
+    [
+     218.99240112304688,
+     136.66554260253906
+    ],
+    [
+     32.106201171875,
+     151.59048461914062
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "So his pa, Mansi  Adya, ",
+   "alt_score": 0.6193387508392334
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADDED",
+   "score": 0.999957263469696,
+   "poly": [
+    [
+     319.5,
+     132.5
+    ],
+    [
+     378.0,
+     119.5
+    ],
+    [
+     383.0,
+     142.5
+    ],
+    [
+     324.5,
+     155.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "children imagine, taste.",
+   "score": 0.9668591022491455,
+   "poly": [
+    [
+     100.0,
+     138.0
+    ],
+    [
+     231.5,
+     132.5
+    ],
+    [
+     232.0,
+     151.0
+    ],
+    [
+     100.5,
+     156.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NO",
+   "score": 0.9994386434555054,
+   "poly": [
+    [
+     295.5,
+     137.5
+    ],
+    [
+     329.0,
+     137.5
+    ],
+    [
+     329.0,
+     164.5
+    ],
+    [
+     295.5,
+     164.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PISG",
+   "score": 0.9692569375038147,
+   "poly": [
+    [
+     326.0,
+     147.0
+    ],
+    [
+     364.5,
+     143.0
+    ],
+    [
+     366.5,
+     162.5
+    ],
+    [
+     328.0,
+     166.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ENHANCER",
+   "score": 0.9847556948661804,
+   "poly": [
+    [
+     484.5,
+     144.5
+    ],
+    [
+     547.5,
+     153.0
+    ],
+    [
+     545.5,
+     169.0
+    ],
+    [
+     482.5,
+     160.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Troovy",
+   "score": 0.9994919896125793,
+   "poly": [
+    [
+     19.5,
+     152.5
+    ],
+    [
+     59.0,
+     146.0
+    ],
+    [
+     61.5,
+     162.5
+    ],
+    [
+     22.0,
+     169.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "nilies",
+   "score": 0.9044092297554016,
+   "poly": [
+    [
+     70.5,
+     153.0
+    ],
+    [
+     96.5,
+     159.0
+    ],
+    [
+     93.5,
+     171.0
+    ],
+    [
+     67.5,
+     165.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "nilies",
+   "alt_score": 0.7760820388793945
+  },
+  {
+   "tl_angle": 0,
+   "text": "love",
+   "score": 0.9996625185012817,
+   "poly": [
+    [
+     92.5,
+     160.5
+    ],
+    [
+     119.5,
+     163.0
+    ],
+    [
+     118.5,
+     176.5
+    ],
+    [
+     91.0,
+     174.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "e (and deserve).",
+   "score": 0.9353206157684326,
+   "poly": [
+    [
+     111.5,
+     162.5
+    ],
+    [
+     200.0,
+     163.5
+    ],
+    [
+     199.5,
+     179.5
+    ],
+    [
+     111.5,
+     178.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "X",
+   "score": 0.49894043803215027,
+   "poly": [
+    [
+     527.5,
+     175.0
+    ],
+    [
+     561.0,
+     194.0
+    ],
+    [
+     552.0,
+     210.0
+    ],
+    [
+     518.5,
+     191.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "X",
+   "alt_score": 0.22833338379859924
+  },
+  {
+   "tl_angle": 0,
+   "text": "NO ARTIFICIAL",
+   "score": 0.9954115748405457,
+   "poly": [
+    [
+     375.5,
+     182.5
+    ],
+    [
+     481.0,
+     181.0
+    ],
+    [
+     481.5,
+     206.5
+    ],
+    [
+     376.0,
+     208.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Vinaan",
+   "score": 0.8520205616950989,
+   "poly": [
+    [
+     128.5,
+     192.0
+    ],
+    [
+     165.0,
+     199.0
+    ],
+    [
+     162.0,
+     212.0
+    ],
+    [
+     126.0,
+     205.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Vingan",
+   "alt_score": 0.7606906294822693
+  },
+  {
+   "tl_angle": 0,
+   "text": "Adityo",
+   "score": 0.9128799438476562,
+   "poly": [
+    [
+     215.0,
+     207.0
+    ],
+    [
+     248.0,
+     205.5
+    ],
+    [
+     248.5,
+     218.5
+    ],
+    [
+     215.5,
+     220.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "COLOR",
+   "score": 0.9992373585700989,
+   "poly": [
+    [
+     378.0,
+     204.0
+    ],
+    [
+     425.0,
+     201.5
+    ],
+    [
+     425.5,
+     218.5
+    ],
+    [
+     379.0,
+     220.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do you love a product you want Troovy to make",
+   "score": 0.9942743182182312,
+   "poly": [
+    [
+     310.5,
+     241.0
+    ],
+    [
+     549.5,
+     234.5
+    ],
+    [
+     550.5,
+     255.0
+    ],
+    [
+     311.0,
+     261.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "healthier for your farmily?",
+   "score": 0.9857501983642578,
+   "poly": [
+    [
+     313.0,
+     257.5
+    ],
+    [
+     436.0,
+     257.5
+    ],
+    [
+     436.0,
+     272.5
+    ],
+    [
+     313.0,
+     272.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Write to us at: troopers@troovyfoods.com",
+   "score": 0.9539247751235962,
+   "poly": [
+    [
+     310.5,
+     270.5
+    ],
+    [
+     524.5,
+     264.0
+    ],
+    [
+     525.5,
+     284.0
+    ],
+    [
+     311.5,
+     290.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BEST WAY TO RAGIN",
+   "score": 0.9514983892440796,
+   "poly": [
+    [
+     17.0,
+     310.0
+    ],
+    [
+     129.5,
+     315.0
+    ],
+    [
+     128.5,
+     335.5
+    ],
+    [
+     16.0,
+     330.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Scan here for offers!",
+   "score": 0.9999793767929077,
+   "poly": [
+    [
+     307.0,
+     317.5
+    ],
+    [
+     450.0,
+     314.0
+    ],
+    [
+     450.5,
+     332.5
+    ],
+    [
+     307.5,
+     336.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "edients: Base- Protein Mix (57%) (Ragi, Rice. P",
+   "score": 0.9545698761940002,
+   "poly": [
+    [
+     2.5,
+     340.5
+    ],
+    [
+     253.0,
+     344.0
+    ],
+    [
+     252.5,
+     362.5
+    ],
+    [
+     2.0,
+     358.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "981 022 B072",
+   "score": 0.9249183535575867,
+   "poly": [
+    [
+     323.0,
+     347.5
+    ],
+    [
+     412.5,
+     345.0
+    ],
+    [
+     413.0,
+     362.0
+    ],
+    [
+     323.5,
+     364.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ein, Urad Dal), Sabudana Flour, Potato Flour, R",
+   "score": 0.9736064076423645,
+   "poly": [
+    [
+     3.0,
+     357.0
+    ],
+    [
+     251.5,
+     359.5
+    ],
+    [
+     251.5,
+     375.0
+    ],
+    [
+     2.5,
+     372.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "n Oil. Seasoning- Dehydrated Vegetables (Garlik",
+   "score": 0.9485522508621216,
+   "poly": [
+    [
+     0.5,
+     371.0
+    ],
+    [
+     252.0,
+     372.5
+    ],
+    [
+     252.0,
+     389.0
+    ],
+    [
+     0.5,
+     387.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "@troovyfoods",
+   "score": 0.9995042681694031,
+   "poly": [
+    [
+     321.0,
+     373.5
+    ],
+    [
+     416.0,
+     369.0
+    ],
+    [
+     416.5,
+     388.0
+    ],
+    [
+     322.0,
+     392.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "on, Tomato), Iodised Salt, Khaand, Natural Citric",
+   "score": 0.9590772390365601,
+   "poly": [
+    [
+     1.0,
+     386.0
+    ],
+    [
+     251.5,
+     386.5
+    ],
+    [
+     251.5,
+     402.0
+    ],
+    [
+     1.0,
+     401.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1. Milk Solids, Spices & Condiments, Natural &",
+   "score": 0.9828575849533081,
+   "poly": [
+    [
+     1.5,
+     399.5
+    ],
+    [
+     241.0,
+     399.5
+    ],
+    [
+     241.0,
+     416.5
+    ],
+    [
+     1.5,
+     416.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "troovyfoods.com",
+   "score": 0.9997759461402893,
+   "poly": [
+    [
+     322.0,
+     399.0
+    ],
+    [
+     432.5,
+     394.5
+    ],
+    [
+     433.5,
+     411.0
+    ],
+    [
+     322.5,
+     415.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ure Identical Flavours, Rosemary Extract.",
+   "score": 0.9919701814651489,
+   "poly": [
+    [
+     2.5,
+     414.0
+    ],
+    [
+     221.5,
+     414.5
+    ],
+    [
+     221.5,
+     430.0
+    ],
+    [
+     2.5,
+     429.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "tains natural colour extracted from Paprika.",
+   "score": 0.9978482723236084,
+   "poly": [
+    [
+     2.5,
+     428.0
+    ],
+    [
+     234.0,
+     427.5
+    ],
+    [
+     234.5,
+     442.5
+    ],
+    [
+     3.0,
+     443.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed by",
+   "score": 0.996860921382904,
+   "poly": [
+    [
+     295.0,
+     431.0
+    ],
+    [
+     367.5,
+     429.5
+    ],
+    [
+     368.0,
+     445.5
+    ],
+    [
+     295.0,
+     447.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ergen info: Contains milk. May contain soy and n",
+   "score": 0.9943075180053711,
+   "poly": [
+    [
+     1.5,
+     446.0
+    ],
+    [
+     252.0,
+     442.5
+    ],
+    [
+     252.0,
+     461.5
+    ],
+    [
+     1.5,
+     464.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HonestInnovations ForYou Pvt. Ltd.",
+   "score": 0.9844075441360474,
+   "poly": [
+    [
+     294.0,
+     445.5
+    ],
+    [
+     466.0,
+     437.0
+    ],
+    [
+     467.0,
+     452.5
+    ],
+    [
+     294.5,
+     461.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tower 8, Sushant Estate, Sector 52, Gurugram.",
+   "score": 0.9675955772399902,
+   "poly": [
+    [
+     294.5,
+     459.0
+    ],
+    [
+     521.5,
+     447.5
+    ],
+    [
+     522.0,
+     463.0
+    ],
+    [
+     295.0,
+     474.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Haryana-122003",
+   "score": 0.9995860457420349,
+   "poly": [
+    [
+     295.0,
+     472.0
+    ],
+    [
+     384.0,
+     468.5
+    ],
+    [
+     384.5,
+     482.5
+    ],
+    [
+     295.5,
+     486.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HO'S THE BAD GUY? IS IT PALM OIL? YES!",
+   "score": 0.9898901581764221,
+   "poly": [
+    [
+     1.0,
+     479.0
+    ],
+    [
+     216.5,
+     477.0
+    ],
+    [
+     216.5,
+     495.5
+    ],
+    [
+     1.0,
+     498.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9243597984313965,
+   "poly": [
+    [
+     297.0,
+     488.5
+    ],
+    [
+     330.0,
+     488.5
+    ],
+    [
+     330.0,
+     503.5
+    ],
+    [
+     297.0,
+     503.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic No. 10821999000514",
+   "score": 0.9995258450508118,
+   "poly": [
+    [
+     340.5,
+     486.0
+    ],
+    [
+     464.0,
+     480.0
+    ],
+    [
+     464.5,
+     495.5
+    ],
+    [
+     341.5,
+     502.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "shned polm oil, also written as vegetable or edil",
+   "score": 0.9428654909133911,
+   "poly": [
+    [
+     0.0,
+     503.0
+    ],
+    [
+     251.0,
+     498.0
+    ],
+    [
+     251.0,
+     515.0
+    ],
+    [
+     0.0,
+     519.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Manufacturing Unit & Lic. No. read the first",
+   "score": 0.9787905216217041,
+   "poly": [
+    [
+     295.0,
+     508.5
+    ],
+    [
+     494.0,
+     497.5
+    ],
+    [
+     495.0,
+     513.0
+    ],
+    [
+     296.0,
+     524.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "il in most chips, is high in saturated fats and",
+   "score": 0.9660773873329163,
+   "poly": [
+    [
+     0.0,
+     516.0
+    ],
+    [
+     229.5,
+     512.5
+    ],
+    [
+     230.0,
+     528.0
+    ],
+    [
+     0.0,
+     531.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "as potentially carcinogenic esters",
+   "score": 0.9803216457366943,
+   "poly": [
+    [
+     28.0,
+     526.5
+    ],
+    [
+     206.5,
+     528.0
+    ],
+    [
+     206.5,
+     543.0
+    ],
+    [
+     28.0,
+     542.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "two character of the batch no. & see below",
+   "score": 0.9896325469017029,
+   "poly": [
+    [
+     295.0,
+     523.0
+    ],
+    [
+     479.5,
+     513.0
+    ],
+    [
+     480.0,
+     527.0
+    ],
+    [
+     296.0,
+     537.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "requy chips do not contain palm oil.",
+   "score": 0.9201586842536926,
+   "poly": [
+    [
+     2.0,
+     536.0
+    ],
+    [
+     189.0,
+     538.5
+    ],
+    [
+     189.0,
+     557.0
+    ],
+    [
+     1.5,
+     554.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manufactured by",
+   "score": 0.9987220764160156,
+   "poly": [
+    [
+     295.5,
+     539.0
+    ],
+    [
+     388.0,
+     535.5
+    ],
+    [
+     388.5,
+     550.5
+    ],
+    [
+     296.5,
+     554.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AC: fssaf",
+   "score": 0.8624489903450012,
+   "poly": [
+    [
+     296.0,
+     555.0
+    ],
+    [
+     350.0,
+     552.5
+    ],
+    [
+     351.0,
+     570.5
+    ],
+    [
+     297.0,
+     573.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic No. 12222042000021",
+   "score": 0.9920254349708557,
+   "poly": [
+    [
+     358.5,
+     554.0
+    ],
+    [
+     489.0,
+     546.0
+    ],
+    [
+     490.0,
+     561.5
+    ],
+    [
+     359.5,
+     569.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AA: fssal",
+   "score": 0.9287488460540771,
+   "poly": [
+    [
+     296.5,
+     572.0
+    ],
+    [
+     350.5,
+     570.5
+    ],
+    [
+     351.0,
+     588.0
+    ],
+    [
+     297.0,
+     589.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic No. 10015021001635",
+   "score": 0.9893450140953064,
+   "poly": [
+    [
+     356.5,
+     571.0
+    ],
+    [
+     485.5,
+     564.0
+    ],
+    [
+     486.5,
+     579.5
+    ],
+    [
+     357.0,
+     586.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Nutritional information",
+   "score": 0.9567262530326843,
+   "poly": [
+    [
+     5.5,
+     578.0
+    ],
+    [
+     143.0,
+     580.5
+    ],
+    [
+     142.5,
+     594.0
+    ],
+    [
+     5.5,
+     591.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Serve Size - 35g",
+   "score": 0.9675716161727905,
+   "poly": [
+    [
+     161.0,
+     578.0
+    ],
+    [
+     251.5,
+     577.0
+    ],
+    [
+     251.5,
+     591.5
+    ],
+    [
+     161.0,
+     592.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For any queries, contact the marketer",
+   "score": 0.9906868934631348,
+   "poly": [
+    [
+     298.0,
+     596.0
+    ],
+    [
+     495.5,
+     585.5
+    ],
+    [
+     496.5,
+     600.5
+    ],
+    [
+     298.5,
+     611.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "%RDA",
+   "score": 0.8694767355918884,
+   "poly": [
+    [
+     170.0,
+     603.5
+    ],
+    [
+     201.0,
+     602.0
+    ],
+    [
+     201.5,
+     614.0
+    ],
+    [
+     170.5,
+     615.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "%RDAP",
+   "score": 0.9548321962356567,
+   "poly": [
+    [
+     213.5,
+     601.5
+    ],
+    [
+     253.0,
+     602.5
+    ],
+    [
+     252.5,
+     615.5
+    ],
+    [
+     213.5,
+     614.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "lutrient",
+   "score": 0.9775124788284302,
+   "poly": [
+    [
+     7.0,
+     612.5
+    ],
+    [
+     59.0,
+     612.5
+    ],
+    [
+     59.0,
+     625.0
+    ],
+    [
+     7.0,
+     625.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "35g",
+   "score": 0.9994099736213684,
+   "poly": [
+    [
+     129.0,
+     611.5
+    ],
+    [
+     152.5,
+     613.0
+    ],
+    [
+     151.5,
+     627.0
+    ],
+    [
+     128.0,
+     625.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "per serve?",
+   "score": 0.9224743843078613,
+   "poly": [
+    [
+     162.0,
+     613.5
+    ],
+    [
+     209.0,
+     612.0
+    ],
+    [
+     209.5,
+     623.0
+    ],
+    [
+     162.5,
+     624.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "servo",
+   "score": 0.8291361927986145,
+   "poly": [
+    [
+     221.5,
+     613.5
+    ],
+    [
+     248.5,
+     613.5
+    ],
+    [
+     248.5,
+     622.0
+    ],
+    [
+     221.5,
+     622.0
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "servo",
+   "alt_score": 0.7647627592086792
+  },
+  {
+   "tl_angle": 0,
+   "text": "hello@troovyfoods.com",
+   "score": 0.9998026490211487,
+   "poly": [
+    [
+     299.5,
+     613.0
+    ],
+    [
+     437.0,
+     605.5
+    ],
+    [
+     438.0,
+     620.0
+    ],
+    [
+     300.5,
+     627.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Acduit)",
+   "score": 0.7987958192825317,
+   "poly": [
+    [
+     169.5,
+     621.0
+    ],
+    [
+     204.0,
+     621.0
+    ],
+    [
+     204.0,
+     632.5
+    ],
+    [
+     169.5,
+     632.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(7-9yno",
+   "score": 0.8034396767616272,
+   "poly": [
+    [
+     211.0,
+     620.0
+    ],
+    [
+     254.0,
+     620.0
+    ],
+    [
+     254.0,
+     631.5
+    ],
+    [
+     211.0,
+     631.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "+919810228072",
+   "score": 0.9937599897384644,
+   "poly": [
+    [
+     316.0,
+     626.0
+    ],
+    [
+     403.5,
+     621.0
+    ],
+    [
+     404.5,
+     635.0
+    ],
+    [
+     317.0,
+     640.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Energy (kco)",
+   "score": 0.9211776852607727,
+   "poly": [
+    [
+     10.5,
+     636.0
+    ],
+    [
+     80.5,
+     634.5
+    ],
+    [
+     81.0,
+     650.5
+    ],
+    [
+     10.5,
+     652.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "171.5",
+   "score": 0.99690181016922,
+   "poly": [
+    [
+     127.5,
+     634.5
+    ],
+    [
+     157.0,
+     634.5
+    ],
+    [
+     157.0,
+     648.0
+    ],
+    [
+     127.5,
+     648.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "9%",
+   "score": 0.9977841377258301,
+   "poly": [
+    [
+     177.0,
+     634.5
+    ],
+    [
+     197.5,
+     634.5
+    ],
+    [
+     197.5,
+     647.5
+    ],
+    [
+     177.0,
+     647.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10%",
+   "score": 0.9803726673126221,
+   "poly": [
+    [
+     229.5,
+     632.5
+    ],
+    [
+     253.5,
+     632.5
+    ],
+    [
+     253.5,
+     646.0
+    ],
+    [
+     229.5,
+     646.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "4.2",
+   "score": 0.9994710087776184,
+   "poly": [
+    [
+     130.0,
+     650.5
+    ],
+    [
+     157.0,
+     649.0
+    ],
+    [
+     158.0,
+     665.0
+    ],
+    [
+     131.0,
+     666.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8%",
+   "score": 0.9991649389266968,
+   "poly": [
+    [
+     179.5,
+     651.0
+    ],
+    [
+     200.0,
+     651.0
+    ],
+    [
+     200.0,
+     663.5
+    ],
+    [
+     179.5,
+     663.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "18%",
+   "score": 0.9998977184295654,
+   "poly": [
+    [
+     228.5,
+     648.5
+    ],
+    [
+     254.5,
+     648.5
+    ],
+    [
+     254.5,
+     662.5
+    ],
+    [
+     228.5,
+     662.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NOOFSERVINGS:",
+   "score": 0.9980148077011108,
+   "poly": [
+    [
+     300.0,
+     646.5
+    ],
+    [
+     400.0,
+     642.0
+    ],
+    [
+     401.0,
+     657.5
+    ],
+    [
+     300.5,
+     662.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Protein (g)",
+   "score": 0.990004301071167,
+   "poly": [
+    [
+     10.5,
+     653.0
+    ],
+    [
+     65.0,
+     653.0
+    ],
+    [
+     65.0,
+     669.0
+    ],
+    [
+     10.5,
+     669.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "70g",
+   "score": 0.9996978640556335,
+   "poly": [
+    [
+     466.0,
+     657.0
+    ],
+    [
+     495.5,
+     657.0
+    ],
+    [
+     495.5,
+     672.5
+    ],
+    [
+     466.0,
+     672.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "21.4",
+   "score": 0.9734954237937927,
+   "poly": [
+    [
+     131.0,
+     669.0
+    ],
+    [
+     161.0,
+     668.0
+    ],
+    [
+     161.5,
+     681.5
+    ],
+    [
+     132.0,
+     683.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "16%",
+   "score": 0.9971216320991516,
+   "poly": [
+    [
+     230.5,
+     666.0
+    ],
+    [
+     254.0,
+     666.0
+    ],
+    [
+     254.0,
+     680.0
+    ],
+    [
+     230.5,
+     680.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET QTY(9)",
+   "score": 0.847976803779602,
+   "poly": [
+    [
+     302.5,
+     666.5
+    ],
+    [
+     378.5,
+     665.0
+    ],
+    [
+     379.0,
+     681.0
+    ],
+    [
+     303.0,
+     682.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Carbohydrates (g)",
+   "score": 0.9947415590286255,
+   "poly": [
+    [
+     13.0,
+     672.0
+    ],
+    [
+     106.0,
+     669.0
+    ],
+    [
+     106.5,
+     685.0
+    ],
+    [
+     13.5,
+     688.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "55.00",
+   "score": 0.8985810279846191,
+   "poly": [
+    [
+     466.0,
+     672.5
+    ],
+    [
+     494.5,
+     672.5
+    ],
+    [
+     494.5,
+     686.5
+    ],
+    [
+     466.0,
+     686.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.7",
+   "score": 0.9999368786811829,
+   "poly": [
+    [
+     133.5,
+     686.0
+    ],
+    [
+     155.5,
+     686.0
+    ],
+    [
+     155.5,
+     700.5
+    ],
+    [
+     133.5,
+     700.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.93/g",
+   "score": 0.9988732933998108,
+   "poly": [
+    [
+     466.5,
+     683.5
+    ],
+    [
+     500.0,
+     683.5
+    ],
+    [
+     500.0,
+     697.0
+    ],
+    [
+     466.5,
+     697.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Total Sugars (g)",
+   "score": 0.9634506702423096,
+   "poly": [
+    [
+     14.5,
+     689.5
+    ],
+    [
+     94.0,
+     688.0
+    ],
+    [
+     94.5,
+     704.0
+    ],
+    [
+     14.5,
+     705.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP08P",
+   "score": 0.912301242351532,
+   "poly": [
+    [
+     302.5,
+     690.0
+    ],
+    [
+     382.5,
+     686.0
+    ],
+    [
+     383.0,
+     702.0
+    ],
+    [
+     303.5,
+     706.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1%",
+   "score": 0.9975476264953613,
+   "poly": [
+    [
+     237.5,
+     699.0
+    ],
+    [
+     254.5,
+     699.0
+    ],
+    [
+     254.5,
+     713.0
+    ],
+    [
+     237.5,
+     713.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AA140825",
+   "score": 0.9908673167228699,
+   "poly": [
+    [
+     461.0,
+     694.5
+    ],
+    [
+     506.0,
+     693.5
+    ],
+    [
+     506.0,
+     706.5
+    ],
+    [
+     461.5,
+     707.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.4",
+   "score": 0.9999223351478577,
+   "poly": [
+    [
+     134.0,
+     703.5
+    ],
+    [
+     158.0,
+     703.5
+    ],
+    [
+     158.0,
+     718.0
+    ],
+    [
+     134.0,
+     718.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1%",
+   "score": 0.9989849328994751,
+   "poly": [
+    [
+     183.0,
+     701.0
+    ],
+    [
+     202.0,
+     701.0
+    ],
+    [
+     202.0,
+     716.0
+    ],
+    [
+     183.0,
+     716.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Added Sugars (g)",
+   "score": 0.9520189762115479,
+   "poly": [
+    [
+     16.0,
+     707.5
+    ],
+    [
+     103.0,
+     706.0
+    ],
+    [
+     103.5,
+     721.5
+    ],
+    [
+     16.0,
+     723.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(INCL CALLITAXE",
+   "score": 0.7490406036376953,
+   "poly": [
+    [
+     303.8269348144531,
+     704.8338623046875
+    ],
+    [
+     381.8224182128906,
+     698.7760009765625
+    ],
+    [
+     382.8612976074219,
+     712.151611328125
+    ],
+    [
+     304.8658142089844,
+     718.20947265625
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "(INCL ORALLITES",
+   "alt_score": 0.6531330943107605
+  },
+  {
+   "tl_angle": 0,
+   "text": "14/08/26",
+   "score": 0.991281270980835,
+   "poly": [
+    [
+     461.5,
+     704.0
+    ],
+    [
+     505.0,
+     704.0
+    ],
+    [
+     505.0,
+     717.0
+    ],
+    [
+     461.5,
+     717.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8%",
+   "score": 0.9999244809150696,
+   "poly": [
+    [
+     182.0,
+     718.5
+    ],
+    [
+     204.0,
+     718.5
+    ],
+    [
+     204.0,
+     733.5
+    ],
+    [
+     182.0,
+     733.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "9%",
+   "score": 0.9996904730796814,
+   "poly": [
+    [
+     236.0,
+     717.0
+    ],
+    [
+     256.5,
+     717.0
+    ],
+    [
+     256.5,
+     730.5
+    ],
+    [
+     236.0,
+     730.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "09/02/27",
+   "score": 0.9998278021812439,
+   "poly": [
+    [
+     461.5,
+     715.5
+    ],
+    [
+     504.5,
+     715.5
+    ],
+    [
+     504.5,
+     728.0
+    ],
+    [
+     461.5,
+     728.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Dietary Fibre (g)",
+   "score": 0.9659788608551025,
+   "poly": [
+    [
+     15.0,
+     725.0
+    ],
+    [
+     98.5,
+     724.5
+    ],
+    [
+     98.5,
+     740.5
+    ],
+    [
+     15.0,
+     741.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2.5",
+   "score": 0.9996883273124695,
+   "poly": [
+    [
+     134.5,
+     721.0
+    ],
+    [
+     157.5,
+     720.0
+    ],
+    [
+     158.5,
+     736.0
+    ],
+    [
+     135.0,
+     737.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BATCH NO.",
+   "score": 0.9918689727783203,
+   "poly": [
+    [
+     304.5,
+     725.0
+    ],
+    [
+     369.0,
+     722.5
+    ],
+    [
+     369.5,
+     737.0
+    ],
+    [
+     305.0,
+     739.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M/CNO.-19",
+   "score": 0.9168784022331238,
+   "poly": [
+    [
+     460.5,
+     726.0
+    ],
+    [
+     504.0,
+     725.0
+    ],
+    [
+     504.5,
+     737.0
+    ],
+    [
+     460.5,
+     738.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "13%",
+   "score": 0.9923679828643799,
+   "poly": [
+    [
+     179.0,
+     737.0
+    ],
+    [
+     205.0,
+     735.5
+    ],
+    [
+     206.0,
+     751.5
+    ],
+    [
+     180.0,
+     753.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "29",
+   "score": 0.9996798038482666,
+   "poly": [
+    [
+     232.5,
+     734.0
+    ],
+    [
+     253.0,
+     732.5
+    ],
+    [
+     254.0,
+     747.5
+    ],
+    [
+     233.5,
+     749.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8.8",
+   "score": 0.999761164188385,
+   "poly": [
+    [
+     136.0,
+     739.5
+    ],
+    [
+     158.0,
+     739.5
+    ],
+    [
+     158.0,
+     753.5
+    ],
+    [
+     136.0,
+     753.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "13:04",
+   "score": 0.9172505140304565,
+   "poly": [
+    [
+     460.0,
+     735.5
+    ],
+    [
+     484.0,
+     735.5
+    ],
+    [
+     484.0,
+     747.5
+    ],
+    [
+     460.0,
+     747.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "otal Fat (g)",
+   "score": 0.9468143582344055,
+   "poly": [
+    [
+     20.5,
+     743.5
+    ],
+    [
+     77.5,
+     743.5
+    ],
+    [
+     77.5,
+     758.0
+    ],
+    [
+     20.5,
+     758.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10%",
+   "score": 0.9999703764915466,
+   "poly": [
+    [
+     178.5,
+     754.0
+    ],
+    [
+     205.5,
+     754.0
+    ],
+    [
+     205.5,
+     769.5
+    ],
+    [
+     178.5,
+     769.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10",
+   "score": 0.999812126159668,
+   "poly": [
+    [
+     235.5,
+     752.0
+    ],
+    [
+     253.0,
+     752.0
+    ],
+    [
+     253.0,
+     766.0
+    ],
+    [
+     235.5,
+     766.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFD.",
+   "score": 0.9961163997650146,
+   "poly": [
+    [
+     305.0,
+     749.5
+    ],
+    [
+     338.5,
+     749.5
+    ],
+    [
+     338.5,
+     764.5
+    ],
+    [
+     305.0,
+     764.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Saturated Fat (g)",
+   "score": 0.9048908948898315,
+   "poly": [
+    [
+     21.0,
+     761.0
+    ],
+    [
+     106.0,
+     761.0
+    ],
+    [
+     106.0,
+     776.5
+    ],
+    [
+     21.0,
+     776.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "22",
+   "score": 0.9999748468399048,
+   "poly": [
+    [
+     137.5,
+     757.5
+    ],
+    [
+     159.0,
+     757.5
+    ],
+    [
+     159.0,
+     772.5
+    ],
+    [
+     137.5,
+     772.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.999774158000946,
+   "poly": [
+    [
+     183.0,
+     772.5
+    ],
+    [
+     206.5,
+     772.5
+    ],
+    [
+     206.5,
+     786.5
+    ],
+    [
+     183.0,
+     786.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.999330997467041,
+   "poly": [
+    [
+     238.5,
+     769.5
+    ],
+    [
+     258.0,
+     769.5
+    ],
+    [
+     258.0,
+     782.5
+    ],
+    [
+     238.5,
+     782.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.0",
+   "score": 0.9993460774421692,
+   "poly": [
+    [
+     137.5,
+     775.0
+    ],
+    [
+     160.5,
+     775.0
+    ],
+    [
+     160.5,
+     789.0
+    ],
+    [
+     137.5,
+     789.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USEBY",
+   "score": 0.9985395669937134,
+   "poly": [
+    [
+     299.5,
+     773.5
+    ],
+    [
+     353.0,
+     772.5
+    ],
+    [
+     353.0,
+     788.5
+    ],
+    [
+     299.5,
+     789.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ns Fat (g)",
+   "score": 0.9729422330856323,
+   "poly": [
+    [
+     27.5,
+     780.0
+    ],
+    [
+     80.0,
+     780.0
+    ],
+    [
+     80.0,
+     794.5
+    ],
+    [
+     27.5,
+     794.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.9992762207984924,
+   "poly": [
+    [
+     183.5,
+     789.5
+    ],
+    [
+     206.0,
+     788.5
+    ],
+    [
+     207.0,
+     803.5
+    ],
+    [
+     184.0,
+     804.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.9992315173149109,
+   "poly": [
+    [
+     237.0,
+     786.0
+    ],
+    [
+     258.5,
+     785.0
+    ],
+    [
+     259.5,
+     800.0
+    ],
+    [
+     238.0,
+     801.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cholesterol (mg)",
+   "score": 0.9733924269676208,
+   "poly": [
+    [
+     22.0,
+     797.0
+    ],
+    [
+     102.5,
+     797.0
+    ],
+    [
+     102.5,
+     812.5
+    ],
+    [
+     22.0,
+     812.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.0",
+   "score": 0.9952598214149475,
+   "poly": [
+    [
+     137.5,
+     792.5
+    ],
+    [
+     160.0,
+     792.5
+    ],
+    [
+     160.0,
+     807.5
+    ],
+    [
+     137.5,
+     807.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10%",
+   "score": 0.9999566078186035,
+   "poly": [
+    [
+     182.5,
+     807.5
+    ],
+    [
+     209.0,
+     806.0
+    ],
+    [
+     210.0,
+     822.0
+    ],
+    [
+     183.0,
+     823.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10%",
+   "score": 0.9998323321342468,
+   "poly": [
+    [
+     237.0,
+     803.0
+    ],
+    [
+     260.5,
+     803.0
+    ],
+    [
+     260.5,
+     817.5
+    ],
+    [
+     237.0,
+     817.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sodium (mg)",
+   "score": 0.9785627722740173,
+   "poly": [
+    [
+     23.5,
+     813.5
+    ],
+    [
+     83.5,
+     814.5
+    ],
+    [
+     83.0,
+     830.5
+    ],
+    [
+     23.0,
+     829.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "208.3",
+   "score": 0.9988688230514526,
+   "poly": [
+    [
+     131.0,
+     811.0
+    ],
+    [
+     166.5,
+     809.5
+    ],
+    [
+     167.5,
+     824.5
+    ],
+    [
+     132.0,
+     826.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "",
+   "score": 0.0,
+   "poly": [
+    [
+     490.0,
+     811.5
+    ],
+    [
+     537.5,
+     809.5
+    ],
+    [
+     538.5,
+     838.0
+    ],
+    [
+     491.0,
+     840.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Aduit RDA is based on a 2000kcal diet",
+   "score": 0.9640060663223267,
+   "poly": [
+    [
+     22.0,
+     836.5
+    ],
+    [
+     217.5,
+     831.0
+    ],
+    [
+     218.0,
+     846.5
+    ],
+    [
+     22.5,
+     852.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MADE",
+   "score": 0.9788815379142761,
+   "poly": [
+    [
+     489.5,
+     842.0
+    ],
+    [
+     535.5,
+     837.5
+    ],
+    [
+     537.0,
+     849.5
+    ],
+    [
+     490.5,
+     854.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mased on ICMR-2020 for 7-9 year-olds.",
+   "score": 0.9453736543655396,
+   "poly": [
+    [
+     24.5,
+     850.5
+    ],
+    [
+     223.5,
+     844.0
+    ],
+    [
+     224.0,
+     858.0
+    ],
+    [
+     25.0,
+     864.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "819080186515300",
+   "score": 0.9357311129570007,
+   "poly": [
+    [
+     316.5,
+     848.0
+    ],
+    [
+     470.5,
+     832.5
+    ],
+    [
+     472.5,
+     851.0
+    ],
+    [
+     318.5,
+     866.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "o not consume the contents of the pack",
+   "score": 0.9629661440849304,
+   "poly": [
+    [
+     23.5,
+     866.0
+    ],
+    [
+     226.0,
+     858.0
+    ],
+    [
+     226.5,
+     871.5
+    ],
+    [
+     24.0,
+     879.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ithas been tompered with",
+   "score": 0.8912234306335449,
+   "poly": [
+    [
+     25.5,
+     876.0
+    ],
+    [
+     164.5,
+     871.0
+    ],
+    [
+     165.0,
+     883.5
+    ],
+    [
+     26.0,
+     889.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SOPRIETARY FOOD-CHIPS (15.1)",
+   "score": 0.9412217736244202,
+   "poly": [
+    [
+     317.5,
+     872.0
+    ],
+    [
+     455.0,
+     866.0
+    ],
+    [
+     455.5,
+     881.5
+    ],
+    [
+     318.0,
+     887.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "This product should be taken ns a port of",
+   "score": 0.9661650061607361,
+   "poly": [
+    [
+     27.5,
+     890.0
+    ],
+    [
+     240.0,
+     879.5
+    ],
+    [
+     241.0,
+     893.0
+    ],
+    [
+     28.0,
+     904.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "salonced diet and nat as a complste mear",
+   "score": 0.8591939806938171,
+   "poly": [
+    [
+     25.0,
+     901.5
+    ],
+    [
+     238.0,
+     889.0
+    ],
+    [
+     238.5,
+     901.5
+    ],
+    [
+     26.0,
+     914.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "f",
+   "score": 0.22428147494792938,
+   "poly": [
+    [
+     26.5,
+     912.0
+    ],
+    [
+     50.5,
+     912.0
+    ],
+    [
+     50.5,
+     920.0
+    ],
+    [
+     26.5,
+     920.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "",
+   "alt_score": 0.0
+  }
+ ]
+}

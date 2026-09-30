@@ -1,0 +1,510 @@
+# Findings that depend on today's date (expiry) are scored as of this day.
+as_of: 2026-09-28
+
+# What is actually printed on each real photo, read by eye from the image.
+#
+# value      - what extraction must return (numbers compared with a small
+#              tolerance, text by case-insensitive containment)
+# present    - the declaration is printed and legible on this photo; the
+#              system should find it (the exact wording is not scored)
+# not_legible- printed, but not readable in this photo (curved bottle,
+#              cropped, glare). The system must NOT call it missing - it
+#              should say INDETERMINATE. Not counted for or against reading.
+# not_on_panel - not on the panel in this photo. Same rule as not_legible.
+#
+# expected_violations: rule ids a careful human WOULD flag on this photo.
+#              The eval reports them as caught / not caught.
+# possible_violations: rule ids where a human could argue either way
+#              ("Incl GST" instead of "inclusive of all taxes", a blank
+#              "Packed on" box that may be stamped on another face). Not
+#              counted as false violations, not required either.
+# Any OTHER violation the system reports is a false violation.
+#
+# OCR for photo1, photo2 and photo5 is real PaddleOCR 3.7 output from a
+# teammate's machine: *.paddle.json = the photo as taken (the default),
+# *.enhanced.paddle.json = after our deglare/contrast/sharpen pass.
+# The extraction fixes of Sept 2026 were made looking at THESE three
+# photos. photo3, photo4 and photo6-17 were read on a teammate's laptop
+# (PaddleOCR 3.7, CPU) on 27-28 Sept 2026 and scored BEFORE any fix:
+# 18/36 read correctly, 3 wrongly, 7 false violations, 2/2 caught. They were
+# then used for fixes too, so none of the 17 is held out any more.
+
+photo1:
+  product: "Streax Professional Vitariche Gloss hair serum (round bottle)"
+  fields:
+    retail_sale_price: not_legible      # black box on the curved side, cut off
+    net_quantity: not_legible            # "NET QUANTITY" label read, value not
+    unit_sale_price: not_legible
+    manufacture_date: not_legible
+    manufacturer_details: not_legible    # "Hygienic Research Institute" wraps round the bottle
+    consumer_care: present               # "TEL: 1800 266 8110 - E-MAIL: info@hrlindia.com"
+    common_name: not_legible
+  expected_violations: []
+
+photo2:
+  product: "Dabur Amla Hair Oil 45 ml (bottle, flat label)"
+  fields:
+    retail_sale_price: 18.00             # "Rs.18.00", qualifier printed below by reference
+    unit_sale_price: 0.40                # "(Rs.0.40/ml)"
+    net_quantity: "45 ml"
+    manufacture_date: "03/2026"          # "03/2026 (B4)" then use-before "03/2029", "See above"
+    manufacturer_details: present        # "(BM) Dabur India Limited, ..." coded by batch
+    consumer_care: present               # e-mail + toll free 1800-103-1644
+    common_name: not_legible             # "Hair Oil" is in tiny script under the logo
+  expected_violations: []
+
+photo3:
+  product: "Haldiram's Aloo Bhujia 35 g (pillow pack)"
+  fields:
+    retail_sale_price: 10.00             # "MRP. Rs 10/- (INCL. OF ALL TAXES)"
+    unit_sale_price: 0.29                # "USP: Rs.0.29/g"
+    net_quantity: "35 g"
+    manufacture_date: "06/2026"          # "MFG. DATE: 19/06/26", "USE BY: 16/10/26"
+    manufacturer_details: present        # "Haldiram Snacks Food Private Limited, ..."
+    consumer_care: present               # "CUSTOMERCARE@HALDIRAM.COM"
+    common_name: not_on_panel
+  expected_violations: []
+
+photo4:
+  product: "Maggi noodles pack (back, partly cropped at the left edge)"
+  fields:
+    retail_sale_price: not_legible
+    unit_sale_price: not_legible
+    net_quantity: not_legible
+    manufacture_date: not_legible
+    manufacturer_details: not_legible
+    consumer_care: present               # "CONSUMER CARE, P.O. BAG NO. 2, NEW DELHI-110001 ... 1800 103 1947"
+    common_name: not_legible
+  expected_violations: []
+
+photo5:
+  product: "Maggi Masala-ae-Magic 6 g sachet (back)"
+  fields:
+    retail_sale_price: 5.00              # "MRP ₹5 (incl. of all taxes)"
+    unit_sale_price: 0.83                # "(₹0.83 per g)"
+    net_quantity: "6 g"
+    manufacture_date: "03/2026"          # vertical inkjet "MAR/26-NOV/26-D"
+    manufacturer_details: present        # "Mkt by: Nestle India Ltd., 100/101 World Trade Centre ..."
+    consumer_care: present               # "NESTLE CONSUMER CARE ... WECARE@IN.NESTLE.COM, 1800 103 1947"
+    common_name: not_on_panel
+  expected_violations: []
+
+# ---- Added Sept 2026: 12 photos from back_9.zip (the 5 other files in that
+# zip were byte-identical to photo1-photo5 and were skipped). Source file
+# name in brackets.
+
+photo6:
+  product: "Bingo Mad Angles (ITC), back [back.jpeg]"
+  fields:
+    retail_sale_price: 20.00             # "MRP ₹20.00 incl. of all taxes"
+    unit_sale_price: not_legible         # "₹ PER g:" printed, inkjet value unreadable
+    net_quantity: not_on_panel
+    manufacture_date: "07/2026"          # inkjet "MFD. 29 JUL 26", "USE BY 24 JAN 27"
+    manufacturer_details: not_on_panel   # pack says "scan QR" for manufacturing units
+    consumer_care: present               # ITC Consumer Care Office ... 560005, itccares@itc.in, 1800 425 444 444
+    common_name: present                 # "PROPRIETARY FOOD - NAMKEEN"
+  expected_violations: []
+
+photo7:
+  product: "Drolia Kalash Roli (Kumkum) sachet, two sachets overlapping [back1.jpeg]"
+  fields:
+    retail_sale_price: 5.00              # "Max. Retail Price ₹ 5.00 (inclusive of all taxes)"
+    unit_sale_price: not_on_panel
+    net_quantity: "5 g"                  # "Net Wt.: 5g. (When Packed)"
+    manufacture_date: not_on_panel
+    manufacturer_details: not_legible    # "Mfg. By DROLIA CHE..." cut off by the other sachet
+    consumer_care: not_legible
+    common_name: present                 # "Contents: Roli (Kumkum)"
+  expected_violations: []
+
+photo8:
+  product: "Kesar Chandan jar (King), Hindi face [back 2.jpeg]"
+  # photo8 + photo9 + photo15 together show the whole jar.
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: []
+
+photo9:
+  product: "Kesar Chandan jar (King), MRP face [back 3.jpeg]"
+  fields:
+    retail_sale_price: 75                # "M.R.P. : 75/-"  (no qualifier, no ₹)
+    net_quantity: not_on_panel           # on no face of the jar (photo8/9/15)
+    manufacture_date: not_on_panel
+    manufacturer_details: present        # "Processed & Pkd. By KING CORPORATION INDIA"
+    consumer_care: not_on_panel
+  # No "inclusive of all taxes" anywhere on the jar; the "address" is a
+  # company name and a country. (A missing ₹ is never a violation by
+  # design - OCR drops the sign.)
+  expected_violations:
+    - retail_sale_price.required_phrasing
+    - manufacturer_details.structure
+  possible_violations:
+    - retail_sale_price.currency_present
+
+photo10:
+  product: "Rocket Dhuna (MHM), close-up [back 4.jpeg]"
+  fields:
+    retail_sale_price: 30.00             # "Max Retail Price ₹30.00 (incl of all taxes)"
+    unit_sale_price: 0.60                # "Unit Sale Price ₹0.60" (no "per g" printed)
+    net_quantity: "50 g"                 # "Net Weight 50gm (When Packed)"
+    manufacture_date: not_legible        # "Packed on" box is blank on this pack
+    manufacturer_details: present        # "133, Caning Street, Second Floor, Kolkata - 700001"
+    consumer_care: not_legible           # "033-4..." cut by the thumb
+    common_name: not_on_panel
+  expected_violations: []
+  possible_violations:
+    - net_quantity.unit_is_si            # "gm" is not the SI symbol "g"
+    - manufacture_date.presence          # blank "Packed on" box
+
+photo11:
+  product: "Rocket Dhuna (MHM), same pack as photo10, farther away [back 5.jpeg]"
+  fields:
+    retail_sale_price: 30.00
+    unit_sale_price: 0.60
+    net_quantity: "50 g"
+    manufacture_date: not_legible        # blank "Packed on" box
+    manufacturer_details: present        # "M.H. Marketing, 133 Caning Street ... Kolkata - 700001"
+    consumer_care: present               # "Customer Care 033-40679126", importinfo.mhm@gmail.com
+    common_name: not_on_panel
+  expected_violations: []
+  possible_violations:
+    - net_quantity.unit_is_si
+    - manufacture_date.presence
+
+photo12:
+  product: "Drolia Maharaja Gold Gulal, back [back 6.jpeg]"
+  fields:
+    retail_sale_price: 40.00             # "MRP ₹40.00 (incl. of all taxes)"
+    net_quantity: "100 g"
+    manufacture_date: not_legible        # "Pkd On" box blank
+    manufacturer_details: present        # "Drolia Chemicals, 7 No. Ramlochan Mullick Street, Kolkata-73"
+    consumer_care: not_legible
+    common_name: not_on_panel
+  expected_violations: []
+  possible_violations:
+    - manufacture_date.presence
+
+photo13:
+  product: "Cavin's Rabdi milkshake can, side [cyl.jpeg]"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    manufacture_date: not_on_panel
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+    country_of_origin: "india"           # "Country of Origin: INDIA"
+  expected_violations: []
+
+photo14:
+  product: "R B Products Dry Fruits, box label [front 1.jpeg]"
+  fields:
+    retail_sale_price: 60.00             # "M.R.P. ₹ 60.00 (Incl GST)"
+    net_quantity: "40 g"                 # "Net Weight : 40 grams (when packed)"
+    manufacture_date: "10/2025"          # "Date of Packing" stamped "OCT 2025"
+    manufacturer_details: present        # "Packed by : R. B. Products, Guwahati"
+    consumer_care: not_on_panel
+    common_name: present                 # "Dry Fruits"
+  expected_violations: []
+  possible_violations:
+    - retail_sale_price.required_phrasing  # "Incl GST" is not one of the 2017 illustrations
+    - manufacturer_details.structure       # name + city only, no street or PIN
+
+photo15:
+  product: "Kesar Chandan jar (King), front [front 2.jpeg]"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    common_name: present                 # "Tika Powder"
+  expected_violations: []
+
+photo16:
+  product: "Drolia Maharaja Gold Gulal, front [front 3.jpeg]"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+  expected_violations: []
+
+photo17:
+  product: "Drolia Gopi Chandan Tilak box, side [side 1.jpeg]"
+  fields:
+    retail_sale_price: 20.00             # "MRP ₹20.00 (Inclusive of all Taxes)"
+    manufacture_date: not_legible        # "Mfg Date" box blank
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+  expected_violations: []
+  possible_violations:
+    - manufacture_date.presence
+
+# ---- HELD-OUT SET, added 28 Sept 2026: photo18-photo38, 21 photos of packs
+# from home, taken by the team. Ground truth below was written by eye from
+# the photos BEFORE any OCR of them was seen and before any fix. Score these
+# once, before tuning anything on them - that number is the honest one.
+# (WhatsApp-compressed to 580x1280, so small print is at the limit.)
+
+photo18:
+  product: "Troovy K.K.K. Krunchies 40 g, back"
+  fields:
+    retail_sale_price: 40.00             # "MRP ₹/USP ₹ (INCL. OF ALL TAXES)" | "Rs. 40.00"
+    unit_sale_price: 1.00                # "Rs. 1.00/g"
+    net_quantity: "40 g"
+    manufacture_date: "08/2026"          # MFD. 21AUG2026, USE BY 17MAY2027
+    manufacturer_details: present        # Divinutty Products Pvt. Ltd., F-112, Mewar Industrial Area ... Udaipur-313003
+    consumer_care: present               # hello@troovyfoods.com, +91 98102 28072
+    common_name: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo19:
+  product: "Amul Calci+ milk carton, top (inkjet)"
+  fields:
+    retail_sale_price: 26                # "MRP ₹ 26" - qualifier is on the side panel by reference
+    unit_sale_price: 0.10                # "USP ₹ 0.10/mL"
+    manufacture_date: "08/2026"          # "Pkd:22/AUG/26 Exp:18/FEB/27"
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+    consumer_care: not_on_panel
+  expected_violations: []                # side panel: "For MRP (incl. of all taxes) ... see top of the pack"
+  set2: true
+  ocr: none_yet
+
+photo20:
+  product: "Amul Calci+ milk carton, side"
+  fields:
+    net_quantity: "250 ml"               # "Net Content: 250 mL"
+    manufacturer_details: present        # Marketed by GCMMF Ltd., Amul Dairy Road, Anand, Gujarat - 388001
+    consumer_care: present               # 1800-258-3333 (Toll Free), customercare@amul.coop
+    retail_sale_price: not_on_panel      # "For MRP (incl. of all taxes) ... see top of the pack"
+    manufacture_date: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo21:
+  product: "Troovy chips 70 g, back"
+  fields:
+    retail_sale_price: 65.00
+    unit_sale_price: 0.93                # "0.93/g"
+    net_quantity: "70 g"
+    manufacture_date: "08/2026"          # 14/08/26, use by 09/02/27
+    manufacturer_details: present        # marketed by HonestInnovations ... Gurugram, Haryana-122003
+    consumer_care: present               # hello@troovyfoods.com, +91 98102 28072
+    common_name: present                 # "PROPRIETARY FOOD - CHIPS (15.1)"
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo22:
+  product: "Amul Calci+ milk carton, front (QR for unit address)"
+  fields:
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo23:
+  product: "Monster Energy can, side"
+  fields:
+    net_quantity: "350 ml"
+    manufacturer_details: present        # Monster Energy India Pvt Ltd, ... Churchgate, Mumbai 400020
+    consumer_care: present               # 000-800-040-1274, INFO@MONSTERENERGY.COM
+    retail_sale_price: not_on_panel      # "For MRP (incl. of all taxes) ... see base of can"
+    manufacture_date: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo24:
+  product: "Rajam herbal powder jar 500 g"
+  fields:
+    net_quantity: "500 g"
+    retail_sale_price: 260.00            # "M.R.P. ₹ (incl. of all taxes)" | "260.00"
+    unit_sale_price: 0.52                # "USP ₹0.52/g"
+    manufacture_date: "11/2024"          # PKD ON "NOV 2024"
+    manufacturer_details: present        # Rajam Herbal Technologies, #3/368 Sithanur ... Salem - 636 302
+    consumer_care: present               # rajamimpex@gmail.com, 6382971959
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo25:
+  product: "Monster Energy can, base (inkjet)"
+  fields:
+    retail_sale_price: 125               # "MRP Rs.125/-"
+    unit_sale_price: 0.36                # "USP Rs.0.36/mL"
+    manufacture_date: "07/2026"          # "MFD:03/JUL/26", "EXP:03/JUL/28"
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+  expected_violations: []                # qualifier printed on the side by reference
+  set2: true
+  ocr: none_yet
+
+photo26:
+  product: "Vim dishwash gel pouch 200 ml, back"
+  fields:
+    retail_sale_price: 25                # rotated edge "₹25/-"
+    unit_sale_price: 0.13                # "₹0.13/ml"
+    manufacture_date: "12/2024"          # "19/12/24"
+    net_quantity: "200 ml"               # rotated edge "200ml"
+    manufacturer_details: present        # Hindustan Unilever Ltd., Unilever House, ... Mumbai 400 099
+    consumer_care: present               # Toll free 1800-10-22-221, LEVER.CARE@UNILEVER.COM
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo27:
+  product: "Paper Boat Swing pomegranate 140 ml pouch"
+  fields:
+    retail_sale_price: 10                # inkjet "₹10"
+    unit_sale_price: 0.071               # "USP ₹ 0.071/ml"
+    manufacture_date: "08/2026"          # "29/08/26", USE BY 28/02/27
+    net_quantity: "140 ml"
+    manufacturer_details: present        # Hector Beverages Pvt. Ltd., Plot No. 132, Sector-3, IMT Manesar, Gurugram-122050
+    consumer_care: present               # 1800-203-0515, paperboat@hectorbeverages.com
+  expected_violations: []
+  possible_violations:
+    - unit_sale_price.decimal_places     # three decimals printed
+  set2: true
+  ocr: none_yet
+
+photo28:
+  product: "Zydus sugar substitute jar, side (vertical inkjet)"
+  fields:
+    retail_sale_price: 154.00            # "Rs. 154.00 (Rs. 1.54 Per g)"
+    unit_sale_price: 1.54
+    manufacture_date: "06/2026"          # "01/06/26 31/05/28"
+    manufacturer_details: present        # Zydus Wellness Products Ltd, ... Mamring - 737132, South Sikkim
+    consumer_care: present               # 1800 120 6868, customercare@zyduswellness.com
+    net_quantity: not_on_panel
+  expected_violations: []                # qualifier on the other side by reference
+  set2: true
+  ocr: none_yet
+
+photo29:
+  product: "Zydus sugar substitute jar, other side"
+  fields:
+    net_quantity: "100 g"
+    retail_sale_price: not_on_panel      # "For MRP Rs. (incl. of all taxes) ... see on the side"
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo30:
+  product: "MyFitness peanut butter tub 210 g"
+  fields:
+    net_quantity: "210 g"
+    manufacturer_details: present        # Tanvi Fitness Pvt Ltd, Innohouse ... Sector-32, Gurugram, Haryana 122001
+    consumer_care: present               # care@myfitness.com, +91 7096699111 (rotated strip)
+    retail_sale_price: not_on_panel      # "see Cap/Bottom"
+    manufacture_date: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo31:
+  product: "Kissan jam cup, side"
+  fields:
+    consumer_care: present               # LEVERCARE ... TOLL FREE 1800-10-22-221, LEVER.CARE@UNILEVER.COM
+    retail_sale_price: not_on_panel      # "see lid/base"
+    net_quantity: not_on_panel
+    manufacturer_details: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo32:
+  product: "Bodywise lotion 200 ml, sticker panel"
+  fields:
+    net_quantity: "200 ml"
+    retail_sale_price: 399               # "MRP (₹) (incl. of all taxes)" | "399" (smudged)
+    unit_sale_price: not_legible         # "1.9?" smudged
+    manufacture_date: not_legible        # "12/2?" smudged
+    manufacturer_details: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo33:
+  product: "Zebronics Ethernet converter box label (imported)"
+  fields:
+    retail_sale_price: 1699.00           # "₹1,699.00 (incl. of all taxes) per Number"
+    manufacturer_details: present        # Imported and Marketed by Zebronics India Pvt. Ltd., ... Chennai - 600 002
+    consumer_care: present               # 044-4000 0004, enquiry@zebronics.com
+    country_of_origin: "china"           # "People's Republic of China"
+    common_name: present                 # "Generic Name: Zebronics Ethernet Converter"
+    manufacture_date: "04/2026"          # "Manufactured On 04/2026", imported 05/2026
+    net_quantity: not_legible            # "1 U"
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo34:
+  product: "Bodywise lotion, back"
+  fields:
+    manufacturer_details: present        # Bili Life Science LPP, 36,37 Tulsi Industrial Estate ... Ahmedabad-382213
+    consumer_care: present               # support@bebodywise.com, P: 8128688128
+    retail_sale_price: not_on_panel
+    net_quantity: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo35:
+  product: "Xerodel cream tube, back"
+  fields:
+    manufacturer_details: present        # Anne Cosmetics Products Pvt Ltd, Plot No. 54, D-1, Rama Road Industrial Area, Delhi-110015
+    consumer_care: not_legible           # tiny "Customer care Number: 011-40367801"
+    retail_sale_price: not_on_panel      # "See on Crimp"
+    manufacture_date: not_legible        # crimp, blurred
+    net_quantity: not_on_panel
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo36:
+  product: "Graceness toothpaste tube 125 g (landscape)"
+  fields:
+    net_quantity: "125 g"                # "NET WT. 125 g"
+    manufacturer_details: present        # Indoco Remedies Ltd., AURIC City, Shendra ... - 431154, Maharashtra
+    consumer_care: not_legible           # tiny "+91 22 62871000"
+    retail_sale_price: not_on_panel      # "For Price see outer carton"
+  expected_violations: []
+  set2: true
+  ocr: none_yet
+
+photo37:
+  product: "Nat Habit hair mask sachet 40 g, back"
+  fields:
+    retail_sale_price: 130.00            # "MRP. RS:130.00" - no tax qualifier anywhere on this panel
+    unit_sale_price: 3.25                # "RS: 3.25/G"
+    manufacture_date: "05/2026"          # "Mfg:10MAY26", "EXP:07AUG26"
+    net_quantity: "40 g"                 # "Net Wt: 40 gm"
+    manufacturer_details: present        # Mfd & Mrktd by NaturoHabit Pvt. Ltd., GR-26, Sector 18, Udyog Vihar, Gurugram 122015
+    consumer_care: present               # "Customer Care WhatsApp 8527 000 777"
+  expected_violations:
+    - retail_sale_price.required_phrasing
+  possible_violations:
+    # "EXP:07AUG26" - expired on the day these were scored. Shown to the
+    # inspector, but selling expired stock is a food-safety offence, not an
+    # LMPC one (Rule 6(1)(da) only requires the date to be declared).
+    - expiry_date.not_expired
+    - net_quantity.unit_is_si            # "gm"
+  set2: true
+  ocr: none_yet
+
+photo38:
+  product: "Oregano seasoning sachet 0.6 g - NOT FOR RETAIL SALE (institutional)"
+  fields:
+    net_quantity: "0.6 g"
+    manufacture_date: "06/2026"          # inkjet "15/06/26", "14/12/26"
+    manufacturer_details: present        # Paras Spices Pvt. Ltd., Moga - 142001, Punjab (and marketer Jubilant, 201301)
+    consumer_care: present               # orika@parasspices.com, T: 01636-237177
+    retail_sale_price: not_on_panel      # institutional pack, no MRP required
+  expected_violations: []
+  set2: true
+  ocr: none_yet

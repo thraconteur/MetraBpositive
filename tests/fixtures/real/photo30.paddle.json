@@ -1,0 +1,1343 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo30.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 11.96,
+  "zoom_added": 20,
+  "zoom_s": 11.1,
+  "vertical_bands": 0,
+  "vertical_s": 1.09,
+  "refined": 1,
+  "refine_s": 2.99,
+  "block_lines": 0,
+  "block_s": 2.98,
+  "curved": 1,
+  "curved_s": 3.24,
+  "secondary_replaced": 0,
+  "secondary_s": 0.85,
+  "regions": 49,
+  "total_s": 34.24
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "MYFITNESS",
+   "score": 0.9999833703041077,
+   "poly": [
+    [
+     189.0,
+     497.5
+    ],
+    [
+     432.0,
+     505.5
+    ],
+    [
+     430.0,
+     555.5
+    ],
+    [
+     187.5,
+     547.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MARKETED BY:",
+   "score": 0.9553849697113037,
+   "poly": [
+    [
+     190.0,
+     561.5
+    ],
+    [
+     239.5,
+     559.5
+    ],
+    [
+     240.0,
+     572.0
+    ],
+    [
+     190.5,
+     574.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tanvi Fitness Privote Limited,",
+   "score": 0.8554633855819702,
+   "poly": [
+    [
+     191.0,
+     572.5
+    ],
+    [
+     274.5,
+     570.0
+    ],
+    [
+     274.5,
+     582.0
+    ],
+    [
+     191.5,
+     584.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9348494410514832,
+   "poly": [
+    [
+     370.0,
+     573.0
+    ],
+    [
+     398.5,
+     574.5
+    ],
+    [
+     397.5,
+     594.0
+    ],
+    [
+     369.0,
+     592.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10824999000152",
+   "score": 0.9964267015457153,
+   "poly": [
+    [
+     332.0,
+     592.5
+    ],
+    [
+     426.5,
+     598.0
+    ],
+    [
+     425.5,
+     614.0
+    ],
+    [
+     331.0,
+     608.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR MANFATUING UN ARESS READ HE FIRT",
+   "score": 0.7724264860153198,
+   "poly": [
+    [
+     193.0,
+     617.0
+    ],
+    [
+     329.5,
+     615.0
+    ],
+    [
+     329.5,
+     627.0
+    ],
+    [
+     193.0,
+     628.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ne sn nieua io ssouop",
+   "score": 0.5567753911018372,
+   "poly": [
+    [
+     127.5,
+     627.0
+    ],
+    [
+     137.0,
+     626.5
+    ],
+    [
+     141.5,
+     707.0
+    ],
+    [
+     132.0,
+     707.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MANUFACTURED BY",
+   "score": 0.950372576713562,
+   "poly": [
+    [
+     194.0,
+     641.5
+    ],
+    [
+     249.0,
+     640.0
+    ],
+    [
+     249.5,
+     653.0
+    ],
+    [
+     194.0,
+     654.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9209960103034973,
+   "poly": [
+    [
+     367.5,
+     639.5
+    ],
+    [
+     396.0,
+     639.5
+    ],
+    [
+     396.0,
+     659.5
+    ],
+    [
+     367.5,
+     659.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LL16699602L6",
+   "score": 0.8661298751831055,
+   "poly": [
+    [
+     142.5,
+     650.0
+    ],
+    [
+     156.0,
+     649.5
+    ],
+    [
+     159.5,
+     730.5
+    ],
+    [
+     146.0,
+     731.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10015021001816",
+   "score": 0.9973666071891785,
+   "poly": [
+    [
+     330.0,
+     660.5
+    ],
+    [
+     426.0,
+     662.5
+    ],
+    [
+     425.5,
+     678.0
+    ],
+    [
+     330.0,
+     676.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "a",
+   "score": 0.38614946603775024,
+   "poly": [
+    [
+     88.5,
+     687.5
+    ],
+    [
+     98.5,
+     687.5
+    ],
+    [
+     98.5,
+     699.0
+    ],
+    [
+     88.5,
+     699.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "RS",
+   "score": 0.5929862856864929,
+   "poly": [
+    [
+     78.5,
+     705.0
+    ],
+    [
+     89.5,
+     703.5
+    ],
+    [
+     90.5,
+     711.5
+    ],
+    [
+     79.5,
+     713.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10722999001593",
+   "score": 0.9997164607048035,
+   "poly": [
+    [
+     331.0,
+     708.0
+    ],
+    [
+     424.0,
+     708.0
+    ],
+    [
+     424.0,
+     722.5
+    ],
+    [
+     331.0,
+     722.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "A",
+   "score": 0.807526171207428,
+   "poly": [
+    [
+     82.0,
+     716.5
+    ],
+    [
+     89.5,
+     716.5
+    ],
+    [
+     89.5,
+     726.5
+    ],
+    [
+     82.0,
+     726.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1",
+   "score": 0.6899564266204834,
+   "poly": [
+    [
+     89.5,
+     713.5
+    ],
+    [
+     100.5,
+     712.0
+    ],
+    [
+     102.0,
+     723.0
+    ],
+    [
+     91.0,
+     724.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "h",
+   "alt_score": 0.3360426723957062
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhamagat-3629 arat lda",
+   "score": 0.4203447103500366,
+   "poly": [
+    [
+     196.5,
+     719.5
+    ],
+    [
+     292.0,
+     717.0
+    ],
+    [
+     292.5,
+     731.5
+    ],
+    [
+     197.0,
+     733.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(UF) Unitad Foods",
+   "score": 0.9153759479522705,
+   "poly": [
+    [
+     198.0,
+     735.5
+    ],
+    [
+     246.5,
+     734.0
+    ],
+    [
+     247.0,
+     746.5
+    ],
+    [
+     198.5,
+     748.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Survey No. 63/1 P6",
+   "score": 0.9482513070106506,
+   "poly": [
+    [
+     198.0,
+     747.0
+    ],
+    [
+     250.5,
+     745.0
+    ],
+    [
+     251.0,
+     757.5
+    ],
+    [
+     198.5,
+     759.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10015021001656",
+   "score": 0.9974648356437683,
+   "poly": [
+    [
+     330.0,
+     751.5
+    ],
+    [
+     423.5,
+     749.5
+    ],
+    [
+     424.0,
+     765.5
+    ],
+    [
+     330.0,
+     767.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "设",
+   "score": 0.21179071068763733,
+   "poly": [
+    [
+     98.5,
+     778.0
+    ],
+    [
+     108.5,
+     778.0
+    ],
+    [
+     108.5,
+     791.0
+    ],
+    [
+     98.5,
+     791.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "场",
+   "score": 0.19163614511489868,
+   "poly": [
+    [
+     100.0,
+     789.0
+    ],
+    [
+     109.0,
+     789.0
+    ],
+    [
+     109.0,
+     802.0
+    ],
+    [
+     100.0,
+     802.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sture in a co ad dry place, awy fm d",
+   "score": 0.6946689486503601,
+   "poly": [
+    [
+     200.0,
+     791.5
+    ],
+    [
+     330.5,
+     787.5
+    ],
+    [
+     331.0,
+     800.5
+    ],
+    [
+     200.5,
+     804.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "sunight Do no accept if seal is tanpered",
+   "score": 0.761076807975769,
+   "poly": [
+    [
+     202.27847290039062,
+     804.229248046875
+    ],
+    [
+     316.4108581542969,
+     801.172119140625
+    ],
+    [
+     316.6966857910156,
+     811.843017578125
+    ],
+    [
+     202.56430053710938,
+     814.900146484375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "sunight Do a acct if seal is anpered",
+   "alt_score": 0.5753456354141235
+  },
+  {
+   "tl_angle": 0,
+   "text": "210g",
+   "score": 0.99973464012146,
+   "poly": [
+    [
+     248.0,
+     827.5
+    ],
+    [
+     273.5,
+     827.5
+    ],
+    [
+     273.5,
+     843.5
+    ],
+    [
+     248.0,
+     843.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "A",
+   "score": 0.9997650980949402,
+   "poly": [
+    [
+     339.5,
+     825.0
+    ],
+    [
+     349.0,
+     825.0
+    ],
+    [
+     349.0,
+     836.5
+    ],
+    [
+     339.5,
+     836.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BRND",
+   "score": 0.9301626682281494,
+   "poly": [
+    [
+     338.0,
+     835.5
+    ],
+    [
+     366.5,
+     833.5
+    ],
+    [
+     367.5,
+     845.5
+    ],
+    [
+     339.0,
+     848.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Batch No.MFD., Expiry.",
+   "score": 0.9385189414024353,
+   "poly": [
+    [
+     201.5,
+     844.0
+    ],
+    [
+     312.0,
+     842.0
+    ],
+    [
+     312.5,
+     861.5
+    ],
+    [
+     202.0,
+     863.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ME",
+   "score": 0.999610424041748,
+   "poly": [
+    [
+     333.5,
+     841.0
+    ],
+    [
+     384.0,
+     839.5
+    ],
+    [
+     385.0,
+     877.5
+    ],
+    [
+     335.0,
+     879.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP (Incl ofall taxes) and",
+   "score": 0.8686138391494751,
+   "poly": [
+    [
+     202.5,
+     864.0
+    ],
+    [
+     308.0,
+     861.0
+    ],
+    [
+     308.5,
+     880.0
+    ],
+    [
+     203.0,
+     883.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "373",
+   "score": 0.9999209046363831,
+   "poly": [
+    [
+     427.5,
+     862.0
+    ],
+    [
+     441.0,
+     862.5
+    ],
+    [
+     440.0,
+     891.0
+    ],
+    [
+     426.0,
+     890.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Innollouse, Secend Floor Plat No.-9",
+   "score": 0.7767550349235535,
+   "poly": [
+    [
+     192.5,
+     583.5
+    ],
+    [
+     299.0,
+     582.0
+    ],
+    [
+     299.5,
+     593.0
+    ],
+    [
+     192.5,
+     595.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "4 Bay Sectar - 32, Gumagran,",
+   "score": 0.7667468190193176,
+   "poly": [
+    [
+     193.0,
+     594.5
+    ],
+    [
+     278.5,
+     593.0
+    ],
+    [
+     278.5,
+     605.5
+    ],
+    [
+     193.5,
+     607.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Haryona 122001",
+   "score": 0.864048421382904,
+   "poly": [
+    [
+     193.0,
+     606.0
+    ],
+    [
+     240.0,
+     604.5
+    ],
+    [
+     240.5,
+     617.5
+    ],
+    [
+     193.5,
+     618.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TWO CHARACTERS OF THE BATCH NO AND SEE BLOW",
+   "score": 0.8492177128791809,
+   "poly": [
+    [
+     194.0,
+     627.5
+    ],
+    [
+     329.0,
+     625.5
+    ],
+    [
+     329.0,
+     637.0
+    ],
+    [
+     194.0,
+     639.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(NF) Supar Nutri Fods",
+   "score": 0.9087421894073486,
+   "poly": [
+    [
+     195.5,
+     653.5
+    ],
+    [
+     257.0,
+     652.0
+    ],
+    [
+     257.5,
+     663.5
+    ],
+    [
+     196.0,
+     665.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "S. No. 1142 Paltana Road, Noar TCO Farm.",
+   "score": 0.7707614898681641,
+   "poly": [
+    [
+     196.5,
+     664.0
+    ],
+    [
+     312.5,
+     662.5
+    ],
+    [
+     312.5,
+     674.0
+    ],
+    [
+     196.5,
+     675.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tabaja - 364 140 Dist Bhamagac Gujurat inda",
+   "score": 0.7349843382835388,
+   "poly": [
+    [
+     196.0,
+     674.5
+    ],
+    [
+     319.5,
+     673.0
+    ],
+    [
+     319.5,
+     685.5
+    ],
+    [
+     196.0,
+     687.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(T5) Tanvi Sgreads Prate Lited,",
+   "score": 0.7069715857505798,
+   "poly": [
+    [
+     197.0,
+     688.5
+    ],
+    [
+     289.0,
+     686.5
+    ],
+    [
+     289.0,
+     698.0
+    ],
+    [
+     197.0,
+     700.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9261199831962585,
+   "poly": [
+    [
+     367.5,
+     686.5
+    ],
+    [
+     394.5,
+     686.5
+    ],
+    [
+     394.5,
+     705.5
+    ],
+    [
+     367.5,
+     705.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "15",
+   "score": 0.9812575578689575,
+   "poly": [
+    [
+     88.5,
+     701.5
+    ],
+    [
+     100.0,
+     700.0
+    ],
+    [
+     101.0,
+     709.5
+    ],
+    [
+     90.0,
+     711.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "S.No 27 13. Vlago Ratisa Kea IiradiPatya",
+   "score": 0.6122392416000366,
+   "poly": [
+    [
+     197.0,
+     699.0
+    ],
+    [
+     322.0,
+     698.0
+    ],
+    [
+     322.0,
+     709.5
+    ],
+    [
+     197.0,
+     710.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ehamager Natonl igway, Kzhoa",
+   "score": 0.5040446519851685,
+   "poly": [
+    [
+     197.5,
+     710.0
+    ],
+    [
+     297.5,
+     708.5
+    ],
+    [
+     297.5,
+     720.0
+    ],
+    [
+     197.5,
+     721.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9916951060295105,
+   "poly": [
+    [
+     366.5,
+     729.5
+    ],
+    [
+     393.0,
+     729.5
+    ],
+    [
+     393.0,
+     748.0
+    ],
+    [
+     366.5,
+     748.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Rampira lisad. Taja.",
+   "score": 0.6726743578910828,
+   "poly": [
+    [
+     199.5,
+     758.0
+    ],
+    [
+     258.0,
+     757.0
+    ],
+    [
+     258.0,
+     769.0
+    ],
+    [
+     199.5,
+     770.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhanaga, Guat-366140",
+   "score": 0.7520796656608582,
+   "poly": [
+    [
+     200.0,
+     768.5
+    ],
+    [
+     275.0,
+     767.0
+    ],
+    [
+     275.5,
+     778.5
+    ],
+    [
+     200.0,
+     780.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Storage Instructions:",
+   "score": 0.9928156733512878,
+   "poly": [
+    [
+     200.0,
+     780.5
+    ],
+    [
+     260.5,
+     779.5
+    ],
+    [
+     261.0,
+     792.0
+    ],
+    [
+     200.0,
+     793.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "On sparation is matral sir welbmu",
+   "score": 0.547325074672699,
+   "poly": [
+    [
+     201.5,
+     814.0
+    ],
+    [
+     323.5,
+     811.0
+    ],
+    [
+     323.5,
+     824.5
+    ],
+    [
+     201.5,
+     827.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Qty:",
+   "score": 0.9605629444122314,
+   "poly": [
+    [
+     201.5,
+     829.0
+    ],
+    [
+     234.5,
+     829.0
+    ],
+    [
+     234.5,
+     845.5
+    ],
+    [
+     201.5,
+     845.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "product",
+   "score": 0.9999817609786987,
+   "poly": [
+    [
+     337.5,
+     874.0
+    ],
+    [
+     385.0,
+     873.5
+    ],
+    [
+     385.0,
+     892.0
+    ],
+    [
+     338.0,
+     893.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USP, see Cap/Bottom",
+   "score": 0.9952712655067444,
+   "poly": [
+    [
+     204.0,
+     884.5
+    ],
+    [
+     287.0,
+     883.0
+    ],
+    [
+     287.0,
+     901.5
+    ],
+    [
+     204.0,
+     903.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

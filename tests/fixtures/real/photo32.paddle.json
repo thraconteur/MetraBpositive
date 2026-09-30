@@ -1,0 +1,845 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo32.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 10.31,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 3,
+  "refine_s": 0.45,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.31,
+  "regions": 30,
+  "total_s": 11.1
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "How to use:",
+   "score": 0.9997286200523376,
+   "poly": [
+    [
+     192.0,
+     337.0
+    ],
+    [
+     263.5,
+     330.5
+    ],
+    [
+     265.0,
+     350.0
+    ],
+    [
+     193.5,
+     356.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Take a generous amount of",
+   "score": 0.9796532392501831,
+   "poly": [
+    [
+     193.0,
+     352.5
+    ],
+    [
+     359.5,
+     352.5
+    ],
+    [
+     359.5,
+     374.5
+    ],
+    [
+     193.0,
+     374.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "the lotion and gently",
+   "score": 0.9997974634170532,
+   "poly": [
+    [
+     192.5,
+     368.0
+    ],
+    [
+     323.0,
+     365.0
+    ],
+    [
+     323.5,
+     386.5
+    ],
+    [
+     193.0,
+     389.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "massage it over your hands",
+   "score": 0.9816052913665771,
+   "poly": [
+    [
+     192.0,
+     382.5
+    ],
+    [
+     359.0,
+     381.5
+    ],
+    [
+     359.5,
+     404.5
+    ],
+    [
+     192.0,
+     405.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "and feet, until absorbed.",
+   "score": 0.9633780717849731,
+   "poly": [
+    [
+     193.0,
+     398.0
+    ],
+    [
+     346.5,
+     396.5
+    ],
+    [
+     346.5,
+     418.5
+    ],
+    [
+     193.0,
+     420.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Apply immediately after a",
+   "score": 0.9733999371528625,
+   "poly": [
+    [
+     191.0,
+     438.0
+    ],
+    [
+     352.5,
+     435.5
+    ],
+    [
+     352.5,
+     459.0
+    ],
+    [
+     191.5,
+     461.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "shower or whenever",
+   "score": 0.999012291431427,
+   "poly": [
+    [
+     191.5,
+     455.5
+    ],
+    [
+     323.0,
+     452.0
+    ],
+    [
+     323.5,
+     471.0
+    ],
+    [
+     192.0,
+     474.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "required.",
+   "score": 0.999984085559845,
+   "poly": [
+    [
+     192.0,
+     471.0
+    ],
+    [
+     250.5,
+     468.0
+    ],
+    [
+     251.5,
+     487.5
+    ],
+    [
+     193.0,
+     491.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Patch test is recommended",
+   "score": 0.9816973209381104,
+   "poly": [
+    [
+     192.0,
+     511.0
+    ],
+    [
+     361.5,
+     512.5
+    ],
+    [
+     361.5,
+     531.5
+    ],
+    [
+     192.0,
+     530.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "for sensitive skin.",
+   "score": 0.998985767364502,
+   "poly": [
+    [
+     192.5,
+     528.5
+    ],
+    [
+     303.0,
+     526.5
+    ],
+    [
+     303.0,
+     543.5
+    ],
+    [
+     193.0,
+     545.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool, dry, and",
+   "score": 0.9802339673042297,
+   "poly": [
+    [
+     193.5,
+     568.0
+    ],
+    [
+     344.0,
+     568.0
+    ],
+    [
+     344.0,
+     585.0
+    ],
+    [
+     193.5,
+     585.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "dark place. Do not freeze.",
+   "score": 0.984855592250824,
+   "poly": [
+    [
+     193.0,
+     583.0
+    ],
+    [
+     354.0,
+     583.0
+    ],
+    [
+     354.0,
+     600.0
+    ],
+    [
+     193.0,
+     600.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Avoid contact with eyes.",
+   "score": 0.9998088479042053,
+   "poly": [
+    [
+     192.5,
+     598.0
+    ],
+    [
+     345.0,
+     599.0
+    ],
+    [
+     345.0,
+     616.0
+    ],
+    [
+     192.5,
+     615.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Keep out of children's",
+   "score": 0.9999518990516663,
+   "poly": [
+    [
+     193.0,
+     614.0
+    ],
+    [
+     334.5,
+     613.0
+    ],
+    [
+     334.5,
+     630.5
+    ],
+    [
+     193.0,
+     631.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "reach.",
+   "score": 0.9999940395355225,
+   "poly": [
+    [
+     192.5,
+     629.5
+    ],
+    [
+     232.0,
+     629.5
+    ],
+    [
+     232.0,
+     646.0
+    ],
+    [
+     192.5,
+     646.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cinal",
+   "score": 0.8010171055793762,
+   "poly": [
+    [
+     374.5,
+     649.5
+    ],
+    [
+     398.0,
+     649.5
+    ],
+    [
+     398.0,
+     665.0
+    ],
+    [
+     374.5,
+     665.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fr",
+   "score": 0.6908091306686401,
+   "poly": [
+    [
+     376.0,
+     668.5
+    ],
+    [
+     394.5,
+     664.5
+    ],
+    [
+     397.0,
+     675.5
+    ],
+    [
+     379.0,
+     680.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "D",
+   "alt_score": 0.17706087231636047
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR EXTERNAL USE ONLY",
+   "score": 0.9999266862869263,
+   "poly": [
+    [
+     200.0,
+     674.5
+    ],
+    [
+     358.0,
+     674.5
+    ],
+    [
+     358.0,
+     690.0
+    ],
+    [
+     200.0,
+     690.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Irarece",
+   "score": 0.8054226040840149,
+   "poly": [
+    [
+     373.0,
+     679.0
+    ],
+    [
+     396.0,
+     679.0
+    ],
+    [
+     396.0,
+     691.5
+    ],
+    [
+     373.0,
+     691.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Quantity: 200 ml",
+   "score": 0.998609185218811,
+   "poly": [
+    [
+     192.5,
+     720.0
+    ],
+    [
+     310.5,
+     722.0
+    ],
+    [
+     310.0,
+     739.0
+    ],
+    [
+     192.0,
+     737.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No:",
+   "score": 0.9635176062583923,
+   "poly": [
+    [
+     197.5,
+     759.5
+    ],
+    [
+     251.0,
+     762.5
+    ],
+    [
+     250.0,
+     779.0
+    ],
+    [
+     197.0,
+     776.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "20",
+   "score": 0.5305578112602234,
+   "poly": [
+    [
+     299.5,
+     768.0
+    ],
+    [
+     317.5,
+     765.5
+    ],
+    [
+     323.5,
+     817.5
+    ],
+    [
+     305.5,
+     819.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "山",
+   "score": 0.8301429152488708,
+   "poly": [
+    [
+     317.0,
+     767.0
+    ],
+    [
+     335.0,
+     767.0
+    ],
+    [
+     335.0,
+     794.5
+    ],
+    [
+     317.0,
+     794.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Date:",
+   "score": 0.9955767393112183,
+   "poly": [
+    [
+     197.5,
+     779.5
+    ],
+    [
+     252.5,
+     782.5
+    ],
+    [
+     252.0,
+     800.5
+    ],
+    [
+     196.5,
+     797.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "中0",
+   "score": 0.3178757429122925,
+   "poly": [
+    [
+     318.5,
+     790.5
+    ],
+    [
+     334.0,
+     787.0
+    ],
+    [
+     340.0,
+     815.5
+    ],
+    [
+     324.5,
+     818.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "中",
+   "alt_score": 0.17017491161823273
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP (€):",
+   "score": 0.8850187063217163,
+   "poly": [
+    [
+     198.0,
+     799.0
+    ],
+    [
+     242.5,
+     802.0
+    ],
+    [
+     241.0,
+     818.5
+    ],
+    [
+     197.0,
+     815.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(ünci. of all taxes)",
+   "score": 0.9205087423324585,
+   "poly": [
+    [
+     197.0,
+     813.0
+    ],
+    [
+     274.5,
+     817.5
+    ],
+    [
+     273.5,
+     831.5
+    ],
+    [
+     196.5,
+     827.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USP (t/ml):",
+   "score": 0.9260956048965454,
+   "poly": [
+    [
+     197.0,
+     829.5
+    ],
+    [
+     258.0,
+     833.5
+    ],
+    [
+     257.0,
+     851.0
+    ],
+    [
+     196.0,
+     847.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Use before 24 months",
+   "score": 0.9998738169670105,
+   "poly": [
+    [
+     196.5,
+     848.0
+    ],
+    [
+     315.0,
+     852.5
+    ],
+    [
+     314.5,
+     869.5
+    ],
+    [
+     196.0,
+     865.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "from Manufacturing Date",
+   "score": 0.9998522400856018,
+   "poly": [
+    [
+     196.5,
+     863.5
+    ],
+    [
+     329.0,
+     866.5
+    ],
+    [
+     328.5,
+     884.0
+    ],
+    [
+     196.0,
+     881.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "81906133406868",
+   "score": 0.9320774674415588,
+   "poly": [
+    [
+     218.0,
+     933.0
+    ],
+    [
+     341.0,
+     932.0
+    ],
+    [
+     341.5,
+     947.5
+    ],
+    [
+     218.0,
+     949.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

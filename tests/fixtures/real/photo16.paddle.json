@@ -1,0 +1,239 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo16.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 6.33,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.23,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.12,
+  "regions": 7,
+  "total_s": 6.72
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Ha",
+   "score": 0.39563900232315063,
+   "poly": [
+    [
+     559.5,
+     101.25
+    ],
+    [
+     664.5,
+     261.0
+    ],
+    [
+     635.25,
+     280.5
+    ],
+    [
+     531.0,
+     120.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Drolia",
+   "score": 0.999911367893219,
+   "poly": [
+    [
+     315.0,
+     399.75
+    ],
+    [
+     541.5,
+     411.75
+    ],
+    [
+     538.5,
+     471.0
+    ],
+    [
+     312.0,
+     459.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Maharaja",
+   "score": 0.996384859085083,
+   "poly": [
+    [
+     91.5,
+     496.5
+    ],
+    [
+     713.25,
+     441.0
+    ],
+    [
+     730.5,
+     642.0
+    ],
+    [
+     108.75,
+     696.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Gold",
+   "score": 0.9999477863311768,
+   "poly": [
+    [
+     239.25,
+     677.25
+    ],
+    [
+     529.5,
+     683.25
+    ],
+    [
+     526.5,
+     825.75
+    ],
+    [
+     236.25,
+     820.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GULAL",
+   "score": 0.9999712109565735,
+   "poly": [
+    [
+     352.5,
+     828.0
+    ],
+    [
+     726.0,
+     805.5
+    ],
+    [
+     732.75,
+     915.75
+    ],
+    [
+     359.25,
+     937.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Product",
+   "score": 0.9927066564559937,
+   "poly": [
+    [
+     407.25,
+     1257.75
+    ],
+    [
+     573.75,
+     1282.5
+    ],
+    [
+     570.0,
+     1309.5
+    ],
+    [
+     402.75,
+     1284.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Herair",
+   "score": 0.894071102142334,
+   "poly": [
+    [
+     57.75,
+     1473.75
+    ],
+    [
+     107.25,
+     1593.0
+    ],
+    [
+     72.0,
+     1599.75
+    ],
+    [
+     23.25,
+     1488.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

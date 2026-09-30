@@ -1,0 +1,767 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo24.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 11.01,
+  "zoom_added": 7,
+  "zoom_s": 10.37,
+  "vertical_bands": 1,
+  "vertical_s": 0.43,
+  "refined": 1,
+  "refine_s": 0.46,
+  "block_lines": 0,
+  "block_s": 2.97,
+  "curved": 1,
+  "curved_s": 0.84,
+  "secondary_replaced": 0,
+  "secondary_s": 0.44,
+  "regions": 28,
+  "total_s": 26.55
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "LICENSE No: 1242199000137",
+   "score": 0.9862951636314392,
+   "poly": [
+    [
+     161.5,
+     411.5
+    ],
+    [
+     400.5,
+     403.5
+    ],
+    [
+     401.5,
+     429.5
+    ],
+    [
+     162.5,
+     437.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issal",
+   "score": 0.9268461465835571,
+   "poly": [
+    [
+     125.0,
+     423.5
+    ],
+    [
+     161.5,
+     419.5
+    ],
+    [
+     163.0,
+     436.0
+    ],
+    [
+     127.0,
+     440.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfd. by:",
+   "score": 0.8872596025466919,
+   "poly": [
+    [
+     123.5,
+     445.5
+    ],
+    [
+     167.5,
+     443.0
+    ],
+    [
+     168.5,
+     458.0
+    ],
+    [
+     124.5,
+     460.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RAJAM HERBAL TECHNOOGIES",
+   "score": 0.9587686657905579,
+   "poly": [
+    [
+     122.0,
+     455.0
+    ],
+    [
+     390.5,
+     440.0
+    ],
+    [
+     392.0,
+     464.5
+    ],
+    [
+     123.5,
+     479.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(An ISO 9001:2015, ISO 22000:2018 & cGMP CERTED)",
+   "score": 0.9359922409057617,
+   "poly": [
+    [
+     125.0,
+     475.0
+    ],
+    [
+     353.0,
+     460.0
+    ],
+    [
+     354.0,
+     477.0
+    ],
+    [
+     126.5,
+     491.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Salem - 636 302. Tamilnadu.",
+   "score": 0.9820892810821533,
+   "poly": [
+    [
+     126.0,
+     507.0
+    ],
+    [
+     312.5,
+     493.0
+    ],
+    [
+     314.0,
+     512.0
+    ],
+    [
+     127.5,
+     525.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "e-mail: rajamimpex@gmail.com",
+   "score": 0.9835147857666016,
+   "poly": [
+    [
+     127.0,
+     524.0
+    ],
+    [
+     342.5,
+     509.5
+    ],
+    [
+     344.0,
+     529.0
+    ],
+    [
+     128.0,
+     543.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONSUMER CARE CELL: PRODUCT MANAGER",
+   "score": 0.9858728647232056,
+   "poly": [
+    [
+     130.0,
+     550.5
+    ],
+    [
+     334.0,
+     536.5
+    ],
+    [
+     335.0,
+     550.0
+    ],
+    [
+     131.0,
+     564.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RAJAM HERBAL TECHNOLOGIES",
+   "score": 0.9991534948348999,
+   "poly": [
+    [
+     131.0,
+     564.0
+    ],
+    [
+     337.0,
+     550.5
+    ],
+    [
+     338.0,
+     566.0
+    ],
+    [
+     132.0,
+     579.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0 3/368, Periya Mariamman Koil Street,",
+   "score": 0.9784008860588074,
+   "poly": [
+    [
+     121.5,
+     581.0
+    ],
+    [
+     321.0,
+     567.5
+    ],
+    [
+     322.0,
+     581.0
+    ],
+    [
+     122.5,
+     595.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sithanur, SALEM-636 302. TAMILNADU.",
+   "score": 0.9623115658760071,
+   "poly": [
+    [
+     133.5,
+     592.5
+    ],
+    [
+     339.5,
+     579.0
+    ],
+    [
+     340.5,
+     593.0
+    ],
+    [
+     134.5,
+     606.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "rajamimpex@gmail.com",
+   "score": 0.9997926950454712,
+   "poly": [
+    [
+     122.5,
+     607.0
+    ],
+    [
+     260.5,
+     597.0
+    ],
+    [
+     262.0,
+     611.0
+    ],
+    [
+     123.5,
+     621.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "www.rajamproducts.com",
+   "score": 0.9998826384544373,
+   "poly": [
+    [
+     131.0,
+     619.5
+    ],
+    [
+     263.5,
+     609.5
+    ],
+    [
+     264.5,
+     623.5
+    ],
+    [
+     132.0,
+     633.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6382971959",
+   "score": 0.9996819496154785,
+   "poly": [
+    [
+     135.0,
+     631.0
+    ],
+    [
+     199.0,
+     626.0
+    ],
+    [
+     200.0,
+     640.0
+    ],
+    [
+     136.0,
+     645.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET. WEIGHT: 500 g",
+   "score": 0.9967145919799805,
+   "poly": [
+    [
+     124.5,
+     658.5
+    ],
+    [
+     298.5,
+     649.0
+    ],
+    [
+     300.0,
+     675.5
+    ],
+    [
+     126.0,
+     685.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M. PR",
+   "score": 0.860632598400116,
+   "poly": [
+    [
+     353.6788330078125,
+     677.6954956054688
+    ],
+    [
+     401.24969482421875,
+     674.1454467773438
+    ],
+    [
+     402.32025146484375,
+     688.4909057617188
+    ],
+    [
+     354.7493896484375,
+     692.0409545898438
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "MERE",
+   "alt_score": 0.7155724763870239
+  },
+  {
+   "tl_angle": 0,
+   "text": "BATCH NO",
+   "score": 0.9940811395645142,
+   "poly": [
+    [
+     125.5,
+     688.5
+    ],
+    [
+     182.5,
+     685.0
+    ],
+    [
+     183.5,
+     701.0
+    ],
+    [
+     126.5,
+     704.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PKD ON",
+   "score": 0.9970366358757019,
+   "poly": [
+    [
+     203.5,
+     684.5
+    ],
+    [
+     249.0,
+     681.5
+    ],
+    [
+     250.0,
+     696.0
+    ],
+    [
+     204.5,
+     699.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "d",
+   "score": 0.5813384056091309,
+   "poly": [
+    [
+     354.0,
+     689.0
+    ],
+    [
+     404.5,
+     686.5
+    ],
+    [
+     405.0,
+     696.0
+    ],
+    [
+     354.5,
+     698.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "and cétnes",
+   "alt_score": 0.43912631273269653
+  },
+  {
+   "tl_angle": 0,
+   "text": "R4N267/NOV 2024/0CT 260.C",
+   "score": 0.935192346572876,
+   "poly": [
+    [
+     140.0,
+     714.5
+    ],
+    [
+     407.0,
+     698.0
+    ],
+    [
+     408.0,
+     718.0
+    ],
+    [
+     141.5,
+     734.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT USE IF BOX IS DAMAGED OR OPEN",
+   "score": 0.9573888778686523,
+   "poly": [
+    [
+     129.0,
+     766.0
+    ],
+    [
+     290.0,
+     757.0
+    ],
+    [
+     290.5,
+     771.0
+    ],
+    [
+     129.5,
+     780.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORAGE IN DRY & CLEAN PLACE AWAY",
+   "score": 0.9770103096961975,
+   "poly": [
+    [
+     129.5,
+     779.5
+    ],
+    [
+     281.5,
+     772.0
+    ],
+    [
+     282.0,
+     784.5
+    ],
+    [
+     130.0,
+     792.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "#3/368, Sithanur, Thalavaipatty.3o",
+   "score": 0.960516095161438,
+   "poly": [
+    [
+     126.0,
+     488.0
+    ],
+    [
+     354.5,
+     475.0
+    ],
+    [
+     356.0,
+     495.0
+    ],
+    [
+     127.0,
+     508.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USEBY",
+   "score": 0.9996520280838013,
+   "poly": [
+    [
+     277.0,
+     680.5
+    ],
+    [
+     318.5,
+     678.5
+    ],
+    [
+     319.0,
+     692.5
+    ],
+    [
+     277.5,
+     694.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(USP10 52/9",
+   "score": 0.7980000972747803,
+   "poly": [
+    [
+     310.5,
+     721.5
+    ],
+    [
+     405.0,
+     716.0
+    ],
+    [
+     406.5,
+     734.0
+    ],
+    [
+     311.5,
+     740.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FER",
+   "score": 0.8872982859611511,
+   "poly": [
+    [
+     334.0,
+     764.5
+    ],
+    [
+     375.0,
+     762.0
+    ],
+    [
+     376.0,
+     783.0
+    ],
+    [
+     335.0,
+     785.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FROMSUNLIGHT",
+   "score": 0.9833462834358215,
+   "poly": [
+    [
+     131.0,
+     791.0
+    ],
+    [
+     192.5,
+     788.0
+    ],
+    [
+     193.0,
+     799.5
+    ],
+    [
+     131.5,
+     802.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "text": "890603886",
+   "score": 0.8878841996192932,
+   "poly": [
+    [
+     408.5,
+     663.5
+    ],
+    [
+     400.0,
+     548.0
+    ],
+    [
+     415.5,
+     547.0
+    ],
+    [
+     424.0,
+     662.5
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  }
+ ]
+}

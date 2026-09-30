@@ -1,0 +1,926 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo12.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 8.03,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 3,
+  "refine_s": 1.07,
+  "block_lines": 0,
+  "block_s": 1.4,
+  "curved": 1,
+  "curved_s": 1.07,
+  "secondary_replaced": 5,
+  "secondary_s": 0.38,
+  "regions": 34,
+  "total_s": 11.99
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Drolia",
+   "score": 0.9998927116394043,
+   "poly": [
+    [
+     556.5,
+     419.25
+    ],
+    [
+     662.25,
+     414.0
+    ],
+    [
+     664.5,
+     449.25
+    ],
+    [
+     558.0,
+     454.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "डोलिया",
+   "score": 0.9047980308532715,
+   "poly": [
+    [
+     215.25,
+     440.25
+    ],
+    [
+     305.25,
+     437.25
+    ],
+    [
+     306.0,
+     466.5
+    ],
+    [
+     216.75,
+     470.25
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "eRn",
+   "alt_score": 0.7205967307090759
+  },
+  {
+   "tl_angle": 0,
+   "text": "R",
+   "score": 0.996910035610199,
+   "poly": [
+    [
+     372.0,
+     442.5
+    ],
+    [
+     390.0,
+     440.25
+    ],
+    [
+     391.5,
+     455.25
+    ],
+    [
+     374.25,
+     457.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R",
+   "score": 0.9979436993598938,
+   "poly": [
+    [
+     722.25,
+     435.75
+    ],
+    [
+     739.5,
+     435.75
+    ],
+    [
+     739.5,
+     453.0
+    ],
+    [
+     722.25,
+     453.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mararaja",
+   "score": 0.8963788747787476,
+   "poly": [
+    [
+     476.25,
+     459.0
+    ],
+    [
+     752.25,
+     434.25
+    ],
+    [
+     762.0,
+     544.5
+    ],
+    [
+     486.0,
+     568.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "महारजा",
+   "score": 0.6517131924629211,
+   "poly": [
+    [
+     143.25,
+     487.5
+    ],
+    [
+     378.75,
+     462.75
+    ],
+    [
+     387.0,
+     537.75
+    ],
+    [
+     151.5,
+     562.5
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "agR",
+   "alt_score": 0.6807854175567627
+  },
+  {
+   "tl_angle": 0,
+   "text": "ohes",
+   "score": 0.8165808320045471,
+   "poly": [
+    [
+     191.25,
+     573.75
+    ],
+    [
+     340.5,
+     570.75
+    ],
+    [
+     342.0,
+     647.25
+    ],
+    [
+     192.75,
+     650.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Gold",
+   "score": 0.9983623027801514,
+   "poly": [
+    [
+     538.5,
+     588.75
+    ],
+    [
+     694.5,
+     572.25
+    ],
+    [
+     703.5,
+     655.5
+    ],
+    [
+     547.5,
+     672.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tellel",
+   "score": 0.7754614949226379,
+   "poly": [
+    [
+     167.25,
+     659.25
+    ],
+    [
+     360.75,
+     638.25
+    ],
+    [
+     368.25,
+     706.5
+    ],
+    [
+     174.75,
+     727.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GULAL",
+   "score": 0.9995466470718384,
+   "poly": [
+    [
+     542.25,
+     664.5
+    ],
+    [
+     717.75,
+     633.0
+    ],
+    [
+     729.0,
+     695.25
+    ],
+    [
+     553.5,
+     726.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SILKY",
+   "score": 0.9921942949295044,
+   "poly": [
+    [
+     684.0,
+     758.25
+    ],
+    [
+     770.25,
+     760.5
+    ],
+    [
+     768.75,
+     803.25
+    ],
+    [
+     682.5,
+     800.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SOFT",
+   "score": 0.999950110912323,
+   "poly": [
+    [
+     449.25,
+     771.0
+    ],
+    [
+     549.0,
+     769.5
+    ],
+    [
+     549.75,
+     810.75
+    ],
+    [
+     450.0,
+     813.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NON TOXIC",
+   "score": 0.9866076707839966,
+   "poly": [
+    [
+     526.5,
+     822.0
+    ],
+    [
+     729.75,
+     809.25
+    ],
+    [
+     732.75,
+     848.25
+    ],
+    [
+     529.5,
+     861.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "100g",
+   "score": 0.999990701675415,
+   "poly": [
+    [
+     274.5,
+     946.5
+    ],
+    [
+     392.25,
+     945.0
+    ],
+    [
+     393.0,
+     1002.75
+    ],
+    [
+     275.25,
+     1005.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "et Weight",
+   "score": 0.9898982644081116,
+   "poly": [
+    [
+     139.5,
+     963.0
+    ],
+    [
+     234.75,
+     960.0
+    ],
+    [
+     235.5,
+     990.0
+    ],
+    [
+     140.25,
+     992.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "hen Packed)",
+   "score": 0.9863008260726929,
+   "poly": [
+    [
+     145.5,
+     990.75
+    ],
+    [
+     231.75,
+     989.25
+    ],
+    [
+     232.5,
+     1009.5
+    ],
+    [
+     145.5,
+     1011.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "A.R.P.R",
+   "score": 0.8696042895317078,
+   "poly": [
+    [
+     144.0,
+     1039.5
+    ],
+    [
+     206.25,
+     1041.75
+    ],
+    [
+     205.5,
+     1067.25
+    ],
+    [
+     143.25,
+     1065.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "40.00",
+   "score": 0.9999948740005493,
+   "poly": [
+    [
+     277.5,
+     1034.25
+    ],
+    [
+     388.5,
+     1030.5
+    ],
+    [
+     390.0,
+     1074.0
+    ],
+    [
+     279.0,
+     1077.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. by:",
+   "score": 0.9415330290794373,
+   "poly": [
+    [
+     586.5,
+     1054.5
+    ],
+    [
+     694.5,
+     1048.5
+    ],
+    [
+     696.75,
+     1084.5
+    ],
+    [
+     588.0,
+     1090.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " of all taxes)",
+   "score": 0.9031363129615784,
+   "poly": [
+    [
+     148.5,
+     1064.25
+    ],
+    [
+     253.5,
+     1068.0
+    ],
+    [
+     252.75,
+     1087.5
+    ],
+    [
+     147.75,
+     1083.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Atch No",
+   "score": 0.8658232688903809,
+   "poly": [
+    [
+     141.0,
+     1106.25
+    ],
+    [
+     224.25,
+     1110.0
+    ],
+    [
+     222.75,
+     1135.5
+    ],
+    [
+     140.25,
+     1131.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DROLIA CHEMICAL",
+   "score": 0.9616804122924805,
+   "poly": [
+    [
+     462.75,
+     1109.25
+    ],
+    [
+     789.0,
+     1083.0
+    ],
+    [
+     792.0,
+     1119.0
+    ],
+    [
+     465.75,
+     1145.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "No. Ramilochan Mutlick Street",
+   "score": 0.9122829437255859,
+   "poly": [
+    [
+     497.25,
+     1141.5
+    ],
+    [
+     792.75,
+     1121.25
+    ],
+    [
+     794.25,
+     1145.25
+    ],
+    [
+     498.75,
+     1165.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "On",
+   "score": 0.9977548122406006,
+   "poly": [
+    [
+     180.0,
+     1152.0
+    ],
+    [
+     213.75,
+     1152.0
+    ],
+    [
+     213.75,
+     1178.25
+    ],
+    [
+     180.0,
+     1178.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Kolkata-73",
+   "score": 0.9929180145263672,
+   "poly": [
+    [
+     584.25,
+     1155.75
+    ],
+    [
+     692.25,
+     1155.75
+    ],
+    [
+     692.25,
+     1177.5
+    ],
+    [
+     584.25,
+     1177.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "www.drol",
+   "score": 0.887519359588623,
+   "poly": [
+    [
+     548.25,
+     1177.5
+    ],
+    [
+     639.75,
+     1174.5
+    ],
+    [
+     639.75,
+     1191.0
+    ],
+    [
+     549.0,
+     1194.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Drofia",
+   "score": 0.995614767074585,
+   "poly": [
+    [
+     602.25,
+     1398.0
+    ],
+    [
+     717.0,
+     1377.75
+    ],
+    [
+     721.5,
+     1405.5
+    ],
+    [
+     606.75,
+     1425.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "डोलियी",
+   "score": 0.8057178854942322,
+   "poly": [
+    [
+     251.25,
+     1414.5
+    ],
+    [
+     346.5,
+     1414.5
+    ],
+    [
+     346.5,
+     1449.75
+    ],
+    [
+     251.25,
+     1449.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "oi",
+   "alt_score": 0.4793524742126465
+  },
+  {
+   "tl_angle": 0,
+   "text": "Maharaja",
+   "score": 0.9888801574707031,
+   "poly": [
+    [
+     570.75,
+     1431.75
+    ],
+    [
+     810.0,
+     1366.5
+    ],
+    [
+     822.75,
+     1415.25
+    ],
+    [
+     584.25,
+     1480.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "महायजा",
+   "score": 0.8069400787353516,
+   "poly": [
+    [
+     181.5,
+     1469.25
+    ],
+    [
+     432.0,
+     1451.25
+    ],
+    [
+     435.75,
+     1506.75
+    ],
+    [
+     185.25,
+     1524.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "aTERIGT",
+   "alt_score": 0.49142009019851685
+  },
+  {
+   "tl_angle": 0,
+   "text": "Gold",
+   "score": 0.9991782903671265,
+   "poly": [
+    [
+     626.25,
+     1479.0
+    ],
+    [
+     786.0,
+     1440.0
+    ],
+    [
+     804.0,
+     1512.75
+    ],
+    [
+     644.25,
+     1551.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "rbal Proa",
+   "score": 0.9960989356040955,
+   "poly": [
+    [
+     0.0,
+     1510.5
+    ],
+    [
+     133.5,
+     1430.25
+    ],
+    [
+     157.5,
+     1475.25
+    ],
+    [
+     6.0,
+     1556.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GUUAL",
+   "score": 0.9330431222915649,
+   "poly": [
+    [
+     638.25,
+     1526.25
+    ],
+    [
+     817.5,
+     1494.0
+    ],
+    [
+     831.75,
+     1572.0
+    ],
+    [
+     651.75,
+     1599.75
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "GULAL",
+   "alt_score": 0.796676754951477
+  },
+  {
+   "tl_angle": 0,
+   "text": "वौल्ड",
+   "score": 0.5015336871147156,
+   "poly": [
+    [
+     229.10476684570312,
+     1542.8709716796875
+    ],
+    [
+     389.83001708984375,
+     1521.118896484375
+    ],
+    [
+     397.52398681640625,
+     1577.9686279296875
+    ],
+    [
+     236.79872131347656,
+     1599.720703125
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "JICS",
+   "alt_score": 0.4757617712020874
+  }
+ ]
+}

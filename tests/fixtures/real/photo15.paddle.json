@@ -1,0 +1,166 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo15.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 5.82,
+  "contrast_added": 0,
+  "contrast_s": 10.77,
+  "zoom_added": 0,
+  "zoom_s": 4.02,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.0,
+  "regions": 4,
+  "total_s": 20.66
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "KESAR",
+   "score": 0.9999858736991882,
+   "poly": [
+    [
+     260.25,
+     704.25
+    ],
+    [
+     608.25,
+     708.0
+    ],
+    [
+     607.5,
+     828.75
+    ],
+    [
+     258.75,
+     825.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CHANDAN",
+   "score": 0.9999910593032837,
+   "poly": [
+    [
+     208.5,
+     807.75
+    ],
+    [
+     666.75,
+     807.75
+    ],
+    [
+     666.75,
+     928.5
+    ],
+    [
+     208.5,
+     928.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tika Powder",
+   "score": 0.9999811053276062,
+   "poly": [
+    [
+     249.0,
+     953.25
+    ],
+    [
+     504.75,
+     958.5
+    ],
+    [
+     504.0,
+     995.25
+    ],
+    [
+     248.25,
+     990.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For auspicious work",
+   "score": 0.9980502128601074,
+   "poly": [
+    [
+     201.75,
+     984.0
+    ],
+    [
+     589.5,
+     991.5
+    ],
+    [
+     588.75,
+     1039.5
+    ],
+    [
+     201.0,
+     1032.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

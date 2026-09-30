@@ -1,0 +1,664 @@
+{
+ "source": "photo2.jpg",
+ "ocr_input_shape": [
+  1280,
+  720,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "secondary_lang": null,
+  "enable_mkldnn": false,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": true,
+  "regions": 26,
+  "total_s": 0.0
+ },
+ "regions": [
+  {
+   "text": "Dabur",
+   "score": 0.999537467956543,
+   "poly": [
+    [
+     321.0,
+     540.5
+    ],
+    [
+     370.0,
+     531.5
+    ],
+    [
+     374.0,
+     552.0
+    ],
+    [
+     325.0,
+     561.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Amla",
+   "score": 0.9925544261932373,
+   "poly": [
+    [
+     311.0,
+     568.5
+    ],
+    [
+     381.0,
+     556.5
+    ],
+    [
+     385.5,
+     583.5
+    ],
+    [
+     315.0,
+     595.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Brong, Long, Thick Hak",
+   "score": 0.9024724364280701,
+   "poly": [
+    [
+     294.5,
+     600.0
+    ],
+    [
+     410.0,
+     597.5
+    ],
+    [
+     410.0,
+     611.5
+    ],
+    [
+     294.5,
+     614.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Rs.18.00",
+   "score": 0.9881197214126587,
+   "poly": [
+    [
+     279.5,
+     651.5
+    ],
+    [
+     364.0,
+     649.5
+    ],
+    [
+     364.5,
+     674.0
+    ],
+    [
+     280.0,
+     676.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "(Rs.0.4 0/ml)",
+   "score": 0.9818335771560669,
+   "poly": [
+    [
+     281.0,
+     673.0
+    ],
+    [
+     409.5,
+     672.0
+    ],
+    [
+     409.5,
+     693.0
+    ],
+    [
+     281.0,
+     694.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "BT01175",
+   "score": 0.9987606406211853,
+   "poly": [
+    [
+     281.5,
+     689.5
+    ],
+    [
+     372.5,
+     688.5
+    ],
+    [
+     372.5,
+     709.5
+    ],
+    [
+     281.5,
+     710.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "03/2026(B4)",
+   "score": 0.9959990978240967,
+   "poly": [
+    [
+     282.5,
+     706.0
+    ],
+    [
+     424.5,
+     706.0
+    ],
+    [
+     424.5,
+     726.5
+    ],
+    [
+     282.5,
+     726.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "03/2029",
+   "score": 0.9998814463615417,
+   "poly": [
+    [
+     284.0,
+     723.5
+    ],
+    [
+     367.5,
+     723.5
+    ],
+    [
+     367.5,
+     743.0
+    ],
+    [
+     284.0,
+     743.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "For MRP Rs (nd of af taues), Bach No,",
+   "score": 0.8948290944099426,
+   "poly": [
+    [
+     287.0,
+     782.0
+    ],
+    [
+     417.5,
+     779.0
+    ],
+    [
+     418.0,
+     794.5
+    ],
+    [
+     287.5,
+     797.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Mid & Use before, Sce above.",
+   "score": 0.8696324229240417,
+   "poly": [
+    [
+     288.0,
+     796.0
+    ],
+    [
+     386.0,
+     794.0
+    ],
+    [
+     386.0,
+     807.5
+    ],
+    [
+     288.0,
+     809.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Net Qty.:",
+   "score": 0.939407467842102,
+   "poly": [
+    [
+     288.5,
+     817.0
+    ],
+    [
+     339.0,
+     817.0
+    ],
+    [
+     339.0,
+     841.0
+    ],
+    [
+     288.5,
+     841.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "45ml",
+   "score": 0.9995987415313721,
+   "poly": [
+    [
+     354.0,
+     815.5
+    ],
+    [
+     390.0,
+     814.5
+    ],
+    [
+     390.5,
+     835.5
+    ],
+    [
+     354.5,
+     836.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "KEY INGREDIENTS: Amla In O",
+   "score": 0.9383010268211365,
+   "poly": [
+    [
+     290.5,
+     846.0
+    ],
+    [
+     404.0,
+     843.0
+    ],
+    [
+     404.5,
+     858.0
+    ],
+    [
+     291.0,
+     861.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "For name and address al mdg unit readthe",
+   "score": 0.7651615142822266,
+   "poly": [
+    [
+     291.0,
+     860.5
+    ],
+    [
+     417.0,
+     855.5
+    ],
+    [
+     417.5,
+     869.5
+    ],
+    [
+     291.5,
+     874.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "frst two charaders of batccode & ser:",
+   "score": 0.7719442844390869,
+   "poly": [
+    [
+     291.5,
+     873.0
+    ],
+    [
+     410.0,
+     869.5
+    ],
+    [
+     410.5,
+     883.0
+    ],
+    [
+     292.0,
+     886.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "BM) Dabur india Limted",
+   "score": 0.9302067160606384,
+   "poly": [
+    [
+     293.0,
+     886.0
+    ],
+    [
+     368.5,
+     883.5
+    ],
+    [
+     369.0,
+     896.0
+    ],
+    [
+     293.5,
+     898.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "our Tael bao  Sin,",
+   "score": 0.5446763634681702,
+   "poly": [
+    [
+     336.0,
+     893.5
+    ],
+    [
+     407.5,
+     893.5
+    ],
+    [
+     407.5,
+     907.5
+    ],
+    [
+     336.0,
+     907.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "r fadl bad Dst Sdn",
+   "alt_score": 0.4730723798274994
+  },
+  {
+   "text": "BT) Dabur India Umited, L0C Baçora",
+   "score": 0.7738386988639832,
+   "poly": [
+    [
+     293.5,
+     920.0
+    ],
+    [
+     415.5,
+     915.5
+    ],
+    [
+     416.0,
+     930.5
+    ],
+    [
+     294.0,
+     935.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0-Ghoraman. Dist, Sontpur-7811",
+   "score": 0.8086281418800354,
+   "poly": [
+    [
+     298.0,
+     933.5
+    ],
+    [
+     409.5,
+     930.5
+    ],
+    [
+     409.5,
+     943.0
+    ],
+    [
+     298.0,
+     946.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "83. Asaf Al Road, New Da-1002",
+   "score": 0.7716997265815735,
+   "poly": [
+    [
+     294.5,
+     971.0
+    ],
+    [
+     422.5,
+     964.0
+    ],
+    [
+     423.5,
+     980.0
+    ],
+    [
+     295.5,
+     987.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "-mail: daburcaresidabur.com",
+   "score": 0.9344459772109985,
+   "poly": [
+    [
+     301.0,
+     984.5
+    ],
+    [
+     405.0,
+     981.0
+    ],
+    [
+     405.5,
+     993.0
+    ],
+    [
+     301.5,
+     996.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Tol Free: 1800-103-1644",
+   "score": 0.9601625204086304,
+   "poly": [
+    [
+     294.0,
+     1006.5
+    ],
+    [
+     386.0,
+     1002.5
+    ],
+    [
+     386.5,
+     1018.5
+    ],
+    [
+     294.5,
+     1022.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "出",
+   "score": 0.48863187432289124,
+   "poly": [
+    [
+     388.5,
+     1003.0
+    ],
+    [
+     415.0,
+     1003.0
+    ],
+    [
+     415.0,
+     1016.0
+    ],
+    [
+     388.5,
+     1016.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "a",
+   "alt_score": 0.3160768449306488
+  },
+  {
+   "text": " a co pe prod h",
+   "score": 0.5686812996864319,
+   "poly": [
+    [
+     293.5,
+     1022.0
+    ],
+    [
+     420.5,
+     1016.0
+    ],
+    [
+     421.0,
+     1031.5
+    ],
+    [
+     294.0,
+     1037.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "00同",
+   "score": 0.4119754731655121,
+   "poly": [
+    [
+     297.5,
+     1035.5
+    ],
+    [
+     340.0,
+     1034.0
+    ],
+    [
+     340.5,
+     1044.0
+    ],
+    [
+     298.0,
+     1045.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "95560068",
+   "score": 0.8617706298828125,
+   "poly": [
+    [
+     328.0,
+     1078.5
+    ],
+    [
+     398.0,
+     1076.0
+    ],
+    [
+     398.5,
+     1092.0
+    ],
+    [
+     328.5,
+     1094.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ],
+ "provenance": "Real PaddleOCR 3.7 output from a teammate's machine (replayed from his OCR cache)."
+}

@@ -1,0 +1,628 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo10.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 8.31,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 6,
+  "refine_s": 1.24,
+  "block_lines": 0,
+  "block_s": 0.85,
+  "curved": 1,
+  "curved_s": 0.69,
+  "secondary_replaced": 1,
+  "secondary_s": 0.23,
+  "regions": 22,
+  "total_s": 11.37
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "WHW",
+   "score": 0.824446976184845,
+   "poly": [
+    [
+     543.0,
+     345.75
+    ],
+    [
+     663.0,
+     345.75
+    ],
+    [
+     663.0,
+     437.25
+    ],
+    [
+     543.0,
+     437.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "CKET",
+   "score": 0.8559101819992065,
+   "poly": [
+    [
+     239.25,
+     373.5
+    ],
+    [
+     370.5,
+     373.5
+    ],
+    [
+     370.5,
+     416.25
+    ],
+    [
+     239.25,
+     416.25
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "KET",
+   "alt_score": 0.7567211985588074
+  },
+  {
+   "tl_angle": 180,
+   "text": "Dhuna",
+   "score": 0.999102771282196,
+   "poly": [
+    [
+     270.0,
+     403.5
+    ],
+    [
+     353.25,
+     413.25
+    ],
+    [
+     349.5,
+     447.0
+    ],
+    [
+     266.25,
+     438.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Dhmna",
+   "alt_score": 0.774027943611145
+  },
+  {
+   "tl_angle": 180,
+   "text": "OUITI HE BEST IDENTY",
+   "score": 0.769827663898468,
+   "poly": [
+    [
+     520.980712890625,
+     417.41778564453125
+    ],
+    [
+     674.9632568359375,
+     408.4913024902344
+    ],
+    [
+     678.4204711914062,
+     468.1278381347656
+    ],
+    [
+     524.4379272460938,
+     477.0543212890625
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "CTer",
+   "alt_score": 0.33969274163246155
+  },
+  {
+   "tl_angle": 180,
+   "text": "Packed & Marketed",
+   "score": 0.9999476075172424,
+   "poly": [
+    [
+     135.75,
+     612.75
+    ],
+    [
+     363.75,
+     617.25
+    ],
+    [
+     363.0,
+     645.0
+    ],
+    [
+     135.0,
+     640.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "a   e",
+   "alt_score": 0.6931915283203125
+  },
+  {
+   "tl_angle": 180,
+   "text": "Net Weight",
+   "score": 0.9852043390274048,
+   "poly": [
+    [
+     448.5,
+     619.5
+    ],
+    [
+     557.25,
+     617.25
+    ],
+    [
+     558.0,
+     642.0
+    ],
+    [
+     449.25,
+     644.25
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "tght",
+   "alt_score": 0.7768237590789795
+  },
+  {
+   "tl_angle": 0,
+   "text": "50gm",
+   "score": 0.9999951124191284,
+   "poly": [
+    [
+     621.75,
+     615.75
+    ],
+    [
+     683.25,
+     615.75
+    ],
+    [
+     683.25,
+     642.0
+    ],
+    [
+     621.75,
+     642.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.H.MARKET",
+   "score": 0.9996495246887207,
+   "poly": [
+    [
+     121.5,
+     645.0
+    ],
+    [
+     364.5,
+     646.5
+    ],
+    [
+     363.75,
+     692.25
+    ],
+    [
+     120.75,
+     690.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(When Packed)",
+   "score": 0.9885485172271729,
+   "poly": [
+    [
+     450.75,
+     641.25
+    ],
+    [
+     526.5,
+     638.25
+    ],
+    [
+     526.5,
+     652.5
+    ],
+    [
+     450.75,
+     655.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Max Retail Price:30.00",
+   "score": 0.995560884475708,
+   "poly": [
+    [
+     448.5,
+     660.75
+    ],
+    [
+     699.0,
+     659.25
+    ],
+    [
+     699.0,
+     681.0
+    ],
+    [
+     448.5,
+     682.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(inchof all taxes)",
+   "score": 0.9618940353393555,
+   "poly": [
+    [
+     450.75,
+     681.0
+    ],
+    [
+     534.0,
+     681.0
+    ],
+    [
+     534.0,
+     695.25
+    ],
+    [
+     450.75,
+     695.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "133, Caning Street, Second Floor,",
+   "score": 0.9932433366775513,
+   "poly": [
+    [
+     66.0,
+     700.5
+    ],
+    [
+     357.0,
+     696.75
+    ],
+    [
+     357.0,
+     730.5
+    ],
+    [
+     66.75,
+     734.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Unit Sale Price:0.60",
+   "score": 0.9970166087150574,
+   "poly": [
+    [
+     450.0,
+     701.25
+    ],
+    [
+     688.5,
+     701.25
+    ],
+    [
+     688.5,
+     725.25
+    ],
+    [
+     450.0,
+     725.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Packed on",
+   "score": 0.9970510005950928,
+   "poly": [
+    [
+     449.25,
+     729.0
+    ],
+    [
+     546.75,
+     730.5
+    ],
+    [
+     546.0,
+     755.25
+    ],
+    [
+     449.25,
+     753.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Kolkata - 700001. Near Jac",
+   "score": 0.9588482975959778,
+   "poly": [
+    [
+     114.75,
+     737.25
+    ],
+    [
+     356.25,
+     732.75
+    ],
+    [
+     357.0,
+     765.75
+    ],
+    [
+     115.5,
+     770.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No.",
+   "score": 0.9998689293861389,
+   "poly": [
+    [
+     450.0,
+     757.5
+    ],
+    [
+     540.0,
+     757.5
+    ],
+    [
+     540.0,
+     779.25
+    ],
+    [
+     450.0,
+     779.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Customer Care 033-40",
+   "score": 0.9998471140861511,
+   "poly": [
+    [
+     135.75,
+     776.25
+    ],
+    [
+     352.5,
+     771.75
+    ],
+    [
+     353.25,
+     796.5
+    ],
+    [
+     135.75,
+     801.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Best before 3 years from the date of packing",
+   "score": 0.993746817111969,
+   "poly": [
+    [
+     450.75,
+     783.75
+    ],
+    [
+     762.75,
+     786.0
+    ],
+    [
+     762.75,
+     807.0
+    ],
+    [
+     450.75,
+     804.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "e-mail:importinfo.mhm@",
+   "score": 0.999782383441925,
+   "poly": [
+    [
+     102.75,
+     806.25
+    ],
+    [
+     354.0,
+     801.0
+    ],
+    [
+     354.75,
+     829.5
+    ],
+    [
+     102.75,
+     834.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MECTCLE",
+   "score": 0.8296397924423218,
+   "poly": [
+    [
+     488.25,
+     1299.0
+    ],
+    [
+     524.25,
+     1301.25
+    ],
+    [
+     523.5,
+     1314.0
+    ],
+    [
+     487.5,
+     1311.75
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "NECICLA",
+   "alt_score": 0.6089494824409485
+  },
+  {
+   "tl_angle": 0,
+   "text": "भारत",
+   "score": 0.6945911049842834,
+   "poly": [
+    [
+     657.0,
+     1292.25
+    ],
+    [
+     682.5,
+     1292.25
+    ],
+    [
+     682.5,
+     1305.75
+    ],
+    [
+     657.0,
+     1305.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "SITGA",
+   "alt_score": 0.5994986295700073
+  },
+  {
+   "tl_angle": 0,
+   "text": "SPEC",
+   "score": 0.3930520713329315,
+   "poly": [
+    [
+     806.25,
+     1503.75
+    ],
+    [
+     870.75,
+     1506.0
+    ],
+    [
+     867.75,
+     1599.75
+    ],
+    [
+     803.25,
+     1599.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

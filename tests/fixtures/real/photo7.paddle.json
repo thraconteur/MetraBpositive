@@ -1,0 +1,826 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo7.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 8.35,
+  "zoom_added": 5,
+  "zoom_s": 8.42,
+  "vertical_bands": 1,
+  "vertical_s": 2.57,
+  "refined": 7,
+  "refine_s": 2.19,
+  "block_lines": 0,
+  "block_s": 0.41,
+  "curved": 0,
+  "curved_s": 0.52,
+  "secondary_replaced": 8,
+  "secondary_s": 0.33,
+  "regions": 29,
+  "total_s": 22.83
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "5乐5",
+   "score": 0.44765377044677734,
+   "poly": [
+    [
+     366.75,
+     484.5
+    ],
+    [
+     569.25,
+     477.75
+    ],
+    [
+     570.75,
+     524.25
+    ],
+    [
+     368.25,
+     531.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "乐乐乐",
+   "score": 0.9243825078010559,
+   "poly": [
+    [
+     369.75,
+     534.0
+    ],
+    [
+     575.25,
+     528.0
+    ],
+    [
+     576.75,
+     574.5
+    ],
+    [
+     371.25,
+     581.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "RI",
+   "score": 0.9701451063156128,
+   "poly": [
+    [
+     449.25,
+     642.0
+    ],
+    [
+     508.5,
+     640.5
+    ],
+    [
+     509.25,
+     659.25
+    ],
+    [
+     450.0,
+     660.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R",
+   "score": 0.9779388904571533,
+   "poly": [
+    [
+     542.25,
+     661.5
+    ],
+    [
+     555.0,
+     661.5
+    ],
+    [
+     555.0,
+     674.25
+    ],
+    [
+     542.25,
+     674.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "KALASH",
+   "score": 0.9999875426292419,
+   "poly": [
+    [
+     390.75,
+     685.5
+    ],
+    [
+     560.25,
+     663.75
+    ],
+    [
+     567.0,
+     716.25
+    ],
+    [
+     397.5,
+     738.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Roli(Kumkum)",
+   "score": 0.9999422430992126,
+   "poly": [
+    [
+     414.75,
+     729.75
+    ],
+    [
+     555.75,
+     726.75
+    ],
+    [
+     556.5,
+     750.75
+    ],
+    [
+     415.5,
+     753.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AV",
+   "score": 0.511560320854187,
+   "poly": [
+    [
+     471.0,
+     850.5
+    ],
+    [
+     499.5,
+     850.5
+    ],
+    [
+     499.5,
+     858.0
+    ],
+    [
+     471.0,
+     858.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "AXXX",
+   "alt_score": 0.37215325236320496
+  },
+  {
+   "tl_angle": 0,
+   "text": "शुद् हल्दी द्वारा निर्मित",
+   "score": 0.9056603312492371,
+   "poly": [
+    [
+     410.25,
+     893.25
+    ],
+    [
+     557.25,
+     886.5
+    ],
+    [
+     558.75,
+     911.25
+    ],
+    [
+     411.75,
+     918.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "QA",
+   "alt_score": 0.3522331118583679
+  },
+  {
+   "tl_angle": 0,
+   "text": "सवश्रेष्ठ रोली",
+   "score": 0.7960973381996155,
+   "poly": [
+    [
+     440.25,
+     912.75
+    ],
+    [
+     530.25,
+     911.25
+    ],
+    [
+     530.25,
+     933.75
+    ],
+    [
+     440.25,
+     935.25
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "Contents:Roli(Kumkum)",
+   "score": 0.9999428987503052,
+   "poly": [
+    [
+     404.25,
+     944.25
+    ],
+    [
+     572.25,
+     940.5
+    ],
+    [
+     572.25,
+     961.5
+    ],
+    [
+     404.25,
+     965.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DROLIA CHI",
+   "score": 0.9911981821060181,
+   "poly": [
+    [
+     194.25,
+     978.0
+    ],
+    [
+     285.75,
+     971.25
+    ],
+    [
+     287.25,
+     989.25
+    ],
+    [
+     195.75,
+     995.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NetWt.:5g.",
+   "score": 0.9109096527099609,
+   "poly": [
+    [
+     408.0,
+     978.75
+    ],
+    [
+     477.0,
+     978.75
+    ],
+    [
+     477.0,
+     996.0
+    ],
+    [
+     408.0,
+     996.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2 No. Ramlochan",
+   "score": 0.9646040201187134,
+   "poly": [
+    [
+     193.5,
+     993.0
+    ],
+    [
+     284.25,
+     987.75
+    ],
+    [
+     285.0,
+     999.75
+    ],
+    [
+     194.25,
+     1005.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Kolkata",
+   "score": 0.9979445338249207,
+   "poly": [
+    [
+     243.0,
+     999.75
+    ],
+    [
+     285.0,
+     997.5
+    ],
+    [
+     285.75,
+     1010.25
+    ],
+    [
+     243.75,
+     1012.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(When Packed)",
+   "score": 0.9996629953384399,
+   "poly": [
+    [
+     408.75,
+     996.75
+    ],
+    [
+     495.0,
+     995.25
+    ],
+    [
+     495.0,
+     1012.5
+    ],
+    [
+     408.75,
+     1014.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Customer Care No.",
+   "score": 0.945218026638031,
+   "poly": [
+    [
+     193.5,
+     1017.0
+    ],
+    [
+     283.5,
+     1012.5
+    ],
+    [
+     284.25,
+     1024.5
+    ],
+    [
+     194.25,
+     1029.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Max Retail Price R: 5.00",
+   "score": 0.9738965034484863,
+   "poly": [
+    [
+     409.5,
+     1025.25
+    ],
+    [
+     555.0,
+     1021.5
+    ],
+    [
+     555.75,
+     1036.5
+    ],
+    [
+     410.25,
+     1040.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Inclusive of all taxes)",
+   "score": 0.9722654819488525,
+   "poly": [
+    [
+     409.5,
+     1044.0
+    ],
+    [
+     523.5,
+     1039.5
+    ],
+    [
+     524.25,
+     1054.5
+    ],
+    [
+     410.25,
+     1058.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg.B",
+   "score": 0.9946498870849609,
+   "poly": [
+    [
+     247.5,
+     962.25
+    ],
+    [
+     286.5,
+     960.0
+    ],
+    [
+     288.0,
+     975.0
+    ],
+    [
+     248.25,
+     976.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Websile: waw drokrs",
+   "score": 0.7807714343070984,
+   "poly": [
+    [
+     198.75,
+     1029.0
+    ],
+    [
+     288.75,
+     1025.25
+    ],
+    [
+     289.5,
+     1035.0
+    ],
+    [
+     199.5,
+     1038.75
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Websle:www.drokirz",
+   "alt_score": 0.7175114154815674
+  },
+  {
+   "text": "5",
+   "score": 0.9728472828865051,
+   "poly": [
+    [
+     159.0,
+     539.25
+    ],
+    [
+     153.75,
+     492.75
+    ],
+    [
+     204.75,
+     487.5
+    ],
+    [
+     210.0,
+     534.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "कल",
+   "score": 0.9989484548568726,
+   "poly": [
+    [
+     177.75,
+     735.75
+    ],
+    [
+     177.75,
+     675.0
+    ],
+    [
+     281.25,
+     675.0
+    ],
+    [
+     281.25,
+     735.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "Che",
+   "alt_score": 0.7484437823295593
+  },
+  {
+   "text": "DROLIA CHI",
+   "score": 0.9910780191421509,
+   "poly": [
+    [
+     194.25,
+     992.25
+    ],
+    [
+     193.5,
+     977.25
+    ],
+    [
+     286.5,
+     974.25
+    ],
+    [
+     287.25,
+     992.25
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "CH",
+   "alt_score": 0.5568814873695374
+  },
+  {
+   "text": "हम्न विवाह व हर",
+   "score": 0.8462689518928528,
+   "poly": [
+    [
+     198.0,
+     941.25
+    ],
+    [
+     197.25,
+     924.0
+    ],
+    [
+     282.0,
+     918.75
+    ],
+    [
+     282.75,
+     936.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "22",
+   "alt_score": 0.47772112488746643
+  },
+  {
+   "text": "पूजा अर्चना, बेव पू",
+   "score": 0.8417128920555115,
+   "poly": [
+    [
+     195.0,
+     926.25
+    ],
+    [
+     194.25,
+     905.25
+    ],
+    [
+     283.5,
+     899.25
+    ],
+    [
+     284.25,
+     920.25
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "pi",
+   "alt_score": 0.6016871333122253
+  },
+  {
+   "text": "ब्रलिया शुखद ध्दी",
+   "score": 0.7393491268157959,
+   "poly": [
+    [
+     201.75,
+     906.75
+    ],
+    [
+     200.25,
+     887.25
+    ],
+    [
+     281.25,
+     882.0
+    ],
+    [
+     282.0,
+     901.5
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "pime",
+   "alt_score": 0.468765527009964
+  },
+  {
+   "text": "रोली (कु",
+   "score": 0.9881031513214111,
+   "poly": [
+    [
+     198.0,
+     759.75
+    ],
+    [
+     198.0,
+     733.5
+    ],
+    [
+     278.25,
+     733.5
+    ],
+    [
+     278.25,
+     759.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "(",
+   "alt_score": 0.9335253834724426
+  },
+  {
+   "text": "इोलिय",
+   "score": 0.8524276614189148,
+   "poly": [
+    [
+     226.5,
+     672.75
+    ],
+    [
+     225.0,
+     650.25
+    ],
+    [
+     275.25,
+     648.0
+    ],
+    [
+     276.75,
+     669.75
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "gltèr",
+   "alt_score": 0.7562156319618225
+  },
+  {
+   "text": "Mfg.b",
+   "score": 0.8147664070129395,
+   "poly": [
+    [
+     247.5,
+     978.0
+    ],
+    [
+     246.75,
+     963.75
+    ],
+    [
+     285.0,
+     961.5
+    ],
+    [
+     285.75,
+     975.75
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "5",
+   "score": 0.5881614685058594,
+   "poly": [
+    [
+     241.5,
+     854.25
+    ],
+    [
+     241.5,
+     827.25
+    ],
+    [
+     281.25,
+     827.25
+    ],
+    [
+     281.25,
+     854.25
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  }
+ ]
+}

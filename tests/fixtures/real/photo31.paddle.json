@@ -1,0 +1,576 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo31.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 9.22,
+  "zoom_added": 7,
+  "zoom_s": 6.99,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 6,
+  "refine_s": 1.04,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 1,
+  "curved_s": 0.73,
+  "secondary_replaced": 0,
+  "secondary_s": 0.36,
+  "regions": 20,
+  "total_s": 18.37
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "FORNETWTMRP(INCL.OFALLTAXES),",
+   "score": 0.945785403251648,
+   "poly": [
+    [
+     138.8281707763672,
+     522.5759887695312
+    ],
+    [
+     335.84490966796875,
+     519.7371215820312
+    ],
+    [
+     336.15484619140625,
+     541.2456665039062
+    ],
+    [
+     139.13809204101562,
+     544.0845336914062
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "TTTFAE",
+   "alt_score": 0.7137972712516785
+  },
+  {
+   "tl_angle": 180,
+   "text": "64967359",
+   "score": 0.9998779296875,
+   "poly": [
+    [
+     125.0,
+     537.0
+    ],
+    [
+     138.0,
+     536.0
+    ],
+    [
+     142.5,
+     600.5
+    ],
+    [
+     130.0,
+     601.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "PID.USEBY &BATCHNO.",
+   "score": 0.7980219721794128,
+   "poly": [
+    [
+     137.5,
+     541.0
+    ],
+    [
+     270.5,
+     538.0
+    ],
+    [
+     271.0,
+     559.0
+    ],
+    [
+     138.0,
+     562.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "SP    N",
+   "alt_score": 0.667549729347229
+  },
+  {
+   "tl_angle": 0,
+   "text": "SCAN HERE",
+   "score": 0.998117983341217,
+   "poly": [
+    [
+     336.0,
+     603.5
+    ],
+    [
+     429.5,
+     613.0
+    ],
+    [
+     427.5,
+     633.5
+    ],
+    [
+     334.0,
+     624.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "JUICE, BANANA PULP, PINEAPPLE JUICE,",
+   "score": 0.9730443954467773,
+   "poly": [
+    [
+     146.5,
+     625.5
+    ],
+    [
+     322.5,
+     632.5
+    ],
+    [
+     321.5,
+     649.5
+    ],
+    [
+     145.5,
+     642.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ORANGE JUICE, MANGO PULP, GRAPE JUICE)",
+   "score": 0.952600359916687,
+   "poly": [
+    [
+     147.5,
+     641.0
+    ],
+    [
+     319.5,
+     648.5
+    ],
+    [
+     319.0,
+     664.0
+    ],
+    [
+     147.0,
+     656.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ACIDITYREGULATOR-E330,THICKENER-E440,",
+   "score": 0.9928317666053772,
+   "poly": [
+    [
+     148.5,
+     656.0
+    ],
+    [
+     319.0,
+     664.5
+    ],
+    [
+     318.0,
+     680.0
+    ],
+    [
+     148.0,
+     671.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "IDOISED SALT, VITAMINS & MINERAL,",
+   "score": 0.9609769582748413,
+   "poly": [
+    [
+     149.5,
+     671.0
+    ],
+    [
+     316.5,
+     679.5
+    ],
+    [
+     316.0,
+     695.0
+    ],
+    [
+     149.0,
+     686.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRESERVATIVE-E202,NATURALFLAVOURING",
+   "score": 0.982043981552124,
+   "poly": [
+    [
+     150.5,
+     685.5
+    ],
+    [
+     316.0,
+     695.0
+    ],
+    [
+     315.0,
+     710.5
+    ],
+    [
+     149.5,
+     701.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SUBSTANCES,FOOD COLOUR-E122.",
+   "score": 0.9837791323661804,
+   "poly": [
+    [
+     151.5,
+     701.0
+    ],
+    [
+     277.0,
+     708.5
+    ],
+    [
+     276.0,
+     724.0
+    ],
+    [
+     150.5,
+     716.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2974",
+   "score": 0.5832979083061218,
+   "poly": [
+    [
+     364.0,
+     718.5
+    ],
+    [
+     413.0,
+     718.5
+    ],
+    [
+     413.0,
+     734.5
+    ],
+    [
+     364.0,
+     734.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "A",
+   "alt_score": 0.17801053822040558
+  },
+  {
+   "tl_angle": 0,
+   "text": "A",
+   "score": 0.434411883354187,
+   "poly": [
+    [
+     187.5,
+     724.5
+    ],
+    [
+     220.5,
+     727.0
+    ],
+    [
+     218.5,
+     758.0
+    ],
+    [
+     185.5,
+     756.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8",
+   "score": 0.9996881484985352,
+   "poly": [
+    [
+     125.5,
+     743.0
+    ],
+    [
+     138.0,
+     743.0
+    ],
+    [
+     138.0,
+     757.5
+    ],
+    [
+     125.5,
+     757.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "8",
+   "alt_score": 0.6540424823760986
+  },
+  {
+   "tl_angle": 180,
+   "text": "SEE LID/BASE",
+   "score": 0.9979297518730164,
+   "poly": [
+    [
+     341.5,
+     527.5
+    ],
+    [
+     429.5,
+     537.0
+    ],
+    [
+     427.5,
+     558.0
+    ],
+    [
+     339.5,
+     548.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "SI ASE",
+   "alt_score": 0.7224215865135193
+  },
+  {
+   "tl_angle": 180,
+   "text": "LEVERCARE-QUERY/FEEDBACK",
+   "score": 0.9956667423248291,
+   "poly": [
+    [
+     139.5,
+     558.5
+    ],
+    [
+     286.5,
+     554.5
+    ],
+    [
+     287.0,
+     573.0
+    ],
+    [
+     140.0,
+     577.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "E ",
+   "alt_score": 0.7313233017921448
+  },
+  {
+   "tl_angle": 0,
+   "text": "PO BOX 14760, MUMBAI 400 099",
+   "score": 0.9674185514450073,
+   "poly": [
+    [
+     140.0,
+     574.0
+    ],
+    [
+     290.5,
+     572.0
+    ],
+    [
+     290.5,
+     590.5
+    ],
+    [
+     140.0,
+     593.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LEVER.CARE@UNILEVER.COM",
+   "score": 0.9985141754150391,
+   "poly": [
+    [
+     281.0,
+     571.0
+    ],
+    [
+     447.0,
+     585.0
+    ],
+    [
+     445.5,
+     603.5
+    ],
+    [
+     279.5,
+     590.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "JAM INGREDIENTS: SUGAR, MIXED FRUIT PULP",
+   "score": 0.9537419080734253,
+   "poly": [
+    [
+     144.5,
+     596.5
+    ],
+    [
+     325.5,
+     601.0
+    ],
+    [
+     325.0,
+     618.0
+    ],
+    [
+     144.0,
+     613.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BLEND - 60% (PAPAYA PULP, PEAR PULP, APPLE",
+   "score": 0.9228430986404419,
+   "poly": [
+    [
+     145.5,
+     612.0
+    ],
+    [
+     324.5,
+     617.5
+    ],
+    [
+     324.0,
+     633.5
+    ],
+    [
+     145.0,
+     627.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PP",
+   "score": 0.941632866859436,
+   "poly": [
+    [
+     194.0,
+     754.0
+    ],
+    [
+     209.5,
+     755.0
+    ],
+    [
+     209.0,
+     767.5
+    ],
+    [
+     193.5,
+     766.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

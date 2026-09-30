@@ -1,0 +1,1242 @@
+{
+ "source": "photo1.jpg",
+ "ocr_input_shape": [
+  1280,
+  720,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "secondary_lang": null,
+  "enable_mkldnn": false,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": true,
+  "regions": 50,
+  "total_s": 2.01
+ },
+ "regions": [
+  {
+   "text": "streax",
+   "score": 0.9999859929084778,
+   "poly": [
+    [
+     370.5,
+     499.5
+    ],
+    [
+     461.5,
+     504.5
+    ],
+    [
+     459.5,
+     536.5
+    ],
+    [
+     368.5,
+     531.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "PROFESSIONAL",
+   "score": 0.998333215713501,
+   "poly": [
+    [
+     370.5,
+     529.5
+    ],
+    [
+     456.5,
+     533.5
+    ],
+    [
+     456.0,
+     545.5
+    ],
+    [
+     370.0,
+     541.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "VITARICHE GLOSS",
+   "score": 0.9740274548530579,
+   "poly": [
+    [
+     353.0,
+     538.0
+    ],
+    [
+     473.5,
+     545.0
+    ],
+    [
+     472.5,
+     564.0
+    ],
+    [
+     352.0,
+     557.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "HAIR SERUM",
+   "score": 0.9528512954711914,
+   "poly": [
+    [
+     386.5,
+     558.5
+    ],
+    [
+     447.0,
+     560.0
+    ],
+    [
+     446.5,
+     573.5
+    ],
+    [
+     386.0,
+     572.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "anal Vitaricho",
+   "score": 0.7952162623405457,
+   "poly": [
+    [
+     288.5,
+     574.5
+    ],
+    [
+     343.0,
+     574.5
+    ],
+    [
+     343.0,
+     587.0
+    ],
+    [
+     288.5,
+     587.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "s Halr Serum with vitamin nartho",
+   "score": 0.8689240217208862,
+   "poly": [
+    [
+     348.0,
+     572.0
+    ],
+    [
+     487.5,
+     577.5
+    ],
+    [
+     487.0,
+     591.5
+    ],
+    [
+     347.5,
+     586.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "nair&tamefr",
+   "score": 0.7601447701454163,
+   "poly": [
+    [
+     285.0,
+     586.5
+    ],
+    [
+     332.5,
+     585.5
+    ],
+    [
+     332.5,
+     596.0
+    ],
+    [
+     285.0,
+     597.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "htir&tamet",
+   "alt_score": 0.698500394821167
+  },
+  {
+   "text": "while its unique \"shine enharo",
+   "score": 0.9262633919715881,
+   "poly": [
+    [
+     351.0,
+     585.0
+    ],
+    [
+     478.0,
+     589.0
+    ],
+    [
+     477.5,
+     601.0
+    ],
+    [
+     350.5,
+     597.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "& de",
+   "score": 0.747489333152771,
+   "poly": [
+    [
+     316.5,
+     607.5
+    ],
+    [
+     337.5,
+     607.5
+    ],
+    [
+     337.5,
+     617.0
+    ],
+    [
+     316.5,
+     617.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ples, dry, unruly hair • Prutecst",
+   "score": 0.8829322457313538,
+   "poly": [
+    [
+     348.5,
+     605.5
+    ],
+    [
+     474.0,
+     608.0
+    ],
+    [
+     474.0,
+     621.5
+    ],
+    [
+     348.5,
+     619.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Makeshal",
+   "score": 0.8555279970169067,
+   "poly": [
+    [
+     299.5,
+     617.0
+    ],
+    [
+     338.0,
+     618.0
+    ],
+    [
+     338.0,
+     628.5
+    ],
+    [
+     299.5,
+     627.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ng with blow dries & fla",
+   "score": 0.9169678092002869,
+   "poly": [
+    [
+     359.0,
+     616.0
+    ],
+    [
+     464.0,
+     619.0
+    ],
+    [
+     463.5,
+     632.5
+    ],
+    [
+     358.5,
+     629.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "colour treated hair",
+   "score": 0.990300714969635,
+   "poly": [
+    [
+     358.0,
+     628.0
+    ],
+    [
+     435.5,
+     629.5
+    ],
+    [
+     435.5,
+     641.5
+    ],
+    [
+     358.0,
+     640.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "amount",
+   "score": 0.9805178046226501,
+   "poly": [
+    [
+     300.0,
+     639.0
+    ],
+    [
+     332.5,
+     639.0
+    ],
+    [
+     332.5,
+     649.5
+    ],
+    [
+     300.0,
+     649.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "serum in the paim of the hed",
+   "score": 0.9392957091331482,
+   "poly": [
+    [
+     358.5,
+     638.5
+    ],
+    [
+     476.5,
+     641.0
+    ],
+    [
+     476.5,
+     653.0
+    ],
+    [
+     358.5,
+     650.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ay for added shine & fnzz",
+   "score": 0.975368320941925,
+   "poly": [
+    [
+     359.0,
+     650.0
+    ],
+    [
+     464.5,
+     651.0
+    ],
+    [
+     464.5,
+     663.0
+    ],
+    [
+     359.0,
+     662.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "coentasiloxa",
+   "score": 0.9443299770355225,
+   "poly": [
+    [
+     293.5,
+     660.5
+    ],
+    [
+     336.0,
+     661.5
+    ],
+    [
+     336.0,
+     670.0
+    ],
+    [
+     293.5,
+     669.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "yclopentasiloxane (and) D",
+   "score": 0.9522268772125244,
+   "poly": [
+    [
+     359.0,
+     660.0
+    ],
+    [
+     461.5,
+     662.0
+    ],
+    [
+     461.5,
+     674.0
+    ],
+    [
+     359.0,
+     672.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "one so Prop",
+   "score": 0.8200563788414001,
+   "poly": [
+    [
+     283.0,
+     670.0
+    ],
+    [
+     332.5,
+     670.0
+    ],
+    [
+     332.5,
+     680.5
+    ],
+    [
+     283.0,
+     680.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "tate. Ethylhexyl Methond",
+   "score": 0.8775307536125183,
+   "poly": [
+    [
+     358.5,
+     670.0
+    ],
+    [
+     469.0,
+     672.0
+    ],
+    [
+     469.0,
+     684.5
+    ],
+    [
+     358.5,
+     682.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "E Limonen",
+   "score": 0.9499006271362305,
+   "poly": [
+    [
+     291.5,
+     679.0
+    ],
+    [
+     337.5,
+     681.0
+    ],
+    [
+     337.0,
+     693.0
+    ],
+    [
+     291.0,
+     691.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "umann. Alpha-Isomethyfloas",
+   "score": 0.8956758975982666,
+   "poly": [
+    [
+     358.0,
+     680.5
+    ],
+    [
+     477.0,
+     682.5
+    ],
+    [
+     477.0,
+     695.0
+    ],
+    [
+     358.0,
+     693.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "EN USE ONLY. Prot",
+   "score": 0.8634613156318665,
+   "poly": [
+    [
+     270.0,
+     689.5
+    ],
+    [
+     337.5,
+     691.0
+    ],
+    [
+     337.5,
+     703.5
+    ],
+    [
+     270.0,
+     702.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "um heat & direct sunlight",
+   "score": 0.953467607498169,
+   "poly": [
+    [
+     359.0,
+     692.0
+    ],
+    [
+     459.0,
+     694.0
+    ],
+    [
+     459.0,
+     706.0
+    ],
+    [
+     359.0,
+     704.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ma& Mig. Lic. No",
+   "score": 0.8763796091079712,
+   "poly": [
+    [
+     274.0,
+     700.5
+    ],
+    [
+     338.5,
+     701.5
+    ],
+    [
+     338.5,
+     714.0
+    ],
+    [
+     274.0,
+     713.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "tch the first characterdt",
+   "score": 0.9120180606842041,
+   "poly": [
+    [
+     357.5,
+     703.5
+    ],
+    [
+     481.0,
+     704.5
+    ],
+    [
+     481.0,
+     717.0
+    ],
+    [
+     357.5,
+     716.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Ion: Research Institu",
+   "score": 0.8145240545272827,
+   "poly": [
+    [
+     269.5,
+     711.5
+    ],
+    [
+     335.0,
+     712.5
+    ],
+    [
+     335.0,
+     725.0
+    ],
+    [
+     269.5,
+     724.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "LB.",
+   "score": 0.666199266910553,
+   "poly": [
+    [
+     360.0,
+     713.0
+    ],
+    [
+     377.5,
+     713.0
+    ],
+    [
+     377.5,
+     725.0
+    ],
+    [
+     360.0,
+     725.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "CIntenE Mum",
+   "score": 0.7746973633766174,
+   "poly": [
+    [
+     270.5,
+     721.5
+    ],
+    [
+     334.5,
+     723.5
+    ],
+    [
+     334.0,
+     736.0
+    ],
+    [
+     270.0,
+     734.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "harashtra-400093. · M.L",
+   "score": 0.8603675961494446,
+   "poly": [
+    [
+     360.5,
+     724.5
+    ],
+    [
+     485.0,
+     725.0
+    ],
+    [
+     485.0,
+     737.0
+    ],
+    [
+     360.5,
+     736.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "TELHP-174103",
+   "score": 0.9249017834663391,
+   "poly": [
+    [
+     269.5,
+     731.5
+    ],
+    [
+     336.5,
+     733.5
+    ],
+    [
+     336.0,
+     745.5
+    ],
+    [
+     269.0,
+     743.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "No.: HM/COS/05-49",
+   "score": 0.9469738006591797,
+   "poly": [
+    [
+     363.0,
+     734.0
+    ],
+    [
+     447.5,
+     735.5
+    ],
+    [
+     447.5,
+     747.5
+    ],
+    [
+     363.0,
+     746.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ChapraH.P.",
+   "score": 0.71532142162323,
+   "poly": [
+    [
+     274.5,
+     744.0
+    ],
+    [
+     327.0,
+     745.0
+    ],
+    [
+     327.0,
+     756.0
+    ],
+    [
+     274.5,
+     755.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "I.•M.LNo:HMCS",
+   "score": 0.7964392900466919,
+   "poly": [
+    [
+     358.0,
+     745.0
+    ],
+    [
+     472.5,
+     746.5
+    ],
+    [
+     472.5,
+     758.5
+    ],
+    [
+     358.0,
+     757.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "BP.W.Sha,Kan",
+   "score": 0.7763282656669617,
+   "poly": [
+    [
+     280.5,
+     752.0
+    ],
+    [
+     338.0,
+     755.5
+    ],
+    [
+     337.0,
+     769.0
+    ],
+    [
+     279.5,
+     765.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ssam-781031 • M L No.C",
+   "score": 0.816976010799408,
+   "poly": [
+    [
+     359.0,
+     757.0
+    ],
+    [
+     472.5,
+     757.0
+    ],
+    [
+     472.5,
+     769.0
+    ],
+    [
+     359.0,
+     769.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "falo 113.1",
+   "score": 0.7430293560028076,
+   "poly": [
+    [
+     281.0,
+     765.5
+    ],
+    [
+     332.0,
+     765.5
+    ],
+    [
+     332.0,
+     777.5
+    ],
+    [
+     281.0,
+     777.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "d Floor, Vil Sila, Kammo k",
+   "score": 0.7999649047851562,
+   "poly": [
+    [
+     359.5,
+     768.5
+    ],
+    [
+     472.0,
+     768.5
+    ],
+    [
+     472.0,
+     779.0
+    ],
+    [
+     359.5,
+     779.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "1 12 Spreme Cham",
+   "score": 0.7344856262207031,
+   "poly": [
+    [
+     268.5,
+     782.0
+    ],
+    [
+     340.5,
+     788.0
+    ],
+    [
+     339.0,
+     802.0
+    ],
+    [
+     267.0,
+     796.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ecutive, Hygienic Reseand",
+   "score": 0.9693869948387146,
+   "poly": [
+    [
+     358.5,
+     779.0
+    ],
+    [
+     469.5,
+     779.5
+    ],
+    [
+     469.5,
+     790.0
+    ],
+    [
+     358.5,
+     789.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ENL:1800 266 8110",
+   "score": 0.8712779879570007,
+   "poly": [
+    [
+     269.0,
+     794.0
+    ],
+    [
+     330.5,
+     797.0
+    ],
+    [
+     330.0,
+     811.0
+    ],
+    [
+     268.5,
+     808.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Andheri (West), Mumba-4008",
+   "score": 0.9217538833618164,
+   "poly": [
+    [
+     358.5,
+     789.5
+    ],
+    [
+     474.0,
+     789.5
+    ],
+    [
+     474.0,
+     801.5
+    ],
+    [
+     358.5,
+     801.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "infocorrlindia.com•WEBSME",
+   "score": 0.8055027723312378,
+   "poly": [
+    [
+     355.0,
+     800.5
+    ],
+    [
+     470.5,
+     800.0
+    ],
+    [
+     470.5,
+     810.5
+    ],
+    [
+     355.0,
+     811.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "TINET QUNIIITY:",
+   "score": 0.716385543346405,
+   "poly": [
+    [
+     265.5,
+     819.0
+    ],
+    [
+     327.5,
+     825.0
+    ],
+    [
+     326.0,
+     841.0
+    ],
+    [
+     264.0,
+     835.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "GTUET CUANTTY:",
+   "alt_score": 0.649509847164154
+  },
+  {
+   "text": "from the date o",
+   "score": 0.9180627465248108,
+   "poly": [
+    [
+     285.0,
+     841.5
+    ],
+    [
+     338.5,
+     846.0
+    ],
+    [
+     337.5,
+     858.5
+    ],
+    [
+     284.0,
+     854.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ufacture",
+   "score": 0.9644240140914917,
+   "poly": [
+    [
+     358.0,
+     846.0
+    ],
+    [
+     396.0,
+     847.0
+    ],
+    [
+     395.5,
+     859.5
+    ],
+    [
+     357.5,
+     858.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "2426",
+   "score": 0.840091347694397,
+   "poly": [
+    [
+     355.0,
+     862.5
+    ],
+    [
+     380.5,
+     865.5
+    ],
+    [
+     376.5,
+     906.5
+    ],
+    [
+     351.0,
+     904.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0",
+   "score": 0.8368046283721924,
+   "poly": [
+    [
+     327.0,
+     883.0
+    ],
+    [
+     338.5,
+     883.0
+    ],
+    [
+     338.5,
+     900.5
+    ],
+    [
+     327.0,
+     900.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "0",
+   "alt_score": 0.7315329313278198
+  },
+  {
+   "text": "00",
+   "score": 0.98476243019104,
+   "poly": [
+    [
+     355.0,
+     899.5
+    ],
+    [
+     378.5,
+     899.5
+    ],
+    [
+     378.5,
+     919.5
+    ],
+    [
+     355.0,
+     919.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "3.",
+   "score": 0.9828182458877563,
+   "poly": [
+    [
+     326.5,
+     914.5
+    ],
+    [
+     339.5,
+     914.5
+    ],
+    [
+     339.5,
+     930.5
+    ],
+    [
+     326.5,
+     930.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ],
+ "provenance": "Real PaddleOCR 3.7 output from a teammate's machine (replayed from his OCR cache)."
+}

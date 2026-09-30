@@ -1,0 +1,166 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo25.jpg",
+ "ocr_input_shape": [
+  1280,
+  580,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 2.0,
+  "predict_s": 6.77,
+  "contrast_added": 4,
+  "contrast_s": 13.91,
+  "zoom_added": 1,
+  "zoom_s": 6.1,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.17,
+  "regions": 4,
+  "total_s": 26.99
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "MRP Rs.125",
+   "score": 0.9947798848152161,
+   "poly": [
+    [
+     301.0,
+     691.0
+    ],
+    [
+     448.0,
+     624.0
+    ],
+    [
+     463.0,
+     656.0
+    ],
+    [
+     316.0,
+     723.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HFD:03 JUL/26 06:43",
+   "score": 0.9655832052230835,
+   "poly": [
+    [
+     104.0,
+     797.0
+    ],
+    [
+     337.0,
+     629.0
+    ],
+    [
+     368.0,
+     673.0
+    ],
+    [
+     135.0,
+     841.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "H.O22AUG03 USP Rs.0.36/m",
+   "score": 0.8579177856445312,
+   "poly": [
+    [
+     123.0,
+     823.0
+    ],
+    [
+     447.0,
+     624.0
+    ],
+    [
+     483.0,
+     682.0
+    ],
+    [
+     159.0,
+     881.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DEXP:03/JUL/28",
+   "score": 0.9498172998428345,
+   "poly": [
+    [
+     127.5,
+     821.0
+    ],
+    [
+     306.0,
+     688.5
+    ],
+    [
+     327.0,
+     716.5
+    ],
+    [
+     148.5,
+     849.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo17.jpg",
+ "ocr_input_shape": [
+  900,
+  1600,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 270,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 7.02,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 1,
+  "refine_s": 1.24,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 1,
+  "curved_s": 1.36,
+  "secondary_replaced": 0,
+  "secondary_s": 0.51,
+  "regions": 13,
+  "total_s": 10.16
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "青",
+   "score": 0.14977656304836273,
+   "poly": [
+    [
+     624.0,
+     243.75
+    ],
+    [
+     757.5,
+     246.0
+    ],
+    [
+     755.25,
+     415.5
+    ],
+    [
+     621.75,
+     414.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "h 2",
+   "score": 0.5976481437683105,
+   "poly": [
+    [
+     741.75,
+     267.0
+    ],
+    [
+     797.25,
+     264.0
+    ],
+    [
+     803.25,
+     385.5
+    ],
+    [
+     748.5,
+     388.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "如",
+   "score": 0.22393043339252472,
+   "poly": [
+    [
+     574.5,
+     288.0
+    ],
+    [
+     632.25,
+     288.0
+    ],
+    [
+     632.25,
+     367.5
+    ],
+    [
+     574.5,
+     367.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No.:",
+   "score": 0.9998075366020203,
+   "poly": [
+    [
+     583.5,
+     435.75
+    ],
+    [
+     702.0,
+     433.5
+    ],
+    [
+     702.0,
+     456.0
+    ],
+    [
+     584.25,
+     458.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "blag",
+   "score": 0.6765610575675964,
+   "poly": [
+    [
+     1068.75,
+     430.5
+    ],
+    [
+     1149.0,
+     433.5
+    ],
+    [
+     1147.5,
+     459.0
+    ],
+    [
+     1068.0,
+     456.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "atnick",
+   "score": 0.7016928195953369,
+   "poly": [
+    [
+     214.5,
+     455.25
+    ],
+    [
+     381.75,
+     480.0
+    ],
+    [
+     378.75,
+     504.0
+    ],
+    [
+     210.75,
+     479.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "661191",
+   "score": 0.8605340123176575,
+   "poly": [
+    [
+     1017.0,
+     462.0
+    ],
+    [
+     1204.5,
+     466.5
+    ],
+    [
+     1203.0,
+     521.25
+    ],
+    [
+     1015.5,
+     517.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Date :",
+   "score": 0.9586837887763977,
+   "poly": [
+    [
+     584.25,
+     472.5
+    ],
+    [
+     699.75,
+     469.5
+    ],
+    [
+     699.75,
+     495.0
+    ],
+    [
+     585.0,
+     498.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HI",
+   "score": 0.9581937789916992,
+   "poly": [
+    [
+     188.25,
+     480.0
+    ],
+    [
+     325.5,
+     495.75
+    ],
+    [
+     321.0,
+     531.0
+    ],
+    [
+     184.5,
+     515.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LIA",
+   "score": 0.9020022749900818,
+   "poly": [
+    [
+     319.5,
+     498.0
+    ],
+    [
+     372.0,
+     504.75
+    ],
+    [
+     368.25,
+     532.5
+    ],
+    [
+     315.75,
+     525.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Max. Retail Price: 20.00",
+   "score": 0.9546563029289246,
+   "poly": [
+    [
+     587.25,
+     509.25
+    ],
+    [
+     841.5,
+     500.25
+    ],
+    [
+     842.25,
+     521.25
+    ],
+    [
+     588.0,
+     530.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "558 GT",
+   "score": 0.6196483135223388,
+   "poly": [
+    [
+     1022.4673461914062,
+     516.305419921875
+    ],
+    [
+     1186.91455078125,
+     520.4166259765625
+    ],
+    [
+     1186.215087890625,
+     548.392822265625
+    ],
+    [
+     1021.7678833007812,
+     544.2816772460938
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "6a8 6mn",
+   "alt_score": 0.38428160548210144
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mig by",
+   "score": 0.8136325478553772,
+   "poly": [
+    [
+     220.5,
+     525.0
+    ],
+    [
+     314.25,
+     535.5
+    ],
+    [
+     309.75,
+     571.5
+    ],
+    [
+     216.75,
+     561.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Inclusive of all Taxes)",
+   "score": 0.9626593589782715,
+   "poly": [
+    [
+     589.5,
+     530.25
+    ],
+    [
+     750.75,
+     524.25
+    ],
+    [
+     751.5,
+     541.5
+    ],
+    [
+     589.5,
+     547.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "OYONON",
+   "score": 0.7143643498420715,
+   "poly": [
+    [
+     161.25,
+     750.75
+    ],
+    [
+     319.5,
+     782.25
+    ],
+    [
+     310.5,
+     827.25
+    ],
+    [
+     152.25,
+     796.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "DIXOUNON",
+   "alt_score": 0.6642032861709595
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo11.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 7.59,
+  "zoom_added": 9,
+  "zoom_s": 7.26,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 2,
+  "refine_s": 0.37,
+  "block_lines": 0,
+  "block_s": 2.91,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.15,
+  "regions": 19,
+  "total_s": 18.31
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "M.H.MARKETING",
+   "score": 0.9988899230957031,
+   "poly": [
+    [
+     156.0,
+     725.25
+    ],
+    [
+     387.75,
+     716.25
+    ],
+    [
+     389.25,
+     752.25
+    ],
+    [
+     156.75,
+     760.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ax Retail Price:30.00",
+   "score": 0.9954344630241394,
+   "poly": [
+    [
+     426.75,
+     731.25
+    ],
+    [
+     599.25,
+     729.0
+    ],
+    [
+     600.0,
+     747.75
+    ],
+    [
+     426.75,
+     750.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "133. Caning Street, Second Floor, Chopra H",
+   "score": 0.9720589518547058,
+   "poly": [
+    [
+     120.75,
+     764.25
+    ],
+    [
+     401.25,
+     753.75
+    ],
+    [
+     402.75,
+     780.75
+    ],
+    [
+     121.5,
+     791.25
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "t Sale Price",
+   "score": 0.9954171180725098,
+   "poly": [
+    [
+     432.0,
+     761.25
+    ],
+    [
+     518.25,
+     762.75
+    ],
+    [
+     518.25,
+     779.25
+    ],
+    [
+     431.25,
+     777.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "マ0.60",
+   "score": 0.8495413661003113,
+   "poly": [
+    [
+     534.75,
+     762.0
+    ],
+    [
+     591.0,
+     762.0
+    ],
+    [
+     591.0,
+     778.5
+    ],
+    [
+     534.75,
+     778.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Kolkata-700001. Near Jackson Lane",
+   "score": 0.9912201762199402,
+   "poly": [
+    [
+     157.5,
+     792.0
+    ],
+    [
+     395.25,
+     780.0
+    ],
+    [
+     396.0,
+     804.75
+    ],
+    [
+     159.0,
+     816.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ch No.",
+   "score": 0.9925798773765564,
+   "poly": [
+    [
+     435.75,
+     801.0
+    ],
+    [
+     492.0,
+     802.5
+    ],
+    [
+     492.0,
+     820.5
+    ],
+    [
+     435.0,
+     819.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Customer Care 033-40679126",
+   "score": 0.9996544122695923,
+   "poly": [
+    [
+     169.5,
+     819.0
+    ],
+    [
+     384.75,
+     806.25
+    ],
+    [
+     385.5,
+     825.75
+    ],
+    [
+     171.0,
+     838.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "before 3 years from the date of packing",
+   "score": 0.9988986253738403,
+   "poly": [
+    [
+     437.25,
+     822.0
+    ],
+    [
+     646.5,
+     822.0
+    ],
+    [
+     646.5,
+     837.75
+    ],
+    [
+     437.25,
+     837.75
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "e-mail:importinfo.mhm@gmail.co",
+   "score": 0.9743970632553101,
+   "poly": [
+    [
+     147.0,
+     840.75
+    ],
+    [
+     393.75,
+     828.0
+    ],
+    [
+     394.5,
+     849.0
+    ],
+    [
+     148.5,
+     862.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "WHW",
+   "score": 0.8251379132270813,
+   "poly": [
+    [
+     478.5,
+     498.0
+    ],
+    [
+     569.25,
+     495.75
+    ],
+    [
+     570.75,
+     565.5
+    ],
+    [
+     480.75,
+     567.75
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "KET",
+   "score": 0.8870348334312439,
+   "poly": [
+    [
+     246.75,
+     516.75
+    ],
+    [
+     348.0,
+     516.75
+    ],
+    [
+     348.0,
+     546.0
+    ],
+    [
+     246.75,
+     546.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "Dhma",
+   "score": 0.8416145443916321,
+   "poly": [
+    [
+     271.5,
+     541.5
+    ],
+    [
+     336.75,
+     541.5
+    ],
+    [
+     336.75,
+     567.75
+    ],
+    [
+     271.5,
+     567.75
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "Packed & Marketed By",
+   "score": 0.9981333017349243,
+   "poly": [
+    [
+     171.0,
+     701.25
+    ],
+    [
+     373.5,
+     696.0
+    ],
+    [
+     374.25,
+     716.25
+    ],
+    [
+     171.0,
+     722.25
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "a BY",
+   "alt_score": 0.6911467909812927
+  },
+  {
+   "tl_angle": 180,
+   "text": "Weight",
+   "score": 0.9994997978210449,
+   "poly": [
+    [
+     435.75,
+     701.25
+    ],
+    [
+     493.5,
+     701.25
+    ],
+    [
+     493.5,
+     717.75
+    ],
+    [
+     435.75,
+     717.75
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "Weight",
+   "alt_score": 0.7918901443481445
+  },
+  {
+   "tl_angle": 0,
+   "text": "50gm",
+   "score": 0.9999967813491821,
+   "poly": [
+    [
+     540.75,
+     698.25
+    ],
+    [
+     586.5,
+     698.25
+    ],
+    [
+     586.5,
+     718.5
+    ],
+    [
+     540.75,
+     718.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "n Packed)",
+   "score": 0.9782488942146301,
+   "poly": [
+    [
+     432.0,
+     716.25
+    ],
+    [
+     471.75,
+     715.5
+    ],
+    [
+     472.5,
+     726.0
+    ],
+    [
+     432.75,
+     726.75
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "of alil tares)",
+   "score": 0.8558991551399231,
+   "poly": [
+    [
+     431.25,
+     747.0
+    ],
+    [
+     476.25,
+     747.0
+    ],
+    [
+     476.25,
+     756.75
+    ],
+    [
+     431.25,
+     756.75
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "ked on",
+   "score": 0.9156431555747986,
+   "poly": [
+    [
+     435.75,
+     783.75
+    ],
+    [
+     486.75,
+     783.75
+    ],
+    [
+     486.75,
+     799.5
+    ],
+    [
+     435.75,
+     799.5
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real/photo8.jpg",
+ "ocr_input_shape": [
+  1600,
+  900,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.3333333333333333,
+  "predict_s": 7.12,
+  "contrast_added": 4,
+  "contrast_s": 12.39,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 1,
+  "refine_s": 0.89,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.2,
+  "secondary_replaced": 7,
+  "secondary_s": 0.25,
+  "regions": 10,
+  "total_s": 20.92
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "W3",
+   "score": 0.593401312828064,
+   "poly": [
+    [
+     771.0,
+     198.75
+    ],
+    [
+     792.75,
+     198.75
+    ],
+    [
+     792.75,
+     244.5
+    ],
+    [
+     771.0,
+     244.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NON",
+   "score": 0.9965618252754211,
+   "poly": [
+    [
+     479.25,
+     249.0
+    ],
+    [
+     517.5,
+     249.0
+    ],
+    [
+     517.5,
+     319.5
+    ],
+    [
+     479.25,
+     319.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "टीका",
+   "score": 0.9997854232788086,
+   "poly": [
+    [
+     345.75,
+     987.0
+    ],
+    [
+     423.0,
+     990.75
+    ],
+    [
+     421.5,
+     1029.75
+    ],
+    [
+     343.5,
+     1026.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "2O",
+   "alt_score": 0.3777339458465576
+  },
+  {
+   "tl_angle": 0,
+   "text": "शुभ",
+   "score": 0.9579247832298279,
+   "poly": [
+    [
+     312.0,
+     1034.25
+    ],
+    [
+     367.5,
+     1036.5
+    ],
+    [
+     366.0,
+     1075.5
+    ],
+    [
+     310.5,
+     1073.25
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "T",
+   "alt_score": 0.402203232049942
+  },
+  {
+   "tl_angle": 0,
+   "text": "कार्यों",
+   "score": 0.9285153150558472,
+   "poly": [
+    [
+     364.5,
+     1034.25
+    ],
+    [
+     448.5,
+     1035.75
+    ],
+    [
+     447.75,
+     1075.5
+    ],
+    [
+     363.75,
+     1073.25
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "anRif",
+   "alt_score": 0.6306228041648865
+  },
+  {
+   "tl_angle": 0,
+   "text": "के लिए",
+   "score": 0.8798592686653137,
+   "poly": [
+    [
+     441.75,
+     1035.75
+    ],
+    [
+     566.25,
+     1038.0
+    ],
+    [
+     565.5,
+     1080.75
+    ],
+    [
+     440.25,
+     1078.5
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "外國",
+   "alt_score": 0.3446945250034332
+  },
+  {
+   "tl_angle": 0,
+   "text": "वीसर",
+   "score": 0.7746031880378723,
+   "poly": [
+    [
+     275.0,
+     720.0
+    ],
+    [
+     628.0,
+     746.0
+    ],
+    [
+     618.0,
+     887.0
+    ],
+    [
+     264.0,
+     861.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "ChRR",
+   "alt_score": 0.8436876535415649
+  },
+  {
+   "tl_angle": 0,
+   "text": "वन्दन",
+   "score": 0.896236777305603,
+   "poly": [
+    [
+     274.0,
+     835.0
+    ],
+    [
+     623.0,
+     850.0
+    ],
+    [
+     618.0,
+     972.0
+    ],
+    [
+     268.0,
+     957.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "TOGOT",
+   "alt_score": 0.8793522119522095
+  },
+  {
+   "tl_angle": 0,
+   "text": "पाउडर",
+   "score": 0.9267969131469727,
+   "poly": [
+    [
+     425.0,
+     998.0
+    ],
+    [
+     525.0,
+     1001.0
+    ],
+    [
+     524.0,
+     1031.0
+    ],
+    [
+     424.0,
+     1029.0
+    ]
+   ],
+   "engine": "paddleocr(hi)",
+   "language": "hi",
+   "alt_text": "41352",
+   "alt_score": 0.9281662702560425
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tradity",
+   "score": 0.9201263189315796,
+   "poly": [
+    [
+     680.0,
+     1034.0
+    ],
+    [
+     749.0,
+     1025.0
+    ],
+    [
+     754.0,
+     1067.0
+    ],
+    [
+     685.0,
+     1075.0
+    ]
+   ],
+   "engine": "paddleocr(contrast)",
+   "language": "en"
+  }
+ ]
+}
