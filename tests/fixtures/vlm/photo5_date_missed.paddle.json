@@ -1,0 +1,1700 @@
+{
+ "source": "photo5.noprep.jpg",
+ "ocr_input_shape": [
+  954,
+  1600,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "secondary_lang": null,
+  "enable_mkldnn": false,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": true,
+  "regions": 69,
+  "total_s": 0.01
+ },
+ "regions": [
+  {
+   "text": "NESTLÉ INDIA LIMITED BO-13-000-07-AAACN0757G-22",
+   "score": 0.9873390197753906,
+   "poly": [
+    [
+     925.0,
+     153.0
+    ],
+    [
+     1245.5,
+     149.0
+    ],
+    [
+     1245.5,
+     169.5
+    ],
+    [
+     925.0,
+     173.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "INGREDIENTS: Mixed spices(35.6%)(Roasted spice Mkby: Neslé IndiaLd.,100/101,",
+   "score": 0.7971535921096802,
+   "poly": [
+    [
+     501.0,
+     180.5
+    ],
+    [
+     958.0,
+     176.0
+    ],
+    [
+     958.0,
+     199.0
+    ],
+    [
+     501.0,
+     204.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "LET'S TALK",
+   "score": 0.9561182260513306,
+   "poly": [
+    [
+     970.0,
+     178.0
+    ],
+    [
+     1061.0,
+     178.0
+    ],
+    [
+     1061.0,
+     200.5
+    ],
+    [
+     970.0,
+     200.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "powder (17.8%) (Cumin, Coriander, Turmeric,",
+   "score": 0.9679434895515442,
+   "poly": [
+    [
+     500.5,
+     202.0
+    ],
+    [
+     774.0,
+     198.5
+    ],
+    [
+     774.0,
+     222.5
+    ],
+    [
+     500.5,
+     225.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "World Trade Centre, Barakhamba",
+   "score": 0.9984937906265259,
+   "poly": [
+    [
+     766.0,
+     199.5
+    ],
+    [
+     956.5,
+     196.0
+    ],
+    [
+     956.5,
+     215.0
+    ],
+    [
+     766.0,
+     218.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ider",
+   "score": 0.822108805179596,
+   "poly": [
+    [
+     431.5,
+     205.0
+    ],
+    [
+     465.0,
+     205.0
+    ],
+    [
+     465.0,
+     230.5
+    ],
+    [
+     431.5,
+     230.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "NESTLÉCONSUMER CARE",
+   "score": 0.9755571484565735,
+   "poly": [
+    [
+     980.5,
+     205.5
+    ],
+    [
+     1143.5,
+     205.5
+    ],
+    [
+     1143.5,
+     240.0
+    ],
+    [
+     980.5,
+     240.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Aniseed, Black pepper, Fenugreek, Ginger, Clove,",
+   "score": 0.8366959691047668,
+   "poly": [
+    [
+     500.5,
+     222.0
+    ],
+    [
+     768.5,
+     220.0
+    ],
+    [
+     768.5,
+     243.5
+    ],
+    [
+     500.5,
+     245.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lane, New Delhi - 110 001.",
+   "score": 0.9904006123542786,
+   "poly": [
+    [
+     770.5,
+     217.5
+    ],
+    [
+     923.5,
+     214.0
+    ],
+    [
+     924.0,
+     234.5
+    ],
+    [
+     771.0,
+     237.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Mfg. by: Nestlé India Ltd.,",
+   "score": 0.9461230635643005,
+   "poly": [
+    [
+     771.5,
+     236.0
+    ],
+    [
+     923.0,
+     233.5
+    ],
+    [
+     923.5,
+     254.5
+    ],
+    [
+     772.0,
+     257.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Green cardamom powder, Nutmeg), Red chilli",
+   "score": 0.9858167767524719,
+   "poly": [
+    [
+     500.0,
+     243.5
+    ],
+    [
+     769.5,
+     241.0
+    ],
+    [
+     769.5,
+     264.5
+    ],
+    [
+     500.0,
+     267.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "P.O.BAG2,NEWDELHI-10001",
+   "score": 0.9300251603126526,
+   "poly": [
+    [
+     968.0,
+     239.0
+    ],
+    [
+     1143.0,
+     238.0
+    ],
+    [
+     1143.0,
+     270.5
+    ],
+    [
+     968.0,
+     272.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "For Manufacturer Address scan",
+   "score": 0.999335527420044,
+   "poly": [
+    [
+     772.0,
+     255.5
+    ],
+    [
+     958.5,
+     253.0
+    ],
+    [
+     958.5,
+     271.0
+    ],
+    [
+     772.0,
+     274.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "powder, Dehydrated onion, Dried garlic, Capsicum",
+   "score": 0.9487022757530212,
+   "poly": [
+    [
+     500.0,
+     264.5
+    ],
+    [
+     769.0,
+     264.5
+    ],
+    [
+     769.0,
+     286.0
+    ],
+    [
+     500.0,
+     286.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "the barcode and refer letter",
+   "score": 0.9999534487724304,
+   "poly": [
+    [
+     772.5,
+     274.0
+    ],
+    [
+     936.5,
+     272.0
+    ],
+    [
+     936.5,
+     290.5
+    ],
+    [
+     772.5,
+     292.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "WECARE@IN.NESTLE.COM",
+   "score": 0.9995405077934265,
+   "poly": [
+    [
+     980.0,
+     270.5
+    ],
+    [
+     1144.5,
+     268.5
+    ],
+    [
+     1144.5,
+     302.0
+    ],
+    [
+     980.0,
+     303.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "5",
+   "score": 0.9999439716339111,
+   "poly": [
+    [
+     1155.5,
+     276.0
+    ],
+    [
+     1195.5,
+     276.0
+    ],
+    [
+     1195.5,
+     299.0
+    ],
+    [
+     1155.5,
+     299.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "extract, Coriander extract, Cumin extract), lodized",
+   "score": 0.8108003735542297,
+   "poly": [
+    [
+     500.0,
+     285.5
+    ],
+    [
+     769.5,
+     285.5
+    ],
+    [
+     769.5,
+     307.5
+    ],
+    [
+     500.0,
+     307.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "after USE BY and see below",
+   "score": 0.9822706580162048,
+   "poly": [
+    [
+     771.5,
+     292.5
+    ],
+    [
+     936.0,
+     290.5
+    ],
+    [
+     936.0,
+     309.0
+    ],
+    [
+     771.5,
+     311.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "18001031947",
+   "score": 0.9997782111167908,
+   "poly": [
+    [
+     963.5,
+     301.5
+    ],
+    [
+     1086.0,
+     300.5
+    ],
+    [
+     1086.0,
+     334.5
+    ],
+    [
+     963.5,
+     335.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "salt, Sugar, Starch, Flavour enhancer (635),",
+   "score": 0.9780201315879822,
+   "poly": [
+    [
+     499.5,
+     306.5
+    ],
+    [
+     770.5,
+     305.5
+    ],
+    [
+     770.5,
+     329.5
+    ],
+    [
+     499.5,
+     330.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "B) Lic. No.10012025000032",
+   "score": 0.989797830581665,
+   "poly": [
+    [
+     771.0,
+     310.0
+    ],
+    [
+     961.0,
+     308.5
+    ],
+    [
+     961.0,
+     327.5
+    ],
+    [
+     771.0,
+     329.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "寸",
+   "score": 0.9197947382926941,
+   "poly": [
+    [
+     1156.0,
+     322.0
+    ],
+    [
+     1233.5,
+     320.5
+    ],
+    [
+     1234.0,
+     349.0
+    ],
+    [
+     1156.5,
+     351.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "寸D",
+   "alt_score": 0.593269944190979
+  },
+  {
+   "text": "Thickener (508), Acidity regulator (330), Palm oil,",
+   "score": 0.9172593951225281,
+   "poly": [
+    [
+     501.0,
+     329.5
+    ],
+    [
+     773.0,
+     329.5
+    ],
+    [
+     773.0,
+     351.5
+    ],
+    [
+     501.0,
+     351.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "G) Lic. No. 10012043000066",
+   "score": 0.9927679896354675,
+   "poly": [
+    [
+     767.5,
+     329.5
+    ],
+    [
+     962.0,
+     327.0
+    ],
+    [
+     962.0,
+     347.5
+    ],
+    [
+     767.5,
+     350.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "KNOW YOUR PORTION",
+   "score": 0.9980486631393433,
+   "poly": [
+    [
+     972.5,
+     335.0
+    ],
+    [
+     1142.0,
+     332.5
+    ],
+    [
+     1142.5,
+     356.0
+    ],
+    [
+     973.0,
+     359.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Natural flavouring subsance, Mineral and Vitamin.",
+   "score": 0.8937553763389587,
+   "poly": [
+    [
+     501.0,
+     350.5
+    ],
+    [
+     766.0,
+     350.5
+    ],
+    [
+     766.0,
+     372.0
+    ],
+    [
+     501.0,
+     372.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "D) Lic. No. 10012012000182",
+   "score": 0.9648267030715942,
+   "poly": [
+    [
+     771.5,
+     349.0
+    ],
+    [
+     960.0,
+     346.0
+    ],
+    [
+     960.0,
+     364.5
+    ],
+    [
+     771.5,
+     367.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "ON",
+   "score": 0.6181086301803589,
+   "poly": [
+    [
+     1158.0,
+     346.0
+    ],
+    [
+     1234.5,
+     346.0
+    ],
+    [
+     1234.5,
+     374.0
+    ],
+    [
+     1158.0,
+     374.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "H) Lic. No. 10012062000021 1 serve=2g. Pack contains 3 serves.",
+   "score": 0.9494044184684753,
+   "poly": [
+    [
+     771.0,
+     366.0
+    ],
+    [
+     1148.0,
+     360.5
+    ],
+    [
+     1148.0,
+     382.5
+    ],
+    [
+     771.0,
+     387.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "May Contain Wheat, Milk, Mustard and Soy.",
+   "score": 0.9822788834571838,
+   "poly": [
+    [
+     500.5,
+     373.5
+    ],
+    [
+     727.5,
+     373.5
+    ],
+    [
+     727.5,
+     397.0
+    ],
+    [
+     500.5,
+     397.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "C) Lic. No. 10021021000783 Per serve contribution to RDA-",
+   "score": 0.9802102446556091,
+   "poly": [
+    [
+     773.0,
+     385.5
+    ],
+    [
+     1145.5,
+     381.5
+    ],
+    [
+     1145.5,
+     402.0
+    ],
+    [
+     773.0,
+     406.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "H",
+   "score": 0.6954233646392822,
+   "poly": [
+    [
+     1155.5,
+     388.0
+    ],
+    [
+     1201.0,
+     388.0
+    ],
+    [
+     1201.0,
+     446.5
+    ],
+    [
+     1155.5,
+     446.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "YH",
+   "alt_score": 0.5976101756095886
+  },
+  {
+   "text": "Spice content above 25%; Salt content above 5%.",
+   "score": 0.9525079131126404,
+   "poly": [
+    [
+     501.0,
+     396.5
+    ],
+    [
+     759.0,
+     395.0
+    ],
+    [
+     759.0,
+     417.0
+    ],
+    [
+     501.0,
+     418.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "2",
+   "score": 0.4512154757976532,
+   "poly": [
+    [
+     1199.0,
+     393.5
+    ],
+    [
+     1228.5,
+     393.5
+    ],
+    [
+     1228.5,
+     420.0
+    ],
+    [
+     1199.0,
+     420.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "二",
+   "alt_score": 0.3938542306423187
+  },
+  {
+   "text": "MRP5 (incl. of all taxes)",
+   "score": 0.926883339881897,
+   "poly": [
+    [
+     772.5,
+     403.5
+    ],
+    [
+     932.0,
+     403.5
+    ],
+    [
+     932.0,
+     439.5
+    ],
+    [
+     772.5,
+     439.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.2% energy, C.5% added sugar,",
+   "score": 0.985328733921051,
+   "poly": [
+    [
+     965.5,
+     404.0
+    ],
+    [
+     1146.5,
+     401.5
+    ],
+    [
+     1146.5,
+     423.5
+    ],
+    [
+     965.5,
+     426.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Nutrition Information (Approx. Values)",
+   "score": 0.9992576241493225,
+   "poly": [
+    [
+     502.5,
+     420.0
+    ],
+    [
+     763.0,
+     419.0
+    ],
+    [
+     763.0,
+     440.5
+    ],
+    [
+     502.5,
+     441.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.1% total fat, 0.5% saturated fat,",
+   "score": 0.9912672638893127,
+   "poly": [
+    [
+     966.0,
+     425.0
+    ],
+    [
+     1145.5,
+     422.5
+    ],
+    [
+     1145.5,
+     443.0
+    ],
+    [
+     966.0,
+     446.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "(0.83perSingreaor",
+   "score": 0.7297512888908386,
+   "poly": [
+    [
+     775.0,
+     437.5
+    ],
+    [
+     964.0,
+     435.0
+    ],
+    [
+     964.5,
+     472.5
+    ],
+    [
+     775.5,
+     474.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Every 100g of Masala-ae-Magic contains 166 kca of",
+   "score": 0.8816357851028442,
+   "poly": [
+    [
+     504.0,
+     445.0
+    ],
+    [
+     769.0,
+     442.5
+    ],
+    [
+     769.0,
+     465.0
+    ],
+    [
+     504.0,
+     467.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "0.5% trans fat and 11% sodium.",
+   "score": 0.9889031648635864,
+   "poly": [
+    [
+     964.5,
+     444.5
+    ],
+    [
+     1147.5,
+     442.0
+    ],
+    [
+     1147.5,
+     464.0
+    ],
+    [
+     964.5,
+     466.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Energy,4.2g of Protein, 30.7g of Carbohydrate, 13.5g",
+   "score": 0.8329416513442993,
+   "poly": [
+    [
+     505.5,
+     465.5
+    ],
+    [
+     767.5,
+     463.5
+    ],
+    [
+     767.5,
+     485.5
+    ],
+    [
+     505.5,
+     487.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Each serve provides 16% Iron &",
+   "score": 0.9577552676200867,
+   "poly": [
+    [
+     965.0,
+     465.0
+    ],
+    [
+     1147.0,
+     462.5
+    ],
+    [
+     1147.0,
+     484.5
+    ],
+    [
+     965.0,
+     487.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lot No.-MFD.-USEBY-MFG.BY",
+   "score": 0.9626078009605408,
+   "poly": [
+    [
+     775.0,
+     472.0
+    ],
+    [
+     963.5,
+     469.0
+    ],
+    [
+     964.0,
+     506.0
+    ],
+    [
+     775.5,
+     509.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "of Total Sugars (of which 12.6g is Added Sugars), 9.1g",
+   "score": 0.9976739287376404,
+   "poly": [
+    [
+     505.5,
+     486.5
+    ],
+    [
+     768.0,
+     484.5
+    ],
+    [
+     768.0,
+     505.0
+    ],
+    [
+     505.5,
+     507.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "17% Vitamin B9 of the RDA for",
+   "score": 0.9850209355354309,
+   "poly": [
+    [
+     967.0,
+     485.0
+    ],
+    [
+     1114.5,
+     484.0
+    ],
+    [
+     1114.5,
+     505.0
+    ],
+    [
+     967.0,
+     506.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "C0LD",
+   "score": 0.5465488433837891,
+   "poly": [
+    [
+     1159.5,
+     485.5
+    ],
+    [
+     1240.0,
+     485.5
+    ],
+    [
+     1240.0,
+     516.5
+    ],
+    [
+     1159.5,
+     516.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "of Fiber, 2.9g of Total Fat (of which 1.4g is Saturated",
+   "score": 0.9883944988250732,
+   "poly": [
+    [
+     505.0,
+     507.0
+    ],
+    [
+     768.0,
+     505.0
+    ],
+    [
+     768.0,
+     525.0
+    ],
+    [
+     505.0,
+     527.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "fssaí",
+   "score": 0.9419541358947754,
+   "poly": [
+    [
+     843.5,
+     506.0
+    ],
+    [
+     928.0,
+     502.5
+    ],
+    [
+     930.0,
+     548.0
+    ],
+    [
+     845.5,
+     551.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "sedentary aduits (ICMR,2020).",
+   "score": 0.9455655217170715,
+   "poly": [
+    [
+     967.5,
+     505.5
+    ],
+    [
+     1119.5,
+     505.5
+    ],
+    [
+     1119.5,
+     527.0
+    ],
+    [
+     967.5,
+     527.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "cJO",
+   "score": 0.49055787920951843,
+   "poly": [
+    [
+     1162.0,
+     513.0
+    ],
+    [
+     1240.5,
+     513.0
+    ],
+    [
+     1240.5,
+     541.5
+    ],
+    [
+     1162.0,
+     541.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Fatº and 0.04g is Trans Fat°), 10916.0mg of Sodium,",
+   "score": 0.9720872044563293,
+   "poly": [
+    [
+     505.5,
+     528.0
+    ],
+    [
+     767.5,
+     525.5
+    ],
+    [
+     767.5,
+     546.5
+    ],
+    [
+     505.5,
+     549.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "How to use: Cook any dish as you",
+   "score": 0.9734063744544983,
+   "poly": [
+    [
+     967.0,
+     526.5
+    ],
+    [
+     1153.0,
+     526.5
+    ],
+    [
+     1153.0,
+     550.0
+    ],
+    [
+     967.0,
+     550.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "240.00mg of Iron and 1550.00g of Vitamin B9.",
+   "score": 0.9606737494468689,
+   "poly": [
+    [
+     504.5,
+     549.0
+    ],
+    [
+     748.0,
+     545.5
+    ],
+    [
+     748.0,
+     568.0
+    ],
+    [
+     504.5,
+     571.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Lic.No.10012011000168",
+   "score": 0.9941450953483582,
+   "poly": [
+    [
+     813.0,
+     546.5
+    ],
+    [
+     960.5,
+     544.5
+    ],
+    [
+     961.0,
+     572.5
+    ],
+    [
+     813.5,
+     574.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "normally do. Add a sachet and stir",
+   "score": 0.943541944026947,
+   "poly": [
+    [
+     967.0,
+     549.0
+    ],
+    [
+     1154.5,
+     547.0
+    ],
+    [
+     1154.5,
+     571.0
+    ],
+    [
+     967.0,
+     573.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "on low flame for 2-3 minutes.",
+   "score": 0.9994227290153503,
+   "poly": [
+    [
+     968.5,
+     571.5
+    ],
+    [
+     1132.0,
+     568.5
+    ],
+    [
+     1132.5,
+     590.5
+    ],
+    [
+     969.0,
+     594.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Brand Owner: ®Reg. Trademark of Société Des Produits",
+   "score": 0.9796753525733948,
+   "poly": [
+    [
+     500.5,
+     579.5
+    ],
+    [
+     775.0,
+     575.5
+    ],
+    [
+     775.0,
+     597.0
+    ],
+    [
+     500.5,
+     601.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Scan for Recipes",
+   "score": 0.9967861175537109,
+   "poly": [
+    [
+     851.5,
+     578.0
+    ],
+    [
+     964.5,
+     578.0
+    ],
+    [
+     964.5,
+     601.5
+    ],
+    [
+     851.5,
+     601.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "江",
+   "score": 0.7729820609092712,
+   "poly": [
+    [
+     1209.0,
+     591.5
+    ],
+    [
+     1239.5,
+     591.5
+    ],
+    [
+     1239.5,
+     610.5
+    ],
+    [
+     1209.0,
+     610.5
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "T",
+   "alt_score": 0.25931158661842346
+  },
+  {
+   "text": "Nestlé S.A., Avenue Nestlé 55,1800 Vevey, Switzerland",
+   "score": 0.9958809614181519,
+   "poly": [
+    [
+     501.0,
+     601.0
+    ],
+    [
+     771.0,
+     597.0
+    ],
+    [
+     771.0,
+     617.5
+    ],
+    [
+     501.0,
+     621.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "心",
+   "score": 0.5969269871711731,
+   "poly": [
+    [
+     1170.5,
+     610.0
+    ],
+    [
+     1210.5,
+     610.0
+    ],
+    [
+     1210.5,
+     636.0
+    ],
+    [
+     1170.5,
+     636.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "M",
+   "score": 0.8296998143196106,
+   "poly": [
+    [
+     1208.0,
+     610.0
+    ],
+    [
+     1242.0,
+     610.0
+    ],
+    [
+     1242.0,
+     637.0
+    ],
+    [
+     1208.0,
+     637.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "STORE INÁCOOL,DRY AND HYGIENIC PLACE.",
+   "score": 0.8959261775016785,
+   "poly": [
+    [
+     500.5,
+     621.0
+    ],
+    [
+     744.5,
+     617.0
+    ],
+    [
+     745.0,
+     642.5
+    ],
+    [
+     501.0,
+     646.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "OTHER",
+   "score": 0.9999849200248718,
+   "poly": [
+    [
+     785.5,
+     638.5
+    ],
+    [
+     847.5,
+     637.5
+    ],
+    [
+     848.0,
+     657.0
+    ],
+    [
+     786.0,
+     658.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "NET QUANTITY:",
+   "score": 0.9988749623298645,
+   "poly": [
+    [
+     534.5,
+     673.5
+    ],
+    [
+     630.0,
+     672.0
+    ],
+    [
+     630.5,
+     712.5
+    ],
+    [
+     535.0,
+     713.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "69",
+   "score": 0.9498428106307983,
+   "poly": [
+    [
+     691.0,
+     673.5
+    ],
+    [
+     717.0,
+     673.5
+    ],
+    [
+     717.0,
+     713.5
+    ],
+    [
+     691.0,
+     713.5
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "89080795",
+   "score": 0.9999663829803467,
+   "poly": [
+    [
+     1018.0,
+     696.0
+    ],
+    [
+     1143.5,
+     695.0
+    ],
+    [
+     1143.5,
+     716.0
+    ],
+    [
+     1018.0,
+     717.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ],
+ "provenance": "Real PaddleOCR 3.7 output from a teammate's machine (replayed from his OCR cache)."
+}
