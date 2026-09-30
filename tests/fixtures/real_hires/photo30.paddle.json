@@ -1,0 +1,1418 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo30.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 13.05,
+  "zoom_added": 12,
+  "zoom_s": 14.49,
+  "vertical_bands": 1,
+  "vertical_s": 4.42,
+  "refined": 2,
+  "refine_s": 1.1,
+  "block_lines": 0,
+  "block_s": 6.01,
+  "curved": 2,
+  "curved_s": 0.69,
+  "secondary_replaced": 0,
+  "secondary_s": 0.61,
+  "regions": 53,
+  "total_s": 40.4
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "MYFITNESS",
+   "score": 0.9999818801879883,
+   "poly": [
+    [
+     607.0,
+     1594.0
+    ],
+    [
+     1381.0,
+     1620.0
+    ],
+    [
+     1376.0,
+     1778.0
+    ],
+    [
+     602.0,
+     1752.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R",
+   "score": 0.997779905796051,
+   "poly": [
+    [
+     1354.0,
+     1645.0
+    ],
+    [
+     1384.0,
+     1641.0
+    ],
+    [
+     1389.0,
+     1680.0
+    ],
+    [
+     1359.0,
+     1683.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R",
+   "score": 0.8504926562309265,
+   "poly": [
+    [
+     270.0,
+     1667.0
+    ],
+    [
+     300.0,
+     1667.0
+    ],
+    [
+     300.0,
+     1707.0
+    ],
+    [
+     270.0,
+     1707.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MARKETED BY:",
+   "score": 0.9921179413795471,
+   "poly": [
+    [
+     611.0,
+     1797.0
+    ],
+    [
+     763.0,
+     1792.0
+    ],
+    [
+     764.0,
+     1831.0
+    ],
+    [
+     612.0,
+     1836.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "InnoHouse, Second Floor, Plot No.-9",
+   "score": 0.9827044606208801,
+   "poly": [
+    [
+     614.0,
+     1868.0
+    ],
+    [
+     960.0,
+     1860.0
+    ],
+    [
+     961.0,
+     1898.0
+    ],
+    [
+     615.0,
+     1906.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "4 Bay, Sector -32, Gurugram.",
+   "score": 0.9556006193161011,
+   "poly": [
+    [
+     615.0,
+     1903.0
+    ],
+    [
+     889.0,
+     1897.0
+    ],
+    [
+     890.0,
+     1937.0
+    ],
+    [
+     616.0,
+     1943.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10824999000152",
+   "score": 0.9944415092468262,
+   "poly": [
+    [
+     1063.0,
+     1896.0
+    ],
+    [
+     1366.0,
+     1915.0
+    ],
+    [
+     1363.0,
+     1964.0
+    ],
+    [
+     1060.0,
+     1945.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Haryana 122001",
+   "score": 0.9967821836471558,
+   "poly": [
+    [
+     616.0,
+     1939.0
+    ],
+    [
+     767.0,
+     1932.0
+    ],
+    [
+     769.0,
+     1974.0
+    ],
+    [
+     618.0,
+     1980.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR MANUFACTURING UNIT ADDRESS, READ THE FIRST",
+   "score": 0.9607840180397034,
+   "poly": [
+    [
+     619.0,
+     1977.0
+    ],
+    [
+     1054.0,
+     1970.0
+    ],
+    [
+     1054.0,
+     2004.0
+    ],
+    [
+     620.0,
+     2011.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TWO CHARACTERS OF THE BATCH NO. AND SEE BELOW:",
+   "score": 0.963219940662384,
+   "poly": [
+    [
+     621.0,
+     2010.0
+    ],
+    [
+     1054.0,
+     2002.0
+    ],
+    [
+     1054.0,
+     2036.0
+    ],
+    [
+     621.0,
+     2044.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MANUFACTURED BY:",
+   "score": 0.9993963241577148,
+   "poly": [
+    [
+     621.0,
+     2055.0
+    ],
+    [
+     799.0,
+     2051.0
+    ],
+    [
+     800.0,
+     2089.0
+    ],
+    [
+     622.0,
+     2094.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9254759550094604,
+   "poly": [
+    [
+     1177.0,
+     2047.0
+    ],
+    [
+     1269.0,
+     2047.0
+    ],
+    [
+     1269.0,
+     2111.0
+    ],
+    [
+     1177.0,
+     2111.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(NF) Super Nutri Foods",
+   "score": 0.9871022701263428,
+   "poly": [
+    [
+     623.0,
+     2091.0
+    ],
+    [
+     822.0,
+     2085.0
+    ],
+    [
+     824.0,
+     2124.0
+    ],
+    [
+     625.0,
+     2131.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10015021001816",
+   "score": 0.999987006187439,
+   "poly": [
+    [
+     1056.0,
+     2116.0
+    ],
+    [
+     1361.0,
+     2122.0
+    ],
+    [
+     1360.0,
+     2166.0
+    ],
+    [
+     1055.0,
+     2160.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Talaja - 364 140 Dist Bhavnagar, Guarat India",
+   "score": 0.8370734453201294,
+   "poly": [
+    [
+     630.6588134765625,
+     2161.16943359375
+    ],
+    [
+     1020.83251953125,
+     2155.81005859375
+    ],
+    [
+     1021.3271484375,
+     2191.81689453125
+    ],
+    [
+     631.1534423828125,
+     2197.17626953125
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Tala -364140 Dist BhavnagaSarad",
+   "alt_score": 0.7399269938468933
+  },
+  {
+   "tl_angle": 0,
+   "text": "",
+   "score": 0.0,
+   "poly": [
+    [
+     239.0,
+     2183.0
+    ],
+    [
+     311.0,
+     2165.0
+    ],
+    [
+     321.0,
+     2203.0
+    ],
+    [
+     249.0,
+     2222.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(TS) Tanvi Spreads Priae Limied.",
+   "score": 0.8317350745201111,
+   "poly": [
+    [
+     629.0,
+     2202.0
+    ],
+    [
+     925.0,
+     2197.0
+    ],
+    [
+     925.0,
+     2236.0
+    ],
+    [
+     630.0,
+     2240.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "p",
+   "score": 0.7425834536552429,
+   "poly": [
+    [
+     278.0,
+     2210.0
+    ],
+    [
+     307.0,
+     2196.0
+    ],
+    [
+     319.0,
+     2220.0
+    ],
+    [
+     290.0,
+     2234.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "p2",
+   "alt_score": 0.33662164211273193
+  },
+  {
+   "tl_angle": 180,
+   "text": "S",
+   "score": 0.8033777475357056,
+   "poly": [
+    [
+     246.0,
+     2251.0
+    ],
+    [
+     319.0,
+     2233.0
+    ],
+    [
+     328.0,
+     2272.0
+    ],
+    [
+     256.0,
+     2289.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "58%",
+   "score": 0.6431437134742737,
+   "poly": [
+    [
+     286.0,
+     2280.0
+    ],
+    [
+     327.0,
+     2280.0
+    ],
+    [
+     327.0,
+     2318.0
+    ],
+    [
+     286.0,
+     2318.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "N3",
+   "alt_score": 0.2644108831882477
+  },
+  {
+   "tl_angle": 0,
+   "text": "(UF) United Foods",
+   "score": 0.9929283261299133,
+   "poly": [
+    [
+     633.0,
+     2354.0
+    ],
+    [
+     791.0,
+     2349.0
+    ],
+    [
+     793.0,
+     2390.0
+    ],
+    [
+     635.0,
+     2395.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Survey No. 63/1 P6",
+   "score": 0.9779508113861084,
+   "poly": [
+    [
+     635.0,
+     2390.0
+    ],
+    [
+     802.0,
+     2386.0
+    ],
+    [
+     802.0,
+     2426.0
+    ],
+    [
+     636.0,
+     2429.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10015021001656",
+   "score": 0.9999834895133972,
+   "poly": [
+    [
+     1056.0,
+     2410.0
+    ],
+    [
+     1355.0,
+     2403.0
+    ],
+    [
+     1356.0,
+     2447.0
+    ],
+    [
+     1057.0,
+     2454.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Rampara Road, Talaja,",
+   "score": 0.9628024101257324,
+   "poly": [
+    [
+     636.0,
+     2427.0
+    ],
+    [
+     825.0,
+     2422.0
+    ],
+    [
+     826.0,
+     2460.0
+    ],
+    [
+     637.0,
+     2465.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhavnagar,Gujarat-364140",
+   "score": 0.9472352862358093,
+   "poly": [
+    [
+     638.0,
+     2459.0
+    ],
+    [
+     879.0,
+     2453.0
+    ],
+    [
+     880.0,
+     2493.0
+    ],
+    [
+     639.0,
+     2499.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2.7%",
+   "score": 0.5374401807785034,
+   "poly": [
+    [
+     315.0,
+     2490.0
+    ],
+    [
+     347.0,
+     2490.0
+    ],
+    [
+     347.0,
+     2527.0
+    ],
+    [
+     315.0,
+     2527.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Storage Instructions:",
+   "score": 0.9995125532150269,
+   "poly": [
+    [
+     639.0,
+     2498.0
+    ],
+    [
+     833.0,
+     2494.0
+    ],
+    [
+     833.0,
+     2534.0
+    ],
+    [
+     640.0,
+     2537.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "29",
+   "score": 0.3936002254486084,
+   "poly": [
+    [
+     316.0,
+     2532.0
+    ],
+    [
+     347.0,
+     2528.0
+    ],
+    [
+     352.0,
+     2565.0
+    ],
+    [
+     321.0,
+     2569.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool and dry place, away from direct",
+   "score": 0.9777980446815491,
+   "poly": [
+    [
+     640.0,
+     2535.0
+    ],
+    [
+     1057.0,
+     2523.0
+    ],
+    [
+     1059.0,
+     2563.0
+    ],
+    [
+     642.0,
+     2575.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "sunlight Do no accep i sealstampered",
+   "score": 0.8194520473480225,
+   "poly": [
+    [
+     643.0,
+     2570.0
+    ],
+    [
+     1014.0,
+     2561.0
+    ],
+    [
+     1015.0,
+     2600.0
+    ],
+    [
+     644.0,
+     2609.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Oseparaon is naturalsrwelbeoreuse.",
+   "score": 0.6885687708854675,
+   "poly": [
+    [
+     648.310791015625,
+     2609.326416015625
+    ],
+    [
+     1032.6533203125,
+     2598.590576171875
+    ],
+    [
+     1033.65966796875,
+     2634.618408203125
+    ],
+    [
+     649.317138671875,
+     2645.354248046875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Oseparn i ara eee",
+   "alt_score": 0.5749493837356567
+  },
+  {
+   "tl_angle": 0,
+   "text": "210g",
+   "score": 0.9999390244483948,
+   "poly": [
+    [
+     795.0,
+     2650.0
+    ],
+    [
+     874.0,
+     2650.0
+    ],
+    [
+     874.0,
+     2701.0
+    ],
+    [
+     795.0,
+     2701.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Qty:",
+   "score": 0.9981358647346497,
+   "poly": [
+    [
+     645.0,
+     2652.0
+    ],
+    [
+     750.0,
+     2652.0
+    ],
+    [
+     750.0,
+     2705.0
+    ],
+    [
+     645.0,
+     2705.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ME",
+   "score": 0.9883606433868408,
+   "poly": [
+    [
+     1065.0,
+     2675.0
+    ],
+    [
+     1243.0,
+     2670.0
+    ],
+    [
+     1246.0,
+     2815.0
+    ],
+    [
+     1069.0,
+     2820.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BRND",
+   "score": 0.999890148639679,
+   "poly": [
+    [
+     1083.0,
+     2674.0
+    ],
+    [
+     1180.0,
+     2671.0
+    ],
+    [
+     1182.0,
+     2706.0
+    ],
+    [
+     1085.0,
+     2710.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Batch No.,MFD.Expiry.",
+   "score": 0.9351027011871338,
+   "poly": [
+    [
+     646.0,
+     2702.0
+    ],
+    [
+     1000.0,
+     2698.0
+    ],
+    [
+     1000.0,
+     2756.0
+    ],
+    [
+     647.0,
+     2761.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MRP (Incl. of all taxes) and",
+   "score": 0.9645553827285767,
+   "poly": [
+    [
+     649.0,
+     2767.0
+    ],
+    [
+     988.0,
+     2756.0
+    ],
+    [
+     989.0,
+     2814.0
+    ],
+    [
+     651.0,
+     2825.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "141373",
+   "score": 0.9597705006599426,
+   "poly": [
+    [
+     1370.0,
+     2761.0
+    ],
+    [
+     1410.0,
+     2763.0
+    ],
+    [
+     1403.0,
+     2906.0
+    ],
+    [
+     1363.0,
+     2904.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "product",
+   "score": 0.9999933242797852,
+   "poly": [
+    [
+     1080.0,
+     2799.0
+    ],
+    [
+     1229.0,
+     2792.0
+    ],
+    [
+     1232.0,
+     2851.0
+    ],
+    [
+     1083.0,
+     2858.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USP, see Cap/Bottom",
+   "score": 0.9667451977729797,
+   "poly": [
+    [
+     652.0,
+     2829.0
+    ],
+    [
+     914.0,
+     2823.0
+    ],
+    [
+     916.0,
+     2884.0
+    ],
+    [
+     653.0,
+     2890.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tanvi Fitness Private Limited,",
+   "score": 0.9922850131988525,
+   "poly": [
+    [
+     614.0,
+     1835.0
+    ],
+    [
+     878.0,
+     1829.0
+    ],
+    [
+     879.0,
+     1864.0
+    ],
+    [
+     615.0,
+     1870.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.8669649958610535,
+   "poly": [
+    [
+     1184.0,
+     1834.0
+    ],
+    [
+     1275.0,
+     1839.0
+    ],
+    [
+     1272.0,
+     1902.0
+    ],
+    [
+     1181.0,
+     1896.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "S. No. 114/2, Palitana Road, Near TCD Farm,",
+   "score": 0.9405477046966553,
+   "poly": [
+    [
+     631.0,
+     2126.0
+    ],
+    [
+     996.0,
+     2121.0
+    ],
+    [
+     997.0,
+     2156.0
+    ],
+    [
+     632.0,
+     2160.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.8865765333175659,
+   "poly": [
+    [
+     1176.0,
+     2197.0
+    ],
+    [
+     1264.0,
+     2197.0
+    ],
+    [
+     1264.0,
+     2258.0
+    ],
+    [
+     1176.0,
+     2258.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "S.No .27 / 3. Village Rohisa, Near aredi Paatya.",
+   "score": 0.9565518498420715,
+   "poly": [
+    [
+     631.0,
+     2237.0
+    ],
+    [
+     1032.0,
+     2233.0
+    ],
+    [
+     1032.0,
+     2270.0
+    ],
+    [
+     632.0,
+     2274.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhavnagar National Highway. Mehuva,",
+   "score": 0.9559807777404785,
+   "poly": [
+    [
+     634.0,
+     2273.0
+    ],
+    [
+     949.0,
+     2269.0
+    ],
+    [
+     950.0,
+     2304.0
+    ],
+    [
+     635.0,
+     2308.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10722999001593",
+   "score": 0.99998939037323,
+   "poly": [
+    [
+     1060.0,
+     2269.0
+    ],
+    [
+     1356.0,
+     2267.0
+    ],
+    [
+     1356.0,
+     2312.0
+    ],
+    [
+     1060.0,
+     2313.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Bhavnagar,-364290. Gujara Ind",
+   "score": 0.8522237539291382,
+   "poly": [
+    [
+     635.0,
+     2306.0
+    ],
+    [
+     932.0,
+     2302.0
+    ],
+    [
+     933.0,
+     2340.0
+    ],
+    [
+     635.0,
+     2344.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.8732311129570007,
+   "poly": [
+    [
+     1172.0,
+     2335.0
+    ],
+    [
+     1260.0,
+     2335.0
+    ],
+    [
+     1260.0,
+     2395.0
+    ],
+    [
+     1172.0,
+     2395.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "A",
+   "score": 0.9851850271224976,
+   "poly": [
+    [
+     1087.0,
+     2642.0
+    ],
+    [
+     1118.0,
+     2642.0
+    ],
+    [
+     1118.0,
+     2675.0
+    ],
+    [
+     1087.0,
+     2675.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "text": "icare@myfitness.co.in",
+   "score": 0.998253583908081,
+   "poly": [
+    [
+     523.0,
+     2424.0
+    ],
+    [
+     540.0,
+     2750.0
+    ],
+    [
+     500.0,
+     2752.0
+    ],
+    [
+     483.0,
+     2426.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "+917096699111",
+   "score": 0.9999150037765503,
+   "poly": [
+    [
+     501.0,
+     2083.0
+    ],
+    [
+     513.0,
+     2323.0
+    ],
+    [
+     471.0,
+     2325.0
+    ],
+    [
+     460.0,
+     2085.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "Please write to our Consumer Care at Marketer's Address or email us at",
+   "score": 0.9940268397331238,
+   "poly": [
+    [
+     443.0,
+     2008.0
+    ],
+    [
+     494.0,
+     2880.0
+    ],
+    [
+     462.0,
+     2882.0
+    ],
+    [
+     411.0,
+     2010.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  },
+  {
+   "text": "For Consumer Complaints/Queries:",
+   "score": 0.9901100397109985,
+   "poly": [
+    [
+     423.0,
+     2235.0
+    ],
+    [
+     448.0,
+     2654.0
+    ],
+    [
+     420.0,
+     2655.0
+    ],
+    [
+     394.0,
+     2236.0
+    ]
+   ],
+   "engine": "paddleocr(rotated)",
+   "language": "en"
+  }
+ ]
+}

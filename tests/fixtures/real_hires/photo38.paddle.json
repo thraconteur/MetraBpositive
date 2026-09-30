@@ -1,0 +1,764 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo38.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 11.76,
+  "zoom_added": 3,
+  "zoom_s": 14.03,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 9.73,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.29,
+  "regions": 28,
+  "total_s": 35.85
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "OREGANO SEASONING",
+   "score": 0.9997559785842896,
+   "poly": [
+    [
+     349.0,
+     1925.0
+    ],
+    [
+     1032.0,
+     1853.0
+    ],
+    [
+     1039.0,
+     1921.0
+    ],
+    [
+     356.0,
+     1993.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NOT FOR RETAIL SALE,",
+   "score": 0.9691239595413208,
+   "poly": [
+    [
+     356.0,
+     1982.0
+    ],
+    [
+     680.0,
+     1953.0
+    ],
+    [
+     683.0,
+     1989.0
+    ],
+    [
+     359.0,
+     2018.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR INSTITUTIONAL USE ONLY.",
+   "score": 0.9651886224746704,
+   "poly": [
+    [
+     355.0,
+     2012.0
+    ],
+    [
+     791.0,
+     1972.0
+    ],
+    [
+     795.0,
+     2011.0
+    ],
+    [
+     359.0,
+     2052.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ingredients:Dehydrated Garlic, lodized Salt, Herbs (Oregano-",
+   "score": 0.9950830340385437,
+   "poly": [
+    [
+     355.0,
+     2044.0
+    ],
+    [
+     1284.0,
+     1947.0
+    ],
+    [
+     1289.0,
+     1994.0
+    ],
+    [
+     360.0,
+     2091.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "12%, Basil), Spices (Black pepper, Red Chilli), Refined Soybean",
+   "score": 0.9782475829124451,
+   "poly": [
+    [
+     360.0,
+     2075.0
+    ],
+    [
+     1311.0,
+     1981.0
+    ],
+    [
+     1316.0,
+     2034.0
+    ],
+    [
+     365.0,
+     2128.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Oil, Anticaking agent (INS 551), Natural Flavor.",
+   "score": 0.9802103638648987,
+   "poly": [
+    [
+     364.0,
+     2115.0
+    ],
+    [
+     1054.0,
+     2053.0
+    ],
+    [
+     1058.0,
+     2097.0
+    ],
+    [
+     368.0,
+     2159.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.8834255933761597,
+   "poly": [
+    [
+     1167.0,
+     2118.0
+    ],
+    [
+     1315.0,
+     2103.0
+    ],
+    [
+     1322.0,
+     2174.0
+    ],
+    [
+     1175.0,
+     2189.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Weight: 0.6g",
+   "score": 0.9745194911956787,
+   "poly": [
+    [
+     360.0,
+     2169.0
+    ],
+    [
+     693.0,
+     2139.0
+    ],
+    [
+     698.0,
+     2192.0
+    ],
+    [
+     365.0,
+     2221.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed By:",
+   "score": 0.9997737407684326,
+   "poly": [
+    [
+     368.0,
+     2221.0
+    ],
+    [
+     558.0,
+     2206.0
+    ],
+    [
+     561.0,
+     2246.0
+    ],
+    [
+     371.0,
+     2261.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "JUBILANT FOODWORKS LTD., Plot No-B-5,",
+   "score": 0.9901044964790344,
+   "poly": [
+    [
+     369.0,
+     2255.0
+    ],
+    [
+     856.0,
+     2212.0
+    ],
+    [
+     860.0,
+     2256.0
+    ],
+    [
+     373.0,
+     2299.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Eco Tech 1(Ext), Greater Noida, Gautam Buddha Nagar, Uttar Pradesh-201301",
+   "score": 0.9867782592773438,
+   "poly": [
+    [
+     368.0,
+     2291.0
+    ],
+    [
+     1258.0,
+     2217.0
+    ],
+    [
+     1262.0,
+     2266.0
+    ],
+    [
+     372.0,
+     2339.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manufactured by:",
+   "score": 0.9999743700027466,
+   "poly": [
+    [
+     371.0,
+     2335.0
+    ],
+    [
+     647.0,
+     2307.0
+    ],
+    [
+     651.0,
+     2346.0
+    ],
+    [
+     375.0,
+     2373.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic.No.10014063000385",
+   "score": 0.9999309778213501,
+   "poly": [
+    [
+     1061.0,
+     2349.0
+    ],
+    [
+     1453.0,
+     2319.0
+    ],
+    [
+     1457.0,
+     2363.0
+    ],
+    [
+     1065.0,
+     2393.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PARAS SPICES PVT.LTD.",
+   "score": 0.9993237853050232,
+   "poly": [
+    [
+     369.0,
+     2364.0
+    ],
+    [
+     774.0,
+     2327.0
+    ],
+    [
+     778.0,
+     2375.0
+    ],
+    [
+     373.0,
+     2412.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Moga-142001,Punjab,INDIA",
+   "score": 0.9976335167884827,
+   "poly": [
+    [
+     372.0,
+     2406.0
+    ],
+    [
+     825.0,
+     2361.0
+    ],
+    [
+     829.0,
+     2405.0
+    ],
+    [
+     376.0,
+     2450.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For consumer complaints /feedback/ Suggestions:",
+   "score": 0.9970999956130981,
+   "poly": [
+    [
+     368.0,
+     2436.0
+    ],
+    [
+     1158.0,
+     2381.0
+    ],
+    [
+     1161.0,
+     2434.0
+    ],
+    [
+     372.0,
+     2489.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Contact: Quality Manager at Manufactured by address.",
+   "score": 0.9994747638702393,
+   "poly": [
+    [
+     371.0,
+     2474.0
+    ],
+    [
+     1233.0,
+     2418.0
+    ],
+    [
+     1236.0,
+     2467.0
+    ],
+    [
+     374.0,
+     2523.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "T:01636-237177 Email: orika@parasspices.com",
+   "score": 0.9834436178207397,
+   "poly": [
+    [
+     371.0,
+     2510.0
+    ],
+    [
+     1165.0,
+     2461.0
+    ],
+    [
+     1168.0,
+     2514.0
+    ],
+    [
+     374.0,
+     2562.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "OTHER",
+   "score": 0.9999818801879883,
+   "poly": [
+    [
+     1277.0,
+     2524.0
+    ],
+    [
+     1386.0,
+     2517.0
+    ],
+    [
+     1388.0,
+     2552.0
+    ],
+    [
+     1279.0,
+     2559.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "KEEP UNDER REFRIGERATED CONDITION.",
+   "score": 0.9895451664924622,
+   "poly": [
+    [
+     372.0,
+     2551.0
+    ],
+    [
+     981.0,
+     2508.0
+    ],
+    [
+     984.0,
+     2556.0
+    ],
+    [
+     376.0,
+     2599.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "\"Recommended for immediate consumption\"",
+   "score": 0.9962153434753418,
+   "poly": [
+    [
+     377.0,
+     2587.0
+    ],
+    [
+     1016.0,
+     2543.0
+    ],
+    [
+     1020.0,
+     2590.0
+    ],
+    [
+     380.0,
+     2634.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For Mfg. date B.No and Expiry Date please see below",
+   "score": 0.9951819777488708,
+   "poly": [
+    [
+     369.0,
+     2617.0
+    ],
+    [
+     1245.0,
+     2563.0
+    ],
+    [
+     1249.0,
+     2624.0
+    ],
+    [
+     373.0,
+     2678.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "15/06/26 135326F094",
+   "score": 0.9946370124816895,
+   "poly": [
+    [
+     530.0,
+     2640.0
+    ],
+    [
+     1218.0,
+     2601.0
+    ],
+    [
+     1223.0,
+     2694.0
+    ],
+    [
+     535.0,
+     2732.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "14/12/26(M1-C)",
+   "score": 0.884501576423645,
+   "poly": [
+    [
+     537.0,
+     2713.0
+    ],
+    [
+     1085.0,
+     2681.0
+    ],
+    [
+     1091.0,
+     2790.0
+    ],
+    [
+     544.0,
+     2822.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Und 2; Reg No PR-10-a as A (F01N2",
+   "score": 0.801764965057373,
+   "poly": [
+    [
+     893.0,
+     2879.0
+    ],
+    [
+     1481.0,
+     2881.0
+    ],
+    [
+     1481.0,
+     2924.0
+    ],
+    [
+     893.0,
+     2921.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.1001705100227",
+   "score": 0.9797735810279846,
+   "poly": [
+    [
+     1050.0,
+     2193.0
+    ],
+    [
+     1449.0,
+     2157.0
+    ],
+    [
+     1453.0,
+     2202.0
+    ],
+    [
+     1054.0,
+     2238.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9391573071479797,
+   "poly": [
+    [
+     1182.0,
+     2281.0
+    ],
+    [
+     1330.0,
+     2262.0
+    ],
+    [
+     1339.0,
+     2335.0
+    ],
+    [
+     1191.0,
+     2354.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Pkg Moonoid By. Uflex Lid. ",
+   "score": 0.8139815330505371,
+   "poly": [
+    [
+     884.0,
+     2832.0
+    ],
+    [
+     1385.0,
+     2829.0
+    ],
+    [
+     1386.0,
+     2881.0
+    ],
+    [
+     884.0,
+     2883.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

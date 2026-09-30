@@ -1,0 +1,1395 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo36.jpg",
+ "ocr_input_shape": [
+  1856,
+  4096,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 15.91,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 3,
+  "refine_s": 0.62,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.73,
+  "secondary_replaced": 0,
+  "secondary_s": 0.53,
+  "regions": 53,
+  "total_s": 17.81
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "TM",
+   "score": 0.999790608882904,
+   "poly": [
+    [
+     1661.0,
+     593.0
+    ],
+    [
+     1702.0,
+     593.0
+    ],
+    [
+     1702.0,
+     621.0
+    ],
+    [
+     1661.0,
+     621.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Promoted by",
+   "score": 0.9999268054962158,
+   "poly": [
+    [
+     1896.0,
+     592.0
+    ],
+    [
+     2061.0,
+     596.0
+    ],
+    [
+     2060.0,
+     635.0
+    ],
+    [
+     1896.0,
+     632.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET WT. 125 g",
+   "score": 0.9966394901275635,
+   "poly": [
+    [
+     2835.0,
+     594.0
+    ],
+    [
+     3081.0,
+     597.0
+    ],
+    [
+     3080.0,
+     640.0
+    ],
+    [
+     2834.0,
+     636.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MFG.LIC.NO.:MH/106112A",
+   "score": 0.9973966479301453,
+   "poly": [
+    [
+     2234.0,
+     606.0
+    ],
+    [
+     2711.0,
+     601.0
+    ],
+    [
+     2711.0,
+     639.0
+    ],
+    [
+     2235.0,
+     644.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "OOOGOOOOO",
+   "score": 0.783649206161499,
+   "poly": [
+    [
+     1178.0,
+     616.0
+    ],
+    [
+     1656.0,
+     601.0
+    ],
+    [
+     1657.0,
+     659.0
+    ],
+    [
+     1180.0,
+     674.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "SCCEINTTE",
+   "alt_score": 0.5003076195716858
+  },
+  {
+   "tl_angle": 0,
+   "text": "Indoco",
+   "score": 0.9165506362915039,
+   "poly": [
+    [
+     1857.0,
+     627.0
+    ],
+    [
+     2047.0,
+     636.0
+    ],
+    [
+     2044.0,
+     703.0
+    ],
+    [
+     1854.0,
+     694.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Warren",
+   "score": 0.9872918128967285,
+   "poly": [
+    [
+     2073.0,
+     640.0
+    ],
+    [
+     2176.0,
+     644.0
+    ],
+    [
+     2175.0,
+     685.0
+    ],
+    [
+     2072.0,
+     681.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MANUFACTURED IN INDIA BY:",
+   "score": 0.9994767904281616,
+   "poly": [
+    [
+     2236.0,
+     649.0
+    ],
+    [
+     2618.0,
+     649.0
+    ],
+    [
+     2618.0,
+     682.0
+    ],
+    [
+     2236.0,
+     682.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Foaming Fluoridated Toothpaste",
+   "score": 0.9902631044387817,
+   "poly": [
+    [
+     1156.0,
+     663.0
+    ],
+    [
+     1658.0,
+     666.0
+    ],
+    [
+     1658.0,
+     706.0
+    ],
+    [
+     1156.0,
+     703.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ALE",
+   "score": 0.8194971084594727,
+   "poly": [
+    [
+     2103.0,
+     680.0
+    ],
+    [
+     2145.0,
+     680.0
+    ],
+    [
+     2145.0,
+     707.0
+    ],
+    [
+     2103.0,
+     707.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "ACE",
+   "alt_score": 0.7460305690765381
+  },
+  {
+   "tl_angle": 0,
+   "text": "Indoco Remedies Ltd.",
+   "score": 0.9920193552970886,
+   "poly": [
+    [
+     2236.0,
+     688.0
+    ],
+    [
+     2578.0,
+     688.0
+    ],
+    [
+     2578.0,
+     721.0
+    ],
+    [
+     2236.0,
+     721.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "meredieate Aqua, Sorbitel, Hydrated Silica, Xylitol,",
+   "score": 0.8942902088165283,
+   "poly": [
+    [
+     1138.0,
+     701.0
+    ],
+    [
+     1646.0,
+     709.0
+    ],
+    [
+     1645.0,
+     743.0
+    ],
+    [
+     1138.0,
+     735.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Glyeerin, Cocomidepropyl Betaine, Sodium Methyl",
+   "score": 0.9703929424285889,
+   "poly": [
+    [
+     1131.0,
+     732.0
+    ],
+    [
+     1633.0,
+     746.0
+    ],
+    [
+     1632.0,
+     778.0
+    ],
+    [
+     1130.0,
+     765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "REPLACE CAP TIGHTLY",
+   "score": 0.9999276995658875,
+   "poly": [
+    [
+     1835.0,
+     737.0
+    ],
+    [
+     2119.0,
+     744.0
+    ],
+    [
+     2118.0,
+     778.0
+    ],
+    [
+     1834.0,
+     771.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "At: AURIC City, Shendra, Sector 13, Plot No.17,",
+   "score": 0.9870660901069641,
+   "poly": [
+    [
+     2229.0,
+     731.0
+    ],
+    [
+     2899.0,
+     739.0
+    ],
+    [
+     2898.0,
+     781.0
+    ],
+    [
+     2228.0,
+     774.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cecoyl Taurate, Calcium Sucrose Phosphate,",
+   "score": 0.9699809551239014,
+   "poly": [
+    [
+     1126.0,
+     765.0
+    ],
+    [
+     1563.0,
+     780.0
+    ],
+    [
+     1562.0,
+     812.0
+    ],
+    [
+     1125.0,
+     798.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AFTER EVERY USE.",
+   "score": 0.9989113807678223,
+   "poly": [
+    [
+     1864.0,
+     778.0
+    ],
+    [
+     2094.0,
+     784.0
+    ],
+    [
+     2093.0,
+     814.0
+    ],
+    [
+     1863.0,
+     808.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Aurangabad) Chhatrapati Sambhajinagar - 431154,",
+   "score": 0.9860360026359558,
+   "poly": [
+    [
+     2230.0,
+     778.0
+    ],
+    [
+     2995.0,
+     788.0
+    ],
+    [
+     2995.0,
+     828.0
+    ],
+    [
+     2230.0,
+     818.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Xonthan Gum, Sodium Monofluorophosphate,",
+   "score": 0.9900559186935425,
+   "poly": [
+    [
+     1122.0,
+     799.0
+    ],
+    [
+     1575.0,
+     817.0
+    ],
+    [
+     1574.0,
+     846.0
+    ],
+    [
+     1120.0,
+     829.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR SUGGESTION & FEEDBACK",
+   "score": 0.9995509386062622,
+   "poly": [
+    [
+     1815.0,
+     813.0
+    ],
+    [
+     2139.0,
+     822.0
+    ],
+    [
+     2138.0,
+     852.0
+    ],
+    [
+     1814.0,
+     843.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Maharoshtra",
+   "score": 0.9580712914466858,
+   "poly": [
+    [
+     2224.0,
+     822.0
+    ],
+    [
+     2405.0,
+     826.0
+    ],
+    [
+     2404.0,
+     860.0
+    ],
+    [
+     2223.0,
+     856.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Flovour Mint, Flavour with Peppermint Oil, Clove",
+   "score": 0.9896566271781921,
+   "poly": [
+    [
+     1117.0,
+     834.0
+    ],
+    [
+     1609.0,
+     852.0
+    ],
+    [
+     1608.0,
+     880.0
+    ],
+    [
+     1116.0,
+     863.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "or    t",
+   "score": 0.6677642464637756,
+   "poly": [
+    [
+     2990.0,
+     834.0
+    ],
+    [
+     3028.0,
+     836.0
+    ],
+    [
+     3019.0,
+     1083.0
+    ],
+    [
+     2981.0,
+     1081.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "or",
+   "score": 0.858767569065094,
+   "poly": [
+    [
+     3025.0,
+     834.0
+    ],
+    [
+     3065.0,
+     835.0
+    ],
+    [
+     3057.0,
+     1087.0
+    ],
+    [
+     3018.0,
+     1086.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "or    ",
+   "alt_score": 0.5691779255867004
+  },
+  {
+   "tl_angle": 0,
+   "text": "CALL: +91 22 62871000",
+   "score": 0.9881815910339355,
+   "poly": [
+    [
+     1849.0,
+     844.0
+    ],
+    [
+     2108.0,
+     852.0
+    ],
+    [
+     2107.0,
+     880.0
+    ],
+    [
+     1849.0,
+     873.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Essence, Sodium Saccharin, Titanium Dioxide,",
+   "score": 0.9879137277603149,
+   "poly": [
+    [
+     1114.0,
+     867.0
+    ],
+    [
+     1569.0,
+     884.0
+    ],
+    [
+     1568.0,
+     914.0
+    ],
+    [
+     1113.0,
+     897.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "EMAlL: pmt@indofo.com",
+   "score": 0.920426607131958,
+   "poly": [
+    [
+     1854.0,
+     871.0
+    ],
+    [
+     2101.0,
+     879.0
+    ],
+    [
+     2100.0,
+     907.0
+    ],
+    [
+     1853.0,
+     899.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Consult your dental professional",
+   "score": 0.9999080896377563,
+   "poly": [
+    [
+     2229.0,
+     864.0
+    ],
+    [
+     2691.0,
+     877.0
+    ],
+    [
+     2690.0,
+     916.0
+    ],
+    [
+     2228.0,
+     902.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sodium Hydroxide, Benzyl Alcohol",
+   "score": 0.994679868221283,
+   "poly": [
+    [
+     1114.0,
+     901.0
+    ],
+    [
+     1467.0,
+     916.0
+    ],
+    [
+     1466.0,
+     944.0
+    ],
+    [
+     1113.0,
+     929.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2013657",
+   "score": 0.8612123727798462,
+   "poly": [
+    [
+     2942.0,
+     896.0
+    ],
+    [
+     2981.0,
+     898.0
+    ],
+    [
+     2978.0,
+     1010.0
+    ],
+    [
+     2938.0,
+     1009.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "See imp",
+   "score": 0.8621992468833923,
+   "poly": [
+    [
+     3061.0,
+     897.0
+    ],
+    [
+     3101.0,
+     900.0
+    ],
+    [
+     3093.0,
+     1024.0
+    ],
+    [
+     3053.0,
+     1021.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "for more information",
+   "score": 0.9994438290596008,
+   "poly": [
+    [
+     2227.0,
+     908.0
+    ],
+    [
+     2522.0,
+     918.0
+    ],
+    [
+     2521.0,
+     952.0
+    ],
+    [
+     2225.0,
+     942.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT SWALLOW",
+   "score": 0.9991164803504944,
+   "poly": [
+    [
+     1868.0,
+     929.0
+    ],
+    [
+     2074.0,
+     937.0
+    ],
+    [
+     2073.0,
+     967.0
+    ],
+    [
+     1867.0,
+     959.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Contains approx. 1000 ppm available fluoride when packed",
+   "score": 0.9941691160202026,
+   "poly": [
+    [
+     1113.0,
+     939.0
+    ],
+    [
+     1755.0,
+     962.0
+    ],
+    [
+     1754.0,
+     996.0
+    ],
+    [
+     1112.0,
+     973.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR DENTAL USE ONLY.",
+   "score": 0.9870813488960266,
+   "poly": [
+    [
+     1845.0,
+     956.0
+    ],
+    [
+     2097.0,
+     967.0
+    ],
+    [
+     2095.0,
+     996.0
+    ],
+    [
+     1844.0,
+     986.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Keep in a cool & dry place away from",
+   "score": 0.996453046798706,
+   "poly": [
+    [
+     2225.0,
+     952.0
+    ],
+    [
+     2723.0,
+     971.0
+    ],
+    [
+     2721.0,
+     1005.0
+    ],
+    [
+     2224.0,
+     986.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "What are White Spot Lesions?",
+   "score": 0.9989967346191406,
+   "poly": [
+    [
+     1115.0,
+     974.0
+    ],
+    [
+     1414.0,
+     988.0
+    ],
+    [
+     1413.0,
+     1018.0
+    ],
+    [
+     1113.0,
+     1004.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "direct sunlight. Do not refrigerate.",
+   "score": 0.999908447265625,
+   "poly": [
+    [
+     2224.0,
+     984.0
+    ],
+    [
+     2687.0,
+     1006.0
+    ],
+    [
+     2685.0,
+     1040.0
+    ],
+    [
+     2222.0,
+     1018.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "White Spot Lesions are the earliest signs of weakened enamel, visible",
+   "score": 0.9901617169380188,
+   "poly": [
+    [
+     1117.0,
+     1005.0
+    ],
+    [
+     1798.0,
+     1033.0
+    ],
+    [
+     1797.0,
+     1063.0
+    ],
+    [
+     1116.0,
+     1035.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "al white or brown spots on teeth. If not treated; can lead to cavities.",
+   "score": 0.9754617214202881,
+   "poly": [
+    [
+     1120.0,
+     1032.0
+    ],
+    [
+     1778.0,
+     1060.0
+    ],
+    [
+     1777.0,
+     1090.0
+    ],
+    [
+     1119.0,
+     1062.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "*When used as directed",
+   "score": 0.9995301961898804,
+   "poly": [
+    [
+     2220.0,
+     1023.0
+    ],
+    [
+     2512.0,
+     1043.0
+    ],
+    [
+     2510.0,
+     1082.0
+    ],
+    [
+     2218.0,
+     1062.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "What is Dental Plaque?",
+   "score": 0.9827632308006287,
+   "poly": [
+    [
+     1125.0,
+     1058.0
+    ],
+    [
+     1352.0,
+     1073.0
+    ],
+    [
+     1350.0,
+     1101.0
+    ],
+    [
+     1123.0,
+     1086.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Based on ingredients remineralizing action",
+   "score": 0.9993700385093689,
+   "poly": [
+    [
+     2233.0,
+     1058.0
+    ],
+    [
+     2753.0,
+     1088.0
+    ],
+    [
+     2751.0,
+     1122.0
+    ],
+    [
+     2231.0,
+     1091.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Demal Plaque is a sticky layer of bacteria that builds up on teeth and gum line.",
+   "score": 0.986430287361145,
+   "poly": [
+    [
+     1129.0,
+     1082.0
+    ],
+    [
+     1887.0,
+     1125.0
+    ],
+    [
+     1884.0,
+     1163.0
+    ],
+    [
+     1127.0,
+     1120.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Directions: Brush twice daily or as recommended by dentist.",
+   "score": 0.9989564418792725,
+   "poly": [
+    [
+     2223.0,
+     1106.0
+    ],
+    [
+     2889.0,
+     1146.0
+    ],
+    [
+     2887.0,
+     1175.0
+    ],
+    [
+     2221.0,
+     1134.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Why de Dental Plaque and White Spot Lesions develop?",
+   "score": 0.9667779207229614,
+   "poly": [
+    [
+     1150.0,
+     1126.0
+    ],
+    [
+     1678.0,
+     1176.0
+    ],
+    [
+     1675.0,
+     1209.0
+    ],
+    [
+     1147.0,
+     1159.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Product may give slight warm feeling on initial usage.",
+   "score": 0.9919657111167908,
+   "poly": [
+    [
+     2223.0,
+     1133.0
+    ],
+    [
+     2804.0,
+     1172.0
+    ],
+    [
+     2802.0,
+     1202.0
+    ],
+    [
+     2221.0,
+     1162.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "naign make cleaning teeth harder,",
+   "score": 0.8607835173606873,
+   "poly": [
+    [
+     1193.0,
+     1149.0
+    ],
+    [
+     1601.0,
+     1201.0
+    ],
+    [
+     1598.0,
+     1229.0
+    ],
+    [
+     1189.0,
+     1177.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do not use if you are allergic to any of the ingredients.",
+   "score": 0.9917831420898438,
+   "poly": [
+    [
+     2221.0,
+     1162.0
+    ],
+    [
+     2815.0,
+     1203.0
+    ],
+    [
+     2813.0,
+     1231.0
+    ],
+    [
+     2219.0,
+     1190.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ate Spot Lesions and Plaque.",
+   "score": 0.9517309069633484,
+   "poly": [
+    [
+     1262.0,
+     1176.0
+    ],
+    [
+     1642.0,
+     1230.0
+    ],
+    [
+     1639.0,
+     1253.0
+    ],
+    [
+     1259.0,
+     1199.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Caution : For children under 12 years,",
+   "score": 0.9880774617195129,
+   "poly": [
+    [
+     2233.0,
+     1211.0
+    ],
+    [
+     2652.0,
+     1246.0
+    ],
+    [
+     2649.0,
+     1280.0
+    ],
+    [
+     2230.0,
+     1246.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "consult a dentist or physician.",
+   "score": 0.9996249675750732,
+   "poly": [
+    [
+     2232.0,
+     1241.0
+    ],
+    [
+     2568.0,
+     1268.0
+    ],
+    [
+     2565.0,
+     1298.0
+    ],
+    [
+     2229.0,
+     1271.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VEGAN",
+   "score": 0.9999610781669617,
+   "poly": [
+    [
+     2909.0,
+     1232.0
+    ],
+    [
+     3021.0,
+     1238.0
+    ],
+    [
+     3019.0,
+     1275.0
+    ],
+    [
+     2906.0,
+     1268.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

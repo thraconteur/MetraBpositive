@@ -1,0 +1,764 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo22.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 10.58,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.23,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.16,
+  "regions": 27,
+  "total_s": 11.0
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Tetra Pak",
+   "score": 0.9709859490394592,
+   "poly": [
+    [
+     1042.0,
+     822.0
+    ],
+    [
+     1163.0,
+     825.0
+    ],
+    [
+     1162.0,
+     861.0
+    ],
+    [
+     1041.0,
+     857.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amul",
+   "score": 0.999862015247345,
+   "poly": [
+    [
+     839.0,
+     1020.0
+    ],
+    [
+     1078.0,
+     1020.0
+    ],
+    [
+     1078.0,
+     1112.0
+    ],
+    [
+     839.0,
+     1112.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Please Recycle",
+   "score": 0.9545727968215942,
+   "poly": [
+    [
+     571.0,
+     1034.0
+    ],
+    [
+     726.0,
+     1037.0
+    ],
+    [
+     725.0,
+     1071.0
+    ],
+    [
+     570.0,
+     1068.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CALCI+",
+   "score": 0.9995964169502258,
+   "poly": [
+    [
+     755.0,
+     1112.0
+    ],
+    [
+     1160.0,
+     1117.0
+    ],
+    [
+     1159.0,
+     1226.0
+    ],
+    [
+     754.0,
+     1221.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MiLK",
+   "score": 0.8197706341743469,
+   "poly": [
+    [
+     830.0,
+     1213.0
+    ],
+    [
+     1081.0,
+     1213.0
+    ],
+    [
+     1081.0,
+     1310.0
+    ],
+    [
+     830.0,
+     1310.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONSUME",
+   "score": 0.9999828338623047,
+   "poly": [
+    [
+     895.0,
+     1322.0
+    ],
+    [
+     1227.0,
+     1314.0
+    ],
+    [
+     1228.0,
+     1378.0
+    ],
+    [
+     897.0,
+     1386.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LITE,",
+   "score": 0.9055460095405579,
+   "poly": [
+    [
+     978.0,
+     1374.0
+    ],
+    [
+     1156.0,
+     1371.0
+    ],
+    [
+     1158.0,
+     1443.0
+    ],
+    [
+     980.0,
+     1447.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ACTIVE",
+   "score": 0.9999865889549255,
+   "poly": [
+    [
+     936.0,
+     1464.0
+    ],
+    [
+     1193.0,
+     1457.0
+    ],
+    [
+     1194.0,
+     1521.0
+    ],
+    [
+     938.0,
+     1528.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LIFE.",
+   "score": 0.9999337196350098,
+   "poly": [
+    [
+     987.0,
+     1519.0
+    ],
+    [
+     1150.0,
+     1516.0
+    ],
+    [
+     1152.0,
+     1581.0
+    ],
+    [
+     988.0,
+     1585.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "At all life stages, adequate calcium",
+   "score": 0.9981828331947327,
+   "poly": [
+    [
+     578.0,
+     1638.0
+    ],
+    [
+     1236.0,
+     1633.0
+    ],
+    [
+     1237.0,
+     1681.0
+    ],
+    [
+     579.0,
+     1687.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "intake through a balanced diet is",
+   "score": 0.9999558329582214,
+   "poly": [
+    [
+     602.0,
+     1687.0
+    ],
+    [
+     1218.0,
+     1678.0
+    ],
+    [
+     1218.0,
+     1722.0
+    ],
+    [
+     603.0,
+     1731.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "essential for bone health and to",
+   "score": 0.9934802651405334,
+   "poly": [
+    [
+     611.0,
+     1731.0
+    ],
+    [
+     1209.0,
+     1724.0
+    ],
+    [
+     1210.0,
+     1766.0
+    ],
+    [
+     611.0,
+     1774.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "reduce the risk of osteoporosis.",
+   "score": 0.9927620887756348,
+   "poly": [
+    [
+     615.0,
+     1777.0
+    ],
+    [
+     1208.0,
+     1768.0
+    ],
+    [
+     1208.0,
+     1812.0
+    ],
+    [
+     616.0,
+     1821.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Consuming just 250 ml of",
+   "score": 0.9995818734169006,
+   "poly": [
+    [
+     597.0,
+     1845.0
+    ],
+    [
+     1089.0,
+     1837.0
+    ],
+    [
+     1090.0,
+     1886.0
+    ],
+    [
+     597.0,
+     1893.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amul Calci+ Milk fulfils",
+   "score": 0.9878076910972595,
+   "poly": [
+    [
+     631.0,
+     1892.0
+    ],
+    [
+     1054.0,
+     1886.0
+    ],
+    [
+     1054.0,
+     1924.0
+    ],
+    [
+     631.0,
+     1930.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "52% of your recommended",
+   "score": 0.9962319135665894,
+   "poly": [
+    [
+     588.0,
+     1934.0
+    ],
+    [
+     1096.0,
+     1928.0
+    ],
+    [
+     1097.0,
+     1972.0
+    ],
+    [
+     589.0,
+     1978.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "daily calcium intake.",
+   "score": 0.9998561143875122,
+   "poly": [
+    [
+     656.0,
+     1980.0
+    ],
+    [
+     1033.0,
+     1972.0
+    ],
+    [
+     1034.0,
+     2016.0
+    ],
+    [
+     657.0,
+     2024.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "回:",
+   "score": 0.9097982048988342,
+   "poly": [
+    [
+     594.0,
+     2111.0
+    ],
+    [
+     712.0,
+     2111.0
+    ],
+    [
+     712.0,
+     2210.0
+    ],
+    [
+     594.0,
+     2210.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "口",
+   "score": 0.446048766374588,
+   "poly": [
+    [
+     848.0,
+     2109.0
+    ],
+    [
+     953.0,
+     2102.0
+    ],
+    [
+     960.0,
+     2197.0
+    ],
+    [
+     854.0,
+     2204.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "To identify",
+   "score": 0.9997959733009338,
+   "poly": [
+    [
+     1079.0,
+     2109.0
+    ],
+    [
+     1309.0,
+     2109.0
+    ],
+    [
+     1309.0,
+     2159.0
+    ],
+    [
+     1079.0,
+     2159.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "manufacturing unit",
+   "score": 0.9999651312828064,
+   "poly": [
+    [
+     991.0,
+     2183.0
+    ],
+    [
+     1404.0,
+     2179.0
+    ],
+    [
+     1405.0,
+     2227.0
+    ],
+    [
+     992.0,
+     2232.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amul",
+   "score": 0.99793940782547,
+   "poly": [
+    [
+     723.0,
+     2256.0
+    ],
+    [
+     833.0,
+     2256.0
+    ],
+    [
+     833.0,
+     2330.0
+    ],
+    [
+     723.0,
+     2330.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "address & FSSAI",
+   "score": 0.9995459318161011,
+   "poly": [
+    [
+     1020.0,
+     2254.0
+    ],
+    [
+     1375.0,
+     2250.0
+    ],
+    [
+     1375.0,
+     2294.0
+    ],
+    [
+     1020.0,
+     2298.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "License No., please",
+   "score": 0.9997341632843018,
+   "poly": [
+    [
+     993.0,
+     2324.0
+    ],
+    [
+     1406.0,
+     2321.0
+    ],
+    [
+     1406.0,
+     2369.0
+    ],
+    [
+     993.0,
+     2372.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "scan the QR code.",
+   "score": 0.9966144561767578,
+   "poly": [
+    [
+     1003.0,
+     2394.0
+    ],
+    [
+     1394.0,
+     2388.0
+    ],
+    [
+     1395.0,
+     2436.0
+    ],
+    [
+     1003.0,
+     2442.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8901262153416",
+   "score": 0.9999521970748901,
+   "poly": [
+    [
+     628.0,
+     2807.0
+    ],
+    [
+     1340.0,
+     2766.0
+    ],
+    [
+     1345.0,
+     2855.0
+    ],
+    [
+     633.0,
+     2896.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amul",
+   "score": 0.9999719262123108,
+   "poly": [
+    [
+     1168.0,
+     2973.0
+    ],
+    [
+     1354.0,
+     2966.0
+    ],
+    [
+     1357.0,
+     3043.0
+    ],
+    [
+     1171.0,
+     3050.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "The Taste of India",
+   "score": 0.987346887588501,
+   "poly": [
+    [
+     1114.0,
+     3067.0
+    ],
+    [
+     1402.0,
+     3053.0
+    ],
+    [
+     1404.0,
+     3101.0
+    ],
+    [
+     1116.0,
+     3115.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

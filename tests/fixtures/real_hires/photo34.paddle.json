@@ -1,0 +1,593 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo34.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 9.9,
+  "zoom_added": 2,
+  "zoom_s": 9.46,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.45,
+  "block_lines": 0,
+  "block_s": 4.49,
+  "curved": 2,
+  "curved_s": 1.07,
+  "secondary_replaced": 0,
+  "secondary_s": 0.14,
+  "regions": 21,
+  "total_s": 25.54
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Polysorbate-20, Ceramide NP (and)",
+   "score": 0.9791079163551331,
+   "poly": [
+    [
+     718.0,
+     1726.0
+    ],
+    [
+     1375.0,
+     1713.0
+    ],
+    [
+     1377.0,
+     1797.0
+    ],
+    [
+     720.0,
+     1810.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ceramide AP (and) Ceramide EOP(and)",
+   "score": 0.9268383383750916,
+   "poly": [
+    [
+     717.0,
+     1772.0
+    ],
+    [
+     1417.0,
+     1766.0
+    ],
+    [
+     1418.0,
+     1853.0
+    ],
+    [
+     718.0,
+     1859.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Phytosphingosine (and) Cholesterol (and)",
+   "score": 0.9966627359390259,
+   "poly": [
+    [
+     730.7737426757812,
+     1834.438232421875
+    ],
+    [
+     1422.861083984375,
+     1831.209228515625
+    ],
+    [
+     1423.17236328125,
+     1897.91064453125
+    ],
+    [
+     731.0849609375,
+     1901.1396484375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Ptopngosine(and)Chles",
+   "alt_score": 0.6576237678527832
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sodium Lauroyl Lactylate (and) Carbomer",
+   "score": 0.9998573064804077,
+   "poly": [
+    [
+     730.8255004882812,
+     1887.582763671875
+    ],
+    [
+     1424.85205078125,
+     1884.42822265625
+    ],
+    [
+     1425.13623046875,
+     1946.931396484375
+    ],
+    [
+     731.109619140625,
+     1950.0859375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "Sm LauryLacyte (ad) rbe",
+   "alt_score": 0.6762309074401855
+  },
+  {
+   "tl_angle": 0,
+   "text": "(and) Xanthan Gum (Ceramide Complex).",
+   "score": 0.9904102683067322,
+   "poly": [
+    [
+     724.0,
+     1933.0
+    ],
+    [
+     1425.0,
+     1925.0
+    ],
+    [
+     1426.0,
+     1999.0
+    ],
+    [
+     725.0,
+     2007.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "36,37 Tulsi Industrial Estate, B/f",
+   "score": 0.9858399629592896,
+   "poly": [
+    [
+     727.0,
+     2078.0
+    ],
+    [
+     1326.0,
+     2066.0
+    ],
+    [
+     1327.0,
+     2124.0
+    ],
+    [
+     728.0,
+     2137.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Changodar Bridge, Changodar, Ahmed-",
+   "score": 0.9997240304946899,
+   "poly": [
+    [
+     727.0,
+     2128.0
+    ],
+    [
+     1414.0,
+     2117.0
+    ],
+    [
+     1415.0,
+     2176.0
+    ],
+    [
+     728.0,
+     2186.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "abad-382213, Gujrat.",
+   "score": 0.9954862594604492,
+   "poly": [
+    [
+     728.0,
+     2179.0
+    ],
+    [
+     1123.0,
+     2173.0
+    ],
+    [
+     1123.0,
+     2223.0
+    ],
+    [
+     729.0,
+     2229.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed by: Mosaic Wellness Pvt. Ltd.",
+   "score": 0.9785628318786621,
+   "poly": [
+    [
+     727.0,
+     2341.0
+    ],
+    [
+     1414.0,
+     2331.0
+    ],
+    [
+     1415.0,
+     2389.0
+    ],
+    [
+     728.0,
+     2400.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6th Floor, ThaneOne, DIL Complex,",
+   "score": 0.995929479598999,
+   "poly": [
+    [
+     727.0,
+     2394.0
+    ],
+    [
+     1370.0,
+     2386.0
+    ],
+    [
+     1371.0,
+     2445.0
+    ],
+    [
+     728.0,
+     2452.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Majiwada, Thane West - 400610",
+   "score": 0.9750004410743713,
+   "poly": [
+    [
+     727.0,
+     2444.0
+    ],
+    [
+     1332.0,
+     2437.0
+    ],
+    [
+     1333.0,
+     2500.0
+    ],
+    [
+     728.0,
+     2506.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For queries, Contact Customer Care",
+   "score": 0.9997316002845764,
+   "poly": [
+    [
+     724.0,
+     2549.0
+    ],
+    [
+     1442.0,
+     2535.0
+    ],
+    [
+     1443.0,
+     2614.0
+    ],
+    [
+     725.0,
+     2627.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manager at Marketer's Address or",
+   "score": 0.9850935339927673,
+   "poly": [
+    [
+     725.0,
+     2603.0
+    ],
+    [
+     1413.0,
+     2594.0
+    ],
+    [
+     1414.0,
+     2671.0
+    ],
+    [
+     726.0,
+     2680.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "E:support@bebodywise.com",
+   "score": 0.9997391104698181,
+   "poly": [
+    [
+     728.0,
+     2656.0
+    ],
+    [
+     1282.0,
+     2666.0
+    ],
+    [
+     1281.0,
+     2735.0
+    ],
+    [
+     727.0,
+     2726.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "P:8128688128",
+   "score": 0.9999331831932068,
+   "poly": [
+    [
+     733.0,
+     2711.0
+    ],
+    [
+     1018.0,
+     2727.0
+    ],
+    [
+     1015.0,
+     2781.0
+    ],
+    [
+     730.0,
+     2765.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "W：www.bebodywise.com",
+   "score": 0.9875808954238892,
+   "poly": [
+    [
+     727.0,
+     2761.0
+    ],
+    [
+     1271.0,
+     2775.0
+    ],
+    [
+     1269.0,
+     2848.0
+    ],
+    [
+     725.0,
+     2834.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "@be.bodywise",
+   "score": 0.9991598129272461,
+   "poly": [
+    [
+     733.0,
+     2815.0
+    ],
+    [
+     1095.0,
+     2837.0
+    ],
+    [
+     1091.0,
+     2905.0
+    ],
+    [
+     728.0,
+     2883.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Trademarkunderegistraion",
+   "score": 0.8186941146850586,
+   "poly": [
+    [
+     724.0,
+     2925.0
+    ],
+    [
+     1371.0,
+     2933.0
+    ],
+    [
+     1370.0,
+     3030.0
+    ],
+    [
+     723.0,
+     3022.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MADE IN INDIA",
+   "score": 0.9681775569915771,
+   "poly": [
+    [
+     732.0,
+     3048.0
+    ],
+    [
+     1011.0,
+     3080.0
+    ],
+    [
+     1003.0,
+     3150.0
+    ],
+    [
+     724.0,
+     3118.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Manufactured by: Bili Life Science LPP,",
+   "score": 0.9917309284210205,
+   "poly": [
+    [
+     725.0,
+     2023.0
+    ],
+    [
+     1415.0,
+     2016.0
+    ],
+    [
+     1416.0,
+     2084.0
+    ],
+    [
+     725.0,
+     2092.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg.Lic.No.-GC/1679",
+   "score": 0.9999483227729797,
+   "poly": [
+    [
+     730.0,
+     2229.0
+    ],
+    [
+     1134.0,
+     2220.0
+    ],
+    [
+     1135.0,
+     2274.0
+    ],
+    [
+     731.0,
+     2284.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

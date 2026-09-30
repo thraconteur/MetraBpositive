@@ -1,0 +1,1463 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo23.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 12.49,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.24,
+  "block_lines": 3,
+  "block_s": 6.84,
+  "curved": 1,
+  "curved_s": 0.59,
+  "secondary_replaced": 0,
+  "secondary_s": 0.58,
+  "regions": 56,
+  "total_s": 20.77
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "\"CONTAINS",
+   "score": 0.9970943927764893,
+   "poly": [
+    [
+     931.0,
+     1274.0
+    ],
+    [
+     1117.0,
+     1306.0
+    ],
+    [
+     1106.0,
+     1373.0
+    ],
+    [
+     920.0,
+     1341.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CAFFEINE\"",
+   "score": 0.9658437371253967,
+   "poly": [
+    [
+     1109.0,
+     1304.0
+    ],
+    [
+     1241.0,
+     1348.0
+    ],
+    [
+     1220.0,
+     1411.0
+    ],
+    [
+     1088.0,
+     1367.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "HIGH CAFFINE (105 mg/350",
+   "score": 0.9194905161857605,
+   "poly": [
+    [
+     568.0,
+     1314.0
+    ],
+    [
+     859.0,
+     1258.0
+    ],
+    [
+     871.0,
+     1322.0
+    ],
+    [
+     580.0,
+     1377.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CARBONATED",
+   "score": 0.9995396733283997,
+   "poly": [
+    [
+     1158.0,
+     1428.0
+    ],
+    [
+     1248.0,
+     1466.0
+    ],
+    [
+     1232.0,
+     1502.0
+    ],
+    [
+     1143.0,
+     1463.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONSUME NOT",
+   "score": 0.9998231530189514,
+   "poly": [
+    [
+     574.0,
+     1444.0
+    ],
+    [
+     713.0,
+     1411.0
+    ],
+    [
+     723.0,
+     1456.0
+    ],
+    [
+     584.0,
+     1489.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ACID, SODIUM",
+   "score": 0.8807033896446228,
+   "poly": [
+    [
+     1151.0,
+     1462.0
+    ],
+    [
+     1251.0,
+     1498.0
+    ],
+    [
+     1236.0,
+     1541.0
+    ],
+    [
+     1136.0,
+     1505.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "WATER, SUCROSE,",
+   "score": 0.9583083987236023,
+   "poly": [
+    [
+     573.0,
+     1480.0
+    ],
+    [
+     737.0,
+     1440.0
+    ],
+    [
+     749.0,
+     1491.0
+    ],
+    [
+     585.0,
+     1531.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ARTIFICIAL",
+   "score": 0.9983353614807129,
+   "poly": [
+    [
+     1059.0,
+     1482.0
+    ],
+    [
+     1162.0,
+     1504.0
+    ],
+    [
+     1154.0,
+     1547.0
+    ],
+    [
+     1050.0,
+     1525.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(MIXED FRUIT",
+   "score": 0.9828186631202698,
+   "poly": [
+    [
+     1162.0,
+     1506.0
+    ],
+    [
+     1250.0,
+     1537.0
+    ],
+    [
+     1236.0,
+     1579.0
+    ],
+    [
+     1147.0,
+     1548.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CITRATE), FLAVORS",
+   "score": 0.9695954918861389,
+   "poly": [
+    [
+     572.0,
+     1519.0
+    ],
+    [
+     742.0,
+     1483.0
+    ],
+    [
+     753.0,
+     1532.0
+    ],
+    [
+     583.0,
+     1569.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FLAVORING SUBSTANCES),",
+   "score": 0.9996538758277893,
+   "poly": [
+    [
+     574.0,
+     1556.0
+    ],
+    [
+     806.0,
+     1513.0
+    ],
+    [
+     816.0,
+     1564.0
+    ],
+    [
+     583.0,
+     1607.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "SORBIC",
+   "score": 0.8845891952514648,
+   "poly": [
+    [
+     1199.0,
+     1559.0
+    ],
+    [
+     1251.0,
+     1583.0
+    ],
+    [
+     1235.0,
+     1617.0
+    ],
+    [
+     1184.0,
+     1593.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": ",COLOURS",
+   "score": 0.9328556656837463,
+   "poly": [
+    [
+     1087.0,
+     1570.0
+    ],
+    [
+     1176.0,
+     1585.0
+    ],
+    [
+     1169.0,
+     1628.0
+    ],
+    [
+     1080.0,
+     1612.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R (SUCRALOSE)",
+   "score": 0.923031210899353,
+   "poly": [
+    [
+     1035.0,
+     1600.0
+    ],
+    [
+     1165.0,
+     1618.0
+    ],
+    [
+     1158.0,
+     1669.0
+    ],
+    [
+     1028.0,
+     1651.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GRAPESKI",
+   "score": 0.8891599178314209,
+   "poly": [
+    [
+     1181.0,
+     1592.0
+    ],
+    [
+     1247.0,
+     1615.0
+    ],
+    [
+     1234.0,
+     1653.0
+    ],
+    [
+     1168.0,
+     1630.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "VITAMINS B3",
+   "score": 0.8505160808563232,
+   "poly": [
+    [
+     1164.0,
+     1623.0
+    ],
+    [
+     1253.0,
+     1653.0
+    ],
+    [
+     1239.0,
+     1695.0
+    ],
+    [
+     1150.0,
+     1664.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "EXTRACT 16(), RIBOFLAVIN",
+   "score": 0.9036323428153992,
+   "poly": [
+    [
+     573.0,
+     1634.0
+    ],
+    [
+     829.0,
+     1593.0
+    ],
+    [
+     837.0,
+     1647.0
+    ],
+    [
+     582.0,
+     1688.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " (8% RDA), PROTEN",
+   "score": 0.8375610709190369,
+   "poly": [
+    [
+     1118.0,
+     1692.0
+    ],
+    [
+     1252.0,
+     1724.0
+    ],
+    [
+     1242.0,
+     1769.0
+    ],
+    [
+     1107.0,
+     1738.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADED SUGARS 39",
+   "score": 0.9788770079612732,
+   "poly": [
+    [
+     1116.0,
+     1734.0
+    ],
+    [
+     1253.0,
+     1765.0
+    ],
+    [
+     1243.0,
+     1809.0
+    ],
+    [
+     1106.0,
+     1778.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "B61.2mg, VITAMN B120.522μg",
+   "score": 0.8563593626022339,
+   "poly": [
+    [
+     577.0,
+     1873.0
+    ],
+    [
+     892.0,
+     1843.0
+    ],
+    [
+     898.0,
+     1903.0
+    ],
+    [
+     583.0,
+     1933.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "THIS CONTAINSSUCRALOSE",
+   "score": 0.9950250387191772,
+   "poly": [
+    [
+     708.0,
+     1896.0
+    ],
+    [
+     1176.0,
+     1899.0
+    ],
+    [
+     1175.0,
+     1983.0
+    ],
+    [
+     707.0,
+     1980.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9595014452934265,
+   "poly": [
+    [
+     654.0,
+     2066.0
+    ],
+    [
+     939.0,
+     2052.0
+    ],
+    [
+     943.0,
+     2148.0
+    ],
+    [
+     659.0,
+     2162.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INDO EUROPEAN",
+   "score": 0.9999449253082275,
+   "poly": [
+    [
+     1062.0,
+     2114.0
+    ],
+    [
+     1231.0,
+     2127.0
+    ],
+    [
+     1227.0,
+     2173.0
+    ],
+    [
+     1058.0,
+     2159.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BREWERIES LIMITED",
+   "score": 0.998764157295227,
+   "poly": [
+    [
+     1037.0,
+     2149.0
+    ],
+    [
+     1248.0,
+     2166.0
+    ],
+    [
+     1244.0,
+     2216.0
+    ],
+    [
+     1033.0,
+     2199.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "I) Lic No: 1152399900437",
+   "score": 0.9137558937072754,
+   "poly": [
+    [
+     615.0,
+     2159.0
+    ],
+    [
+     954.0,
+     2135.0
+    ],
+    [
+     958.0,
+     2200.0
+    ],
+    [
+     619.0,
+     2224.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9932510256767273,
+   "poly": [
+    [
+     660.0,
+     2206.0
+    ],
+    [
+     942.0,
+     2188.0
+    ],
+    [
+     948.0,
+     2289.0
+    ],
+    [
+     667.0,
+     2307.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INDUSTAN COCA-COLA",
+   "score": 0.9964513778686523,
+   "poly": [
+    [
+     1034.0,
+     2254.0
+    ],
+    [
+     1261.0,
+     2265.0
+    ],
+    [
+     1259.0,
+     2313.0
+    ],
+    [
+     1032.0,
+     2302.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "H) Lic No:10012022000287",
+   "score": 0.9461886882781982,
+   "poly": [
+    [
+     606.0,
+     2301.0
+    ],
+    [
+     957.0,
+     2280.0
+    ],
+    [
+     960.0,
+     2344.0
+    ],
+    [
+     610.0,
+     2365.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BEVERAGES PVT. LTD.",
+   "score": 0.9581329226493835,
+   "poly": [
+    [
+     1038.0,
+     2292.0
+    ],
+    [
+     1257.0,
+     2302.0
+    ],
+    [
+     1255.0,
+     2352.0
+    ],
+    [
+     1036.0,
+     2342.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9947392344474792,
+   "poly": [
+    [
+     655.0,
+     2351.0
+    ],
+    [
+     947.0,
+     2334.0
+    ],
+    [
+     954.0,
+     2434.0
+    ],
+    [
+     661.0,
+     2452.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Dolby",
+   "score": 0.9996623992919922,
+   "poly": [
+    [
+     1572.0,
+     2363.0
+    ],
+    [
+     1720.0,
+     2496.0
+    ],
+    [
+     1678.0,
+     2542.0
+    ],
+    [
+     1531.0,
+     2410.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DEL MONTE FOODS",
+   "score": 0.9875854253768921,
+   "poly": [
+    [
+     1056.0,
+     2400.0
+    ],
+    [
+     1249.0,
+     2404.0
+    ],
+    [
+     1249.0,
+     2449.0
+    ],
+    [
+     1055.0,
+     2446.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "D) Lic No : 10012042000203",
+   "score": 0.9590388536453247,
+   "poly": [
+    [
+     606.0,
+     2443.0
+    ],
+    [
+     967.0,
+     2425.0
+    ],
+    [
+     970.0,
+     2494.0
+    ],
+    [
+     609.0,
+     2511.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRIVATE LIMITED",
+   "score": 0.9998260140419006,
+   "poly": [
+    [
+     1067.0,
+     2442.0
+    ],
+    [
+     1245.0,
+     2442.0
+    ],
+    [
+     1245.0,
+     2487.0
+    ],
+    [
+     1067.0,
+     2487.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "intel",
+   "score": 0.9998361468315125,
+   "poly": [
+    [
+     1505.0,
+     2458.0
+    ],
+    [
+     1629.0,
+     2555.0
+    ],
+    [
+     1578.0,
+     2621.0
+    ],
+    [
+     1454.0,
+     2524.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BRAND OWNED AND MKT BY MONSTER ENERGY INDIA PRIVATE",
+   "score": 0.9940115809440613,
+   "poly": [
+    [
+     587.0,
+     2508.0
+    ],
+    [
+     1286.0,
+     2490.0
+    ],
+    [
+     1288.0,
+     2540.0
+    ],
+    [
+     588.0,
+     2558.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "evo",
+   "score": 0.9997351169586182,
+   "poly": [
+    [
+     1468.0,
+     2505.0
+    ],
+    [
+     1579.0,
+     2600.0
+    ],
+    [
+     1537.0,
+     2651.0
+    ],
+    [
+     1425.0,
+     2556.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LIMITED, OFFICE NO 17&18, 3RD FLO0R, VASWANI MANSION",
+   "score": 0.9689162969589233,
+   "poly": [
+    [
+     587.0,
+     2553.0
+    ],
+    [
+     1286.0,
+     2534.0
+    ],
+    [
+     1288.0,
+     2582.0
+    ],
+    [
+     588.0,
+     2602.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "120 DINSHAW VACHHA ROAD CHURCHGATE, MUMBI14000",
+   "score": 0.9442518353462219,
+   "poly": [
+    [
+     587.0,
+     2594.0
+    ],
+    [
+     1288.0,
+     2577.0
+    ],
+    [
+     1289.0,
+     2625.0
+    ],
+    [
+     588.0,
+     2643.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONTACT CONSUMER RELATIONS REPRESENTATIVE AT:",
+   "score": 0.998988687992096,
+   "poly": [
+    [
+     587.0,
+     2644.0
+    ],
+    [
+     1290.0,
+     2625.0
+    ],
+    [
+     1292.0,
+     2683.0
+    ],
+    [
+     588.0,
+     2703.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "000-800-040-1274",
+   "score": 0.999990701675415,
+   "poly": [
+    [
+     599.0,
+     2700.0
+    ],
+    [
+     978.0,
+     2693.0
+    ],
+    [
+     979.0,
+     2756.0
+    ],
+    [
+     601.0,
+     2762.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INFO@MONSTERENERGY.COM",
+   "score": 0.9998682141304016,
+   "poly": [
+    [
+     594.0,
+     2760.0
+    ],
+    [
+     1156.0,
+     2744.0
+    ],
+    [
+     1158.0,
+     2808.0
+    ],
+    [
+     595.0,
+     2824.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ADDRESS: SAME AS BRAND OWNED",
+   "score": 0.9876114726066589,
+   "poly": [
+    [
+     585.0,
+     2815.0
+    ],
+    [
+     1072.0,
+     2809.0
+    ],
+    [
+     1073.0,
+     2873.0
+    ],
+    [
+     586.0,
+     2879.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.9987280964851379,
+   "poly": [
+    [
+     1085.0,
+     2813.0
+    ],
+    [
+     1296.0,
+     2794.0
+    ],
+    [
+     1305.0,
+     2896.0
+    ],
+    [
+     1094.0,
+     2915.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AND MARKETED BY ADDRESS",
+   "score": 0.9980875253677368,
+   "poly": [
+    [
+     587.0,
+     2867.0
+    ],
+    [
+     989.0,
+     2867.0
+    ],
+    [
+     989.0,
+     2931.0
+    ],
+    [
+     587.0,
+     2931.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic No:10016022005596",
+   "score": 0.9563080072402954,
+   "poly": [
+    [
+     1054.0,
+     2914.0
+    ],
+    [
+     1303.0,
+     2885.0
+    ],
+    [
+     1311.0,
+     2952.0
+    ],
+    [
+     1062.0,
+     2980.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "©2012 MONSTER ENERGY COMPANY",
+   "score": 0.9997744560241699,
+   "poly": [
+    [
+     588.0,
+     2924.0
+    ],
+    [
+     1028.0,
+     2924.0
+    ],
+    [
+     1028.0,
+     2977.0
+    ],
+    [
+     588.0,
+     2977.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRICE,DATEOMANUFACTUREEPRYUSEY",
+   "score": 0.6879491806030273,
+   "poly": [
+    [
+     589.44873046875,
+     3032.287109375
+    ],
+    [
+     1309.3267822265625,
+     3004.1669921875
+    ],
+    [
+     1312.4705810546875,
+     3084.64599609375
+    ],
+    [
+     592.592529296875,
+     3112.76611328125
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "PEDEOMNUFTUREERUY",
+   "alt_score": 0.5938587784767151
+  },
+  {
+   "tl_angle": 0,
+   "text": "AND BATCH NO., - SEE BASE OF CAN",
+   "score": 0.9642913937568665,
+   "poly": [
+    [
+     575.0,
+     3080.0
+    ],
+    [
+     1251.0,
+     3061.0
+    ],
+    [
+     1254.0,
+     3164.0
+    ],
+    [
+     578.0,
+     3182.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORE IN A COOL DRY PLACE,",
+   "score": 0.9977362751960754,
+   "poly": [
+    [
+     586.0,
+     3145.0
+    ],
+    [
+     950.0,
+     3161.0
+    ],
+    [
+     947.0,
+     3224.0
+    ],
+    [
+     583.0,
+     3208.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "AWAY FROM DIRECT SUNLIGHT",
+   "score": 0.9998153448104858,
+   "poly": [
+    [
+     586.0,
+     3195.0
+    ],
+    [
+     968.0,
+     3212.0
+    ],
+    [
+     966.0,
+     3275.0
+    ],
+    [
+     583.0,
+     3258.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "350ml",
+   "score": 0.9993305206298828,
+   "poly": [
+    [
+     1046.0,
+     3243.0
+    ],
+    [
+     1222.0,
+     3232.0
+    ],
+    [
+     1228.0,
+     3345.0
+    ],
+    [
+     1053.0,
+     3355.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NETQUANTITY",
+   "score": 0.994967520236969,
+   "poly": [
+    [
+     584.0,
+     3261.0
+    ],
+    [
+     887.0,
+     3280.0
+    ],
+    [
+     882.0,
+     3371.0
+    ],
+    [
+     578.0,
+     3352.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "TAVESI",
+   "score": 0.9523356556892395,
+   "poly": [
+    [
+     1026.4835205078125,
+     2976.34765625
+    ],
+    [
+     1155.5948486328125,
+     2971.07763671875
+    ],
+    [
+     1156.7523193359375,
+     2999.4384765625
+    ],
+    [
+     1027.6409912109375,
+     3004.70849609375
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  },
+  {
+   "text": "IT SALE",
+   "score": 0.9941949844360352,
+   "poly": [
+    [
+     1218.0,
+     2950.0
+    ],
+    [
+     1307.0,
+     2950.0
+    ],
+    [
+     1307.0,
+     3006.0
+    ],
+    [
+     1218.0,
+     3006.0
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  },
+  {
+   "text": "FOR MRP (INCL. OF ALL TAXES),",
+   "score": 0.9820548892021179,
+   "poly": [
+    [
+     586.2744750976562,
+     2971.484619140625
+    ],
+    [
+     1182.5477294921875,
+     2962.381103515625
+    ],
+    [
+     1183.65771484375,
+     3035.081787109375
+    ],
+    [
+     587.3843994140625,
+     3044.185302734375
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  }
+ ]
+}

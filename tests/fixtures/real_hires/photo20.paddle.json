@@ -1,0 +1,1563 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo20.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 14.46,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 3.83,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 1,
+  "block_s": 6.16,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.26,
+  "regions": 60,
+  "total_s": 24.75
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Ingredients: Double toned milk, milk solids.",
+   "score": 0.9985067248344421,
+   "poly": [
+    [
+     287.0,
+     1131.0
+    ],
+    [
+     1141.0,
+     1155.0
+    ],
+    [
+     1139.0,
+     1229.0
+    ],
+    [
+     285.0,
+     1205.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Allergen Information: Contains milk.",
+   "score": 0.9987865090370178,
+   "poly": [
+    [
+     366.0,
+     1194.0
+    ],
+    [
+     1077.0,
+     1211.0
+    ],
+    [
+     1076.0,
+     1273.0
+    ],
+    [
+     365.0,
+     1257.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fat 1.5% minimum, SNF 12.0% minimum.",
+   "score": 0.9998639225959778,
+   "poly": [
+    [
+     339.0,
+     1240.0
+    ],
+    [
+     1104.0,
+     1261.0
+    ],
+    [
+     1102.0,
+     1327.0
+    ],
+    [
+     338.0,
+     1306.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Nutritional Information",
+   "score": 0.9999544620513916,
+   "poly": [
+    [
+     521.0,
+     1337.0
+    ],
+    [
+     1023.0,
+     1344.0
+    ],
+    [
+     1022.0,
+     1394.0
+    ],
+    [
+     520.0,
+     1386.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1 serving per container",
+   "score": 0.9916780591011047,
+   "poly": [
+    [
+     326.0,
+     1404.0
+    ],
+    [
+     775.0,
+     1426.0
+    ],
+    [
+     772.0,
+     1478.0
+    ],
+    [
+     323.0,
+     1457.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Serving size",
+   "score": 0.9798228740692139,
+   "poly": [
+    [
+     318.0,
+     1471.0
+    ],
+    [
+     592.0,
+     1489.0
+    ],
+    [
+     589.0,
+     1537.0
+    ],
+    [
+     315.0,
+     1519.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "250 mL",
+   "score": 0.9985422492027283,
+   "poly": [
+    [
+     812.0,
+     1489.0
+    ],
+    [
+     973.0,
+     1489.0
+    ],
+    [
+     973.0,
+     1535.0
+    ],
+    [
+     812.0,
+     1535.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amount per pack",
+   "score": 0.998077392578125,
+   "poly": [
+    [
+     326.0,
+     1538.0
+    ],
+    [
+     711.0,
+     1555.0
+    ],
+    [
+     708.0,
+     1609.0
+    ],
+    [
+     323.0,
+     1592.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "% RDA",
+   "score": 0.9279602766036987,
+   "poly": [
+    [
+     1082.0,
+     1548.0
+    ],
+    [
+     1239.0,
+     1543.0
+    ],
+    [
+     1241.0,
+     1592.0
+    ],
+    [
+     1083.0,
+     1598.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Energy (kcal)",
+   "score": 0.999668538570404,
+   "poly": [
+    [
+     327.0,
+     1613.0
+    ],
+    [
+     620.0,
+     1628.0
+    ],
+    [
+     618.0,
+     1683.0
+    ],
+    [
+     325.0,
+     1669.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "145",
+   "score": 0.9999988079071045,
+   "poly": [
+    [
+     889.0,
+     1629.0
+    ],
+    [
+     971.0,
+     1625.0
+    ],
+    [
+     974.0,
+     1675.0
+    ],
+    [
+     892.0,
+     1679.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "7%",
+   "score": 0.9998937845230103,
+   "poly": [
+    [
+     1136.0,
+     1621.0
+    ],
+    [
+     1205.0,
+     1621.0
+    ],
+    [
+     1205.0,
+     1668.0
+    ],
+    [
+     1136.0,
+     1668.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Total Fat (g)",
+   "score": 0.9983304738998413,
+   "poly": [
+    [
+     330.0,
+     1689.0
+    ],
+    [
+     599.0,
+     1700.0
+    ],
+    [
+     597.0,
+     1754.0
+    ],
+    [
+     328.0,
+     1743.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "3.7",
+   "score": 0.9999818801879883,
+   "poly": [
+    [
+     893.0,
+     1701.0
+    ],
+    [
+     965.0,
+     1697.0
+    ],
+    [
+     968.0,
+     1749.0
+    ],
+    [
+     896.0,
+     1753.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6%",
+   "score": 0.9994630813598633,
+   "poly": [
+    [
+     1136.0,
+     1697.0
+    ],
+    [
+     1207.0,
+     1697.0
+    ],
+    [
+     1207.0,
+     1742.0
+    ],
+    [
+     1136.0,
+     1742.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Saturated Fat (g)",
+   "score": 0.999859094619751,
+   "poly": [
+    [
+     329.0,
+     1769.0
+    ],
+    [
+     688.0,
+     1780.0
+    ],
+    [
+     687.0,
+     1828.0
+    ],
+    [
+     328.0,
+     1817.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2.5",
+   "score": 0.9999904632568359,
+   "poly": [
+    [
+     892.0,
+     1774.0
+    ],
+    [
+     970.0,
+     1770.0
+    ],
+    [
+     973.0,
+     1821.0
+    ],
+    [
+     895.0,
+     1825.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "11%",
+   "score": 0.9999737739562988,
+   "poly": [
+    [
+     1130.0,
+     1768.0
+    ],
+    [
+     1212.0,
+     1768.0
+    ],
+    [
+     1212.0,
+     1818.0
+    ],
+    [
+     1130.0,
+     1818.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Trans Fat (g)",
+   "score": 0.9999560713768005,
+   "poly": [
+    [
+     330.0,
+     1841.0
+    ],
+    [
+     602.0,
+     1848.0
+    ],
+    [
+     600.0,
+     1902.0
+    ],
+    [
+     329.0,
+     1895.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.0",
+   "score": 0.9997724890708923,
+   "poly": [
+    [
+     894.0,
+     1847.0
+    ],
+    [
+     972.0,
+     1847.0
+    ],
+    [
+     972.0,
+     1897.0
+    ],
+    [
+     894.0,
+     1897.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.9994854927062988,
+   "poly": [
+    [
+     1135.0,
+     1842.0
+    ],
+    [
+     1210.0,
+     1842.0
+    ],
+    [
+     1210.0,
+     1892.0
+    ],
+    [
+     1135.0,
+     1892.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cholesterol (mg)",
+   "score": 0.9996782541275024,
+   "poly": [
+    [
+     330.0,
+     1921.0
+    ],
+    [
+     685.0,
+     1926.0
+    ],
+    [
+     684.0,
+     1974.0
+    ],
+    [
+     329.0,
+     1970.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "10",
+   "score": 0.9999850988388062,
+   "poly": [
+    [
+     907.0,
+     1923.0
+    ],
+    [
+     961.0,
+     1923.0
+    ],
+    [
+     961.0,
+     1967.0
+    ],
+    [
+     907.0,
+     1967.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Carbohydrate (g)",
+   "score": 0.9998181462287903,
+   "poly": [
+    [
+     331.0,
+     2000.0
+    ],
+    [
+     706.0,
+     2000.0
+    ],
+    [
+     706.0,
+     2048.0
+    ],
+    [
+     331.0,
+     2048.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "16.2",
+   "score": 0.999998152256012,
+   "poly": [
+    [
+     888.0,
+     1994.0
+    ],
+    [
+     982.0,
+     1994.0
+    ],
+    [
+     982.0,
+     2042.0
+    ],
+    [
+     888.0,
+     2042.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Total Sugars (g)",
+   "score": 0.9999403953552246,
+   "poly": [
+    [
+     331.0,
+     2074.0
+    ],
+    [
+     666.0,
+     2072.0
+    ],
+    [
+     666.0,
+     2122.0
+    ],
+    [
+     331.0,
+     2123.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "16.2",
+   "score": 0.9999980926513672,
+   "poly": [
+    [
+     888.0,
+     2066.0
+    ],
+    [
+     982.0,
+     2066.0
+    ],
+    [
+     982.0,
+     2115.0
+    ],
+    [
+     888.0,
+     2115.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0.0",
+   "score": 0.9996502995491028,
+   "poly": [
+    [
+     898.0,
+     2140.0
+    ],
+    [
+     975.0,
+     2140.0
+    ],
+    [
+     975.0,
+     2186.0
+    ],
+    [
+     898.0,
+     2186.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "0%",
+   "score": 0.9994907379150391,
+   "poly": [
+    [
+     1137.0,
+     2138.0
+    ],
+    [
+     1212.0,
+     2138.0
+    ],
+    [
+     1212.0,
+     2187.0
+    ],
+    [
+     1137.0,
+     2187.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Added Sugars (g)",
+   "score": 0.9999279975891113,
+   "poly": [
+    [
+     329.0,
+     2148.0
+    ],
+    [
+     704.0,
+     2145.0
+    ],
+    [
+     705.0,
+     2194.0
+    ],
+    [
+     330.0,
+     2197.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Protein (g)",
+   "score": 0.9997348189353943,
+   "poly": [
+    [
+     328.0,
+     2223.0
+    ],
+    [
+     572.0,
+     2218.0
+    ],
+    [
+     573.0,
+     2272.0
+    ],
+    [
+     329.0,
+     2277.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "11.2",
+   "score": 0.9999475479125977,
+   "poly": [
+    [
+     897.0,
+     2216.0
+    ],
+    [
+     978.0,
+     2216.0
+    ],
+    [
+     978.0,
+     2260.0
+    ],
+    [
+     897.0,
+     2260.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "172",
+   "score": 0.9999985694885254,
+   "poly": [
+    [
+     898.0,
+     2287.0
+    ],
+    [
+     979.0,
+     2287.0
+    ],
+    [
+     979.0,
+     2335.0
+    ],
+    [
+     898.0,
+     2335.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "9%",
+   "score": 0.9997354745864868,
+   "poly": [
+    [
+     1142.0,
+     2287.0
+    ],
+    [
+     1214.0,
+     2287.0
+    ],
+    [
+     1214.0,
+     2335.0
+    ],
+    [
+     1142.0,
+     2335.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sodium (mg)",
+   "score": 0.999854326248169,
+   "poly": [
+    [
+     329.0,
+     2300.0
+    ],
+    [
+     613.0,
+     2294.0
+    ],
+    [
+     614.0,
+     2344.0
+    ],
+    [
+     330.0,
+     2350.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "520",
+   "score": 0.9999980926513672,
+   "poly": [
+    [
+     894.0,
+     2358.0
+    ],
+    [
+     987.0,
+     2358.0
+    ],
+    [
+     987.0,
+     2406.0
+    ],
+    [
+     894.0,
+     2406.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "52%",
+   "score": 0.9999761581420898,
+   "poly": [
+    [
+     1122.0,
+     2361.0
+    ],
+    [
+     1219.0,
+     2361.0
+    ],
+    [
+     1219.0,
+     2408.0
+    ],
+    [
+     1122.0,
+     2408.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Calcium (mg)",
+   "score": 0.999753475189209,
+   "poly": [
+    [
+     329.0,
+     2375.0
+    ],
+    [
+     626.0,
+     2368.0
+    ],
+    [
+     627.0,
+     2418.0
+    ],
+    [
+     331.0,
+     2425.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RDA stands for Recommended Dietary",
+   "score": 0.999603271484375,
+   "poly": [
+    [
+     326.0,
+     2444.0
+    ],
+    [
+     1152.0,
+     2427.0
+    ],
+    [
+     1153.0,
+     2486.0
+    ],
+    [
+     328.0,
+     2502.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Allowance per serving",
+   "score": 0.9999876618385315,
+   "poly": [
+    [
+     359.0,
+     2504.0
+    ],
+    [
+     829.0,
+     2487.0
+    ],
+    [
+     831.0,
+     2540.0
+    ],
+    [
+     361.0,
+     2556.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "\"Average values",
+   "score": 0.9510354995727539,
+   "poly": [
+    [
+     331.0,
+     2559.0
+    ],
+    [
+     675.0,
+     2541.0
+    ],
+    [
+     679.0,
+     2599.0
+    ],
+    [
+     335.0,
+     2617.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "250 mL",
+   "score": 0.9989972114562988,
+   "poly": [
+    [
+     808.0,
+     2621.0
+    ],
+    [
+     1000.0,
+     2621.0
+    ],
+    [
+     1000.0,
+     2681.0
+    ],
+    [
+     808.0,
+     2681.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Net Content:",
+   "score": 0.9999803900718689,
+   "poly": [
+    [
+     421.0,
+     2646.0
+    ],
+    [
+     735.0,
+     2629.0
+    ],
+    [
+     738.0,
+     2683.0
+    ],
+    [
+     424.0,
+     2700.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORE IN COOL, DRY AND HYGIENIC PLACE.",
+   "score": 0.9993999004364014,
+   "poly": [
+    [
+     434.0,
+     2726.0
+    ],
+    [
+     1127.0,
+     2700.0
+    ],
+    [
+     1130.0,
+     2758.0
+    ],
+    [
+     436.0,
+     2784.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NEEDS NO REFRIGERATION TILL OPENED.",
+   "score": 0.9998266100883484,
+   "poly": [
+    [
+     449.0,
+     2771.0
+    ],
+    [
+     1105.0,
+     2747.0
+    ],
+    [
+     1107.0,
+     2804.0
+    ],
+    [
+     451.0,
+     2828.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT BUY PUFFED/LEAKY PACK.",
+   "score": 0.9992563724517822,
+   "poly": [
+    [
+     510.0,
+     2862.0
+    ],
+    [
+     1058.0,
+     2835.0
+    ],
+    [
+     1060.0,
+     2888.0
+    ],
+    [
+     512.0,
+     2915.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed by:",
+   "score": 0.9999743103981018,
+   "poly": [
+    [
+     657.0,
+     2898.0
+    ],
+    [
+     918.0,
+     2884.0
+    ],
+    [
+     920.0,
+     2929.0
+    ],
+    [
+     660.0,
+     2943.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Amul Dairy Road, Anand, Gujarat - 388001, India.",
+   "score": 0.9729830622673035,
+   "poly": [
+    [
+     322.0,
+     2990.0
+    ],
+    [
+     1238.0,
+     2946.0
+    ],
+    [
+     1242.0,
+     3014.0
+    ],
+    [
+     325.0,
+     3059.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Website: www.amul.com",
+   "score": 0.9767806529998779,
+   "poly": [
+    [
+     559.0,
+     3030.0
+    ],
+    [
+     1018.0,
+     3001.0
+    ],
+    [
+     1021.0,
+     3050.0
+    ],
+    [
+     562.0,
+     3079.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CPCB Regn, No.: BO-13-000-07-AAAAG5588Q-22",
+   "score": 0.9771605730056763,
+   "poly": [
+    [
+     310.0,
+     3079.0
+    ],
+    [
+     1257.0,
+     3027.0
+    ],
+    [
+     1260.0,
+     3094.0
+    ],
+    [
+     314.0,
+     3146.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssai",
+   "score": 0.8972204923629761,
+   "poly": [
+    [
+     690.0,
+     3108.0
+    ],
+    [
+     898.0,
+     3090.0
+    ],
+    [
+     905.0,
+     3179.0
+    ],
+    [
+     697.0,
+     3198.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.10012021000071",
+   "score": 0.989467442035675,
+   "poly": [
+    [
+     558.0,
+     3200.0
+    ],
+    [
+     1025.0,
+     3160.0
+    ],
+    [
+     1029.0,
+     3209.0
+    ],
+    [
+     563.0,
+     3248.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "We appreciate your feedback. Contact our",
+   "score": 0.9948431253433228,
+   "poly": [
+    [
+     333.0,
+     3254.0
+    ],
+    [
+     1242.0,
+     3193.0
+    ],
+    [
+     1247.0,
+     3265.0
+    ],
+    [
+     338.0,
+     3327.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Customer Care Executive at:",
+   "score": 0.9923112392425537,
+   "poly": [
+    [
+     490.0,
+     3315.0
+    ],
+    [
+     1094.0,
+     3268.0
+    ],
+    [
+     1098.0,
+     3325.0
+    ],
+    [
+     494.0,
+     3372.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "1800-258-3333 (Toll Free) [6am - 9pm]",
+   "score": 0.9635759592056274,
+   "poly": [
+    [
+     365.0,
+     3379.0
+    ],
+    [
+     1224.0,
+     3327.0
+    ],
+    [
+     1228.0,
+     3395.0
+    ],
+    [
+     369.0,
+     3447.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "customercare@amul.coop",
+   "score": 0.9999763369560242,
+   "poly": [
+    [
+     488.0,
+     3447.0
+    ],
+    [
+     1092.0,
+     3404.0
+    ],
+    [
+     1096.0,
+     3462.0
+    ],
+    [
+     492.0,
+     3506.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "GCMMF Ltd., Anand-388001",
+   "score": 0.9635283350944519,
+   "poly": [
+    [
+     460.0,
+     3510.0
+    ],
+    [
+     1132.0,
+     3465.0
+    ],
+    [
+     1136.0,
+     3523.0
+    ],
+    [
+     464.0,
+     3568.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "For MRP (incl. of all taxes), Date of Packaging (Pkd.) &",
+   "score": 0.9967263340950012,
+   "poly": [
+    [
+     323.0,
+     3565.0
+    ],
+    [
+     1240.0,
+     3516.0
+    ],
+    [
+     1243.0,
+     3571.0
+    ],
+    [
+     326.0,
+     3619.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Expiry (Exp.), Batch No. (BN), see top of the pack.",
+   "score": 0.9929769039154053,
+   "poly": [
+    [
+     354.0,
+     3604.0
+    ],
+    [
+     1202.0,
+     3559.0
+    ],
+    [
+     1205.0,
+     3608.0
+    ],
+    [
+     357.0,
+     3653.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "text": "Gujarat Co-operative Milk Marketing Federation Ltd.",
+   "score": 0.9991621971130371,
+   "poly": [
+    [
+     297.4920959472656,
+     2956.130126953125
+    ],
+    [
+     1264.845458984375,
+     2914.298583984375
+    ],
+    [
+     1267.137451171875,
+     2967.302001953125
+    ],
+    [
+     299.7840576171875,
+     3009.133544921875
+    ]
+   ],
+   "engine": "paddleocr(block)",
+   "language": "en"
+  }
+ ]
+}

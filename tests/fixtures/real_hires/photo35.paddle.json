@@ -1,0 +1,916 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo35.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 11.98,
+  "zoom_added": 8,
+  "zoom_s": 12.56,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.22,
+  "block_lines": 0,
+  "block_s": 2.1,
+  "curved": 1,
+  "curved_s": 0.27,
+  "secondary_replaced": 0,
+  "secondary_s": 0.12,
+  "regions": 34,
+  "total_s": 27.27
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "XERODEL CREAM is a formulation for Acanthosis",
+   "score": 0.9964597225189209,
+   "poly": [
+    [
+     514.0,
+     1592.0
+    ],
+    [
+     1219.0,
+     1546.0
+    ],
+    [
+     1222.0,
+     1595.0
+    ],
+    [
+     517.0,
+     1641.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Nigricans leading to patches of dark, thick and",
+   "score": 0.9994794726371765,
+   "poly": [
+    [
+     517.0,
+     1634.0
+    ],
+    [
+     1224.0,
+     1583.0
+    ],
+    [
+     1228.0,
+     1632.0
+    ],
+    [
+     520.0,
+     1683.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "velvety skin. It may appear on the neck, underarms,",
+   "score": 0.9926136136054993,
+   "poly": [
+    [
+     520.0,
+     1672.0
+    ],
+    [
+     1226.0,
+     1623.0
+    ],
+    [
+     1229.0,
+     1670.0
+    ],
+    [
+     523.0,
+     1719.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "skin folds, groins, knees, knuckles or elbows.",
+   "score": 0.9984439611434937,
+   "poly": [
+    [
+     524.0,
+     1713.0
+    ],
+    [
+     1148.0,
+     1667.0
+    ],
+    [
+     1151.0,
+     1711.0
+    ],
+    [
+     527.0,
+     1757.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DIRECTION FOR USE Cleanse the affected area",
+   "score": 0.9981005191802979,
+   "poly": [
+    [
+     528.0,
+     1769.0
+    ],
+    [
+     1233.0,
+     1718.0
+    ],
+    [
+     1236.0,
+     1765.0
+    ],
+    [
+     531.0,
+     1816.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "and pat dry. Apply the required amount of the cream",
+   "score": 0.9999111294746399,
+   "poly": [
+    [
+     532.0,
+     1811.0
+    ],
+    [
+     1236.0,
+     1760.0
+    ],
+    [
+     1239.0,
+     1804.0
+    ],
+    [
+     536.0,
+     1856.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "on the area and massage gently using fingertips.",
+   "score": 0.9998165965080261,
+   "poly": [
+    [
+     535.0,
+     1848.0
+    ],
+    [
+     1236.0,
+     1800.0
+    ],
+    [
+     1239.0,
+     1844.0
+    ],
+    [
+     538.0,
+     1892.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Use it regularly twice a day for best results.",
+   "score": 0.9999470114707947,
+   "poly": [
+    [
+     539.0,
+     1888.0
+    ],
+    [
+     1122.0,
+     1844.0
+    ],
+    [
+     1126.0,
+     1886.0
+    ],
+    [
+     543.0,
+     1931.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "INGREDIENTS: Water (Aqua), Lactic acid, Urea,",
+   "score": 0.9978581666946411,
+   "poly": [
+    [
+     544.0,
+     1945.0
+    ],
+    [
+     1252.0,
+     1896.0
+    ],
+    [
+     1256.0,
+     1945.0
+    ],
+    [
+     547.0,
+     1994.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Prunus Amygdalus Dulcis, Retistar, Glycerin,",
+   "score": 0.9948680996894836,
+   "poly": [
+    [
+     546.0,
+     1986.0
+    ],
+    [
+     1257.0,
+     1939.0
+    ],
+    [
+     1260.0,
+     1988.0
+    ],
+    [
+     550.0,
+     2035.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Cetearyl Alcohol, Ceteareth-20, Jojoba Oil,",
+   "score": 0.9997219443321228,
+   "poly": [
+    [
+     551.0,
+     2027.0
+    ],
+    [
+     1260.0,
+     1977.0
+    ],
+    [
+     1263.0,
+     2026.0
+    ],
+    [
+     554.0,
+     2076.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Tetrahydrocurcumin, Zinc Oxide, Camphor,",
+   "score": 0.9858016967773438,
+   "poly": [
+    [
+     555.0,
+     2069.0
+    ],
+    [
+     1261.0,
+     2020.0
+    ],
+    [
+     1264.0,
+     2069.0
+    ],
+    [
+     558.0,
+     2117.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Fragrance.",
+   "score": 0.9999825358390808,
+   "poly": [
+    [
+     559.0,
+     2112.0
+    ],
+    [
+     719.0,
+     2101.0
+    ],
+    [
+     722.0,
+     2148.0
+    ],
+    [
+     562.0,
+     2159.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FOR EXTERNAL USE ONLY",
+   "score": 0.9987168312072754,
+   "poly": [
+    [
+     565.0,
+     2173.0
+    ],
+    [
+     947.0,
+     2145.0
+    ],
+    [
+     950.0,
+     2188.0
+    ],
+    [
+     568.0,
+     2215.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Store in a cool and dry place below 30C.",
+   "score": 0.990221381187439,
+   "poly": [
+    [
+     569.0,
+     2228.0
+    ],
+    [
+     1148.0,
+     2187.0
+    ],
+    [
+     1151.0,
+     2235.0
+    ],
+    [
+     572.0,
+     2277.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Do no freeze.",
+   "score": 0.9959686994552612,
+   "poly": [
+    [
+     575.0,
+     2275.0
+    ],
+    [
+     755.0,
+     2265.0
+    ],
+    [
+     757.0,
+     2305.0
+    ],
+    [
+     577.0,
+     2315.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Lic. No. : W(0089)/13/CM",
+   "score": 0.9782667756080627,
+   "poly": [
+    [
+     579.0,
+     2326.0
+    ],
+    [
+     997.0,
+     2302.0
+    ],
+    [
+     1000.0,
+     2352.0
+    ],
+    [
+     582.0,
+     2376.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Batch No.",
+   "score": 0.9972065687179565,
+   "poly": [
+    [
+     585.0,
+     2376.0
+    ],
+    [
+     706.0,
+     2370.0
+    ],
+    [
+     708.0,
+     2412.0
+    ],
+    [
+     587.0,
+     2417.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. Date",
+   "score": 0.9997642040252686,
+   "poly": [
+    [
+     589.0,
+     2412.0
+    ],
+    [
+     711.0,
+     2409.0
+    ],
+    [
+     712.0,
+     2454.0
+    ],
+    [
+     591.0,
+     2458.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "See on Crimp",
+   "score": 0.9999885559082031,
+   "poly": [
+    [
+     814.0,
+     2426.0
+    ],
+    [
+     1017.0,
+     2414.0
+    ],
+    [
+     1019.0,
+     2463.0
+    ],
+    [
+     817.0,
+     2474.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Exp. Date",
+   "score": 0.9849755764007568,
+   "poly": [
+    [
+     594.0,
+     2455.0
+    ],
+    [
+     712.0,
+     2452.0
+    ],
+    [
+     713.0,
+     2498.0
+    ],
+    [
+     595.0,
+     2502.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfg. by:",
+   "score": 0.9905077219009399,
+   "poly": [
+    [
+     611.0,
+     2591.0
+    ],
+    [
+     702.0,
+     2591.0
+    ],
+    [
+     702.0,
+     2634.0
+    ],
+    [
+     611.0,
+     2634.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Aone Cosmetics Products Pvt Ltd",
+   "score": 0.9997843503952026,
+   "poly": [
+    [
+     615.0,
+     2629.0
+    ],
+    [
+     992.0,
+     2615.0
+    ],
+    [
+     994.0,
+     2653.0
+    ],
+    [
+     616.0,
+     2667.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(GMP & ISO 14001:2015 Certified Company)",
+   "score": 0.9894193410873413,
+   "poly": [
+    [
+     619.0,
+     2661.0
+    ],
+    [
+     1122.0,
+     2642.0
+    ],
+    [
+     1124.0,
+     2686.0
+    ],
+    [
+     621.0,
+     2706.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Plot No. 54, D-1, Rama Road Industrial Area,",
+   "score": 0.9866788983345032,
+   "poly": [
+    [
+     623.0,
+     2698.0
+    ],
+    [
+     1123.0,
+     2679.0
+    ],
+    [
+     1125.0,
+     2723.0
+    ],
+    [
+     625.0,
+     2743.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Delhi-110015",
+   "score": 0.9997121691703796,
+   "poly": [
+    [
+     631.0,
+     2736.0
+    ],
+    [
+     767.0,
+     2736.0
+    ],
+    [
+     767.0,
+     2772.0
+    ],
+    [
+     631.0,
+     2772.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PRISPA",
+   "score": 0.9402424693107605,
+   "poly": [
+    [
+     887.0,
+     1443.0
+    ],
+    [
+     911.0,
+     1442.0
+    ],
+    [
+     915.0,
+     1518.0
+    ],
+    [
+     890.0,
+     1520.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.R.P.₹",
+   "score": 0.9508444666862488,
+   "poly": [
+    [
+     603.0,
+     2500.0
+    ],
+    [
+     703.0,
+     2498.0
+    ],
+    [
+     704.0,
+     2538.0
+    ],
+    [
+     604.0,
+     2541.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Incl. of All Taxes)",
+   "score": 0.9958499073982239,
+   "poly": [
+    [
+     608.0,
+     2540.0
+    ],
+    [
+     784.0,
+     2535.0
+    ],
+    [
+     785.0,
+     2574.0
+    ],
+    [
+     609.0,
+     2578.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Marketed by:",
+   "score": 0.9995133876800537,
+   "poly": [
+    [
+     637.0,
+     2780.0
+    ],
+    [
+     753.0,
+     2788.0
+    ],
+    [
+     750.0,
+     2829.0
+    ],
+    [
+     634.0,
+     2820.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Paraben frea",
+   "score": 0.9260125756263733,
+   "poly": [
+    [
+     1194.0,
+     2893.0
+    ],
+    [
+     1279.0,
+     2872.0
+    ],
+    [
+     1286.0,
+     2901.0
+    ],
+    [
+     1201.0,
+     2922.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Delbruk Lifescience Pvt. Ltd.",
+   "score": 0.9780351519584656,
+   "poly": [
+    [
+     660.0,
+     2923.0
+    ],
+    [
+     979.0,
+     2934.0
+    ],
+    [
+     977.0,
+     2985.0
+    ],
+    [
+     659.0,
+     2974.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": ".Frt Floor CSC-2, Sector-11,",
+   "score": 0.886904776096344,
+   "poly": [
+    [
+     670.0,
+     2963.0
+    ],
+    [
+     961.0,
+     2976.0
+    ],
+    [
+     959.0,
+     3025.0
+    ],
+    [
+     667.0,
+     3012.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "New Delhi-110085",
+   "score": 0.9997175931930542,
+   "poly": [
+    [
+     710.4342651367188,
+     3009.103515625
+    ],
+    [
+     884.7859497070312,
+     3015.466796875
+    ],
+    [
+     883.4959106445312,
+     3050.81396484375
+    ],
+    [
+     709.1442260742188,
+     3044.45068359375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "M Ne Dehi-110085",
+   "alt_score": 0.761086106300354
+  }
+ ]
+}

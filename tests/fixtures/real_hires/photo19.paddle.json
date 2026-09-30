@@ -1,0 +1,166 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo19.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 8.3,
+  "contrast_added": 0,
+  "contrast_s": 23.74,
+  "zoom_added": 0,
+  "zoom_s": 7.31,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.13,
+  "regions": 4,
+  "total_s": 39.51
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "Pkd:22/AUG/26 Exp:18/FEB/27",
+   "score": 0.9997872710227966,
+   "poly": [
+    [
+     281.0,
+     1026.0
+    ],
+    [
+     1205.0,
+     1003.0
+    ],
+    [
+     1207.0,
+     1104.0
+    ],
+    [
+     283.0,
+     1127.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "L9 MRP  26: USP 天 0.10/mL",
+   "score": 0.9662968516349792,
+   "poly": [
+    [
+     288.0,
+     1102.0
+    ],
+    [
+     1243.0,
+     1077.0
+    ],
+    [
+     1246.0,
+     1185.0
+    ],
+    [
+     291.0,
+     1210.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "17:03:41",
+   "score": 0.9996561408042908,
+   "poly": [
+    [
+     418.0,
+     1305.0
+    ],
+    [
+     700.0,
+     1299.0
+    ],
+    [
+     702.0,
+     1426.0
+    ],
+    [
+     421.0,
+     1431.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BN:GAF2341",
+   "score": 0.998551070690155,
+   "poly": [
+    [
+     857.0,
+     1304.0
+    ],
+    [
+     1190.0,
+     1304.0
+    ],
+    [
+     1190.0,
+     1411.0
+    ],
+    [
+     857.0,
+     1411.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  }
+ ]
+}

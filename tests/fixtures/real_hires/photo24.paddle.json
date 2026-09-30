@@ -1,0 +1,864 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo24.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 11.96,
+  "zoom_added": 12,
+  "zoom_s": 12.92,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 0,
+  "refine_s": 0.0,
+  "block_lines": 0,
+  "block_s": 4.19,
+  "curved": 0,
+  "curved_s": 0.0,
+  "secondary_replaced": 0,
+  "secondary_s": 0.28,
+  "regions": 32,
+  "total_s": 29.37
+ },
+ "regions": [
+  {
+   "tl_angle": 0,
+   "text": "IssaI LICENSE No: 1242199000137",
+   "score": 0.9436413645744324,
+   "poly": [
+    [
+     387.0,
+     1328.0
+    ],
+    [
+     1282.0,
+     1286.0
+    ],
+    [
+     1286.0,
+     1377.0
+    ],
+    [
+     392.0,
+     1419.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Mfd. by:",
+   "score": 0.9992680549621582,
+   "poly": [
+    [
+     394.0,
+     1429.0
+    ],
+    [
+     539.0,
+     1415.0
+    ],
+    [
+     544.0,
+     1462.0
+    ],
+    [
+     399.0,
+     1476.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RAJAM HERBAL TECHNOLOGIES",
+   "score": 0.9786139130592346,
+   "poly": [
+    [
+     390.0,
+     1458.0
+    ],
+    [
+     1249.0,
+     1410.0
+    ],
+    [
+     1254.0,
+     1486.0
+    ],
+    [
+     395.0,
+     1534.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(An ISO 9001:2015, ISO 22000:2018 & cGMP CERTIFED)",
+   "score": 0.9448531866073608,
+   "poly": [
+    [
+     399.0,
+     1521.0
+    ],
+    [
+     1132.0,
+     1472.0
+    ],
+    [
+     1136.0,
+     1529.0
+    ],
+    [
+     403.0,
+     1578.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "#3/368, Sithanur, Thalavaipatty.Po.",
+   "score": 0.9777632355690002,
+   "poly": [
+    [
+     403.0,
+     1564.0
+    ],
+    [
+     1140.0,
+     1518.0
+    ],
+    [
+     1144.0,
+     1582.0
+    ],
+    [
+     407.0,
+     1628.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Salem - 636 302. Tamilnadu.",
+   "score": 0.9911951422691345,
+   "poly": [
+    [
+     406.0,
+     1623.0
+    ],
+    [
+     1005.0,
+     1579.0
+    ],
+    [
+     1009.0,
+     1637.0
+    ],
+    [
+     410.0,
+     1681.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "8906031880043",
+   "score": 0.9995266199111938,
+   "poly": [
+    [
+     1272.0,
+     1628.0
+    ],
+    [
+     1316.0,
+     1625.0
+    ],
+    [
+     1353.0,
+     2115.0
+    ],
+    [
+     1309.0,
+     2119.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "rajamimpex@gmail.com",
+   "score": 0.999799370765686,
+   "poly": [
+    [
+     432.0,
+     1942.0
+    ],
+    [
+     832.0,
+     1912.0
+    ],
+    [
+     836.0,
+     1955.0
+    ],
+    [
+     435.0,
+     1985.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "www.rajamproducts.com",
+   "score": 0.9999890327453613,
+   "poly": [
+    [
+     433.0,
+     1985.0
+    ],
+    [
+     840.0,
+     1953.0
+    ],
+    [
+     843.0,
+     1993.0
+    ],
+    [
+     436.0,
+     2025.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "6382971959",
+   "score": 0.999997615814209,
+   "poly": [
+    [
+     438.0,
+     2023.0
+    ],
+    [
+     636.0,
+     2007.0
+    ],
+    [
+     639.0,
+     2046.0
+    ],
+    [
+     441.0,
+     2062.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "NET. WEIGHT: 500 g",
+   "score": 0.9954413175582886,
+   "poly": [
+    [
+     399.0,
+     2108.0
+    ],
+    [
+     955.0,
+     2079.0
+    ],
+    [
+     959.0,
+     2162.0
+    ],
+    [
+     403.0,
+     2190.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "USE BY",
+   "score": 0.9971500039100647,
+   "poly": [
+    [
+     885.0,
+     2179.0
+    ],
+    [
+     1019.0,
+     2173.0
+    ],
+    [
+     1021.0,
+     2212.0
+    ],
+    [
+     887.0,
+     2219.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "PKD ON",
+   "score": 0.9996969103813171,
+   "poly": [
+    [
+     656.0,
+     2194.0
+    ],
+    [
+     795.0,
+     2185.0
+    ],
+    [
+     797.0,
+     2225.0
+    ],
+    [
+     658.0,
+     2234.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "BATCH NO",
+   "score": 0.9971368312835693,
+   "poly": [
+    [
+     408.0,
+     2209.0
+    ],
+    [
+     578.0,
+     2198.0
+    ],
+    [
+     581.0,
+     2238.0
+    ],
+    [
+     411.0,
+     2249.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(Inctall taxes)",
+   "score": 0.9428269267082214,
+   "poly": [
+    [
+     1138.0,
+     2206.0
+    ],
+    [
+     1290.0,
+     2198.0
+    ],
+    [
+     1292.0,
+     2228.0
+    ],
+    [
+     1140.0,
+     2236.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "R4N257/NOV 2024/0CT  260.C",
+   "score": 0.8622652888298035,
+   "poly": [
+    [
+     449.0,
+     2291.0
+    ],
+    [
+     1306.0,
+     2235.0
+    ],
+    [
+     1310.0,
+     2293.0
+    ],
+    [
+     452.0,
+     2349.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "DO NOT USE IF BOX IS DAMAGED OR OPEN.",
+   "score": 0.9902337789535522,
+   "poly": [
+    [
+     417.0,
+     2458.0
+    ],
+    [
+     930.0,
+     2430.0
+    ],
+    [
+     931.0,
+     2464.0
+    ],
+    [
+     419.0,
+     2492.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "STORAGE IN DRY & CLEAN PLACE AWAY",
+   "score": 0.9992848038673401,
+   "poly": [
+    [
+     418.0,
+     2497.0
+    ],
+    [
+     900.0,
+     2473.0
+    ],
+    [
+     902.0,
+     2507.0
+    ],
+    [
+     420.0,
+     2531.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CLEAN & GREEN",
+   "score": 0.9886335730552673,
+   "poly": [
+    [
+     1271.0,
+     2491.0
+    ],
+    [
+     1354.0,
+     2484.0
+    ],
+    [
+     1356.0,
+     2504.0
+    ],
+    [
+     1273.0,
+     2511.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "FROM SUNLIGHT.",
+   "score": 0.9768938422203064,
+   "poly": [
+    [
+     418.0,
+     2531.0
+    ],
+    [
+     617.0,
+     2523.0
+    ],
+    [
+     619.0,
+     2557.0
+    ],
+    [
+     420.0,
+     2565.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "3",
+   "score": 0.9998847246170044,
+   "poly": [
+    [
+     1280.0,
+     1637.0
+    ],
+    [
+     1316.0,
+     1637.0
+    ],
+    [
+     1316.0,
+     1666.0
+    ],
+    [
+     1280.0,
+     1666.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "e-mail: rajamimpex@gmail.com",
+   "score": 0.9923940896987915,
+   "poly": [
+    [
+     409.0,
+     1681.0
+    ],
+    [
+     1097.0,
+     1634.0
+    ],
+    [
+     1101.0,
+     1693.0
+    ],
+    [
+     413.0,
+     1739.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "CONSUMER CARE CELL: PRODUCT MANAGER",
+   "score": 0.998108983039856,
+   "poly": [
+    [
+     420.0,
+     1765.0
+    ],
+    [
+     1068.0,
+     1720.0
+    ],
+    [
+     1071.0,
+     1760.0
+    ],
+    [
+     423.0,
+     1805.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8",
+   "score": 0.9998249411582947,
+   "poly": [
+    [
+     1290.0,
+     1776.0
+    ],
+    [
+     1326.0,
+     1776.0
+    ],
+    [
+     1326.0,
+     1805.0
+    ],
+    [
+     1290.0,
+     1805.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "RAJAM HERBAL TECHNOLOGIES",
+   "score": 0.9998984336853027,
+   "poly": [
+    [
+     421.0,
+     1808.0
+    ],
+    [
+     1078.0,
+     1763.0
+    ],
+    [
+     1082.0,
+     1812.0
+    ],
+    [
+     424.0,
+     1856.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8",
+   "score": 0.9998927116394043,
+   "poly": [
+    [
+     1293.0,
+     1812.0
+    ],
+    [
+     1328.0,
+     1812.0
+    ],
+    [
+     1328.0,
+     1840.0
+    ],
+    [
+     1293.0,
+     1840.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": " 3/368, Periya Mariamman Koil Street,",
+   "score": 0.9803585410118103,
+   "poly": [
+    [
+     390.0,
+     1862.0
+    ],
+    [
+     1030.0,
+     1818.0
+    ],
+    [
+     1033.0,
+     1862.0
+    ],
+    [
+     393.0,
+     1906.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Sithanur, SALEM- 636 302. TAMILNADU.",
+   "score": 0.9858696460723877,
+   "poly": [
+    [
+     431.0,
+     1899.0
+    ],
+    [
+     1093.0,
+     1855.0
+    ],
+    [
+     1096.0,
+     1897.0
+    ],
+    [
+     434.0,
+     1941.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "8",
+   "score": 0.9998341798782349,
+   "poly": [
+    [
+     1318.0,
+     2093.0
+    ],
+    [
+     1348.0,
+     2093.0
+    ],
+    [
+     1348.0,
+     2116.0
+    ],
+    [
+     1318.0,
+     2116.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "M.P.",
+   "score": 0.8392132520675659,
+   "poly": [
+    [
+     1134.0,
+     2168.0
+    ],
+    [
+     1283.0,
+     2161.0
+    ],
+    [
+     1286.0,
+     2204.0
+    ],
+    [
+     1136.0,
+     2211.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "(USP:O.52/9",
+   "score": 0.8190748691558838,
+   "poly": [
+    [
+     995.0,
+     2307.0
+    ],
+    [
+     1299.0,
+     2296.0
+    ],
+    [
+     1301.0,
+     2354.0
+    ],
+    [
+     997.0,
+     2365.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "KEEP YOUR CITY",
+   "score": 0.997588038444519,
+   "poly": [
+    [
+     1266.0,
+     2413.0
+    ],
+    [
+     1346.0,
+     2406.0
+    ],
+    [
+     1347.0,
+     2421.0
+    ],
+    [
+     1267.0,
+     2428.0
+    ]
+   ],
+   "engine": "paddleocr(zoom)",
+   "language": "en"
+  }
+ ]
+}

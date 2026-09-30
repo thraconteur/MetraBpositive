@@ -1,0 +1,1026 @@
+{
+ "source": "/tmp/claude-0/-home-claude/bd7feeb5-de95-51ef-bc16-295818f7e28e/scratch/eval/real_hires/photo28.jpg",
+ "ocr_input_shape": [
+  4096,
+  1856,
+  3
+ ],
+ "config": {
+  "lang": "en",
+  "ocr_version": null,
+  "device": null,
+  "use_textline_orientation": true,
+  "text_det_limit_type": "min",
+  "text_det_limit_side_len": 1280,
+  "text_det_thresh": null,
+  "text_det_box_thresh": null,
+  "text_det_unclip_ratio": null,
+  "upscale_short_side_below": 1200,
+  "upscale_factor": 2.0,
+  "max_long_side": 4000,
+  "det_max_long_side": 2880,
+  "refine_below_score": 0.8,
+  "refine_max_regions": 20,
+  "refine_scale": 3.0,
+  "curved_reread_below": 0.8,
+  "curved_max_regions": 12,
+  "auto_orient": true,
+  "zoom_below_area": 0.35,
+  "block_redetect": true,
+  "secondary_lang": "hi",
+  "secondary_below_score": 0.97,
+  "reread_vertical_bands": true,
+  "contrast_reread_below": 6,
+  "sideways_reread": false,
+  "sideways_when_referenced": true,
+  "enable_mkldnn": null,
+  "cpu_threads": null
+ },
+ "stats": {
+  "cache_hit": false,
+  "upright": {
+   "turn": 0,
+   "tilt": 0.0
+  },
+  "ocr_scale": 1.0,
+  "predict_s": 10.17,
+  "zoom_added": 0,
+  "zoom_s": 0.0,
+  "vertical_bands": 0,
+  "vertical_s": 0.0,
+  "refined": 4,
+  "refine_s": 2.76,
+  "block_lines": 0,
+  "block_s": 0.0,
+  "curved": 2,
+  "curved_s": 2.14,
+  "secondary_replaced": 0,
+  "secondary_s": 0.53,
+  "regions": 36,
+  "total_s": 15.63
+ },
+ "regions": [
+  {
+   "tl_angle": 180,
+   "text": "14:08",
+   "score": 0.9993420839309692,
+   "poly": [
+    [
+     1137.0,
+     926.0
+    ],
+    [
+     1210.0,
+     929.0
+    ],
+    [
+     1199.0,
+     1211.0
+    ],
+    [
+     1125.0,
+     1208.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "Sucralosescay",
+   "score": 0.8112925887107849,
+   "poly": [
+    [
+     508.0,
+     947.0
+    ],
+    [
+     896.0,
+     925.0
+    ],
+    [
+     899.0,
+     985.0
+    ],
+    [
+     512.0,
+     1006.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "*uc c",
+   "alt_score": 0.5868040919303894
+  },
+  {
+   "tl_angle": 180,
+   "text": "100%",
+   "score": 0.9299895763397217,
+   "poly": [
+    [
+     375.0,
+     979.0
+    ],
+    [
+     482.0,
+     962.0
+    ],
+    [
+     490.0,
+     1016.0
+    ],
+    [
+     384.0,
+     1034.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 180,
+   "text": "FE based on published literature.",
+   "score": 0.973652720451355,
+   "poly": [
+    [
+     424.07122802734375,
+     1018.7828369140625
+    ],
+    [
+     892.2656860351562,
+     974.8560791015625
+    ],
+    [
+     897.2029418945312,
+     1027.4798583984375
+    ],
+    [
+     429.00848388671875,
+     1071.4066162109375
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "sed  ur",
+   "alt_score": 0.6971846222877502
+  },
+  {
+   "tl_angle": 180,
+   "text": "SAFE",
+   "score": 0.9987697601318359,
+   "poly": [
+    [
+     376.0,
+     1026.0
+    ],
+    [
+     486.0,
+     1011.0
+    ],
+    [
+     493.0,
+     1063.0
+    ],
+    [
+     383.0,
+     1079.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "AF",
+   "alt_score": 0.7069696187973022
+  },
+  {
+   "tl_angle": 180,
+   "text": "F",
+   "score": 0.7070691585540771,
+   "poly": [
+    [
+     316.0,
+     1093.0
+    ],
+    [
+     874.0,
+     1041.0
+    ],
+    [
+     880.0,
+     1113.0
+    ],
+    [
+     323.0,
+     1165.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "",
+   "alt_score": 0.0
+  },
+  {
+   "tl_angle": 0,
+   "text": "subute sugar in the diet.",
+   "score": 0.8355018496513367,
+   "poly": [
+    [
+     334.0,
+     1154.0
+    ],
+    [
+     649.0,
+     1114.0
+    ],
+    [
+     656.0,
+     1172.0
+    ],
+    [
+     342.0,
+     1212.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Brand Owner:",
+   "score": 0.999806821346283,
+   "poly": [
+    [
+     358.0,
+     1222.0
+    ],
+    [
+     541.0,
+     1203.0
+    ],
+    [
+     548.0,
+     1271.0
+    ],
+    [
+     366.0,
+     1290.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "ZYOUS WELLNESS LIMITED",
+   "score": 0.9806320667266846,
+   "poly": [
+    [
+     379.0,
+     1276.0
+    ],
+    [
+     774.0,
+     1241.0
+    ],
+    [
+     780.0,
+     1311.0
+    ],
+    [
+     385.0,
+     1346.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Address: Refer Marketed",
+   "score": 0.9950924515724182,
+   "poly": [
+    [
+     397.0,
+     1333.0
+    ],
+    [
+     729.0,
+     1308.0
+    ],
+    [
+     734.0,
+     1377.0
+    ],
+    [
+     402.0,
+     1401.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "fssat",
+   "score": 0.9006189107894897,
+   "poly": [
+    [
+     744.0,
+     1362.0
+    ],
+    [
+     856.0,
+     1354.0
+    ],
+    [
+     860.0,
+     1416.0
+    ],
+    [
+     749.0,
+     1423.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "by address.",
+   "score": 0.9793584942817688,
+   "poly": [
+    [
+     410.0,
+     1389.0
+    ],
+    [
+     552.0,
+     1380.0
+    ],
+    [
+     557.0,
+     1458.0
+    ],
+    [
+     416.0,
+     1468.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.10013021000591",
+   "score": 0.9901378750801086,
+   "poly": [
+    [
+     630.0,
+     1429.0
+    ],
+    [
+     982.0,
+     1405.0
+    ],
+    [
+     986.0,
+     1473.0
+    ],
+    [
+     635.0,
+     1498.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "MaeebyZYDUSWELLNESPRODUCTS",
+   "score": 0.8880113959312439,
+   "poly": [
+    [
+     448.0,
+     1519.0
+    ],
+    [
+     986.0,
+     1482.0
+    ],
+    [
+     991.0,
+     1550.0
+    ],
+    [
+     453.0,
+     1587.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "LTEDZCaPaSN.",
+   "score": 0.5558015704154968,
+   "poly": [
+    [
+     464.0,
+     1580.0
+    ],
+    [
+     975.0,
+     1552.0
+    ],
+    [
+     979.0,
+     1620.0
+    ],
+    [
+     468.0,
+     1648.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "[]",
+   "score": 0.6768102049827576,
+   "poly": [
+    [
+     473.0,
+     1638.0
+    ],
+    [
+     951.0,
+     1618.0
+    ],
+    [
+     954.0,
+     1692.0
+    ],
+    [
+     476.0,
+     1712.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Ve",
+   "score": 0.488153874874115,
+   "poly": [
+    [
+     484.0,
+     1699.0
+    ],
+    [
+     969.0,
+     1680.0
+    ],
+    [
+     971.0,
+     1749.0
+    ],
+    [
+     487.0,
+     1767.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Gujarat, India.",
+   "score": 0.8596900105476379,
+   "poly": [
+    [
+     495.0,
+     1754.0
+    ],
+    [
+     638.0,
+     1754.0
+    ],
+    [
+     638.0,
+     1828.0
+    ],
+    [
+     495.0,
+     1828.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issa",
+   "score": 0.8901283144950867,
+   "poly": [
+    [
+     798.0,
+     1787.0
+    ],
+    [
+     883.0,
+     1781.0
+    ],
+    [
+     887.0,
+     1832.0
+    ],
+    [
+     802.0,
+     1839.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No.10020021005270",
+   "score": 0.9827730655670166,
+   "poly": [
+    [
+     691.0,
+     1843.0
+    ],
+    [
+     998.0,
+     1827.0
+    ],
+    [
+     1001.0,
+     1892.0
+    ],
+    [
+     694.0,
+     1908.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Zy",
+   "score": 0.45704492926597595,
+   "poly": [
+    [
+     515.0,
+     1910.0
+    ],
+    [
+     935.0,
+     1913.0
+    ],
+    [
+     935.0,
+     1971.0
+    ],
+    [
+     515.0,
+     1968.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "L22303",
+   "score": 0.3971446752548218,
+   "poly": [
+    [
+     518.0,
+     1955.0
+    ],
+    [
+     958.0,
+     1962.0
+    ],
+    [
+     957.0,
+     2024.0
+    ],
+    [
+     517.0,
+     2018.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "EH",
+   "score": 0.539333701133728,
+   "poly": [
+    [
+     518.0,
+     2001.0
+    ],
+    [
+     1016.0,
+     2007.0
+    ],
+    [
+     1015.0,
+     2075.0
+    ],
+    [
+     517.0,
+     2069.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Elakha, Mamring -737132,",
+   "score": 0.9466425776481628,
+   "poly": [
+    [
+     522.0,
+     2047.0
+    ],
+    [
+     772.0,
+     2065.0
+    ],
+    [
+     768.0,
+     2129.0
+    ],
+    [
+     517.0,
+     2111.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "South Sikkim, India.",
+   "score": 0.940986156463623,
+   "poly": [
+    [
+     525.0,
+     2095.0
+    ],
+    [
+     709.0,
+     2117.0
+    ],
+    [
+     703.0,
+     2174.0
+    ],
+    [
+     519.0,
+     2151.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Issa",
+   "score": 0.9575115442276001,
+   "poly": [
+    [
+     818.0,
+     2103.0
+    ],
+    [
+     905.0,
+     2097.0
+    ],
+    [
+     908.0,
+     2147.0
+    ],
+    [
+     821.0,
+     2153.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Lic. No. 100120350000021",
+   "score": 0.9464468955993652,
+   "poly": [
+    [
+     714.0,
+     2153.0
+    ],
+    [
+     1018.0,
+     2140.0
+    ],
+    [
+     1021.0,
+     2205.0
+    ],
+    [
+     716.0,
+     2218.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "o0",
+   "score": 0.7014507055282593,
+   "poly": [
+    [
+     1137.1220703125,
+     2280.097900390625
+    ],
+    [
+     1238.20751953125,
+     2268.865966796875
+    ],
+    [
+     1245.853759765625,
+     2337.682861328125
+    ],
+    [
+     1144.768310546875,
+     2348.914794921875
+    ]
+   ],
+   "engine": "paddleocr(curved)",
+   "language": "en",
+   "alt_text": "o849gp9ma",
+   "alt_score": 0.33830419182777405
+  },
+  {
+   "tl_angle": 0,
+   "text": "ForConsumr Complaint/Query/",
+   "score": 0.8281290531158447,
+   "poly": [
+    [
+     567.0,
+     2217.0
+    ],
+    [
+     946.0,
+     2239.0
+    ],
+    [
+     941.0,
+     2327.0
+    ],
+    [
+     562.0,
+     2305.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "",
+   "score": 0.0,
+   "poly": [
+    [
+     514.0,
+     2271.0
+    ],
+    [
+     1010.0,
+     2298.0
+    ],
+    [
+     1006.0,
+     2382.0
+    ],
+    [
+     509.0,
+     2355.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "]",
+   "score": 0.23801293969154358,
+   "poly": [
+    [
+     506.0,
+     2318.0
+    ],
+    [
+     1045.0,
+     2348.0
+    ],
+    [
+     1040.0,
+     2446.0
+    ],
+    [
+     501.0,
+     2416.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "",
+   "score": 0.0,
+   "poly": [
+    [
+     501.0,
+     2375.0
+    ],
+    [
+     1056.0,
+     2413.0
+    ],
+    [
+     1049.0,
+     2511.0
+    ],
+    [
+     495.0,
+     2473.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "TM - Trademark under",
+   "score": 0.9902665019035339,
+   "poly": [
+    [
+     510.0,
+     2453.0
+    ],
+    [
+     809.0,
+     2510.0
+    ],
+    [
+     797.0,
+     2573.0
+    ],
+    [
+     499.0,
+     2517.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "license from Zydus",
+   "score": 0.9736306667327881,
+   "poly": [
+    [
+     506.0,
+     2498.0
+    ],
+    [
+     758.0,
+     2554.0
+    ],
+    [
+     745.0,
+     2614.0
+    ],
+    [
+     493.0,
+     2558.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Wellness Limited.",
+   "score": 0.9669215083122253,
+   "poly": [
+    [
+     500.0,
+     2540.0
+    ],
+    [
+     734.0,
+     2596.0
+    ],
+    [
+     721.0,
+     2651.0
+    ],
+    [
+     487.0,
+     2595.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Table",
+   "score": 0.9666979908943176,
+   "poly": [
+    [
+     1389.0,
+     2620.0
+    ],
+    [
+     1431.0,
+     2553.0
+    ],
+    [
+     1471.0,
+     2579.0
+    ],
+    [
+     1429.0,
+     2645.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "Serving Suggestion only",
+   "score": 0.9760972857475281,
+   "poly": [
+    [
+     477.0,
+     2659.0
+    ],
+    [
+     772.0,
+     2731.0
+    ],
+    [
+     755.0,
+     2801.0
+    ],
+    [
+     461.0,
+     2728.0
+    ]
+   ],
+   "engine": "paddleocr",
+   "language": "en"
+  },
+  {
+   "tl_angle": 0,
+   "text": "2",
+   "score": 0.8378013968467712,
+   "poly": [
+    [
+     442.0,
+     2722.0
+    ],
+    [
+     878.0,
+     2823.0
+    ],
+    [
+     861.0,
+     2901.0
+    ],
+    [
+     424.0,
+     2801.0
+    ]
+   ],
+   "engine": "paddleocr(refined)",
+   "language": "en",
+   "alt_text": "2",
+   "alt_score": 0.5708346366882324
+  }
+ ]
+}
