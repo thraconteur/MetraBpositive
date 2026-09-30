@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Runtime data: scans, evidence, reports, OCR caches, the database.
+# data/registry/ (demo official registry) IS part of the project.
+data/*
+!data/registry/
+*.db
+
+# Model weights - never commit (PaddleOCR downloads its own to ~/.paddlex)
+weights/
+*.pth
+*.pdparams
+
+# Local secrets and editor / OS files
+.env
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
